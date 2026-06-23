@@ -1,0 +1,104 @@
+{
+  "ready": true,
+  "status": "ready",
+  "club": "blundering-buddies",
+  "mode": "winner",
+  "title": "Yesterday's Champion",
+  "date": "2026-06-22",
+  "generated_at": "2026-06-23T03:17:25.972Z",
+  "window_start": "2026-06-22T00:00:00.000Z",
+  "window_end": "2026-06-23T00:00:00.000Z",
+  "total_members_checked": 2964,
+  "scoring": {
+    "rapid": {
+      "win": 15,
+      "draw": 5
+    },
+    "blitz": {
+      "win": 9,
+      "draw": 3
+    },
+    "bullet": {
+      "win": 3,
+      "draw": 1
+    }
+  },
+  "note": "Final podium is shown until 10:00 UTC.",
+  "players": [
+    {
+      "username": "nikkotello",
+      "points": 730,
+      "wins": 47,
+      "draws": 5,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
+      "rapid": {
+        "points": 730,
+        "wins": 47,
+        "draws": 5
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 730,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
+      "username": "happyshadow1234",
+      "points": 516,
+      "wins": 36,
+      "draws": 4,
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "rapid": {
+        "points": 465,
+        "wins": 30,
+        "draws": 3
+      },
+      "blitz": {
+        "points": 48,
+        "wins": 5,
+        "draws": 1
+      },
+      "bullet": {
+        "points": 3,
+        "wins": 1,
+        "draws": 0
+      },
+      "rapid_points": 465,
+      "blitz_points": 48,
+      "bullet_points": 3
+    },
+    {
+      "username": "wdaltegani",
+      "points": 512,
+      "wins": 51,
+      "draws": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/330482119.f4b0d505.200x200o.5c4f745750ca.jpg",
+      "rapid": {
+        "points": 125,
+        "wins": 8,
+        "draws": 1
+      },
+      "blitz": {
+        "points": 387,
+        "wins": 43,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 125,
+      "blitz_points": 387,
+      "bullet_points": 0
+    }
+  ]
+}
