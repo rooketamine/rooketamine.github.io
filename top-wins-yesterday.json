@@ -2,33 +2,33 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "date": "2026-06-21",
-  "generated_at": "2026-06-22T09:07:04.796Z",
-  "total_members_checked": 2946,
+  "date": "2026-06-22",
+  "generated_at": "2026-06-23T01:01:20.461Z",
+  "total_members_checked": 2962,
   "players": [
     {
-      "username": "armandonavo15",
-      "wins": 229,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/465412694.65e74870.200x200o.6a717009c159.png",
+      "username": "dihrenchess",
+      "wins": 93,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/388026693.1197d0ae.200x200o.978121274d3c.jpg",
       "rapid_wins": 0,
       "blitz_wins": 0,
-      "bullet_wins": 229
+      "bullet_wins": 93
     },
     {
-      "username": "shadow_forest01",
-      "wins": 192,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/464803040.eaf68fc3.200x200o.4c3bf907e274.jpg",
+      "username": "nuubinator",
+      "wins": 93,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/111749030.4ba0fa6e.200x200o.66dda7004b9d.png",
+      "rapid_wins": 2,
+      "blitz_wins": 6,
+      "bullet_wins": 85
+    },
+    {
+      "username": "chessbender1025",
+      "wins": 90,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/91107426.e2754007.200x200o.bb988edb05b6.jpg",
       "rapid_wins": 0,
       "blitz_wins": 0,
-      "bullet_wins": 192
-    },
-    {
-      "username": "kirito",
-      "wins": 158,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/417299253.82de4932.200x200o.816e78712d9b.jpg",
-      "rapid_wins": 0,
-      "blitz_wins": 25,
-      "bullet_wins": 133
+      "bullet_wins": 90
     }
   ]
 }
