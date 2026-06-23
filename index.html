@@ -1,0 +1,1755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blundering Buddies Sidebar</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+html,body{
+  width:100%;
+  margin:0;
+  padding:0;
+  background:#000000;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+body{display:block;}
+
+:root{
+  --fs-xs:10px;
+  --fs-sm:11px;
+  --fs-base:12px;
+  --fs-md:13px;
+  --fs-lg:15px;
+  --accent:#39d353;
+  --panel:#050505;
+  --panel-2:#101010;
+  --border:#242424;
+}
+
+/* SIDEBAR */
+.sb{
+  width:100%;
+  max-width:none;
+  margin:0;
+  background:var(--panel);
+  border-radius:28px;
+  border:3px solid #1d1d1d;
+  position:relative;
+  transition:box-shadow .3s ease, transform .25s ease;
+  overflow:hidden;
+}
+.sb:hover{
+  box-shadow:0 18px 55px rgba(255,255,255,.06);
+}
+
+/* TOP */
+.sb-top{
+  background:#ffffff;
+  border-radius:24px 24px 0 0;
+  padding:18px 20px 12px;
+  text-align:center;
+  position:relative;
+  overflow:hidden;
+}
+.sb-top::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg, rgba(0,0,0,.04), rgba(255,255,255,0) 48%);
+  pointer-events:none;
+}
+.sb-top::after{
+  content:'';
+  position:absolute;
+  bottom:-10px;
+  left:-10%;
+  width:120%;
+  height:20px;
+  background:var(--panel);
+  border-radius:50%;
+}
+.blunder-deco{
+  position:absolute;
+  font-size:24px;
+  top:12px;
+  font-weight:900;
+  z-index:2;
+  line-height:1;
+}
+.blunder-deco.left{
+  left:10px;
+  transform:rotate(-8deg);
+  animation:blinkRed 1.2s infinite;
+}
+.blunder-deco.right{
+  right:10px;
+  transform:rotate(8deg);
+  animation:blinkCyan 1.2s infinite;
+  animation-delay:0.3s;
+}
+
+.club-title{
+  font-size:17px;
+  font-weight:900;
+  color:#000000;
+  letter-spacing:0;
+  text-shadow:0 1px 0 rgba(255,255,255,.3);
+  position:relative;
+  z-index:1;
+  line-height:1.1;
+  white-space:nowrap;
+  padding:0 34px;
+}
+.club-sub{
+  font-size:9px;
+  font-weight:600;
+  color:rgba(0,0,0,.65);
+  letter-spacing:.6px;
+  text-transform:uppercase;
+  margin-top:5px;
+  position:relative;
+  z-index:1;
+  line-height:1.1;
+  white-space:nowrap;
+}
+
+.inner{
+  width:100%;
+  max-width:980px;
+  margin:0 auto;
+  padding:18px 14px 20px;
+}
+
+/* GIF SECTION */
+.gif-box{
+  text-align:center;
+  margin-top:-10px;
+  margin-bottom:14px;
+}
+.gif-frame-wrap{
+  position:relative;
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow:
+    0 10px 24px rgba(0,0,0,.42),
+    0 0 16px rgba(255,255,255,.04);
+}
+.gif-frame-wrap::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,0) 38%);
+  pointer-events:none;
+  z-index:2;
+}
+.gif-frame{
+  width:100%;
+  display:block;
+  border-radius:18px;
+  border:2px solid #1f1f1f;
+  box-shadow:0 0 0 1px rgba(255,255,255,.06) inset;
+  transition:transform .35s ease, filter .35s ease;
+}
+.gif-frame:hover{
+  transform:scale(1.02);
+  filter:brightness(1.02);
+}
+
+/* SECTION LABEL */
+.sec-label{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-size:14px;
+  font-weight:900;
+  color:#f5f5f5;
+  margin-bottom:8px;
+  margin-top:2px;
+}
+.sec-sub{
+  font-size:11px;
+  color:#9da6b0;
+  margin-bottom:10px;
+  margin-top:-4px;
+  font-weight:600;
+}
+
+/* SEPARATOR */
+.div{
+  width:100%;
+  max-width:980px;
+  height:14px;
+  margin:14px auto 18px;
+  position:relative;
+  opacity:.98;
+}
+.div::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:6px;
+  width:100%;
+  height:2px;
+  border-radius:999px;
+  background:linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(110,110,110,.28) 18%,
+    rgba(185,185,185,.55) 50%,
+    rgba(110,110,110,.28) 82%,
+    transparent 100%
+  );
+  box-shadow:0 0 8px rgba(255,255,255,.06);
+}
+
+/* CARD STYLE */
+.card{
+  background:linear-gradient(180deg, rgba(18,18,18,.96), rgba(10,10,10,1));
+  border-radius:20px;
+  border:2px solid var(--border);
+  padding:14px;
+  box-shadow:
+    0 5px 0 #161616,
+    0 10px 22px rgba(0,0,0,.22);
+}
+
+/* COUNTDOWN */
+.title-box{
+  display:inline-block;
+  margin:0 auto 12px;
+  padding:8px 14px;
+  border:2px solid #2b2b2b;
+  border-radius:16px;
+  background:linear-gradient(180deg,#050505,#0d0d0d);
+  font-size:11px;
+  font-weight:800;
+  color:#ffffff;
+  box-shadow:0 4px 10px rgba(0,0,0,.24);
+  line-height:1.15;
+}
+.format-line{
+  font-size:10px;
+  font-weight:600;
+  color:#98a0aa;
+  text-align:center;
+  margin-bottom:12px;
+}
+.format-line .format-main{
+  font-size:13px;
+  font-weight:900;
+  color:#f3f4f6;
+}
+.live-badge{
+  display:none;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  width:max-content;
+  margin:0 auto 10px;
+  padding:5px 12px;
+  border-radius:999px;
+  border:1.5px solid var(--accent);
+  background:rgba(57,211,83,0.12);
+  color:#d9ffe0;
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.8px;
+  box-shadow:0 0 12px rgba(57,211,83,.22);
+  animation:badgePulse .9s infinite;
+}
+.live-badge.show{display:inline-flex;}
+.live-dot{
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  background:var(--accent);
+  box-shadow:0 0 10px rgba(57,211,83,0.95);
+  animation:dotFlash .8s infinite;
+}
+.status-line{
+  font-size:12px;
+  font-weight:800;
+  color:#d7dbe0;
+  margin-bottom:7px;
+  text-align:center;
+}
+.countdown{
+  font-size:17px;
+  font-weight:900;
+  color:#ffffff;
+  margin-bottom:12px;
+  line-height:1.2;
+  text-align:center;
+}
+
+.join-btn{
+  display:block;
+  width:60%;
+  max-width:175px;
+  margin:0 auto;
+  padding:9px 12px;
+  border-radius:15px;
+  border:2px solid #1d5f2c;
+  background:linear-gradient(90deg,#0f3d1d,#1f7a38);
+  color:#ffffff;
+  font-size:11px;
+  font-weight:800;
+  text-decoration:none;
+  transition:.2s ease;
+  text-align:center;
+  box-shadow:0 4px 0 #0f5a28, 0 10px 16px rgba(0,0,0,.18), 0 0 16px rgba(57,211,83,.18);
+  position:relative;
+  overflow:hidden;
+}
+.join-btn::before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:-120%;
+  width:70%;
+  height:100%;
+  background:linear-gradient(90deg, transparent, rgba(255,255,255,.22), transparent);
+  transform:skewX(-20deg);
+  transition:left .45s ease;
+}
+.join-btn:hover::before{
+  left:140%;
+}
+.join-btn:hover{
+  background:linear-gradient(90deg,#16652d,#2faa4a);
+  box-shadow:0 6px 0 #0f5a28, 0 14px 20px rgba(0,0,0,.22), 0 0 20px rgba(57,211,83,.30);
+  transform:translateY(-3px);
+}
+.live-btn{
+  border:2px solid #ff2b2b;
+  background:linear-gradient(90deg,#5a0f0f,#c81e1e);
+  box-shadow:0 0 18px rgba(255,43,43,.45),0 0 34px rgba(255,43,43,.22);
+  animation:liveBounce .62s infinite;
+}
+.live-btn:hover{
+  background:linear-gradient(90deg,#7a1616,#ef4444);
+  box-shadow:0 0 24px rgba(255,43,43,.65),0 0 42px rgba(255,43,43,.32);
+  transform:translateY(-4px) scale(1.04);
+}
+.results-link{
+  display:inline-block;
+  margin-top:12px;
+  text-align:center;
+  font-size:10px;
+  color:#9da6b0;
+  font-weight:700;
+  text-decoration:underline;
+  transition:.18s;
+}
+.results-link:hover{
+  color:#ffffff;
+  text-shadow:0 0 8px rgba(255,255,255,.10);
+  transform:translateY(-2px);
+}
+
+/* NEW BUDDIES */
+.welcome-text{
+  font-size:12px;
+  color:#9da6b0;
+  text-align:center;
+  margin-bottom:13px;
+  font-weight:600;
+}
+.member-row{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:9px 10px;
+  border-radius:16px;
+  border:2px solid #2a2a2a;
+  background:linear-gradient(90deg,#0c0c0c,#151515);
+  transition:.18s;
+  margin:9px 0;
+  overflow:hidden;
+}
+.member-row:hover{
+  background:linear-gradient(90deg,#151515,#1d1d1d);
+  box-shadow:0 6px 18px rgba(255,255,255,.05);
+  transform:translateY(-3px);
+}
+.avatar{
+  width:36px;
+  height:36px;
+  border-radius:50%;
+  border:2px solid #2f2f2f;
+  object-fit:cover;
+  background:#111214;
+  flex-shrink:0;
+}
+.member-info{
+  flex:1;
+  text-align:left;
+  min-width:0;
+  overflow:hidden;
+}
+.member-name{
+  display:block;
+  width:100%;
+  font-size:11px;
+  font-weight:700;
+  color:#ffffff;
+  text-decoration:none;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.member-name:hover{
+  text-decoration:underline;
+}
+.member-elo{
+  font-size:11px;
+  color:#b1b7c0;
+  margin-top:2px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.loading{
+  font-size:12px;
+  color:#8d949d;
+  padding:10px 0;
+  font-style:italic;
+  text-align:center;
+}
+.footer-text{
+  margin-top:12px;
+  text-align:center;
+  font-size:11px;
+  color:#8e959d;
+  font-weight:700;
+}
+
+/* BUTTONS LIKE NEW BUDDIES */
+.list-btn{
+  display:block;
+  width:100%;
+  padding:9px 8px;
+  margin:9px 0;
+  border-radius:16px;
+  border:2px solid #2a2a2a;
+  background:linear-gradient(90deg,#0c0c0c,#151515);
+  color:#ffffff;
+  font-size:10px;
+  font-weight:700;
+  text-decoration:none;
+  text-align:center;
+  transition:.18s;
+  line-height:1.15;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.list-btn:hover{
+  background:linear-gradient(90deg,#151515,#1d1d1d);
+  box-shadow:0 6px 18px rgba(255,255,255,.05);
+  transform:translateY(-3px);
+}
+.gold-btn{
+  border:2px solid #8a6a00;
+  background:linear-gradient(90deg,#2a2200,#5a4300,#2a2200);
+  box-shadow:0 4px 0 #4a3800, 0 10px 16px rgba(0,0,0,.18), 0 0 16px rgba(234,179,8,.18);
+}
+.gold-btn:hover{
+  background:linear-gradient(90deg,#6e5400,#b38a00,#6e5400);
+  box-shadow:0 6px 0 #4a3800, 0 14px 20px rgba(0,0,0,.22), 0 0 22px rgba(234,179,8,.32);
+}
+
+/* MCA TOP SCORERS */
+.top-scorers{
+  position:relative;
+  height:215px;
+  overflow:visible;
+}
+
+.top-player{
+  position:absolute;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  transition:.18s ease;
+}
+
+.top-player:hover{
+  transform:translateY(-4px);
+}
+
+.top-player.first{
+  top:2px;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.top-player.first:hover{
+  transform:translateX(-50%) translateY(-4px);
+}
+
+.top-player.second{
+  bottom:0;
+  left:2%;
+}
+
+.top-player.third{
+  bottom:0;
+  right:2%;
+}
+
+.avatar-shell{
+  position:relative;
+  display:inline-block;
+}
+
+.avatar-top{
+  display:block;
+  object-fit:cover;
+  background:#111214;
+  border-radius:50%;
+  box-shadow:0 8px 18px rgba(0,0,0,.28);
+  transition:.25s ease;
+}
+
+.avatar-top:hover{
+  transform:scale(1.08);
+  box-shadow:0 10px 22px rgba(255,255,255,.08);
+}
+
+.top-player.first .avatar-top{
+  width:74px;
+  height:74px;
+  border:3px solid #d4a514;
+}
+
+.top-player.second .avatar-top{
+  width:60px;
+  height:60px;
+  border:3px solid #a9adb4;
+}
+
+.top-player.third .avatar-top{
+  width:60px;
+  height:60px;
+  border:3px solid #b87333;
+}
+
+.crown-badge{
+  position:absolute;
+  left:50%;
+  top:-16px;
+  transform:translateX(-50%);
+  min-width:28px;
+  height:24px;
+  padding:0 7px;
+  border-radius:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:12px;
+  font-weight:900;
+  color:#111;
+}
+
+.crown-badge::before{
+  content:"👑";
+  position:absolute;
+  top:-12px;
+  left:50%;
+  transform:translateX(-50%);
+  font-size:15px;
+}
+
+.gold{
+  background:linear-gradient(180deg,#ffe27a,#f2b705);
+}
+
+.silver{
+  background:linear-gradient(180deg,#eceff3,#adb4bd);
+}
+
+.bronze{
+  background:linear-gradient(180deg,#e0a06b,#b96a2c);
+}
+
+.top-name{
+  margin-top:7px;
+  font-size:11px;
+  font-weight:800;
+}
+
+.top-sub{
+  margin-top:2px;
+  font-size:10px;
+  color:#9da6b0;
+  font-weight:700;
+}
+
+.top-loading{
+  text-align:center;
+  font-size:12px;
+  color:#8d949d;
+}
+
+
+
+/* DAILY POINTS RACE */
+.yw-shell{
+  min-height:286px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.yw-score-row{
+  display:flex;
+  flex-wrap:nowrap;
+  justify-content:center;
+  gap:3px;
+  margin-bottom:6px;
+}
+
+.yw-chip{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:2px;
+  flex:1 1 0;
+  min-width:0;
+  padding:4px 3px;
+  border-radius:999px;
+  border:1px solid #707884;
+  background:linear-gradient(180deg,#121417,#090b0d);
+  color:#eaf0f5;
+  font-size:7.8px;
+  font-weight:900!important;
+  line-height:1;
+  white-space:nowrap;
+  box-shadow:0 3px 9px rgba(0,0,0,.22);
+}
+
+.yw-chip .yw-chip-icon,
+.yw-mini-stat .yw-chip-icon{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  line-height:1;
+}
+
+.yw-chip .yw-chip-icon svg,
+.yw-mini-stat .yw-chip-icon svg{
+  width:11px;
+  height:11px;
+  display:block;
+  fill:currentColor;
+}
+
+.yw-rapid-icon{color:#78b84c;}
+.yw-blitz-icon{color:#ffd21f;}
+.yw-bullet-icon{color:#c9a24e;}
+
+.yw-stage{
+  height:210px;
+  display:flex;
+  align-items:flex-end;
+  justify-content:center;
+  gap:5px;
+  padding:0 8px;
+  box-sizing:border-box;
+  overflow:visible;
+}
+
+.yw-spot{
+  position:relative;
+  width:30%;
+  max-width:90px;
+  min-width:0;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  transition:.18s ease;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-end;
+  box-sizing:border-box;
+}
+
+.yw-spot:hover{transform:translateY(-4px);}
+.yw-spot.yw-first{order:2;max-width:98px;width:32%;}
+.yw-spot.yw-second{order:1;}
+.yw-spot.yw-third{order:3;}
+
+.yw-photo-ring{
+  position:relative;
+  display:inline-block;
+  z-index:2;
+  margin-bottom:5px;
+}
+
+.yw-photo{
+  display:block;
+  object-fit:cover;
+  background:#111214;
+  border-radius:50%;
+  box-shadow:0 8px 18px rgba(0,0,0,.28);
+  transition:.25s ease;
+}
+
+.yw-photo:hover{
+  transform:scale(1.08);
+  box-shadow:0 10px 22px rgba(255,255,255,.08);
+}
+
+.yw-first .yw-photo{
+  width:66px;
+  height:66px;
+  border:3px solid #39d353;
+  box-shadow:0 8px 20px rgba(0,0,0,.32),0 0 18px rgba(57,211,83,.24);
+}
+
+.yw-second .yw-photo,
+.yw-third .yw-photo{
+  width:56px;
+  height:56px;
+}
+
+.yw-second .yw-photo{
+  border:3px solid #cfd3d8;
+  box-shadow:0 8px 18px rgba(0,0,0,.30),0 0 14px rgba(207,211,216,.16);
+}
+
+.yw-third .yw-photo{
+  border:3px solid #ffffff;
+  box-shadow:0 8px 18px rgba(0,0,0,.30),0 0 14px rgba(255,255,255,.14);
+}
+
+.yw-rank-tag{
+  position:absolute;
+  left:50%;
+  top:-13px;
+  transform:translateX(-50%);
+  min-width:24px;
+  height:21px;
+  padding:0 6px;
+  border-radius:999px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:11px;
+  font-weight:900!important;
+  color:#111;
+  box-shadow:0 3px 8px rgba(0,0,0,.26);
+}
+
+.yw-first .yw-rank-tag{background:linear-gradient(180deg,#63f47b,#23b742);}
+.yw-second .yw-rank-tag{background:linear-gradient(180deg,#f5f7fa,#aeb5bd);}
+.yw-third .yw-rank-tag{background:linear-gradient(180deg,#ffffff,#d7d7d7);}
+
+.yw-name{
+  display:block;
+  width:100%;
+  max-width:100%;
+  margin-top:0;
+  padding:0 2px;
+  box-sizing:border-box;
+  font-size:10px;
+  font-weight:800!important;
+  color:#ffffff;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  line-height:1.15;
+}
+
+.yw-points{
+  margin-top:2px;
+  font-size:13px;
+  font-weight:900!important;
+  color:#f4f8fb;
+  line-height:1.05;
+}
+
+.yw-points span{
+  font-size:8px;
+  color:#9da6b0;
+  font-weight:800!important;
+}
+
+.yw-breakdown{
+  margin-top:3px;
+  min-height:16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:4px;
+  flex-wrap:wrap;
+  font-size:8px;
+  font-weight:700!important;
+  color:#dfe5ec;
+  line-height:1.05;
+}
+
+.yw-mini-stat{
+  display:inline-flex;
+  align-items:center;
+  gap:2px;
+  white-space:nowrap;
+}
+
+.yw-bar{
+  width:100%;
+  max-width:92px;
+  margin-top:6px;
+  border-radius:13px 13px 0 0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+  overflow:hidden;
+  box-sizing:border-box;
+  box-shadow:0 4px 0 rgba(0,0,0,.40),0 10px 20px rgba(0,0,0,.22);
+}
+
+.yw-bar::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg,rgba(255,255,255,.22),rgba(255,255,255,0) 38%);
+  pointer-events:none;
+}
+
+.yw-bar::after{
+  content:'';
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height:5px;
+  background:rgba(0,0,0,.30);
+}
+
+.yw-first .yw-bar{
+  height:76px;
+  background:linear-gradient(180deg,#39d353,#1f8f3d);
+  color:#ffffff;
+}
+
+.yw-second .yw-bar{
+  height:60px;
+  background:linear-gradient(180deg,#f1f4f8,#9ea5ad);
+  color:#111827;
+}
+
+.yw-third .yw-bar{
+  height:52px;
+  background:linear-gradient(180deg,#ffffff,#d9d9d9);
+  color:#111827;
+}
+
+.yw-bar-score{
+  position:relative;
+  z-index:1;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  line-height:1;
+}
+
+.yw-bar-num{
+  font-size:19px;
+  font-weight:900!important;
+}
+
+.yw-bar-pts{
+  margin-top:2px;
+  font-size:8px;
+  font-weight:900!important;
+  letter-spacing:.2px;
+  opacity:.95;
+}
+
+.yw-loading,
+.yw-empty{
+  text-align:center;
+  font-size:12px;
+  color:#8d949d;
+  font-style:italic;
+  padding:16px 6px;
+  line-height:1.35;
+}
+
+.yw-shh{
+  color:#ffffff;
+  font-size:13px;
+  font-weight:900!important;
+  font-style:normal;
+  margin-bottom:3px;
+}
+
+.yw-load-sub{
+  color:#8d949d;
+  font-size:11px;
+  font-weight:700!important;
+}
+
+.yw-counting-pawn{
+  display:block;
+  width:100%;
+  max-width:170px;
+  margin:0 auto 8px;
+  object-fit:contain;
+  filter:drop-shadow(0 10px 18px rgba(0,0,0,.35));
+}
+
+.yw-updated{
+  text-align:center;
+  margin-top:10px;
+  font-size:9px;
+  font-weight:700!important;
+  color:#9da6b0;
+  line-height:1.35;
+}
+
+.yw-reset-note{
+  display:block;
+  color:#9da6b0;
+  margin-top:2px;
+}
+
+}
+
+/* ANIMATIONS */
+@keyframes blinkRed{
+  0%,100%{color:#000;}
+  50%{color:#ff2b2b;}
+}
+@keyframes blinkCyan{
+  0%,100%{color:#000;}
+  50%{color:#00eaff;}
+}
+@keyframes liveBounce{
+  0%{transform:translateY(0) scale(1);box-shadow:0 0 12px rgba(255,43,43,.34),0 0 26px rgba(255,43,43,.18);}
+  18%{transform:translateY(-9px) scale(1.08);box-shadow:0 0 24px rgba(255,43,43,.65),0 0 44px rgba(255,43,43,.34);}
+  35%{transform:translateY(2px) scale(.98);box-shadow:0 0 16px rgba(255,43,43,.42),0 0 28px rgba(255,43,43,.20);}
+  52%{transform:translateY(-7px) scale(1.06);box-shadow:0 0 24px rgba(255,43,43,.62),0 0 42px rgba(255,43,43,.30);}
+  70%{transform:translateY(3px) scale(.97);box-shadow:0 0 14px rgba(255,43,43,.36),0 0 24px rgba(255,43,43,.16);}
+  100%{transform:translateY(0) scale(1);box-shadow:0 0 12px rgba(255,43,43,.34),0 0 26px rgba(255,43,43,.18);}
+}
+@keyframes badgePulse{
+  0%{box-shadow:0 0 8px rgba(57,211,83,.18);transform:scale(1);}
+  50%{box-shadow:0 0 18px rgba(57,211,83,.40);transform:scale(1.05);}
+  100%{box-shadow:0 0 8px rgba(57,211,83,.18);transform:scale(1);}
+}
+@keyframes dotFlash{
+  0%{opacity:1;transform:scale(1);}
+  50%{opacity:.45;transform:scale(.75);}
+  100%{opacity:1;transform:scale(1);}
+}
+.shout-card{
+  text-align:center;
+  min-height:215px;
+  height:auto;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:6px;
+  overflow:hidden;
+}
+
+.shout-avatar-wrap{
+  position:relative;
+  display:inline-block;
+  margin-bottom:4px;
+  margin-top:4px;
+}
+
+.shout-crown{
+  position:absolute;
+  top:-10px;
+  left:50%;
+  transform:translateX(-50%);
+  font-size:15px;
+}
+
+.shout-avatar{
+  width:82px;
+  height:82px;
+  border-radius:50%;
+  border:3px solid #2f2f2f;
+  object-fit:cover;
+  box-shadow:0 8px 18px rgba(0,0,0,.35), 0 0 14px rgba(255,215,0,.22);
+  opacity:1;
+  filter:none;
+  transition:transform .25s ease;
+}
+
+.shout-avatar-wrap:hover .shout-avatar{
+  transform:scale(1.08);
+  box-shadow:0 10px 22px rgba(255,255,255,.08);
+}
+
+.shout-name{
+  font-size:13px;
+  font-weight:900;
+  color:#ffffff;
+  margin-bottom:2px;
+  line-height:1.1;
+}
+
+.shout-desc{
+  font-size:10px;
+  color:#9da6b0;
+  line-height:1.35;
+  font-weight:600;
+  max-width:100%;
+}
+
+.shout-user{
+  display:block;
+  color:#ffffff;
+  text-decoration:none;
+  font-size:10px;
+  font-weight:800;
+  margin-top:-2px;
+  line-height:1.1;
+  max-width:100%;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+.shout-user:hover{
+  text-decoration:underline;
+}
+
+.title-badge{
+  display:inline-block;
+  padding:2px 5px;
+  border-radius:4px;
+  font-size:9px;
+  font-weight:900;
+  letter-spacing:.3px;
+  margin:0 2px;
+}
+
+.title-badge.fm{
+  background:#b91c1c;
+  color:#ffffff;
+}
+
+.title-badge.wfm{
+  background:#b91c1c;
+  color:#ffffff;
+}
+
+.shout-game-link{
+  text-decoration:none;
+}
+
+.shout-small{
+  font-size:9px;
+  color:#7f8791;
+  line-height:1.25;
+}
+
+
+/* TEXT WEIGHT CLEANUP */
+/* Keep all regular text non-bold. Only headings + requested highlights stay bold. */
+.sb,
+.sb *{
+  font-weight:400!important;
+}
+
+.club-title,
+.sec-label,
+.blunder-deco,
+.title-box,
+.format-main,
+.format-line .format-main,
+#countdown,
+#joinButton,
+.shout-name,
+.yw-chip,
+.yw-rank-tag,
+.yw-mini-stat,
+.yw-bar-num,
+.yw-bar-pts,
+.yw-shh{
+  font-weight:900!important;
+}
+
+/* Slightly bigger Forum Links / Best of Buddies buttons */
+.list-btn{
+  font-size:11.5px;
+}
+
+/* Daily Points Race: keep the podium compact and readable. */
+.yw-spot{
+  min-width:72px;
+}
+.yw-spot.yw-first{
+  min-width:88px;
+}
+.yw-name{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+</style>
+</head>
+
+<body>
+<div class="sb">
+
+  <div class="sb-top">
+    <div class="blunder-deco left">??</div>
+    <div class="blunder-deco right">!!</div>
+    <div class="club-title">Blundering Buddies</div>
+    <div class="club-sub">Blunder Today, Brilliance Tomorrow</div>
+  </div>
+
+  <div class="inner">
+
+    <!-- GIF SECTION -->
+    <div class="gif-box">
+      <div class="gif-frame-wrap">
+        <img src="images/chess.gif" alt="Blundering Buddies GIF" class="gif-frame">
+      </div>
+    </div>
+
+    <!-- COUNTDOWN -->
+    <div class="sec-label">⚔️ Multi Club Arena</div>
+    <div class="sec-sub">Our Legacy...</div>
+    <div class="card" style="text-align:center;">
+      <div class="title-box">Blundering Buddies MCA</div>
+
+      <div class="format-line">
+        <span class="format-main">10|0 Rapid</span> • Unrated • 24 Hours
+      </div>
+
+      <div class="live-badge" id="liveBadge">
+        <span class="live-dot"></span>
+        <span>LIVE NOW</span>
+      </div>
+
+      <div class="status-line" id="statusText">Chaos begins in</div>
+
+      <div class="countdown" id="countdown">00d 00h 00m 00s</div>
+
+      <a class="join-btn" id="joinButton"
+        href="https://www.chess.com/play/arena/31263965"
+        target="_blank" rel="noopener noreferrer">
+        JUMP IN
+      </a>
+
+      <a class="results-link"
+        href="https://www.chess.com/tournament/live/arena/blundering-buddies-blitz-30-unrated-multiclub-31181063"
+        target="_blank" rel="noopener noreferrer">
+        See Previous Destruction
+      </a>
+    </div>
+
+    <div class="div"></div>
+
+    <!-- NEW BUDDIES -->
+    <div class="sec-label">🫶 New Buddies</div>
+    <div class="sec-sub">Stepping in...</div>
+    <div class="card">
+
+      <div class="welcome-text">
+        Welcome onboard! 🙌
+      </div>
+
+      <div id="members-list">
+        <div class="loading">Checking who joined the madness...</div>
+      </div>
+
+      <div class="footer-text">
+        Buckle Up! 🚀
+      </div>
+    </div>
+
+    <div class="div"></div>
+
+    
+    <!-- DAILY POINTS RACE -->
+    <div class="sec-label" id="dailyRaceTitle">🏁 Daily Points Race</div>
+    <div class="sec-sub" id="dailyRaceSub">Beat the tilt...</div>
+    <div class="card">
+      <div class="yw-shell" id="yesterdayWinsBoard">
+        <div class="yw-loading">
+          <img class="yw-counting-pawn" src="images/counting-pawn.png" alt="Shhh I am counting">
+          <div class="yw-shh">Shhh... I am counting</div>
+          <div class="yw-load-sub">Race board is warming up</div>
+        </div>
+      </div>
+      <div class="yw-updated" id="yesterdayWinsUpdated">
+        <span class="yw-reset-note">Race ends at 00:00 UTC</span>
+      </div>
+    </div>
+
+    <div class="div"></div>
+
+    <!-- FORUM LINKS -->
+    <div class="sec-label">🔗 Forum Links</div>
+    <div class="sec-sub">Beyond the board...</div>
+    <div class="card">
+
+      <a class="list-btn"
+        href="https://www.chess.com/clubs/forum/view/club-rules-511"
+        target="_blank" rel="noopener noreferrer">📃 Club Rules</a>
+
+      <a class="list-btn"
+        href="https://www.chess.com/clubs/forum/view/vote-chess-rules-167"
+        target="_blank" rel="noopener noreferrer">📃 Vote Chess Rules</a>
+
+      <a class="list-btn"
+        href="https://www.chess.com/clubs/forum/view/the-puzzle-forum-3"
+        target="_blank" rel="noopener noreferrer">🧩 Puzzles</a>
+
+      <a class="list-btn"
+        href="https://www.chess.com/clubs/forum/view/guess-the-elo-gte-5"
+        target="_blank" rel="noopener noreferrer">🤔 Guess The Elo</a>
+
+      <a class="list-btn"
+        href="https://www.chess.com/clubs/forum/view/memes-767"
+        target="_blank" rel="noopener noreferrer">😂 Memes</a>
+
+      <a class="list-btn"
+        href="https://www.chess.com/clubs/forum/view/username-hunt"
+        target="_blank" rel="noopener noreferrer">🔍 Username Hunt</a>
+
+      <a class="list-btn"
+        href="https://www.chess.com/clubs/forum/view/fifa-world-cup-2026-4"
+        target="_blank" rel="noopener noreferrer">⚽ FIFA 2026</a>
+
+      <a class="list-btn"
+        href="https://www.chess.com/clubs/forum/view/ipl-chat-zone"
+        target="_blank" rel="noopener noreferrer">🏏 Cricket Chat Zone</a>
+
+      <a class="list-btn"
+        href="https://www.chess.com/clubs/forum/view/blundering-buddies-hall-of-fame"
+        target="_blank" rel="noopener noreferrer">🏆 Hall of Fame</a>
+
+      <a class="list-btn"
+        href="https://forms.gle/UYGF6U7okmSdfL4v8"
+        target="_blank" rel="noopener noreferrer">🗯️ Share Your Feedback</a>
+
+    </div>
+
+    <div class="div"></div>
+
+    <!-- BEST OF BUDDIES -->
+    <div class="sec-label">💪 Best of Buddies</div>
+    <div class="sec-sub">We ruled the board...</div>
+    <div class="card">
+
+      <a class="list-btn gold-btn"
+        href="https://www.chess.com/tournament/live/arena/blundering-buddies-open-unrated-10-multi-club-31097859"
+        target="_blank" rel="noopener noreferrer">
+        👑 MCA Champion 🏆 2839 Points
+      </a>
+
+      <a class="list-btn"
+        href="https://www.chess.com/tournament/live/arena/blundering-buddies-blitz-30-unrated-multiclub-31181063"
+        target="_blank" rel="noopener noreferrer">
+        MCA Champion 🏆 2544 Points
+      </a>
+
+      <a class="list-btn"
+        href="https://www.chess.com/tournament/live/arena/blundering-buddies-unrated-multiclub-4706553"
+        target="_blank" rel="noopener noreferrer">
+        MCA Champion 🏆 1658 Points
+      </a>
+
+      <a class="list-btn"
+        href="https://www.chess.com/tournament/live/arena/blundering-buddies-open-unrated-100-multi-club--31047155"
+        target="_blank" rel="noopener noreferrer">
+        MCA Champion 🏆 1154 Points
+      </a>
+
+      <a class="list-btn"
+        href="https://www.chess.com/tournament/live/arena/blundering-buddies-open-multi-club-arena-4646151"
+        target="_blank" rel="noopener noreferrer">
+        MCA Champion 🏆 1060 Points
+      </a>
+
+      <a class="list-btn"
+        href="https://www.chess.com/tournament/live/arena/shirokuro-multi-club-arena-2025-4631081"
+        target="_blank" rel="noopener noreferrer">
+        MCA Champion 🏆 572 Points
+      </a>
+
+      <a class="list-btn"
+        href="https://www.chess.com/club/matches/blundering-buddies/1900695"
+        target="_blank" rel="noopener noreferrer">
+        Daily Match Clean Sweep 😎 20-0
+      </a>
+
+    </div>
+
+    <div class="div"></div>
+
+    <div class="sec-label">👑 MCA Top Scorers</div>
+    <div class="sec-sub">The least blunderful among us...</div>
+    <div class="card">
+      <div class="top-scorers" id="mcaTopScorers">
+        <div class="top-loading">Finding the least blunders...</div>
+      </div>
+    </div>
+
+    <!-- SHOUTOUT OF THE MONTH -->
+    <div class="div"></div>
+
+    <div class="sec-label">🏅 Shoutout of the Month</div>
+    <div class="sec-sub">Who cooked the best...</div>
+
+    <div class="card shout-card">
+
+      <div class="shout-avatar-wrap">
+        <div class="shout-crown">😎</div>
+        <a href="https://www.chess.com/member/sujoymsure987" target="_blank" rel="noopener noreferrer">
+          <img id="shoutAvatar"
+               src="https://www.chess.com/bundles/web/images/user-image.007dad08.svg"
+               class="shout-avatar"
+               alt="sujoymsure987">
+        </a>
+      </div>
+
+      <div class="shout-name">🔥 Vote Chess MVP 🔥</div>
+
+      <a class="shout-user"
+         href="https://www.chess.com/member/sujoymsure987"
+         target="_blank" rel="noopener noreferrer">
+        @sujoymsure987
+      </a>
+
+      <div class="shout-desc">
+        Most active in Vote Chess games...<br>
+        always joining discussions, <br>
+	sharing ideas, and helping <br>
+	the team choose better moves.🫡
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+/* COUNTDOWN */
+const arenaStart = new Date("2026-06-27T05:00:00Z").getTime();
+const arenaEnd = arenaStart + (24 * 60 * 60 * 1000);
+
+const countdownEl = document.getElementById("countdown");
+const statusTextEl = document.getElementById("statusText");
+const joinButton = document.getElementById("joinButton");
+const liveBadge = document.getElementById("liveBadge");
+
+function formatTime(ms, showDays = true){
+  const totalSeconds = Math.max(0, Math.floor(ms / 1000));
+  const days = Math.floor(totalSeconds / 86400);
+  const hours = Math.floor((totalSeconds % 86400) / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+  const pad = n => String(n).padStart(2, "0");
+
+  if(showDays){
+    return `${pad(days)}d ${pad(hours)}h ${pad(minutes)}m ${pad(seconds)}s`;
+  }
+
+  const totalHours = Math.floor(totalSeconds / 3600);
+  return `${pad(totalHours)}h ${pad(minutes)}m ${pad(seconds)}s`;
+}
+
+function updateCountdown(){
+  const now = Date.now();
+
+  if(now < arenaStart){
+    statusTextEl.textContent = "Chaos begins in";
+    countdownEl.textContent = formatTime(arenaStart - now, true);
+    joinButton.classList.remove("live-btn");
+    liveBadge.classList.remove("show");
+  }
+  else if(now >= arenaStart && now < arenaEnd){
+    statusTextEl.textContent = "Arena is Live for";
+    countdownEl.textContent = formatTime(arenaEnd - now, false);
+    joinButton.classList.add("live-btn");
+    liveBadge.classList.add("show");
+  }
+  else{
+    statusTextEl.textContent = "Damage has been done";
+    countdownEl.textContent = "00d 00h 00m 00s";
+    joinButton.classList.remove("live-btn");
+    liveBadge.classList.remove("show");
+  }
+}
+
+updateCountdown();
+setInterval(updateCountdown, 1000);
+
+/* NEW BUDDIES */
+const CLUB_SLUG = 'blundering-buddies';
+const SHOW_COUNT = 3;
+const REFRESH_MS = 60000;
+
+async function fetchJSON(url){
+  const res = await fetch(url);
+  if(!res.ok) throw new Error('HTTP ' + res.status);
+  return res.json();
+}
+
+function getHighestElo(stats){
+  const formats = [
+    {key:'chess_rapid',label:'Rapid'},
+    {key:'chess_blitz',label:'Blitz'},
+    {key:'chess_bullet',label:'Bullet'},
+    {key:'chess_daily',label:'Daily'}
+  ];
+
+  let best = null;
+
+  for(const f of formats){
+    const rating = stats?.[f.key]?.last?.rating;
+    if(rating && (!best || rating > best.rating)){
+      best = {rating,label:f.label};
+    }
+  }
+  return best;
+}
+
+async function loadMembers(){
+  const list = document.getElementById('members-list');
+
+  try{
+    const clubData = await fetchJSON(`https://api.chess.com/pub/club/${CLUB_SLUG}/members`);
+
+    const all = [
+      ...(clubData.weekly || []),
+      ...(clubData.monthly || []),
+      ...(clubData.all_time || [])
+    ];
+
+    const seen = new Set();
+
+    const unique = all.filter(m => {
+      if(seen.has(m.username)) return false;
+      seen.add(m.username);
+      return true;
+    });
+
+    unique.sort((a,b)=>(b.joined||0)-(a.joined||0));
+
+    const recent = unique.slice(0, SHOW_COUNT);
+
+    const cards = await Promise.all(recent.map(async m => {
+      let avatar = '';
+      let eloText = 'Unrated';
+      let eloLabel = '';
+
+      try{
+        const [profile, stats] = await Promise.all([
+          fetchJSON(`https://api.chess.com/pub/player/${m.username}`),
+          fetchJSON(`https://api.chess.com/pub/player/${m.username}/stats`)
+        ]);
+
+        avatar = profile.avatar || '';
+        const best = getHighestElo(stats);
+
+        if(best){
+          eloText = best.rating;
+          eloLabel = best.label + ': ';
+        }
+      }catch{}
+
+      return {
+        username:m.username,
+        avatar,
+        eloText,
+        eloLabel
+      };
+    }));
+
+    list.innerHTML = cards.map(c => `
+      <div class="member-row">
+        <img class="avatar"
+          src="${c.avatar || 'https://www.chess.com/bundles/web/images/user-image.007dad08.svg'}"
+          alt="${c.username}"
+          onerror="this.src='https://www.chess.com/bundles/web/images/user-image.007dad08.svg'">
+
+        <div class="member-info">
+          <a class="member-name"
+            href="https://www.chess.com/member/${c.username}"
+            target="_blank">
+            @${c.username}
+          </a>
+
+          <div class="member-elo">
+            ${c.eloLabel}${c.eloText}
+          </div>
+        </div>
+      </div>
+    `).join('');
+
+  }catch{
+    list.innerHTML = '<div class="loading">New buddies got lost on the way...</div>';
+  }
+}
+
+loadMembers();
+setInterval(loadMembers, REFRESH_MS);
+
+
+
+/* DAILY POINTS RACE */
+const YW_FALLBACK_AVATAR = 'https://www.chess.com/bundles/web/images/user-image.007dad08.svg';
+const YW_DATA_URL = 'daily-points-race.json';
+const YW_ICON_RAPID = '<span class="yw-chip-icon yw-rapid-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.97,14.63 c-0.9,0,-1.87,-0.73,-1.5,-2.23 l1.03,-4.4 l1,0 l1.03,4.37 c0.37,1.53,-0.63,2.27,-1.57,2.27 Z M12,22.5 c-5.23,0,-9.5,-4.27,-9.5,-9.5 c0,-5.23,4.27,-9.5,9.5,-9.5 c5.23,0,9.5,4.27,9.5,9.5 c0,5.23,-4.27,9.5,-9.5,9.5 Z M12,19.5 c4,0,6.5,-2.5,6.5,-6.5 c0,-4,-2.5,-6.5,-6.5,-6.5 c-4,0,-6.5,2.5,-6.5,6.5 c0,4,2.5,6.5,6.5,6.5 Z M10.5,5.23 l0,-4.23 l3,0 l0,4.23 Z M15.5,2 l-7,0 c0,-1.7,0.43,-2,3.5,-2 c3.07,0,3.5,0.3,3.5,2 Z"></path></svg></span>';
+const YW_ICON_BLITZ = '<span class="yw-chip-icon yw-blitz-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.9 1.2 4.7 13h5.1L7.9 22.8 19.3 9.4h-6.2L12.9 1.2Z"></path></svg></span>';
+const YW_ICON_BULLET = '<span class="yw-chip-icon yw-bullet-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7.17,15.3 l1.43,1.47 l-8.27,6.9 Z M0.3,17.6 l4.5,-6.0 l0.9,2 Z M10.77,10.1 c3.47,-3.6,5.93,-5.2,8.7,-6.4 c-2.4,0,-5.3,0.37,-9.8,4.6 c0.03,0.5,0.7,1.47,1.1,1.8 Z M21.83,2.17 c0,0,0.23,1.1,0.23,2.77 c0,2.67,-0.67,6.83,-4.17,10.33 l-2.17,2.17 c-0.67,0.67,-1.33,0.6,-2.13,0.27 l-7.47,6.3 l9.8,-12.17 l-5.23,4.03 c-0.43,-0.4,-0.93,-0.83,-1.33,-1.23 c-1.73,-1.7,-4.13,-5,-2.77,-6.37 l2.2,-2.13 c3.53,-3.5,7.63,-4.2,10.3,-4.2 c1.63,0,2.73,0.23,2.73,0.23 Z"></path></svg></span>';
+
+function getUTCDateKey(offsetDays = 0){
+  const now = new Date();
+  const start = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + offsetDays);
+  return new Date(start).toISOString().slice(0,10);
+}
+
+function getRaceWindowState(){
+  const now = new Date();
+  const hour = now.getUTCHours();
+
+  if(hour < 10){
+    return {
+      mode:'winner',
+      date:getUTCDateKey(-1),
+      title:"🏆 Yesterday's Champion",
+      sub:'Final podium is locked...'
+    };
+  }
+
+  return {
+    mode:'race',
+    date:getUTCDateKey(0),
+    title:"🏁 Today's Points Race",
+    sub:'Beat the tilt...'
+  };
+}
+
+function setDailyRaceHeader(state){
+  const title = document.getElementById('dailyRaceTitle');
+  const sub = document.getElementById('dailyRaceSub');
+
+  if(title) title.textContent = state.title;
+  if(sub) sub.textContent = state.sub;
+}
+
+function formatRaceAgo(){
+  return 'Updated recently';
+}
+
+function raceFooterHTML(state){
+  const reset = '<span class="yw-reset-note">Resets everyday at 00:00 UTC</span>';
+  if(state?.mode === 'winner') return reset;
+  return `${formatRaceAgo()}${reset}`;
+}
+
+function playerPoints(player){
+  return Number(player.points ?? player.score ?? player.total_points ?? player.wins ?? 0);
+}
+
+function escapeHtml(value){
+  return String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+}
+
+function pointBreakdown(player){
+  const pieces = [];
+  const rapid = Number(player.rapid_points ?? player.rapid?.points ?? 0);
+  const blitz = Number(player.blitz_points ?? player.blitz?.points ?? 0);
+  const bullet = Number(player.bullet_points ?? player.bullet?.points ?? 0);
+
+  if(rapid > 0) pieces.push(`<span class="yw-mini-stat">${YW_ICON_RAPID}<span>${rapid}</span></span>`);
+  if(blitz > 0) pieces.push(`<span class="yw-mini-stat">${YW_ICON_BLITZ}<span>${blitz}</span></span>`);
+  if(bullet > 0) pieces.push(`<span class="yw-mini-stat">${YW_ICON_BULLET}<span>${bullet}</span></span>`);
+
+  return pieces.join(' ');
+}
+
+function showDailyRaceWaiting(mainText = 'Shhh... I am counting', subText = 'Race board is warming up'){
+  const board = document.getElementById('yesterdayWinsBoard');
+
+  if(!board) return;
+
+  board.innerHTML = `
+    <div class="yw-loading">
+      <img class="yw-counting-pawn" src="images/counting-pawn.png" alt="Shhh I am counting">
+      <div class="yw-shh">${mainText}</div>
+      <div class="yw-load-sub">${subText}</div>
+    </div>`;
+}
+
+function drawDailyPointsRace(data, state){
+  const board = document.getElementById('yesterdayWinsBoard');
+  const updated = document.getElementById('yesterdayWinsUpdated');
+
+  if(!board) return;
+
+  const players = Array.isArray(data.players) ? data.players.slice(0,3) : [];
+
+  if(!players.length){
+    showDailyRaceWaiting('Shhh... I am counting', 'No race points found yet');
+    if(updated) updated.innerHTML = raceFooterHTML(state);
+    return;
+  }
+
+  const classes = ['yw-first','yw-second','yw-third'];
+  const places = ['1','2','3'];
+  const podiumOrder = [1,0,2].filter(index => players[index]);
+
+  board.innerHTML = `
+    <div class="yw-score-row">
+      <div class="yw-chip rapid">${YW_ICON_RAPID}W15 D5</div>
+      <div class="yw-chip blitz">${YW_ICON_BLITZ}W9 D3</div>
+      <div class="yw-chip bullet">${YW_ICON_BULLET}W3 D1</div>
+    </div>
+    <div class="yw-stage">
+      ${podiumOrder.map(index => {
+        const player = players[index];
+        const points = playerPoints(player);
+        const username = player.username || 'unknown';
+        const safeName = escapeHtml(username);
+        const breakdown = pointBreakdown(player);
+
+        return `
+          <a class="yw-spot ${classes[index]}" href="https://www.chess.com/member/${encodeURIComponent(username)}" target="_blank" rel="noopener noreferrer" title="${points} points">
+            <div class="yw-photo-ring">
+              <div class="yw-rank-tag">${places[index]}</div>
+              <img class="yw-photo" src="${player.avatar || YW_FALLBACK_AVATAR}" alt="${safeName}" onerror="this.src='${YW_FALLBACK_AVATAR}'">
+            </div>
+            <div class="yw-name">@${safeName}</div>
+            <div class="yw-breakdown">${breakdown}</div>
+            <div class="yw-bar">
+              <span class="yw-bar-score">
+                <span class="yw-bar-num">${points}</span>
+                <span class="yw-bar-pts">pts</span>
+              </span>
+            </div>
+          </a>`;
+      }).join('')}
+    </div>`;
+
+  if(updated){
+    updated.innerHTML = raceFooterHTML(state);
+  }
+}
+
+async function loadDailyPointsRace(){
+  const updated = document.getElementById('yesterdayWinsUpdated');
+  const state = getRaceWindowState();
+
+  setDailyRaceHeader(state);
+  showDailyRaceWaiting('Shhh... I am counting', 'Checking the points race');
+
+  if(updated) updated.innerHTML = raceFooterHTML(state);
+
+  try{
+    const res = await fetch(YW_DATA_URL + '?v=' + Date.now());
+    if(!res.ok) throw new Error('Missing daily points race file');
+
+    const data = await res.json();
+
+    if(data.status === 'counting' || data.ready === false || data.mode !== state.mode || data.date !== state.date){
+      showDailyRaceWaiting('Shhh... I am counting', state.mode === 'winner' ? 'Locking the final podium' : 'Checking the points race');
+      if(updated) updated.innerHTML = raceFooterHTML(state);
+      return;
+    }
+
+    drawDailyPointsRace(data, state);
+  }catch(err){
+    console.error('Daily points race file load failed:', err);
+    showDailyRaceWaiting('Shhh... I am counting', 'Race board is warming up');
+    if(updated) updated.innerHTML = raceFooterHTML(state);
+  }
+}
+
+loadDailyPointsRace();
+setInterval(loadDailyPointsRace, 5 * 60 * 1000);
+/* MCA TOP SCORERS */
+const MCA_TOP_SCORERS = [
+  { username: "ManuDavid2910", place: 1, profile: "https://www.chess.com/member/ManuDavid2910" },
+  { username: "1-sunl3ss", place: 2, profile: "https://www.chess.com/member/1-sunl3ss" },
+  { username: "NobitaNobi2197", place: 3, profile: "https://www.chess.com/member/nobitanobi2197" }
+];
+
+function getFallbackAvatar(){
+  return "https://www.chess.com/bundles/web/images/user-image.007dad08.svg";
+}
+
+function getPlaceMeta(place){
+  if(place === 1) return { cls:"first", crown:"gold", label:"1st Place" };
+  if(place === 2) return { cls:"second", crown:"silver", label:"2nd Place" };
+  return { cls:"third", crown:"bronze", label:"3rd Place" };
+}
+
+async function loadTopScorers(){
+  const wrap = document.getElementById("mcaTopScorers");
+
+  try{
+    const players = await Promise.all(
+      MCA_TOP_SCORERS.map(async (p) => {
+        let avatar = getFallbackAvatar();
+
+        try{
+          const profile = await fetchJSON(`https://api.chess.com/pub/player/${p.username}`);
+          avatar = profile?.avatar || avatar;
+        }catch{}
+
+        return { ...p, avatar };
+      })
+    );
+
+    wrap.innerHTML = players.map(p => {
+      const meta = getPlaceMeta(p.place);
+
+      return `
+        <a href="${p.profile}" target="_blank" rel="noopener noreferrer" class="top-player ${meta.cls}">
+          <div class="avatar-shell">
+            <div class="crown-badge ${meta.crown}">${p.place}</div>
+            <img src="${p.avatar}" class="avatar-top" onerror="this.src='${getFallbackAvatar()}'">
+          </div>
+          <div class="top-name">@${p.username}</div>
+        </a>
+      `;
+    }).join("");
+
+  }catch{
+    wrap.innerHTML = `<div class="top-loading">System blundered the rankings...</div>`;
+  }
+}
+
+loadTopScorers();
+
+/* SHOUTOUT PROFILE */
+async function loadShoutoutProfile(){
+  const avatar = document.getElementById("shoutAvatar");
+  const username = "sujoymsure987";
+
+  try{
+    const profile = await fetchJSON(`https://api.chess.com/pub/player/${username}`);
+    avatar.src = profile?.avatar || getFallbackAvatar();
+  }catch{
+    avatar.src = getFallbackAvatar();
+  }
+}
+
+loadShoutoutProfile();
+</script>
+</body>
+</html>
