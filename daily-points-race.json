@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-06-23",
-  "generated_at": "2026-06-23T16:09:05.877Z",
+  "generated_at": "2026-06-23T18:17:26.809Z",
   "window_start": "2026-06-23T00:00:00.000Z",
-  "window_end": "2026-06-23T16:06:31.529Z",
-  "total_members_checked": 3007,
+  "window_end": "2026-06-23T18:14:07.383Z",
+  "total_members_checked": 3011,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -52,13 +52,13 @@
     },
     {
       "username": "gamesetmatch1234",
-      "points": 335,
-      "wins": 22,
+      "points": 380,
+      "wins": 25,
       "draws": 1,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 335,
-        "wins": 22,
+        "points": 380,
+        "wins": 25,
         "draws": 1
       },
       "blitz": {
@@ -71,34 +71,34 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 335,
+      "rapid_points": 380,
       "blitz_points": 0,
       "bullet_points": 0
     },
     {
-      "username": "xxelproxx2nd",
-      "points": 309,
-      "wins": 42,
+      "username": "nikkotello",
+      "points": 365,
+      "wins": 24,
       "draws": 1,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/395703051.124f7fdc.200x200o.9cbdc6f0f0df.png",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
       "rapid": {
-        "points": 15,
-        "wins": 1,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 255,
-        "wins": 28,
+        "points": 365,
+        "wins": 24,
         "draws": 1
       },
-      "bullet": {
-        "points": 39,
-        "wins": 13,
+      "blitz": {
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
-      "rapid_points": 15,
-      "blitz_points": 255,
-      "bullet_points": 39
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 365,
+      "blitz_points": 0,
+      "bullet_points": 0
     }
   ]
 }
