@@ -1,15 +1,16 @@
-name: Update Yesterday Wins
+name: Update Points Race
 
 on:
   schedule:
-    - cron: "5 0 * * *"
+    - cron: "7 0 * * *"
+    - cron: "7 10,13,16,19,22 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update-wins:
+  update-points:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,13 +22,13 @@ jobs:
         with:
           node-version: "24"
 
-      - name: Count yesterday wins
+      - name: Count points race
         run: node scripts/update-yesterday-wins.mjs
 
       - name: Save updated result
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add top-wins-yesterday.json
-          git diff --cached --quiet || git commit -m "Update yesterday wins"
+          git add daily-points-race.json
+          git diff --cached --quiet || git commit -m "Update points race"
           git push
