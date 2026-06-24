@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-06-24",
-  "generated_at": "2026-06-24T15:41:21.469Z",
+  "generated_at": "2026-06-24T18:13:06.227Z",
   "window_start": "2026-06-24T00:00:00.000Z",
-  "window_end": "2026-06-24T15:38:53.687Z",
-  "total_members_checked": 3015,
+  "window_end": "2026-06-24T18:10:03.909Z",
+  "total_members_checked": 3019,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -25,6 +25,31 @@
   },
   "note": "Live race updates every 3 hours after 10:00 UTC.",
   "players": [
+    {
+      "username": "dipankar_47",
+      "points": 515,
+      "wins": 34,
+      "draws": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/349047837.30e668dd.200x200o.554240ec1f36.jpg",
+      "rapid": {
+        "points": 515,
+        "wins": 34,
+        "draws": 1
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 515,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
     {
       "username": "thtvk-0076",
       "points": 444,
@@ -51,39 +76,14 @@
       "bullet_points": 444
     },
     {
-      "username": "dipankar_47",
-      "points": 405,
-      "wins": 27,
-      "draws": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/349047837.30e668dd.200x200o.554240ec1f36.jpg",
-      "rapid": {
-        "points": 405,
-        "wins": 27,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 405,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
       "username": "b_jay97",
-      "points": 350,
-      "wins": 23,
+      "points": 410,
+      "wins": 27,
       "draws": 1,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/302996475.8fd70386.200x200o.f05fed35c951.jpg",
       "rapid": {
-        "points": 350,
-        "wins": 23,
+        "points": 410,
+        "wins": 27,
         "draws": 1
       },
       "blitz": {
@@ -96,7 +96,7 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 350,
+      "rapid_points": 410,
       "blitz_points": 0,
       "bullet_points": 0
     }
