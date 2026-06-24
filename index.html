@@ -1689,13 +1689,42 @@ function drawDailyPointsRace(data, state){
   }
 }
 
+function hasRacePlayers(data){
+  return Array.isArray(data?.players) && data.players.length > 0;
+}
+
+function stateFromRaceData(data, fallbackState){
+  if(data?.mode === 'winner'){
+    return {
+      mode:'winner',
+      date:data.date || fallbackState.date,
+      title:"🏆 Yesterday's Champion",
+      sub:'Final podium is locked...'
+    };
+  }
+
+  return {
+    mode:'race',
+    date:data?.date || fallbackState.date,
+    title:"🏁 Today's Points Race",
+    sub:'Beat the tilt...'
+  };
+}
+
+function lockPendingState(state){
+  return {
+    mode:'race',
+    date:state.date,
+    title:'🏁 Final Race Standings',
+    sub:'Locking final podium...'
+  };
+}
+
 async function loadDailyPointsRace(){
   const updated = document.getElementById('yesterdayWinsUpdated');
   const state = getRaceWindowState();
 
   setDailyRaceHeader(state);
-  showDailyRaceWaiting('Shhh... I am counting', 'Checking the points race');
-
   if(updated) updated.innerHTML = raceFooterHTML(state);
 
   try{
@@ -1703,17 +1732,33 @@ async function loadDailyPointsRace(){
     if(!res.ok) throw new Error('Missing daily points race file');
 
     const data = await res.json();
+    const hasPlayers = hasRacePlayers(data);
 
-    if(data.status === 'counting' || data.ready === false || data.mode !== state.mode || data.date !== state.date){
-      showDailyRaceWaiting('Shhh... I am counting', state.mode === 'winner' ? 'Locking the final podium' : 'Checking the points race');
-      if(updated) updated.innerHTML = raceFooterHTML(state);
+    if(hasPlayers && data.mode === state.mode && data.date === state.date && data.ready !== false && data.status !== 'counting'){
+      setDailyRaceHeader(state);
+      drawDailyPointsRace(data, state);
       return;
     }
 
-    drawDailyPointsRace(data, state);
+    if(hasPlayers && state.mode === 'winner' && data.mode === 'race'){
+      const pendingState = lockPendingState(state);
+      setDailyRaceHeader(pendingState);
+      drawDailyPointsRace(data, pendingState);
+      return;
+    }
+
+    if(hasPlayers){
+      const dataState = stateFromRaceData(data, state);
+      setDailyRaceHeader(dataState);
+      drawDailyPointsRace(data, dataState);
+      return;
+    }
+
+    showDailyRaceWaiting('Shhh... I am counting', 'No leaderboard data found yet');
+    if(updated) updated.innerHTML = raceFooterHTML(state);
   }catch(err){
     console.error('Daily points race file load failed:', err);
-    showDailyRaceWaiting('Shhh... I am counting', 'Race board is warming up');
+    showDailyRaceWaiting('Shhh... I am counting', 'Race board could not load');
     if(updated) updated.innerHTML = raceFooterHTML(state);
   }
 }
