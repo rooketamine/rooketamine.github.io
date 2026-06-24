@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-06-24",
-  "generated_at": "2026-06-24T12:31:48.611Z",
+  "generated_at": "2026-06-24T15:41:21.469Z",
   "window_start": "2026-06-24T00:00:00.000Z",
-  "window_end": "2026-06-24T12:29:22.904Z",
-  "total_members_checked": 3012,
+  "window_end": "2026-06-24T15:38:53.687Z",
+  "total_members_checked": 3015,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -26,64 +26,39 @@
   "note": "Live race updates every 3 hours after 10:00 UTC.",
   "players": [
     {
-      "username": "cursedtenn",
-      "points": 323,
-      "wins": 50,
-      "draws": 7,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/569499580.01142142.200x200o.ca1e75311641.jpg",
-      "rapid": {
-        "points": 80,
-        "wins": 5,
-        "draws": 1
-      },
-      "blitz": {
-        "points": 153,
-        "wins": 17,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 90,
-        "wins": 28,
-        "draws": 6
-      },
-      "rapid_points": 80,
-      "blitz_points": 153,
-      "bullet_points": 90
-    },
-    {
-      "username": "1hej0k3r",
-      "points": 312,
-      "wins": 34,
-      "draws": 2,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/12083126.9d815567.200x200o.674fa108f5a3.jpg",
+      "username": "thtvk-0076",
+      "points": 444,
+      "wins": 148,
+      "draws": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/418956979.4a69a473.200x200o.ce42fa8cba43.png",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 312,
-        "wins": 34,
-        "draws": 2
-      },
-      "bullet": {
         "points": 0,
         "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 444,
+        "wins": 148,
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 312,
-      "bullet_points": 0
+      "blitz_points": 0,
+      "bullet_points": 444
     },
     {
       "username": "dipankar_47",
-      "points": 255,
-      "wins": 17,
+      "points": 405,
+      "wins": 27,
       "draws": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/349047837.30e668dd.200x200o.554240ec1f36.jpg",
       "rapid": {
-        "points": 255,
-        "wins": 17,
+        "points": 405,
+        "wins": 27,
         "draws": 0
       },
       "blitz": {
@@ -96,7 +71,32 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 255,
+      "rapid_points": 405,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
+      "username": "b_jay97",
+      "points": 350,
+      "wins": 23,
+      "draws": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/302996475.8fd70386.200x200o.f05fed35c951.jpg",
+      "rapid": {
+        "points": 350,
+        "wins": 23,
+        "draws": 1
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 350,
       "blitz_points": 0,
       "bullet_points": 0
     }
