@@ -2,13 +2,13 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "race",
-  "title": "Today's Points Race",
+  "mode": "winner",
+  "title": "Yesterday's Champion",
   "date": "2026-06-23",
-  "generated_at": "2026-06-23T23:21:46.053Z",
+  "generated_at": "2026-06-24T00:40:44.623Z",
   "window_start": "2026-06-23T00:00:00.000Z",
-  "window_end": "2026-06-23T23:19:29.358Z",
-  "total_members_checked": 3014,
+  "window_end": "2026-06-24T00:00:00.000Z",
+  "total_members_checked": 3013,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -23,7 +23,7 @@
       "draw": 1
     }
   },
-  "note": "Live race updates every 3 hours after 10:00 UTC.",
+  "note": "Final podium is shown until 10:00 UTC.",
   "players": [
     {
       "username": "gamesetmatch1234",
@@ -77,13 +77,13 @@
     },
     {
       "username": "abajah102667",
-      "points": 465,
-      "wins": 30,
+      "points": 480,
+      "wins": 31,
       "draws": 3,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/418058273.a4dc0d20.200x200o.0600428e098b.jpg",
       "rapid": {
-        "points": 465,
-        "wins": 30,
+        "points": 480,
+        "wins": 31,
         "draws": 3
       },
       "blitz": {
@@ -96,7 +96,7 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 465,
+      "rapid_points": 480,
       "blitz_points": 0,
       "bullet_points": 0
     }
