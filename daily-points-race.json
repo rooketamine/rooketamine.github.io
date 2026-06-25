@@ -2,13 +2,13 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "winner",
-  "title": "Yesterday's Champion",
-  "date": "2026-06-24",
-  "generated_at": "2026-06-25T05:19:01.539Z",
-  "window_start": "2026-06-24T00:00:00.000Z",
-  "window_end": "2026-06-25T00:00:00.000Z",
-  "total_members_checked": 3040,
+  "mode": "race",
+  "title": "Today's Points Race",
+  "date": "2026-06-25",
+  "generated_at": "2026-06-25T12:37:34.000Z",
+  "window_start": "2026-06-25T00:00:00.000Z",
+  "window_end": "2026-06-25T12:32:49.362Z",
+  "total_members_checked": 3052,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -23,82 +23,82 @@
       "draw": 1
     }
   },
-  "note": "Final podium is shown until 10:00 UTC.",
+  "note": "Live race updates every 3 hours after 10:00 UTC.",
   "players": [
     {
-      "username": "nikkotello",
-      "points": 680,
-      "wins": 44,
-      "draws": 4,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
-      "rapid": {
-        "points": 680,
-        "wins": 44,
-        "draws": 4
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 680,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
-      "username": "dipankar_47",
-      "points": 670,
-      "wins": 44,
-      "draws": 2,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/349047837.30e668dd.200x200o.554240ec1f36.jpg",
-      "rapid": {
-        "points": 670,
-        "wins": 44,
-        "draws": 2
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 670,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
-      "username": "nuubinator",
-      "points": 447,
-      "wins": 112,
-      "draws": 9,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/111749030.4ba0fa6e.200x200o.66dda7004b9d.png",
+      "username": "armandonavo15",
+      "points": 274,
+      "wins": 43,
+      "draws": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/465412694.65e74870.200x200o.6a717009c159.png",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 153,
-        "wins": 17,
+        "points": 216,
+        "wins": 24,
         "draws": 0
       },
       "bullet": {
-        "points": 294,
-        "wins": 95,
-        "draws": 9
+        "points": 58,
+        "wins": 19,
+        "draws": 1
       },
       "rapid_points": 0,
-      "blitz_points": 153,
-      "bullet_points": 294
+      "blitz_points": 216,
+      "bullet_points": 58
+    },
+    {
+      "username": "som1999",
+      "points": 269,
+      "wins": 19,
+      "draws": 2,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/43097414.ace28258.200x200o.6cdc53c44c68.jpg",
+      "rapid": {
+        "points": 230,
+        "wins": 15,
+        "draws": 1
+      },
+      "blitz": {
+        "points": 39,
+        "wins": 4,
+        "draws": 1
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 230,
+      "blitz_points": 39,
+      "bullet_points": 0
+    },
+    {
+      "username": "abajah102667",
+      "points": 230,
+      "wins": 15,
+      "draws": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/418058273.a4dc0d20.200x200o.0600428e098b.jpg",
+      "rapid": {
+        "points": 230,
+        "wins": 15,
+        "draws": 1
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 230,
+      "blitz_points": 0,
+      "bullet_points": 0
     }
   ]
 }
