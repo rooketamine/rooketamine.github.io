@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-06-25",
-  "generated_at": "2026-06-25T15:48:46.760Z",
+  "generated_at": "2026-06-25T18:27:26.103Z",
   "window_start": "2026-06-25T00:00:00.000Z",
-  "window_end": "2026-06-25T15:45:22.159Z",
-  "total_members_checked": 3055,
+  "window_end": "2026-06-25T18:24:49.723Z",
+  "total_members_checked": 3056,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -26,10 +26,10 @@
   "note": "Live race updates every 3 hours after 10:00 UTC.",
   "players": [
     {
-      "username": "whattodowhatnottodo",
-      "points": 333,
-      "wins": 34,
-      "draws": 9,
+      "username": "tbfplayschess",
+      "points": 396,
+      "wins": 44,
+      "draws": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
         "points": 0,
@@ -37,9 +37,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 333,
-        "wins": 34,
-        "draws": 9
+        "points": 396,
+        "wins": 44,
+        "draws": 0
       },
       "bullet": {
         "points": 0,
@@ -47,39 +47,14 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 333,
-      "bullet_points": 0
-    },
-    {
-      "username": "its_me_tanmay",
-      "points": 317,
-      "wins": 21,
-      "draws": 2,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/518685981.437a5728.200x200o.4ef90cf0887c.jpg",
-      "rapid": {
-        "points": 305,
-        "wins": 20,
-        "draws": 1
-      },
-      "blitz": {
-        "points": 12,
-        "wins": 1,
-        "draws": 1
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 305,
-      "blitz_points": 12,
+      "blitz_points": 396,
       "bullet_points": 0
     },
     {
       "username": "locko137",
-      "points": 297,
-      "wins": 47,
-      "draws": 0,
+      "points": 370,
+      "wins": 71,
+      "draws": 1,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/371246545.65d79265.200x200o.07a0c6be5201.jpg",
       "rapid": {
         "points": 0,
@@ -92,13 +67,38 @@
         "draws": 0
       },
       "bullet": {
-        "points": 63,
-        "wins": 21,
-        "draws": 0
+        "points": 136,
+        "wins": 45,
+        "draws": 1
       },
       "rapid_points": 0,
       "blitz_points": 234,
-      "bullet_points": 63
+      "bullet_points": 136
+    },
+    {
+      "username": "its_me_tanmay",
+      "points": 362,
+      "wins": 24,
+      "draws": 2,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/518685981.437a5728.200x200o.4ef90cf0887c.jpg",
+      "rapid": {
+        "points": 350,
+        "wins": 23,
+        "draws": 1
+      },
+      "blitz": {
+        "points": 12,
+        "wins": 1,
+        "draws": 1
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 350,
+      "blitz_points": 12,
+      "bullet_points": 0
     }
   ]
 }
