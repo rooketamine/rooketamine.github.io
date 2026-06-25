@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-06-25",
-  "generated_at": "2026-06-25T18:27:26.103Z",
+  "generated_at": "2026-06-25T21:04:56.732Z",
   "window_start": "2026-06-25T00:00:00.000Z",
-  "window_end": "2026-06-25T18:24:49.723Z",
-  "total_members_checked": 3056,
+  "window_end": "2026-06-25T21:02:07.737Z",
+  "total_members_checked": 3060,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -27,8 +27,8 @@
   "players": [
     {
       "username": "tbfplayschess",
-      "points": 396,
-      "wins": 44,
+      "points": 549,
+      "wins": 61,
       "draws": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
@@ -37,8 +37,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 396,
-        "wins": 44,
+        "points": 549,
+        "wins": 61,
         "draws": 0
       },
       "bullet": {
@@ -47,13 +47,13 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 396,
+      "blitz_points": 549,
       "bullet_points": 0
     },
     {
       "username": "locko137",
-      "points": 370,
-      "wins": 71,
+      "points": 478,
+      "wins": 83,
       "draws": 1,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/371246545.65d79265.200x200o.07a0c6be5201.jpg",
       "rapid": {
@@ -62,8 +62,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 234,
-        "wins": 26,
+        "points": 342,
+        "wins": 38,
         "draws": 0
       },
       "bullet": {
@@ -72,32 +72,32 @@
         "draws": 1
       },
       "rapid_points": 0,
-      "blitz_points": 234,
+      "blitz_points": 342,
       "bullet_points": 136
     },
     {
-      "username": "its_me_tanmay",
-      "points": 362,
-      "wins": 24,
-      "draws": 2,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/518685981.437a5728.200x200o.4ef90cf0887c.jpg",
+      "username": "nikkotello",
+      "points": 414,
+      "wins": 27,
+      "draws": 3,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
       "rapid": {
-        "points": 350,
-        "wins": 23,
-        "draws": 1
+        "points": 405,
+        "wins": 26,
+        "draws": 3
       },
       "blitz": {
-        "points": 12,
+        "points": 9,
         "wins": 1,
-        "draws": 1
+        "draws": 0
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 350,
-      "blitz_points": 12,
+      "rapid_points": 405,
+      "blitz_points": 9,
       "bullet_points": 0
     }
   ]
