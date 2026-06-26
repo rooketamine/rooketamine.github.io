@@ -2,12 +2,12 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "race",
-  "title": "Today's Points Race",
+  "mode": "winner",
+  "title": "Yesterday's Champion",
   "date": "2026-06-25",
-  "generated_at": "2026-06-25T23:46:41.259Z",
+  "generated_at": "2026-06-26T00:04:54.741Z",
   "window_start": "2026-06-25T00:00:00.000Z",
-  "window_end": "2026-06-25T23:44:04.196Z",
+  "window_end": "2026-06-26T00:00:00.000Z",
   "total_members_checked": 3061,
   "scoring": {
     "rapid": {
@@ -23,7 +23,7 @@
       "draw": 1
     }
   },
-  "note": "Live race updates every 3 hours after 10:00 UTC.",
+  "note": "Final podium is shown until 10:00 UTC.",
   "players": [
     {
       "username": "tbfplayschess",
@@ -77,9 +77,9 @@
     },
     {
       "username": "armandonavo15",
-      "points": 487,
-      "wins": 84,
-      "draws": 5,
+      "points": 494,
+      "wins": 86,
+      "draws": 6,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/465412694.65e74870.200x200o.6a717009c159.png",
       "rapid": {
         "points": 0,
@@ -92,13 +92,13 @@
         "draws": 1
       },
       "bullet": {
-        "points": 142,
-        "wins": 46,
-        "draws": 4
+        "points": 149,
+        "wins": 48,
+        "draws": 5
       },
       "rapid_points": 0,
       "blitz_points": 345,
-      "bullet_points": 142
+      "bullet_points": 149
     }
   ]
 }
