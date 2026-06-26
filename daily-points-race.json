@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T20:57:25.237Z",
+  "generated_at": "2026-06-26T23:37:12.979Z",
   "window_start": "2026-06-26T00:00:00.000Z",
-  "window_end": "2026-06-26T20:54:51.836Z",
-  "total_members_checked": 3107,
+  "window_end": "2026-06-26T23:34:07.063Z",
+  "total_members_checked": 3108,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -33,9 +33,59 @@
   "note": "Live race updates every 3 hours after 10:00 UTC.",
   "players": [
     {
+      "username": "midnightshuttle",
+      "points": 505,
+      "wins": 33,
+      "draws": 2,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/59751896.518c7bda.200x200o.a5e11be5220a.jpeg",
+      "rapid": {
+        "points": 505,
+        "wins": 33,
+        "draws": 2
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 505,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
+      "username": "mettoan",
+      "points": 495,
+      "wins": 53,
+      "draws": 6,
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 495,
+        "wins": 53,
+        "draws": 6
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 495,
+      "bullet_points": 0
+    },
+    {
       "username": "tbfplayschess",
-      "points": 435,
-      "wins": 47,
+      "points": 444,
+      "wins": 48,
       "draws": 4,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
@@ -44,8 +94,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 435,
-        "wins": 47,
+        "points": 444,
+        "wins": 48,
         "draws": 4
       },
       "bullet": {
@@ -54,57 +104,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 435,
-      "bullet_points": 0
-    },
-    {
-      "username": "mettoan",
-      "points": 420,
-      "wins": 45,
-      "draws": 5,
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 420,
-        "wins": 45,
-        "draws": 5
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 420,
-      "bullet_points": 0
-    },
-    {
-      "username": "basiic_chess_ttv",
-      "points": 384,
-      "wins": 30,
-      "draws": 2,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/141893757.dce40076.200x200o.095e757234a7.jpg",
-      "rapid": {
-        "points": 270,
-        "wins": 18,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 114,
-        "wins": 12,
-        "draws": 2
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 270,
-      "blitz_points": 114,
+      "blitz_points": 444,
       "bullet_points": 0
     }
   ]
