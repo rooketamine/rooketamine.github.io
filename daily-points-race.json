@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-06-26",
-  "generated_at": "2026-06-26T18:06:16.508Z",
+  "generated_at": "2026-06-26T18:14:16.899Z",
   "window_start": "2026-06-26T00:00:00.000Z",
-  "window_end": "2026-06-26T18:03:17.806Z",
+  "window_end": "2026-06-26T18:11:44.016Z",
   "total_members_checked": 3104,
   "scoring": {
     "rapid": {
@@ -23,33 +23,15 @@
       "draw": 1
     }
   },
+  "filters": {
+    "allowed_rules": [
+      "chess",
+      "chess960"
+    ],
+    "minimum_half_moves": 4
+  },
   "note": "Live race updates every 3 hours after 10:00 UTC.",
   "players": [
-    {
-      "username": "adaxiee",
-      "points": 396,
-      "wins": 44,
-      "draws": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/568631800.be230817.200x200o.cf34bbda8733.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 396,
-        "wins": 44,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 396,
-      "bullet_points": 0
-    },
     {
       "username": "mettoan",
       "points": 390,
@@ -98,6 +80,31 @@
       },
       "rapid_points": 370,
       "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
+      "username": "tbfplayschess",
+      "points": 357,
+      "wins": 39,
+      "draws": 2,
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 357,
+        "wins": 39,
+        "draws": 2
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 357,
       "bullet_points": 0
     }
   ]
