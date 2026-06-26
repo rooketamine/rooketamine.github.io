@@ -8,6 +8,9 @@ const CONCURRENCY = 8;
 const RETRIES = 3;
 const RETRY_DELAY_MS = 1500;
 
+const ALLOWED_RULES = new Set(['chess', 'chess960']);
+const MIN_COUNTED_HALF_MOVES = 4;
+
 const SCORING = {
   rapid: { win: 15, draw: 5 },
   blitz: { win: 9, draw: 3 },
@@ -154,6 +157,46 @@ function getUserResult(game, usernameLower){
   return '';
 }
 
+function getPgnHalfMoveCount(game){
+  let moveText = String(game?.pgn || '');
+
+  if(!moveText.trim()) return 0;
+
+  moveText = moveText.replace(/\r/g, '\n');
+
+  // Remove PGN headers, comments, clock notes, line comments, and NAGs.
+  moveText = moveText
+    .replace(/\[[^\]]*\]/g, ' ')
+    .replace(/\{[^}]*\}/g, ' ')
+    .replace(/;[^\n]*/g, ' ')
+    .replace(/\$\d+/g, ' ');
+
+  // Remove simple variations if they appear.
+  let previous;
+  do{
+    previous = moveText;
+    moveText = moveText.replace(/\([^()]*\)/g, ' ');
+  }while(moveText !== previous);
+
+  moveText = moveText
+    .replace(/\d+\.(\.\.)?/g, ' ')
+    .replace(/\b(1-0|0-1|1\/2-1\/2|\*)\b/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  if(!moveText) return 0;
+
+  return moveText.split(' ').filter(Boolean).length;
+}
+
+function shouldCountGame(game){
+  const rules = String(game?.rules || '').toLowerCase();
+
+  if(!ALLOWED_RULES.has(rules)) return false;
+
+  return getPgnHalfMoveCount(game) >= MIN_COUNTED_HALF_MOVES;
+}
+
 function emptyFormatScore(){
   return {
     points: 0,
@@ -183,6 +226,7 @@ function countPointsFromGames(games, username, window){
     const format = String(game.time_class || '').toLowerCase();
 
     if(!SCORING[format]) continue;
+    if(!shouldCountGame(game)) continue;
 
     const result = getUserResult(game, usernameLower);
 
@@ -327,6 +371,10 @@ async function main(){
       rapid: { win: 15, draw: 5 },
       blitz: { win: 9, draw: 3 },
       bullet: { win: 3, draw: 1 }
+    },
+    filters: {
+      allowed_rules: Array.from(ALLOWED_RULES),
+      minimum_half_moves: MIN_COUNTED_HALF_MOVES
     },
     note: window.mode === 'winner'
       ? 'Final podium is shown until 10:00 UTC.'
