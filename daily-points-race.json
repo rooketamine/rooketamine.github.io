@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T20:22:31.427Z",
+  "generated_at": "2026-06-27T23:08:18.713Z",
   "window_start": "2026-06-27T00:00:00.000Z",
-  "window_end": "2026-06-27T20:19:23.760Z",
-  "total_members_checked": 3117,
+  "window_end": "2026-06-27T23:05:39.417Z",
+  "total_members_checked": 3119,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -58,6 +58,31 @@
       "bullet_points": 0
     },
     {
+      "username": "rooketamine",
+      "points": 598,
+      "wins": 49,
+      "draws": 7,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/507944171.ecd56b45.200x200o.de572ae6d07d.jpg",
+      "rapid": {
+        "points": 555,
+        "wins": 35,
+        "draws": 6
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 43,
+        "wins": 14,
+        "draws": 1
+      },
+      "rapid_points": 555,
+      "blitz_points": 0,
+      "bullet_points": 43
+    },
+    {
       "username": "queiser",
       "points": 549,
       "wins": 61,
@@ -81,31 +106,6 @@
       "rapid_points": 0,
       "blitz_points": 549,
       "bullet_points": 0
-    },
-    {
-      "username": "damjan1989",
-      "points": 505,
-      "wins": 54,
-      "draws": 3,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/145826935.78cc33cb.200x200o.68adf09ed4b5.png",
-      "rapid": {
-        "points": 265,
-        "wins": 17,
-        "draws": 2
-      },
-      "blitz": {
-        "points": 192,
-        "wins": 21,
-        "draws": 1
-      },
-      "bullet": {
-        "points": 48,
-        "wins": 16,
-        "draws": 0
-      },
-      "rapid_points": 265,
-      "blitz_points": 192,
-      "bullet_points": 48
     }
   ]
 }
