@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T14:58:19.791Z",
+  "generated_at": "2026-06-27T17:25:09.862Z",
   "window_start": "2026-06-27T00:00:00.000Z",
-  "window_end": "2026-06-27T14:55:06.690Z",
+  "window_end": "2026-06-27T17:22:00.381Z",
   "total_members_checked": 3112,
   "scoring": {
     "rapid": {
@@ -33,9 +33,34 @@
   "note": "Live race updates every 3 hours after 10:00 UTC.",
   "players": [
     {
+      "username": "devg1901",
+      "points": 620,
+      "wins": 39,
+      "draws": 7,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/309285295.e81022a2.200x200o.a6e4684f23fc.webp",
+      "rapid": {
+        "points": 620,
+        "wins": 39,
+        "draws": 7
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 620,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
       "username": "queiser",
-      "points": 540,
-      "wins": 60,
+      "points": 549,
+      "wins": 61,
       "draws": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/52164932.75ea5019.200x200o.ebc383dc724b.png",
       "rapid": {
@@ -44,8 +69,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 540,
-        "wins": 60,
+        "points": 549,
+        "wins": 61,
         "draws": 0
       },
       "bullet": {
@@ -54,44 +79,19 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 540,
-      "bullet_points": 0
-    },
-    {
-      "username": "devg1901",
-      "points": 450,
-      "wins": 28,
-      "draws": 6,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/309285295.e81022a2.200x200o.a6e4684f23fc.webp",
-      "rapid": {
-        "points": 450,
-        "wins": 28,
-        "draws": 6
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 450,
-      "blitz_points": 0,
+      "blitz_points": 549,
       "bullet_points": 0
     },
     {
       "username": "damjan1989",
-      "points": 362,
-      "wins": 32,
-      "draws": 2,
+      "points": 472,
+      "wins": 43,
+      "draws": 3,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/145826935.78cc33cb.200x200o.68adf09ed4b5.png",
       "rapid": {
-        "points": 170,
-        "wins": 11,
-        "draws": 1
+        "points": 265,
+        "wins": 17,
+        "draws": 2
       },
       "blitz": {
         "points": 192,
@@ -99,13 +99,13 @@
         "draws": 1
       },
       "bullet": {
-        "points": 0,
-        "wins": 0,
+        "points": 15,
+        "wins": 5,
         "draws": 0
       },
-      "rapid_points": 170,
+      "rapid_points": 265,
       "blitz_points": 192,
-      "bullet_points": 0
+      "bullet_points": 15
     }
   ]
 }
