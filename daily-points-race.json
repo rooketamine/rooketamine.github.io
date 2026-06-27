@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-06-27",
-  "generated_at": "2026-06-27T17:25:09.862Z",
+  "generated_at": "2026-06-27T20:22:31.427Z",
   "window_start": "2026-06-27T00:00:00.000Z",
-  "window_end": "2026-06-27T17:22:00.381Z",
-  "total_members_checked": 3112,
+  "window_end": "2026-06-27T20:19:23.760Z",
+  "total_members_checked": 3117,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -34,13 +34,13 @@
   "players": [
     {
       "username": "devg1901",
-      "points": 620,
-      "wins": 39,
+      "points": 665,
+      "wins": 42,
       "draws": 7,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/309285295.e81022a2.200x200o.a6e4684f23fc.webp",
       "rapid": {
-        "points": 620,
-        "wins": 39,
+        "points": 665,
+        "wins": 42,
         "draws": 7
       },
       "blitz": {
@@ -53,7 +53,7 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 620,
+      "rapid_points": 665,
       "blitz_points": 0,
       "bullet_points": 0
     },
@@ -84,8 +84,8 @@
     },
     {
       "username": "damjan1989",
-      "points": 472,
-      "wins": 43,
+      "points": 505,
+      "wins": 54,
       "draws": 3,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/145826935.78cc33cb.200x200o.68adf09ed4b5.png",
       "rapid": {
@@ -99,13 +99,13 @@
         "draws": 1
       },
       "bullet": {
-        "points": 15,
-        "wins": 5,
+        "points": 48,
+        "wins": 16,
         "draws": 0
       },
       "rapid_points": 265,
       "blitz_points": 192,
-      "bullet_points": 15
+      "bullet_points": 48
     }
   ]
 }
