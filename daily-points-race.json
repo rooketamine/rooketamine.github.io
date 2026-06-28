@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-06-28",
-  "generated_at": "2026-06-28T15:00:20.818Z",
+  "generated_at": "2026-06-28T17:37:31.934Z",
   "window_start": "2026-06-28T00:00:00.000Z",
-  "window_end": "2026-06-28T14:56:59.621Z",
-  "total_members_checked": 3161,
+  "window_end": "2026-06-28T17:34:43.322Z",
+  "total_members_checked": 3162,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -59,9 +59,9 @@
     },
     {
       "username": "blitzymeisa",
-      "points": 357,
-      "wins": 42,
-      "draws": 1,
+      "points": 426,
+      "wins": 49,
+      "draws": 3,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/559954323.c64c5f7d.200x200o.29120c6454d6.jpg",
       "rapid": {
         "points": 0,
@@ -69,9 +69,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 345,
-        "wins": 38,
-        "draws": 1
+        "points": 414,
+        "wins": 45,
+        "draws": 3
       },
       "bullet": {
         "points": 12,
@@ -79,19 +79,19 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 345,
+      "blitz_points": 414,
       "bullet_points": 12
     },
     {
-      "username": "minhnhat510",
-      "points": 315,
-      "wins": 21,
-      "draws": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/374926153.fb7c8a42.200x200o.62903675b090.jpg",
+      "username": "nikkotello",
+      "points": 395,
+      "wins": 25,
+      "draws": 4,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
       "rapid": {
-        "points": 315,
-        "wins": 21,
-        "draws": 0
+        "points": 395,
+        "wins": 25,
+        "draws": 4
       },
       "blitz": {
         "points": 0,
@@ -103,7 +103,7 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 315,
+      "rapid_points": 395,
       "blitz_points": 0,
       "bullet_points": 0
     }
