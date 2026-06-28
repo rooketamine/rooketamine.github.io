@@ -2,13 +2,13 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "winner",
-  "title": "Yesterday's Champion",
-  "date": "2026-06-27",
-  "generated_at": "2026-06-28T05:48:22.666Z",
-  "window_start": "2026-06-27T00:00:00.000Z",
-  "window_end": "2026-06-28T00:00:00.000Z",
-  "total_members_checked": 3122,
+  "mode": "race",
+  "title": "Today's Points Race",
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T12:01:21.892Z",
+  "window_start": "2026-06-28T00:00:00.000Z",
+  "window_end": "2026-06-28T11:58:26.784Z",
+  "total_members_checked": 3158,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -30,63 +30,13 @@
     ],
     "minimum_half_moves": 4
   },
-  "note": "Final podium is shown until 10:00 UTC.",
+  "note": "Live race updates every 3 hours after 10:00 UTC.",
   "players": [
     {
-      "username": "devg1901",
-      "points": 665,
-      "wins": 42,
-      "draws": 7,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/309285295.e81022a2.200x200o.a6e4684f23fc.webp",
-      "rapid": {
-        "points": 665,
-        "wins": 42,
-        "draws": 7
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 665,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
-      "username": "rooketamine",
-      "points": 613,
-      "wins": 50,
-      "draws": 7,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/507944171.ecd56b45.200x200o.de572ae6d07d.jpg",
-      "rapid": {
-        "points": 570,
-        "wins": 36,
-        "draws": 6
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 43,
-        "wins": 14,
-        "draws": 1
-      },
-      "rapid_points": 570,
-      "blitz_points": 0,
-      "bullet_points": 43
-    },
-    {
       "username": "queiser",
-      "points": 558,
-      "wins": 62,
-      "draws": 0,
+      "points": 762,
+      "wins": 84,
+      "draws": 2,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/52164932.75ea5019.200x200o.ebc383dc724b.png",
       "rapid": {
         "points": 0,
@@ -94,9 +44,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 558,
-        "wins": 62,
-        "draws": 0
+        "points": 762,
+        "wins": 84,
+        "draws": 2
       },
       "bullet": {
         "points": 0,
@@ -104,7 +54,57 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 558,
+      "blitz_points": 762,
+      "bullet_points": 0
+    },
+    {
+      "username": "kafleyravi",
+      "points": 292,
+      "wins": 46,
+      "draws": 10,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/328519009.3f30a010.200x200o.2c126a025085.jpg",
+      "rapid": {
+        "points": 115,
+        "wins": 7,
+        "draws": 2
+      },
+      "blitz": {
+        "points": 78,
+        "wins": 8,
+        "draws": 2
+      },
+      "bullet": {
+        "points": 99,
+        "wins": 31,
+        "draws": 6
+      },
+      "rapid_points": 115,
+      "blitz_points": 78,
+      "bullet_points": 99
+    },
+    {
+      "username": "anubhav_anu",
+      "points": 280,
+      "wins": 18,
+      "draws": 2,
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "rapid": {
+        "points": 280,
+        "wins": 18,
+        "draws": 2
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 280,
+      "blitz_points": 0,
       "bullet_points": 0
     }
   ]
