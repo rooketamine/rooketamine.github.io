@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-06-29",
-  "generated_at": "2026-06-29T20:58:59.938Z",
+  "generated_at": "2026-06-29T23:19:01.087Z",
   "window_start": "2026-06-29T00:00:00.000Z",
-  "window_end": "2026-06-29T20:56:24.762Z",
+  "window_end": "2026-06-29T23:15:44.984Z",
   "total_members_checked": 3197,
   "scoring": {
     "rapid": {
@@ -59,8 +59,8 @@
     },
     {
       "username": "petrjuza",
-      "points": 441,
-      "wins": 48,
+      "points": 468,
+      "wins": 51,
       "draws": 3,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/99192700.58e97ea1.200x200o.027ea8f1c832.jpeg",
       "rapid": {
@@ -69,8 +69,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 441,
-        "wins": 48,
+        "points": 468,
+        "wins": 51,
         "draws": 3
       },
       "bullet": {
@@ -79,7 +79,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 441,
+      "blitz_points": 468,
       "bullet_points": 0
     },
     {
