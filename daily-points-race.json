@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-06-29",
-  "generated_at": "2026-06-29T14:21:59.785Z",
+  "generated_at": "2026-06-29T17:45:25.509Z",
   "window_start": "2026-06-29T00:00:00.000Z",
-  "window_end": "2026-06-29T14:19:04.225Z",
-  "total_members_checked": 3189,
+  "window_end": "2026-06-29T17:41:52.076Z",
+  "total_members_checked": 3193,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -34,33 +34,33 @@
   "players": [
     {
       "username": "neutrino_22",
-      "points": 384,
-      "wins": 37,
-      "draws": 3,
+      "points": 471,
+      "wins": 45,
+      "draws": 4,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/489549519.7d7de7a8.200x200o.3af1d110b7c9.jpg",
       "rapid": {
-        "points": 105,
-        "wins": 7,
+        "points": 135,
+        "wins": 9,
         "draws": 0
       },
       "blitz": {
-        "points": 279,
-        "wins": 30,
-        "draws": 3
+        "points": 336,
+        "wins": 36,
+        "draws": 4
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 105,
-      "blitz_points": 279,
+      "rapid_points": 135,
+      "blitz_points": 336,
       "bullet_points": 0
     },
     {
       "username": "alphalines",
-      "points": 348,
-      "wins": 38,
+      "points": 429,
+      "wins": 47,
       "draws": 2,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
@@ -69,8 +69,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 348,
-        "wins": 38,
+        "points": 429,
+        "wins": 47,
         "draws": 2
       },
       "bullet": {
@@ -79,7 +79,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 348,
+      "blitz_points": 429,
       "bullet_points": 0
     },
     {
