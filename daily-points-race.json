@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-06-29",
-  "generated_at": "2026-06-29T17:45:25.509Z",
+  "generated_at": "2026-06-29T18:26:01.884Z",
   "window_start": "2026-06-29T00:00:00.000Z",
-  "window_end": "2026-06-29T17:41:52.076Z",
-  "total_members_checked": 3193,
+  "window_end": "2026-06-29T18:22:26.570Z",
+  "total_members_checked": 3194,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -34,8 +34,8 @@
   "players": [
     {
       "username": "neutrino_22",
-      "points": 471,
-      "wins": 45,
+      "points": 480,
+      "wins": 46,
       "draws": 4,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/489549519.7d7de7a8.200x200o.3af1d110b7c9.jpg",
       "rapid": {
@@ -44,8 +44,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 336,
-        "wins": 36,
+        "points": 345,
+        "wins": 37,
         "draws": 4
       },
       "bullet": {
@@ -54,7 +54,7 @@
         "draws": 0
       },
       "rapid_points": 135,
-      "blitz_points": 336,
+      "blitz_points": 345,
       "bullet_points": 0
     },
     {
@@ -83,29 +83,29 @@
       "bullet_points": 0
     },
     {
-      "username": "hazeem14",
-      "points": 348,
-      "wins": 38,
-      "draws": 2,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/29383416.7f6d655b.200x200o.23f14d99c9ef.jpg",
+      "username": "nessyou19",
+      "points": 355,
+      "wins": 45,
+      "draws": 6,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/530668149.cc58f368.200x200o.ddb0989c5c11.jpg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 348,
-        "wins": 38,
-        "draws": 2
+        "points": 321,
+        "wins": 34,
+        "draws": 5
       },
       "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
+        "points": 34,
+        "wins": 11,
+        "draws": 1
       },
       "rapid_points": 0,
-      "blitz_points": 348,
-      "bullet_points": 0
+      "blitz_points": 321,
+      "bullet_points": 34
     }
   ]
 }
