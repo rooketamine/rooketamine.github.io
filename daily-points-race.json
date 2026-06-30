@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-06-30",
-  "generated_at": "2026-06-30T12:26:50.377Z",
+  "generated_at": "2026-06-30T15:44:20.546Z",
   "window_start": "2026-06-30T00:00:00.000Z",
-  "window_end": "2026-06-30T12:23:30.396Z",
-  "total_members_checked": 3205,
+  "window_end": "2026-06-30T15:40:49.514Z",
+  "total_members_checked": 3212,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -33,39 +33,14 @@
   "note": "Live race updates every 3 hours after 10:00 UTC.",
   "players": [
     {
-      "username": "nikkotello",
-      "points": 320,
-      "wins": 21,
-      "draws": 1,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
-      "rapid": {
-        "points": 320,
-        "wins": 21,
-        "draws": 1
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 320,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
       "username": "silencedseeker",
-      "points": 272,
-      "wins": 21,
+      "points": 362,
+      "wins": 27,
       "draws": 1,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/512133167.4a9e5c80.200x200o.46b218d5318f.jpg",
       "rapid": {
-        "points": 260,
-        "wins": 17,
+        "points": 350,
+        "wins": 23,
         "draws": 1
       },
       "blitz": {
@@ -78,34 +53,59 @@
         "wins": 4,
         "draws": 0
       },
-      "rapid_points": 260,
+      "rapid_points": 350,
       "blitz_points": 0,
       "bullet_points": 12
     },
     {
-      "username": "diligent_dragon",
-      "points": 240,
-      "wins": 28,
-      "draws": 2,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/490428617.294c77be.200x200o.89f762ce3d98.jpg",
+      "username": "nikkotello",
+      "points": 335,
+      "wins": 22,
+      "draws": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
       "rapid": {
-        "points": 45,
-        "wins": 3,
-        "draws": 0
+        "points": 335,
+        "wins": 22,
+        "draws": 1
       },
       "blitz": {
-        "points": 177,
-        "wins": 19,
-        "draws": 2
-      },
-      "bullet": {
-        "points": 18,
-        "wins": 6,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
-      "rapid_points": 45,
-      "blitz_points": 177,
-      "bullet_points": 18
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 335,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
+      "username": "santisha",
+      "points": 305,
+      "wins": 20,
+      "draws": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/63900278.152eb4d7.200x200o.c26c8e2e930f.jpg",
+      "rapid": {
+        "points": 305,
+        "wins": 20,
+        "draws": 1
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 305,
+      "blitz_points": 0,
+      "bullet_points": 0
     }
   ]
 }
