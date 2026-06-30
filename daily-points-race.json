@@ -2,13 +2,13 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "winner",
-  "title": "Yesterday's Champion",
-  "date": "2026-06-29",
-  "generated_at": "2026-06-30T05:20:50.155Z",
-  "window_start": "2026-06-29T00:00:00.000Z",
-  "window_end": "2026-06-30T00:00:00.000Z",
-  "total_members_checked": 3200,
+  "mode": "race",
+  "title": "Today's Points Race",
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T12:26:50.377Z",
+  "window_start": "2026-06-30T00:00:00.000Z",
+  "window_end": "2026-06-30T12:23:30.396Z",
+  "total_members_checked": 3205,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -30,82 +30,82 @@
     ],
     "minimum_half_moves": 4
   },
-  "note": "Final podium is shown until 10:00 UTC.",
+  "note": "Live race updates every 3 hours after 10:00 UTC.",
   "players": [
     {
-      "username": "neutrino_22",
-      "points": 525,
-      "wins": 49,
-      "draws": 4,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/489549519.7d7de7a8.200x200o.3af1d110b7c9.jpg",
+      "username": "nikkotello",
+      "points": 320,
+      "wins": 21,
+      "draws": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
       "rapid": {
-        "points": 180,
-        "wins": 12,
-        "draws": 0
+        "points": 320,
+        "wins": 21,
+        "draws": 1
       },
       "blitz": {
-        "points": 345,
-        "wins": 37,
-        "draws": 4
+        "points": 0,
+        "wins": 0,
+        "draws": 0
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 180,
-      "blitz_points": 345,
+      "rapid_points": 320,
+      "blitz_points": 0,
       "bullet_points": 0
     },
     {
-      "username": "petrjuza",
-      "points": 468,
-      "wins": 51,
-      "draws": 3,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/99192700.58e97ea1.200x200o.027ea8f1c832.jpeg",
+      "username": "silencedseeker",
+      "points": 272,
+      "wins": 21,
+      "draws": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/512133167.4a9e5c80.200x200o.46b218d5318f.jpg",
       "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
+        "points": 260,
+        "wins": 17,
+        "draws": 1
       },
       "blitz": {
-        "points": 468,
-        "wins": 51,
-        "draws": 3
-      },
-      "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 468,
-      "bullet_points": 0
+      "bullet": {
+        "points": 12,
+        "wins": 4,
+        "draws": 0
+      },
+      "rapid_points": 260,
+      "blitz_points": 0,
+      "bullet_points": 12
     },
     {
-      "username": "alphalines",
-      "points": 429,
-      "wins": 47,
+      "username": "diligent_dragon",
+      "points": 240,
+      "wins": 28,
       "draws": 2,
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/490428617.294c77be.200x200o.89f762ce3d98.jpg",
       "rapid": {
-        "points": 0,
-        "wins": 0,
+        "points": 45,
+        "wins": 3,
         "draws": 0
       },
       "blitz": {
-        "points": 429,
-        "wins": 47,
+        "points": 177,
+        "wins": 19,
         "draws": 2
       },
       "bullet": {
-        "points": 0,
-        "wins": 0,
+        "points": 18,
+        "wins": 6,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 429,
-      "bullet_points": 0
+      "rapid_points": 45,
+      "blitz_points": 177,
+      "bullet_points": 18
     }
   ]
 }
