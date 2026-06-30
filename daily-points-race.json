@@ -2,13 +2,13 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "race",
-  "title": "Today's Points Race",
+  "mode": "winner",
+  "title": "Yesterday's Champion",
   "date": "2026-06-29",
-  "generated_at": "2026-06-29T23:19:01.087Z",
+  "generated_at": "2026-06-30T00:04:04.672Z",
   "window_start": "2026-06-29T00:00:00.000Z",
-  "window_end": "2026-06-29T23:15:44.984Z",
-  "total_members_checked": 3197,
+  "window_end": "2026-06-30T00:00:00.000Z",
+  "total_members_checked": 3198,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -30,7 +30,7 @@
     ],
     "minimum_half_moves": 4
   },
-  "note": "Live race updates every 3 hours after 10:00 UTC.",
+  "note": "Final podium is shown until 10:00 UTC.",
   "players": [
     {
       "username": "neutrino_22",
