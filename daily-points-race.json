@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-01",
-  "generated_at": "2026-07-01T15:51:28.866Z",
+  "generated_at": "2026-07-01T18:17:56.878Z",
   "window_start": "2026-07-01T00:00:00.000Z",
-  "window_end": "2026-07-01T15:49:22.652Z",
-  "total_members_checked": 3248,
+  "window_end": "2026-07-01T18:15:44.445Z",
+  "total_members_checked": 3252,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -34,9 +34,9 @@
   "players": [
     {
       "username": "shadow_forest01",
-      "points": 335,
-      "wins": 73,
-      "draws": 8,
+      "points": 464,
+      "wins": 93,
+      "draws": 9,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/464803040.eaf68fc3.200x200o.4c3bf907e274.jpg",
       "rapid": {
         "points": 0,
@@ -44,49 +44,49 @@
         "draws": 0
       },
       "blitz": {
-        "points": 162,
-        "wins": 17,
-        "draws": 3
+        "points": 264,
+        "wins": 28,
+        "draws": 4
       },
       "bullet": {
-        "points": 173,
-        "wins": 56,
+        "points": 200,
+        "wins": 65,
         "draws": 5
       },
       "rapid_points": 0,
-      "blitz_points": 162,
-      "bullet_points": 173
+      "blitz_points": 264,
+      "bullet_points": 200
     },
     {
-      "username": "nuubinator",
-      "points": 249,
-      "wins": 19,
-      "draws": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/111749030.4ba0fa6e.200x200o.66dda7004b9d.png",
+      "username": "libranchess1227",
+      "points": 337,
+      "wins": 59,
+      "draws": 4,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/469726084.8cf1c119.200x200o.a9e9c08903e9.jpg",
       "rapid": {
-        "points": 240,
-        "wins": 16,
+        "points": 15,
+        "wins": 1,
         "draws": 0
       },
       "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
+        "points": 216,
+        "wins": 23,
+        "draws": 3
       },
       "bullet": {
-        "points": 9,
-        "wins": 3,
-        "draws": 0
+        "points": 106,
+        "wins": 35,
+        "draws": 1
       },
-      "rapid_points": 240,
-      "blitz_points": 0,
-      "bullet_points": 9
+      "rapid_points": 15,
+      "blitz_points": 216,
+      "bullet_points": 106
     },
     {
       "username": "leozayan2929",
-      "points": 236,
-      "wins": 20,
-      "draws": 2,
+      "points": 302,
+      "wins": 27,
+      "draws": 3,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
         "points": 140,
@@ -94,9 +94,9 @@
         "draws": 1
       },
       "blitz": {
-        "points": 93,
-        "wins": 10,
-        "draws": 1
+        "points": 159,
+        "wins": 17,
+        "draws": 2
       },
       "bullet": {
         "points": 3,
@@ -104,7 +104,7 @@
         "draws": 0
       },
       "rapid_points": 140,
-      "blitz_points": 93,
+      "blitz_points": 159,
       "bullet_points": 3
     }
   ]
