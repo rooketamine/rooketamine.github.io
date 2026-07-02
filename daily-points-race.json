@@ -2,13 +2,13 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "winner",
-  "title": "Yesterday's Champion",
-  "date": "2026-07-01",
-  "generated_at": "2026-07-02T05:12:21.514Z",
-  "window_start": "2026-07-01T00:00:00.000Z",
-  "window_end": "2026-07-02T00:00:00.000Z",
-  "total_members_checked": 3262,
+  "mode": "race",
+  "title": "Today's Points Race",
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T12:22:47.691Z",
+  "window_start": "2026-07-02T00:00:00.000Z",
+  "window_end": "2026-07-02T12:20:38.768Z",
+  "total_members_checked": 3291,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -30,82 +30,82 @@
     ],
     "minimum_half_moves": 4
   },
-  "note": "Final podium is shown until 10:00 UTC.",
+  "note": "Live race updates every 3 hours after 10:00 UTC.",
   "players": [
     {
-      "username": "nikkotello",
-      "points": 475,
-      "wins": 31,
-      "draws": 2,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
+      "username": "silent-sniper",
+      "points": 404,
+      "wins": 35,
+      "draws": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/378471651.0f6d4efc.200x200o.e72ead921f5b.png",
       "rapid": {
-        "points": 475,
-        "wins": 31,
-        "draws": 2
+        "points": 305,
+        "wins": 20,
+        "draws": 1
       },
       "blitz": {
+        "points": 81,
+        "wins": 9,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 18,
+        "wins": 6,
+        "draws": 0
+      },
+      "rapid_points": 305,
+      "blitz_points": 81,
+      "bullet_points": 18
+    },
+    {
+      "username": "rojersb",
+      "points": 381,
+      "wins": 40,
+      "draws": 7,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/169690345.8f3fdcc3.200x200o.abeb51ed09e0.jpeg",
+      "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
+      },
+      "blitz": {
+        "points": 381,
+        "wins": 40,
+        "draws": 7
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 475,
-      "blitz_points": 0,
+      "rapid_points": 0,
+      "blitz_points": 381,
       "bullet_points": 0
     },
     {
-      "username": "shadow_forest01",
-      "points": 464,
-      "wins": 93,
-      "draws": 9,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/464803040.eaf68fc3.200x200o.4c3bf907e274.jpg",
+      "username": "yungdune",
+      "points": 324,
+      "wins": 36,
+      "draws": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/486039061.d548deb2.200x200o.93ce8c641b37.jpg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 264,
-        "wins": 28,
-        "draws": 4
-      },
-      "bullet": {
-        "points": 200,
-        "wins": 65,
-        "draws": 5
-      },
-      "rapid_points": 0,
-      "blitz_points": 264,
-      "bullet_points": 200
-    },
-    {
-      "username": "nuubinator",
-      "points": 400,
-      "wins": 40,
-      "draws": 2,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/111749030.4ba0fa6e.200x200o.66dda7004b9d.png",
-      "rapid": {
-        "points": 240,
-        "wins": 16,
+        "points": 324,
+        "wins": 36,
         "draws": 0
       },
-      "blitz": {
-        "points": 129,
-        "wins": 14,
-        "draws": 1
-      },
       "bullet": {
-        "points": 31,
-        "wins": 10,
-        "draws": 1
+        "points": 0,
+        "wins": 0,
+        "draws": 0
       },
-      "rapid_points": 240,
-      "blitz_points": 129,
-      "bullet_points": 31
+      "rapid_points": 0,
+      "blitz_points": 324,
+      "bullet_points": 0
     }
   ]
 }
