@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-02",
-  "generated_at": "2026-07-02T18:03:41.855Z",
+  "generated_at": "2026-07-02T20:39:03.031Z",
   "window_start": "2026-07-02T00:00:00.000Z",
-  "window_end": "2026-07-02T18:01:39.583Z",
-  "total_members_checked": 3302,
+  "window_end": "2026-07-02T20:36:57.853Z",
+  "total_members_checked": 3306,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -34,8 +34,8 @@
   "players": [
     {
       "username": "rojersb",
-      "points": 576,
-      "wins": 61,
+      "points": 585,
+      "wins": 62,
       "draws": 9,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/169690345.8f3fdcc3.200x200o.abeb51ed09e0.jpeg",
       "rapid": {
@@ -44,8 +44,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 576,
-        "wins": 61,
+        "points": 585,
+        "wins": 62,
         "draws": 9
       },
       "bullet": {
@@ -54,23 +54,23 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 576,
+      "blitz_points": 585,
       "bullet_points": 0
     },
     {
-      "username": "yungdune",
-      "points": 405,
-      "wins": 45,
-      "draws": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/486039061.d548deb2.200x200o.93ce8c641b37.jpg",
+      "username": "indianabblog",
+      "points": 460,
+      "wins": 30,
+      "draws": 2,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/389847299.ee75e6eb.200x200o.432f946c8dd5.jpg",
       "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
+        "points": 460,
+        "wins": 30,
+        "draws": 2
       },
       "blitz": {
-        "points": 405,
-        "wins": 45,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
       "bullet": {
@@ -78,14 +78,14 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 405,
+      "rapid_points": 460,
+      "blitz_points": 0,
       "bullet_points": 0
     },
     {
       "username": "silent-sniper",
-      "points": 404,
-      "wins": 35,
+      "points": 443,
+      "wins": 44,
       "draws": 1,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/378471651.0f6d4efc.200x200o.e72ead921f5b.png",
       "rapid": {
@@ -94,18 +94,18 @@
         "draws": 1
       },
       "blitz": {
-        "points": 81,
-        "wins": 9,
+        "points": 99,
+        "wins": 11,
         "draws": 0
       },
       "bullet": {
-        "points": 18,
-        "wins": 6,
+        "points": 39,
+        "wins": 13,
         "draws": 0
       },
       "rapid_points": 305,
-      "blitz_points": 81,
-      "bullet_points": 18
+      "blitz_points": 99,
+      "bullet_points": 39
     }
   ]
 }
