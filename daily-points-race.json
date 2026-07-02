@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-02",
-  "generated_at": "2026-07-02T15:31:48.000Z",
+  "generated_at": "2026-07-02T17:41:15.117Z",
   "window_start": "2026-07-02T00:00:00.000Z",
-  "window_end": "2026-07-02T15:29:43.822Z",
-  "total_members_checked": 3297,
+  "window_end": "2026-07-02T17:39:11.440Z",
+  "total_members_checked": 3301,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -34,8 +34,8 @@
   "players": [
     {
       "username": "rojersb",
-      "points": 504,
-      "wins": 53,
+      "points": 576,
+      "wins": 61,
       "draws": 9,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/169690345.8f3fdcc3.200x200o.abeb51ed09e0.jpeg",
       "rapid": {
@@ -44,8 +44,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 504,
-        "wins": 53,
+        "points": 576,
+        "wins": 61,
         "draws": 9
       },
       "bullet": {
@@ -54,7 +54,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 504,
+      "blitz_points": 576,
       "bullet_points": 0
     },
     {
