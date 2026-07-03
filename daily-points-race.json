@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-03",
-  "generated_at": "2026-07-03T20:34:45.598Z",
+  "generated_at": "2026-07-03T23:20:07.414Z",
   "window_start": "2026-07-03T00:00:00.000Z",
-  "window_end": "2026-07-03T20:32:46.569Z",
-  "total_members_checked": 3321,
+  "window_end": "2026-07-03T23:18:04.657Z",
+  "total_members_checked": 3320,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -34,13 +34,13 @@
   "players": [
     {
       "username": "nikkotello",
-      "points": 535,
-      "wins": 34,
+      "points": 610,
+      "wins": 39,
       "draws": 5,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
       "rapid": {
-        "points": 535,
-        "wins": 34,
+        "points": 610,
+        "wins": 39,
         "draws": 5
       },
       "blitz": {
@@ -53,58 +53,58 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 535,
+      "rapid_points": 610,
       "blitz_points": 0,
       "bullet_points": 0
     },
     {
-      "username": "libranchess1227",
-      "points": 453,
-      "wins": 53,
-      "draws": 4,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/469726084.8cf1c119.200x200o.a9e9c08903e9.jpg",
+      "username": "miguumiguu",
+      "points": 576,
+      "wins": 62,
+      "draws": 2,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
       "rapid": {
-        "points": 230,
-        "wins": 15,
-        "draws": 1
+        "points": 30,
+        "wins": 2,
+        "draws": 0
       },
       "blitz": {
-        "points": 159,
-        "wins": 17,
+        "points": 546,
+        "wins": 60,
         "draws": 2
       },
       "bullet": {
-        "points": 64,
-        "wins": 21,
-        "draws": 1
-      },
-      "rapid_points": 230,
-      "blitz_points": 159,
-      "bullet_points": 64
-    },
-    {
-      "username": "rojersb",
-      "points": 450,
-      "wins": 49,
-      "draws": 3,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/169690345.8f3fdcc3.200x200o.abeb51ed09e0.jpeg",
-      "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
+      "rapid_points": 30,
+      "blitz_points": 546,
+      "bullet_points": 0
+    },
+    {
+      "username": "mualimo",
+      "points": 465,
+      "wins": 31,
+      "draws": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/532575703.0fa8650a.200x200o.6cab7d01f2c9.jpg",
+      "rapid": {
+        "points": 465,
+        "wins": 31,
+        "draws": 0
+      },
       "blitz": {
-        "points": 450,
-        "wins": 49,
-        "draws": 3
+        "points": 0,
+        "wins": 0,
+        "draws": 0
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 450,
+      "rapid_points": 465,
+      "blitz_points": 0,
       "bullet_points": 0
     }
   ]
