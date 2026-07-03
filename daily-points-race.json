@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-03",
-  "generated_at": "2026-07-03T17:49:05.724Z",
+  "generated_at": "2026-07-03T20:34:45.598Z",
   "window_start": "2026-07-03T00:00:00.000Z",
-  "window_end": "2026-07-03T17:46:59.910Z",
+  "window_end": "2026-07-03T20:32:46.569Z",
   "total_members_checked": 3321,
   "scoring": {
     "rapid": {
@@ -34,14 +34,14 @@
   "players": [
     {
       "username": "nikkotello",
-      "points": 455,
-      "wins": 29,
-      "draws": 4,
+      "points": 535,
+      "wins": 34,
+      "draws": 5,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
       "rapid": {
-        "points": 455,
-        "wins": 29,
-        "draws": 4
+        "points": 535,
+        "wins": 34,
+        "draws": 5
       },
       "blitz": {
         "points": 0,
@@ -53,7 +53,7 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 455,
+      "rapid_points": 535,
       "blitz_points": 0,
       "bullet_points": 0
     },
