@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-03",
-  "generated_at": "2026-07-03T15:26:52.891Z",
+  "generated_at": "2026-07-03T17:49:05.724Z",
   "window_start": "2026-07-03T00:00:00.000Z",
-  "window_end": "2026-07-03T15:24:51.279Z",
-  "total_members_checked": 3320,
+  "window_end": "2026-07-03T17:46:59.910Z",
+  "total_members_checked": 3321,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -33,6 +33,56 @@
   "note": "Live race updates every 3 hours after 10:00 UTC.",
   "players": [
     {
+      "username": "nikkotello",
+      "points": 455,
+      "wins": 29,
+      "draws": 4,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
+      "rapid": {
+        "points": 455,
+        "wins": 29,
+        "draws": 4
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 455,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
+      "username": "libranchess1227",
+      "points": 453,
+      "wins": 53,
+      "draws": 4,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/469726084.8cf1c119.200x200o.a9e9c08903e9.jpg",
+      "rapid": {
+        "points": 230,
+        "wins": 15,
+        "draws": 1
+      },
+      "blitz": {
+        "points": 159,
+        "wins": 17,
+        "draws": 2
+      },
+      "bullet": {
+        "points": 64,
+        "wins": 21,
+        "draws": 1
+      },
+      "rapid_points": 230,
+      "blitz_points": 159,
+      "bullet_points": 64
+    },
+    {
       "username": "rojersb",
       "points": 450,
       "wins": 49,
@@ -56,56 +106,6 @@
       "rapid_points": 0,
       "blitz_points": 450,
       "bullet_points": 0
-    },
-    {
-      "username": "mualimo",
-      "points": 420,
-      "wins": 28,
-      "draws": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/532575703.0fa8650a.200x200o.6cab7d01f2c9.jpg",
-      "rapid": {
-        "points": 420,
-        "wins": 28,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 420,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
-      "username": "libranchess1227",
-      "points": 406,
-      "wins": 43,
-      "draws": 3,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/469726084.8cf1c119.200x200o.a9e9c08903e9.jpg",
-      "rapid": {
-        "points": 210,
-        "wins": 14,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 159,
-        "wins": 17,
-        "draws": 2
-      },
-      "bullet": {
-        "points": 37,
-        "wins": 12,
-        "draws": 1
-      },
-      "rapid_points": 210,
-      "blitz_points": 159,
-      "bullet_points": 37
     }
   ]
 }
