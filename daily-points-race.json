@@ -2,12 +2,12 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "race",
-  "title": "Today's Points Race",
+  "mode": "winner",
+  "title": "Yesterday's Champion",
   "date": "2026-07-03",
-  "generated_at": "2026-07-03T23:20:07.414Z",
+  "generated_at": "2026-07-04T00:03:33.871Z",
   "window_start": "2026-07-03T00:00:00.000Z",
-  "window_end": "2026-07-03T23:18:04.657Z",
+  "window_end": "2026-07-04T00:00:00.000Z",
   "total_members_checked": 3320,
   "scoring": {
     "rapid": {
@@ -30,8 +30,33 @@
     ],
     "minimum_half_moves": 4
   },
-  "note": "Live race updates every 3 hours after 10:00 UTC.",
+  "note": "Final podium is shown until 10:00 UTC.",
   "players": [
+    {
+      "username": "miguumiguu",
+      "points": 615,
+      "wins": 66,
+      "draws": 3,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
+      "rapid": {
+        "points": 30,
+        "wins": 2,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 585,
+        "wins": 64,
+        "draws": 3
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 30,
+      "blitz_points": 585,
+      "bullet_points": 0
+    },
     {
       "username": "nikkotello",
       "points": 610,
@@ -55,31 +80,6 @@
       },
       "rapid_points": 610,
       "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
-      "username": "miguumiguu",
-      "points": 576,
-      "wins": 62,
-      "draws": 2,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
-      "rapid": {
-        "points": 30,
-        "wins": 2,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 546,
-        "wins": 60,
-        "draws": 2
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 30,
-      "blitz_points": 546,
       "bullet_points": 0
     },
     {
