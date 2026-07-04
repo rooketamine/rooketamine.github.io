@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-04",
-  "generated_at": "2026-07-04T11:47:21.006Z",
+  "generated_at": "2026-07-04T14:47:14.647Z",
   "window_start": "2026-07-04T00:00:00.000Z",
-  "window_end": "2026-07-04T11:45:21.022Z",
-  "total_members_checked": 3332,
+  "window_end": "2026-07-04T14:45:10.198Z",
+  "total_members_checked": 3333,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -59,8 +59,8 @@
     },
     {
       "username": "queiser",
-      "points": 354,
-      "wins": 39,
+      "points": 588,
+      "wins": 65,
       "draws": 1,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/52164932.75ea5019.200x200o.ebc383dc724b.png",
       "rapid": {
@@ -69,8 +69,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 354,
-        "wins": 39,
+        "points": 588,
+        "wins": 65,
         "draws": 1
       },
       "bullet": {
@@ -79,33 +79,33 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 354,
+      "blitz_points": 588,
       "bullet_points": 0
     },
     {
-      "username": "rojersb",
-      "points": 312,
-      "wins": 34,
-      "draws": 2,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/169690345.8f3fdcc3.200x200o.abeb51ed09e0.jpeg",
+      "username": "kafleyravi",
+      "points": 438,
+      "wins": 42,
+      "draws": 6,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/328519009.3f30a010.200x200o.2c126a025085.jpg",
       "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
+        "points": 135,
+        "wins": 8,
+        "draws": 3
       },
       "blitz": {
-        "points": 312,
-        "wins": 34,
-        "draws": 2
+        "points": 297,
+        "wins": 32,
+        "draws": 3
       },
       "bullet": {
-        "points": 0,
-        "wins": 0,
+        "points": 6,
+        "wins": 2,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 312,
-      "bullet_points": 0
+      "rapid_points": 135,
+      "blitz_points": 297,
+      "bullet_points": 6
     }
   ]
 }
