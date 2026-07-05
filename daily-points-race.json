@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-05",
-  "generated_at": "2026-07-05T20:23:24.335Z",
+  "generated_at": "2026-07-05T23:19:20.666Z",
   "window_start": "2026-07-05T00:00:00.000Z",
-  "window_end": "2026-07-05T20:21:20.081Z",
-  "total_members_checked": 3339,
+  "window_end": "2026-07-05T23:17:15.773Z",
+  "total_members_checked": 3340,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -58,6 +58,31 @@
       "bullet_points": 0
     },
     {
+      "username": "silencedseeker",
+      "points": 503,
+      "wins": 50,
+      "draws": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/512133167.4a9e5c80.200x200o.46b218d5318f.jpg",
+      "rapid": {
+        "points": 320,
+        "wins": 21,
+        "draws": 1
+      },
+      "blitz": {
+        "points": 144,
+        "wins": 16,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 39,
+        "wins": 13,
+        "draws": 0
+      },
+      "rapid_points": 320,
+      "blitz_points": 144,
+      "bullet_points": 39
+    },
+    {
       "username": "diligent_dragon",
       "points": 472,
       "wins": 61,
@@ -81,31 +106,6 @@
       "rapid_points": 0,
       "blitz_points": 426,
       "bullet_points": 46
-    },
-    {
-      "username": "flabbi",
-      "points": 445,
-      "wins": 27,
-      "draws": 8,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3907324.3af46c6b.200x200o.da6204a56491.jpg",
-      "rapid": {
-        "points": 445,
-        "wins": 27,
-        "draws": 8
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 445,
-      "blitz_points": 0,
-      "bullet_points": 0
     }
   ]
 }
