@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-05",
-  "generated_at": "2026-07-05T17:33:55.693Z",
+  "generated_at": "2026-07-05T20:23:24.335Z",
   "window_start": "2026-07-05T00:00:00.000Z",
-  "window_end": "2026-07-05T17:31:50.435Z",
+  "window_end": "2026-07-05T20:21:20.081Z",
   "total_members_checked": 3339,
   "scoring": {
     "rapid": {
@@ -59,8 +59,8 @@
     },
     {
       "username": "diligent_dragon",
-      "points": 454,
-      "wins": 59,
+      "points": 472,
+      "wins": 61,
       "draws": 5,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/490428617.294c77be.200x200o.89f762ce3d98.jpg",
       "rapid": {
@@ -69,8 +69,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 408,
-        "wins": 44,
+        "points": 426,
+        "wins": 46,
         "draws": 4
       },
       "bullet": {
@@ -79,7 +79,7 @@
         "draws": 1
       },
       "rapid_points": 0,
-      "blitz_points": 408,
+      "blitz_points": 426,
       "bullet_points": 46
     },
     {
