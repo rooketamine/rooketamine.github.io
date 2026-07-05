@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-05",
-  "generated_at": "2026-07-05T11:49:24.367Z",
+  "generated_at": "2026-07-05T14:54:30.593Z",
   "window_start": "2026-07-05T00:00:00.000Z",
-  "window_end": "2026-07-05T11:47:23.263Z",
-  "total_members_checked": 3338,
+  "window_end": "2026-07-05T14:52:27.794Z",
+  "total_members_checked": 3341,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -33,34 +33,9 @@
   "note": "Live race updates every 3 hours after 10:00 UTC.",
   "players": [
     {
-      "username": "flabbi",
-      "points": 425,
-      "wins": 26,
-      "draws": 7,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3907324.3af46c6b.200x200o.da6204a56491.jpg",
-      "rapid": {
-        "points": 425,
-        "wins": 26,
-        "draws": 7
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 425,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
       "username": "rojersb",
-      "points": 366,
-      "wins": 39,
+      "points": 510,
+      "wins": 55,
       "draws": 5,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/169690345.8f3fdcc3.200x200o.abeb51ed09e0.jpeg",
       "rapid": {
@@ -69,8 +44,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 366,
-        "wins": 39,
+        "points": 510,
+        "wins": 55,
         "draws": 5
       },
       "bullet": {
@@ -79,18 +54,43 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 366,
+      "blitz_points": 510,
+      "bullet_points": 0
+    },
+    {
+      "username": "flabbi",
+      "points": 445,
+      "wins": 27,
+      "draws": 8,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3907324.3af46c6b.200x200o.da6204a56491.jpg",
+      "rapid": {
+        "points": 445,
+        "wins": 27,
+        "draws": 8
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 445,
+      "blitz_points": 0,
       "bullet_points": 0
     },
     {
       "username": "silencedseeker",
-      "points": 303,
-      "wins": 37,
+      "points": 378,
+      "wins": 42,
       "draws": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/512133167.4a9e5c80.200x200o.46b218d5318f.jpg",
       "rapid": {
-        "points": 120,
-        "wins": 8,
+        "points": 195,
+        "wins": 13,
         "draws": 0
       },
       "blitz": {
@@ -103,7 +103,7 @@
         "wins": 13,
         "draws": 0
       },
-      "rapid_points": 120,
+      "rapid_points": 195,
       "blitz_points": 144,
       "bullet_points": 39
     }
