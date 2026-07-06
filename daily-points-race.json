@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-06",
-  "generated_at": "2026-07-06T20:16:29.034Z",
+  "generated_at": "2026-07-06T22:40:55.702Z",
   "window_start": "2026-07-06T00:00:00.000Z",
-  "window_end": "2026-07-06T20:14:25.429Z",
-  "total_members_checked": 3378,
+  "window_end": "2026-07-06T22:38:48.595Z",
+  "total_members_checked": 3386,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -58,6 +58,31 @@
       "bullet_points": 0
     },
     {
+      "username": "nikkotello",
+      "points": 540,
+      "wins": 35,
+      "draws": 3,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
+      "rapid": {
+        "points": 540,
+        "wins": 35,
+        "draws": 3
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 540,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
       "username": "patrickkoomson",
       "points": 500,
       "wins": 32,
@@ -79,31 +104,6 @@
         "draws": 0
       },
       "rapid_points": 500,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
-      "username": "nikkotello",
-      "points": 450,
-      "wins": 29,
-      "draws": 3,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
-      "rapid": {
-        "points": 450,
-        "wins": 29,
-        "draws": 3
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 450,
       "blitz_points": 0,
       "bullet_points": 0
     }
