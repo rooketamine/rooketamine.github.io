@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-06",
-  "generated_at": "2026-07-06T15:57:07.892Z",
+  "generated_at": "2026-07-06T16:28:43.139Z",
   "window_start": "2026-07-06T00:00:00.000Z",
-  "window_end": "2026-07-06T15:55:04.526Z",
-  "total_members_checked": 3362,
+  "window_end": "2026-07-06T16:26:40.230Z",
+  "total_members_checked": 3363,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -34,13 +34,13 @@
   "players": [
     {
       "username": "patrickkoomson",
-      "points": 485,
-      "wins": 31,
+      "points": 500,
+      "wins": 32,
       "draws": 4,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/28479500.85f9b855.200x200o.564eb5ecafca.gif",
       "rapid": {
-        "points": 485,
-        "wins": 31,
+        "points": 500,
+        "wins": 32,
         "draws": 4
       },
       "blitz": {
@@ -53,14 +53,14 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 485,
+      "rapid_points": 500,
       "blitz_points": 0,
       "bullet_points": 0
     },
     {
       "username": "rojersb",
-      "points": 468,
-      "wins": 50,
+      "points": 495,
+      "wins": 53,
       "draws": 6,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/169690345.8f3fdcc3.200x200o.abeb51ed09e0.jpeg",
       "rapid": {
@@ -69,8 +69,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 468,
-        "wins": 50,
+        "points": 495,
+        "wins": 53,
         "draws": 6
       },
       "bullet": {
@@ -79,14 +79,14 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 468,
+      "blitz_points": 495,
       "bullet_points": 0
     },
     {
       "username": "alexguevara18",
-      "points": 333,
-      "wins": 104,
-      "draws": 21,
+      "points": 343,
+      "wins": 106,
+      "draws": 25,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/425643933.cea569e7.200x200o.fde89f35e9cb.png",
       "rapid": {
         "points": 0,
@@ -99,13 +99,13 @@
         "draws": 0
       },
       "bullet": {
-        "points": 333,
-        "wins": 104,
-        "draws": 21
+        "points": 343,
+        "wins": 106,
+        "draws": 25
       },
       "rapid_points": 0,
       "blitz_points": 0,
-      "bullet_points": 333
+      "bullet_points": 343
     }
   ]
 }
