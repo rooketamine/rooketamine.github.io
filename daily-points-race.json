@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-06",
-  "generated_at": "2026-07-06T06:07:39.945Z",
+  "generated_at": "2026-07-06T11:05:49.165Z",
   "window_start": "2026-07-06T00:00:00.000Z",
-  "window_end": "2026-07-06T06:05:36.211Z",
-  "total_members_checked": 3354,
+  "window_end": "2026-07-06T11:03:46.841Z",
+  "total_members_checked": 3359,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -33,39 +33,64 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "xuyen1786",
-      "points": 199,
-      "wins": 39,
-      "draws": 4,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/506548327.8c023650.200x200o.3a2266bfe83f.jpg",
+      "username": "patrickkoomson",
+      "points": 335,
+      "wins": 22,
+      "draws": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/28479500.85f9b855.200x200o.564eb5ecafca.gif",
       "rapid": {
+        "points": 335,
+        "wins": 22,
+        "draws": 1
+      },
+      "blitz": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 335,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
+      "username": "qlareau",
+      "points": 255,
+      "wins": 17,
+      "draws": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/4827828.ad239fa4.200x200o.9490377dc9b2.jpeg",
+      "rapid": {
+        "points": 255,
+        "wins": 17,
+        "draws": 0
+      },
       "blitz": {
-        "points": 117,
-        "wins": 13,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
       "bullet": {
-        "points": 82,
-        "wins": 26,
-        "draws": 4
+        "points": 0,
+        "wins": 0,
+        "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 117,
-      "bullet_points": 82
+      "rapid_points": 255,
+      "blitz_points": 0,
+      "bullet_points": 0
     },
     {
-      "username": "arexroat1",
-      "points": 190,
-      "wins": 12,
-      "draws": 2,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/41963288.f98af573.200x200o.c96b61af2e62.jpg",
+      "username": "aim_ccsavvy",
+      "points": 237,
+      "wins": 51,
+      "draws": 4,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/262116947.74a1c590.200x200o.3775a172d9dd.jpg",
       "rapid": {
-        "points": 190,
-        "wins": 12,
+        "points": 100,
+        "wins": 6,
         "draws": 2
       },
       "blitz": {
@@ -74,38 +99,13 @@
         "draws": 0
       },
       "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
+        "points": 137,
+        "wins": 45,
+        "draws": 2
       },
-      "rapid_points": 190,
+      "rapid_points": 100,
       "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
-      "username": "queen_tsuna",
-      "points": 153,
-      "wins": 19,
-      "draws": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/574247036.1f0c10b4.200x200o.82bd9bc79570.jpg",
-      "rapid": {
-        "points": 15,
-        "wins": 1,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 126,
-        "wins": 14,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 12,
-        "wins": 4,
-        "draws": 0
-      },
-      "rapid_points": 15,
-      "blitz_points": 126,
-      "bullet_points": 12
+      "bullet_points": 137
     }
   ]
 }
