@@ -1937,7 +1937,7 @@ html, body, .sb, .sb *{
 
     
     <!-- DAILY POINTS RACE -->
-    <div class="sec-label" id="dailyRaceTitle">🏁 Daily Points Race</div>
+    <div class="sec-label" id="dailyRaceTitle">🏎️ Daily Points Race</div>
     <div class="sec-sub" id="dailyRaceSub">Beat the tilt...</div>
     <div class="card">
       <div class="yw-shell" id="yesterdayWinsBoard">
@@ -2328,7 +2328,7 @@ function getRaceWindowState(){
   return {
     mode:'race',
     date:getUTCDateKey(0),
-    title:"🏁 Today's Points Race",
+    title:"🏎️ Daily Points Race",
     sub:'Beat the tilt...'
   };
 }
@@ -2516,7 +2516,7 @@ function stateFromRaceData(data, fallbackState){
   return {
     mode:'race',
     date:data?.date || fallbackState.date,
-    title:"🏁 Today's Points Race",
+    title:"🏎️ Daily Points Race",
     sub:'Beat the tilt...'
   };
 }
@@ -2525,7 +2525,7 @@ function lockPendingState(state){
   return {
     mode:'race',
     date:state.date,
-    title:'🏁 Final Race Standings',
+    title:'🏎️ Daily Points Race',
     sub:'Locking final podium...'
   };
 }
@@ -2553,7 +2553,7 @@ async function loadDailyPointsRace(){
 
     if(hasPlayers && state.mode === 'race' && data.mode === 'winner'){
       setDailyRaceHeader(state);
-      showDailyRaceWaiting('Shhh... I am counting', "Today's race board is warming up");
+      showDailyRaceWaiting('Shhh... I am counting', "Daily race board is warming up");
       updateRaceFooter(state);
       return;
     }
