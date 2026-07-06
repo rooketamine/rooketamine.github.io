@@ -1968,7 +1968,7 @@ html, body, .sb, .sb *{
         target="_blank" rel="noopener noreferrer">📃 Vote Chess Rules</a>
 
       <a class="list-btn"
-        href="https://www.chess.com/clubs/forum/view/puzzles-2471"
+        href="https://www.chess.com/clubs/forum/view/the-puzzle-forum-3"
         target="_blank" rel="noopener noreferrer">🧩 Puzzles</a>
 
       <a class="list-btn"
@@ -2316,7 +2316,7 @@ function getRaceWindowState(){
   const now = new Date();
   const hour = now.getUTCHours();
 
-  if(hour < 10){
+  if(hour < 6){
     return {
       mode:'winner',
       date:getUTCDateKey(-1),
@@ -2551,6 +2551,13 @@ async function loadDailyPointsRace(){
       return;
     }
 
+    if(hasPlayers && state.mode === 'race' && data.mode === 'winner'){
+      setDailyRaceHeader(state);
+      showDailyRaceWaiting('Shhh... I am counting', "Today's race board is warming up");
+      updateRaceFooter(state);
+      return;
+    }
+
     if(hasPlayers && state.mode === 'winner' && data.mode === 'race'){
       const pendingState = lockPendingState(state);
       setDailyRaceHeader(pendingState);
@@ -2574,8 +2581,31 @@ async function loadDailyPointsRace(){
   }
 }
 
-loadDailyPointsRace();
-setInterval(loadDailyPointsRace, 5 * 60 * 1000);
+const YW_RACE_REFRESH_MS = 3 * 60 * 60 * 1000;
+const YW_WAITING_REFRESH_MS = 5 * 60 * 1000;
+let dailyRaceRefreshTimer = null;
+
+function getNextDailyRaceRefreshDelay(){
+  const state = getRaceWindowState();
+
+  if(state.mode === 'race'){
+    return YW_RACE_REFRESH_MS;
+  }
+
+  const now = new Date();
+  const sixUTC = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), 6, 0, 0);
+  const untilRaceShows = Math.max(0, sixUTC - now.getTime()) + 1000;
+
+  return Math.min(YW_WAITING_REFRESH_MS, untilRaceShows);
+}
+
+async function refreshDailyPointsRaceAndSchedule(){
+  clearTimeout(dailyRaceRefreshTimer);
+  await loadDailyPointsRace();
+  dailyRaceRefreshTimer = setTimeout(refreshDailyPointsRaceAndSchedule, getNextDailyRaceRefreshDelay());
+}
+
+refreshDailyPointsRaceAndSchedule();
 setInterval(() => {
   if(currentRaceFooterState) updateRaceFooter(currentRaceFooterState);
 }, 60 * 1000);
