@@ -38,14 +38,14 @@ function getRaceWindowUTC(){
   const now = new Date();
   const nowMs = now.getTime();
   const todayStartMs = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
-  const tenHoursMs = 10 * 60 * 60 * 1000;
+  const sixHoursMs = 6 * 60 * 60 * 1000;
 
   let mode;
   let title;
   let startMs;
   let endMs;
 
-  if(nowMs < todayStartMs + tenHoursMs){
+  if(nowMs < todayStartMs + sixHoursMs){
     mode = 'winner';
     title = "Yesterday's Champion";
     startMs = todayStartMs - 24 * 60 * 60 * 1000;
@@ -164,15 +164,14 @@ function getPgnHalfMoveCount(game){
 
   moveText = moveText.replace(/\r/g, '\n');
 
-  // Remove PGN headers, comments, clock notes, line comments, and NAGs.
   moveText = moveText
     .replace(/\[[^\]]*\]/g, ' ')
     .replace(/\{[^}]*\}/g, ' ')
     .replace(/;[^\n]*/g, ' ')
     .replace(/\$\d+/g, ' ');
 
-  // Remove simple variations if they appear.
   let previous;
+
   do{
     previous = moveText;
     moveText = moveText.replace(/\([^()]*\)/g, ' ');
@@ -377,8 +376,8 @@ async function main(){
       minimum_half_moves: MIN_COUNTED_HALF_MOVES
     },
     note: window.mode === 'winner'
-      ? 'Final podium is shown until 10:00 UTC.'
-      : 'Live race updates every 3 hours after 10:00 UTC.',
+      ? 'Final podium is shown until 06:00 UTC.'
+      : 'Live race updates every 3 hours after 06:00 UTC.',
     players
   };
 
