@@ -2,12 +2,8 @@ name: Update Points Race
 
 on:
   schedule:
-    # Backup podium-lock runs after 00:00 UTC
-    - cron: "17,47 0 * * *"
-    - cron: "17 1 * * *"
-
-    # Daily race updates after 10:00 UTC
-    - cron: "17 10,13,16,19,22 * * *"
+    # Daily race updates after yesterday champion window ends at 06:00 UTC
+    - cron: "17 6,9,12,15,18,21 * * *"
 
   workflow_dispatch:
 
