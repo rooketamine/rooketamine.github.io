@@ -2029,7 +2029,7 @@ html, body, .sb, .sb *{
         </div>
       </div>
       <div class="yw-updated" id="yesterdayWinsUpdated">
-        <span class="yw-reset-note">Race resets at 00:00 UTC</span>
+        <span class="yw-reset-note">Race ends at 00:00 UTC</span>
       </div>
     </div>
 
@@ -2418,16 +2418,75 @@ function setDailyRaceHeader(state){
   if(sub) sub.textContent = state.sub;
 }
 
+let lastRaceUpdatedAt = null;
 let currentRaceFooterState = null;
+let raceFooterShowsUpdated = false;
 
-function raceFooterHTML(state){
-  return '<span class="yw-reset-note">Race resets at 00:00 UTC</span>';
+function parseRaceDate(value){
+  if(!value) return null;
+
+  if(value instanceof Date){
+    const time = value.getTime();
+    return Number.isFinite(time) ? time : null;
+  }
+
+  if(typeof value === 'number'){
+    const time = value < 10000000000 ? value * 1000 : value;
+    return Number.isFinite(time) ? time : null;
+  }
+
+  const time = Date.parse(String(value));
+  return Number.isFinite(time) ? time : null;
 }
 
-function updateRaceFooter(state){
+function getRaceUpdatedAt(data, res){
+  const candidates = [
+    data?.updated_at,
+    data?.updatedAt,
+    data?.last_updated,
+    data?.lastUpdated,
+    data?.generated_at,
+    data?.generatedAt,
+    data?.timestamp,
+    data?.updated
+  ];
+
+  for(const value of candidates){
+    const parsed = parseRaceDate(value);
+    if(parsed) return parsed;
+  }
+
+  const headerDate = res?.headers?.get?.('Last-Modified');
+  return parseRaceDate(headerDate);
+}
+
+function formatRaceAgo(updatedAt = lastRaceUpdatedAt){
+  if(!updatedAt) return 'Updated just now';
+
+  const diffMs = Math.max(0, Date.now() - updatedAt);
+  const minutes = Math.floor(diffMs / 60000);
+
+  if(minutes < 1) return 'Updated just now';
+  if(minutes < 60) return `Updated ${minutes} min${minutes === 1 ? '' : 's'} ago`;
+
+  const hours = Math.floor(minutes / 60);
+  if(hours < 24) return `Updated ${hours} hr${hours === 1 ? '' : 's'} ago`;
+
+  const days = Math.floor(hours / 24);
+  return `Updated ${days} day${days === 1 ? '' : 's'} ago`;
+}
+
+function raceFooterHTML(){
+  const reset = '<span class="yw-reset-note">Race resets at 00:00 UTC</span>';
+  if(!raceFooterShowsUpdated) return reset;
+  return `${formatRaceAgo()}${reset}`;
+}
+
+function updateRaceFooter(state, showUpdated = raceFooterShowsUpdated){
   currentRaceFooterState = state;
+  raceFooterShowsUpdated = Boolean(showUpdated);
   const updated = document.getElementById('yesterdayWinsUpdated');
-  if(updated) updated.innerHTML = raceFooterHTML(state);
+  if(updated) updated.innerHTML = raceFooterHTML();
 }
 
 function playerPoints(player){
@@ -2474,7 +2533,7 @@ function drawDailyPointsRace(data, state){
 
   if(!players.length){
     showDailyRaceWaiting('Shhh... I am counting', 'No race points found yet');
-    updateRaceFooter(state);
+    updateRaceFooter(state, false);
     return;
   }
 
@@ -2515,7 +2574,7 @@ function drawDailyPointsRace(data, state){
     </div>`;
 
   if(updated){
-    updateRaceFooter(state);
+    updateRaceFooter(state, true);
   }
 }
 
@@ -2555,13 +2614,14 @@ async function loadDailyPointsRace(){
   const state = getRaceWindowState();
 
   setDailyRaceHeader(state);
-  updateRaceFooter(state);
+  updateRaceFooter(state, false);
 
   try{
     const res = await fetch(YW_DATA_URL + '?v=' + Date.now());
     if(!res.ok) throw new Error('Missing daily points race file');
 
     const data = await res.json();
+    lastRaceUpdatedAt = getRaceUpdatedAt(data, res) || lastRaceUpdatedAt || Date.now();
     const hasPlayers = hasRacePlayers(data);
 
     if(hasPlayers && data.mode === state.mode && data.date === state.date && data.ready !== false && data.status !== 'counting'){
@@ -2573,7 +2633,7 @@ async function loadDailyPointsRace(){
     if(hasPlayers && state.mode === 'race' && data.mode === 'winner'){
       setDailyRaceHeader(state);
       showDailyRaceWaiting('Shhh... I am counting', "Daily race board is warming up");
-      updateRaceFooter(state);
+      updateRaceFooter(state, false);
       return;
     }
 
@@ -2592,11 +2652,11 @@ async function loadDailyPointsRace(){
     }
 
     showDailyRaceWaiting('Shhh... I am counting', 'No leaderboard data found yet');
-    updateRaceFooter(state);
+    updateRaceFooter(state, false);
   }catch(err){
     console.error('Daily points race file load failed:', err);
     showDailyRaceWaiting('Shhh... I am counting', 'Race board could not load');
-    updateRaceFooter(state);
+    updateRaceFooter(state, false);
   }
 }
 
@@ -2625,6 +2685,9 @@ async function refreshDailyPointsRaceAndSchedule(){
 }
 
 refreshDailyPointsRaceAndSchedule();
+setInterval(() => {
+  if(currentRaceFooterState) updateRaceFooter(currentRaceFooterState);
+}, 60 * 1000);
 /* MCA TOP SCORERS */
 const MCA_TOP_SCORERS = [
   { username: "Rooketamine", place: 1, points: 177, profile: "https://www.chess.com/member/rooketamine" },
