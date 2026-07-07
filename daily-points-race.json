@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-07",
-  "generated_at": "2026-07-07T15:17:43.350Z",
+  "generated_at": "2026-07-07T17:29:41.225Z",
   "window_start": "2026-07-07T00:00:00.000Z",
-  "window_end": "2026-07-07T15:15:41.524Z",
-  "total_members_checked": 3431,
+  "window_end": "2026-07-07T17:27:36.868Z",
+  "total_members_checked": 3433,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -58,34 +58,34 @@
       "bullet_points": 0
     },
     {
-      "username": "vannamcovua",
-      "points": 338,
-      "wins": 106,
-      "draws": 4,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/523120267.3ad49cd1.200x200o.c255db2dd45e.png",
+      "username": "nikkotello",
+      "points": 446,
+      "wins": 31,
+      "draws": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
       "rapid": {
-        "points": 5,
-        "wins": 0,
+        "points": 440,
+        "wins": 29,
         "draws": 1
       },
       "blitz": {
-        "points": 18,
-        "wins": 2,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
       "bullet": {
-        "points": 315,
-        "wins": 104,
-        "draws": 3
+        "points": 6,
+        "wins": 2,
+        "draws": 0
       },
-      "rapid_points": 5,
-      "blitz_points": 18,
-      "bullet_points": 315
+      "rapid_points": 440,
+      "blitz_points": 0,
+      "bullet_points": 6
     },
     {
       "username": "thebongclouddummy",
-      "points": 331,
-      "wins": 40,
+      "points": 367,
+      "wins": 44,
       "draws": 1,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/561527097.fe1843f3.200x200o.a14e369e2f0b.jpg",
       "rapid": {
@@ -94,8 +94,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 315,
-        "wins": 35,
+        "points": 351,
+        "wins": 39,
         "draws": 0
       },
       "bullet": {
@@ -104,7 +104,7 @@
         "draws": 1
       },
       "rapid_points": 0,
-      "blitz_points": 315,
+      "blitz_points": 351,
       "bullet_points": 16
     }
   ]
