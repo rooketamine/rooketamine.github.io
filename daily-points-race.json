@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-07",
-  "generated_at": "2026-07-07T10:03:07.346Z",
+  "generated_at": "2026-07-07T15:17:43.350Z",
   "window_start": "2026-07-07T00:00:00.000Z",
-  "window_end": "2026-07-07T10:01:02.493Z",
-  "total_members_checked": 3423,
+  "window_end": "2026-07-07T15:15:41.524Z",
+  "total_members_checked": 3431,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -34,13 +34,13 @@
   "players": [
     {
       "username": "shaqurr5",
-      "points": 495,
-      "wins": 32,
+      "points": 600,
+      "wins": 39,
       "draws": 3,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/200845981.8c647664.200x200o.856ec8078117.jpg",
       "rapid": {
-        "points": 495,
-        "wins": 32,
+        "points": 600,
+        "wins": 39,
         "draws": 3
       },
       "blitz": {
@@ -53,20 +53,20 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 495,
+      "rapid_points": 600,
       "blitz_points": 0,
       "bullet_points": 0
     },
     {
       "username": "vannamcovua",
-      "points": 333,
+      "points": 338,
       "wins": 106,
-      "draws": 3,
+      "draws": 4,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/523120267.3ad49cd1.200x200o.c255db2dd45e.png",
       "rapid": {
-        "points": 0,
+        "points": 5,
         "wins": 0,
-        "draws": 0
+        "draws": 1
       },
       "blitz": {
         "points": 18,
@@ -78,34 +78,34 @@
         "wins": 104,
         "draws": 3
       },
-      "rapid_points": 0,
+      "rapid_points": 5,
       "blitz_points": 18,
       "bullet_points": 315
     },
     {
-      "username": "rojersb",
-      "points": 276,
-      "wins": 30,
-      "draws": 2,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/169690345.8f3fdcc3.200x200o.abeb51ed09e0.jpeg",
+      "username": "thebongclouddummy",
+      "points": 331,
+      "wins": 40,
+      "draws": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/561527097.fe1843f3.200x200o.a14e369e2f0b.jpg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 276,
-        "wins": 30,
-        "draws": 2
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
+        "points": 315,
+        "wins": 35,
         "draws": 0
       },
+      "bullet": {
+        "points": 16,
+        "wins": 5,
+        "draws": 1
+      },
       "rapid_points": 0,
-      "blitz_points": 276,
-      "bullet_points": 0
+      "blitz_points": 315,
+      "bullet_points": 16
     }
   ]
 }
