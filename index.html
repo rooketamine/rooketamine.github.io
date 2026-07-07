@@ -672,6 +672,48 @@ body{display:block;}
   box-shadow:0 6px 0 #4a3800, 0 14px 20px rgba(0,0,0,.22), 0 0 22px rgba(234,179,8,.32);
 }
 
+
+/* FUN ZONE GRID */
+.fun-zone-card{
+  padding:14px;
+}
+.forum-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:9px 8px;
+  width:100%;
+  min-width:0;
+}
+.forum-btn{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  min-width:0;
+  min-height:42px;
+  padding:9px 6px;
+  border-radius:16px;
+  border:2px solid #1f3d2b;
+  background:linear-gradient(90deg,#04130c,#071a11);
+  color:#ffffff;
+  font-size:12.5px!important;
+  font-weight:600!important;
+  text-decoration:none;
+  text-align:center;
+  line-height:1.05!important;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+  max-width:100%;
+  transition:.18s;
+  box-sizing:border-box;
+}
+.forum-btn:hover{
+  background:linear-gradient(90deg,#071a11,#0b2a18);
+  box-shadow:0 6px 18px rgba(255,255,255,.05);
+  transform:translateY(-3px);
+}
+
 /* MCA TOP SCORERS */
 .top-scorers{
   position:relative;
@@ -1338,6 +1380,44 @@ body{display:block;}
   line-height:1.25;
 }
 
+/* BOTTOM FOOTER */
+.bb-footer{
+  margin:12px auto 0;
+  padding:4px 6px 0;
+  text-align:center;
+  background:none;
+  border:0;
+  box-shadow:none;
+  border-radius:0;
+  overflow:hidden;
+}
+
+.bb-footer::before{
+  display:none;
+}
+
+.bb-footer-copy{
+  font-size:12.5px;
+  font-weight:700!important;
+  color:#d7dbe0;
+  line-height:1.05;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.bb-footer-slogan{
+  margin-top:3px;
+  font-size:11.5px;
+  font-weight:700!important;
+  color:#facc15;
+  line-height:1.05;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  text-shadow:0 0 10px rgba(250,204,21,.14);
+}
+
 
 /* TEXT WEIGHT CLEANUP */
 /* Keep all regular text non-bold. Only headings + requested highlights stay bold. */
@@ -1634,7 +1714,8 @@ html, body, .sb, .sb *{
 .yw-mini-stat{
   font-weight:400!important;
 }
-.list-btn{
+.list-btn,
+.forum-btn{
   font-weight:600!important;
 }
 
@@ -1948,7 +2029,7 @@ html, body, .sb, .sb *{
         </div>
       </div>
       <div class="yw-updated" id="yesterdayWinsUpdated">
-        <span class="yw-reset-note">Race ends at 00:00 UTC</span>
+        <span class="yw-reset-note">Race resets at 00:00 UTC</span>
       </div>
     </div>
 
@@ -1957,43 +2038,41 @@ html, body, .sb, .sb *{
     <!-- FUN ZONE -->
     <div class="sec-label">🎉 Fun Zone</div>
     <div class="sec-sub">Beyond the pitch...</div>
-    <div class="card">
+    <div class="card fun-zone-card">
 
-      <a class="list-btn"
-        href="https://www.chess.com/clubs/forum/view/club-rules-511"
-        target="_blank" rel="noopener noreferrer">📃 Club Rules</a>
+      <div class="forum-grid">
+        <a class="forum-btn"
+          href="https://www.chess.com/clubs/forum/view/club-rules-511"
+          target="_blank" rel="noopener noreferrer">📃 Rules</a>
 
-      <a class="list-btn"
-        href="https://www.chess.com/clubs/forum/view/vote-chess-rules-167"
-        target="_blank" rel="noopener noreferrer">📃 Vote Chess Rules</a>
+        <a class="forum-btn"
+          href="https://www.chess.com/clubs/forum/view/vote-chess-rules-167"
+          target="_blank" rel="noopener noreferrer">♟️ Vote Chess</a>
 
-      <a class="list-btn"
-        href="https://www.chess.com/clubs/forum/view/puzzles-2471"
-        target="_blank" rel="noopener noreferrer">🧩 Puzzles</a>
+        <a class="forum-btn"
+          href="https://www.chess.com/clubs/forum/view/puzzles-2471"
+          target="_blank" rel="noopener noreferrer">🧩 Puzzles</a>
 
-      <a class="list-btn"
-        href="https://www.chess.com/clubs/forum/view/guess-the-elo-gte-5"
-        target="_blank" rel="noopener noreferrer">🤔 Guess The Elo</a>
+        <a class="forum-btn"
+          href="https://www.chess.com/clubs/forum/view/guess-the-elo-gte-5"
+          target="_blank" rel="noopener noreferrer">🤔 GTE</a>
 
-      <a class="list-btn"
-        href="https://www.chess.com/clubs/forum/view/memes-767"
-        target="_blank" rel="noopener noreferrer">😂 Memes</a>
+        <a class="forum-btn"
+          href="https://www.chess.com/clubs/forum/view/memes-767"
+          target="_blank" rel="noopener noreferrer">😂 Memes</a>
 
-      <a class="list-btn"
-        href="https://www.chess.com/clubs/forum/view/username-hunt"
-        target="_blank" rel="noopener noreferrer">🔍 Username Hunt</a>
+        <a class="forum-btn"
+          href="https://www.chess.com/clubs/forum/view/username-hunt"
+          target="_blank" rel="noopener noreferrer">🔍 Username</a>
 
-      <a class="list-btn"
-        href="https://www.chess.com/clubs/forum/view/fifa-world-cup-2026-4"
-        target="_blank" rel="noopener noreferrer">⚽ FIFA 2026</a>
+        <a class="forum-btn"
+          href="https://www.chess.com/clubs/forum/view/ipl-chat-zone"
+          target="_blank" rel="noopener noreferrer">🏏 Cricket</a>
 
-      <a class="list-btn"
-        href="https://www.chess.com/clubs/forum/view/ipl-chat-zone"
-        target="_blank" rel="noopener noreferrer">🏏 Cricket Chat Zone</a>
-
-      <a class="list-btn"
-        href="https://forms.gle/UYGF6U7okmSdfL4v8"
-        target="_blank" rel="noopener noreferrer">🗯️ Share Your Feedback</a>
+        <a class="forum-btn"
+          href="https://www.chess.com/clubs/forum/view/fifa-world-cup-2026-4"
+          target="_blank" rel="noopener noreferrer">⚽ FIFA</a>
+      </div>
 
     </div>
 
@@ -2045,13 +2124,6 @@ html, body, .sb, .sb *{
         target="_blank" rel="noopener noreferrer">
         MCA Champion <span class="trophy-icon yw-blitz-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.9 1.2 4.7 13h5.1L7.9 22.8 19.3 9.4h-6.2L12.9 1.2Z"></path></svg></span> 572 pts
       </a>
-
-      <a class="list-btn"
-        href="https://www.chess.com/club/matches/blundering-buddies/1900695"
-        target="_blank" rel="noopener noreferrer">
-        Daily Match Clean Sweep ☀️ 20-0
-      </a>
-
       <a class="list-btn"
         href="https://www.chess.com/clubs/forum/view/blundering-buddies-hall-of-fame"
         target="_blank" rel="noopener noreferrer">🏆 Hall of Fame</a>
@@ -2113,6 +2185,11 @@ html, body, .sb, .sb *{
         a perfect captain’s run. 🫡
       </div>
 
+    </div>
+
+    <div class="bb-footer">
+      <div class="bb-footer-copy">© Blundering Buddies FC</div>
+      <div class="bb-footer-slogan">Built to Battle.</div>
     </div>
 
   </div>
@@ -2341,67 +2418,10 @@ function setDailyRaceHeader(state){
   if(sub) sub.textContent = state.sub;
 }
 
-let lastRaceUpdatedAt = null;
 let currentRaceFooterState = null;
 
-function parseRaceDate(value){
-  if(!value) return null;
-
-  if(value instanceof Date){
-    const time = value.getTime();
-    return Number.isFinite(time) ? time : null;
-  }
-
-  if(typeof value === 'number'){
-    const time = value < 10000000000 ? value * 1000 : value;
-    return Number.isFinite(time) ? time : null;
-  }
-
-  const time = Date.parse(String(value));
-  return Number.isFinite(time) ? time : null;
-}
-
-function getRaceUpdatedAt(data, res){
-  const candidates = [
-    data?.updated_at,
-    data?.updatedAt,
-    data?.last_updated,
-    data?.lastUpdated,
-    data?.generated_at,
-    data?.generatedAt,
-    data?.timestamp,
-    data?.updated
-  ];
-
-  for(const value of candidates){
-    const parsed = parseRaceDate(value);
-    if(parsed) return parsed;
-  }
-
-  const headerDate = res?.headers?.get?.('Last-Modified');
-  return parseRaceDate(headerDate);
-}
-
-function formatRaceAgo(updatedAt = lastRaceUpdatedAt){
-  if(!updatedAt) return 'Updated just now';
-
-  const diffMs = Math.max(0, Date.now() - updatedAt);
-  const minutes = Math.floor(diffMs / 60000);
-
-  if(minutes < 1) return 'Updated just now';
-  if(minutes < 60) return `Updated ${minutes} min${minutes === 1 ? '' : 's'} ago`;
-
-  const hours = Math.floor(minutes / 60);
-  if(hours < 24) return `Updated ${hours} hr${hours === 1 ? '' : 's'} ago`;
-
-  const days = Math.floor(hours / 24);
-  return `Updated ${days} day${days === 1 ? '' : 's'} ago`;
-}
-
 function raceFooterHTML(state){
-  const reset = '<span class="yw-reset-note">Resets everyday at 00:00 UTC</span>';
-  if(state?.mode === 'winner') return reset;
-  return `${formatRaceAgo()}${reset}`;
+  return '<span class="yw-reset-note">Race resets at 00:00 UTC</span>';
 }
 
 function updateRaceFooter(state){
@@ -2542,7 +2562,6 @@ async function loadDailyPointsRace(){
     if(!res.ok) throw new Error('Missing daily points race file');
 
     const data = await res.json();
-    lastRaceUpdatedAt = getRaceUpdatedAt(data, res) || lastRaceUpdatedAt || Date.now();
     const hasPlayers = hasRacePlayers(data);
 
     if(hasPlayers && data.mode === state.mode && data.date === state.date && data.ready !== false && data.status !== 'counting'){
@@ -2606,9 +2625,6 @@ async function refreshDailyPointsRaceAndSchedule(){
 }
 
 refreshDailyPointsRaceAndSchedule();
-setInterval(() => {
-  if(currentRaceFooterState) updateRaceFooter(currentRaceFooterState);
-}, 60 * 1000);
 /* MCA TOP SCORERS */
 const MCA_TOP_SCORERS = [
   { username: "Rooketamine", place: 1, points: 177, profile: "https://www.chess.com/member/rooketamine" },
