@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-07",
-  "generated_at": "2026-07-07T20:17:03.065Z",
+  "generated_at": "2026-07-07T22:33:37.547Z",
   "window_start": "2026-07-07T00:00:00.000Z",
-  "window_end": "2026-07-07T20:14:54.909Z",
-  "total_members_checked": 3438,
+  "window_end": "2026-07-07T22:31:29.959Z",
+  "total_members_checked": 3439,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -59,13 +59,13 @@
     },
     {
       "username": "nikkotello",
-      "points": 536,
-      "wins": 37,
+      "points": 551,
+      "wins": 38,
       "draws": 1,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
       "rapid": {
-        "points": 530,
-        "wins": 35,
+        "points": 545,
+        "wins": 36,
         "draws": 1
       },
       "blitz": {
@@ -78,14 +78,14 @@
         "wins": 2,
         "draws": 0
       },
-      "rapid_points": 530,
+      "rapid_points": 545,
       "blitz_points": 0,
       "bullet_points": 6
     },
     {
       "username": "thebongclouddummy",
-      "points": 394,
-      "wins": 51,
+      "points": 466,
+      "wins": 59,
       "draws": 1,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/561527097.fe1843f3.200x200o.a14e369e2f0b.jpg",
       "rapid": {
@@ -94,8 +94,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 360,
-        "wins": 40,
+        "points": 432,
+        "wins": 48,
         "draws": 0
       },
       "bullet": {
@@ -104,7 +104,7 @@
         "draws": 1
       },
       "rapid_points": 0,
-      "blitz_points": 360,
+      "blitz_points": 432,
       "bullet_points": 34
     }
   ]
