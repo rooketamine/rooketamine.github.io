@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-08",
-  "generated_at": "2026-07-08T17:20:23.500Z",
+  "generated_at": "2026-07-08T19:57:52.364Z",
   "window_start": "2026-07-08T00:00:00.000Z",
-  "window_end": "2026-07-08T17:18:10.913Z",
+  "window_end": "2026-07-08T19:55:46.599Z",
   "total_members_checked": 3447,
   "scoring": {
     "rapid": {
@@ -33,14 +33,39 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
+      "username": "pradip_gajbhare",
+      "points": 471,
+      "wins": 52,
+      "draws": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/525714161.7992ec3d.200x200o.6540d257b4be.png",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 471,
+        "wins": 52,
+        "draws": 1
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 471,
+      "bullet_points": 0
+    },
+    {
       "username": "nikkotello",
-      "points": 404,
-      "wins": 30,
+      "points": 464,
+      "wins": 34,
       "draws": 2,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
       "rapid": {
-        "points": 320,
-        "wins": 21,
+        "points": 380,
+        "wins": 25,
         "draws": 1
       },
       "blitz": {
@@ -53,15 +78,15 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 320,
+      "rapid_points": 380,
       "blitz_points": 84,
       "bullet_points": 0
     },
     {
       "username": "90smp3",
-      "points": 360,
-      "wins": 118,
-      "draws": 6,
+      "points": 386,
+      "wins": 126,
+      "draws": 8,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/183098845.6b9242e6.200x200o.1b2479b9019f.jpg",
       "rapid": {
         "points": 0,
@@ -74,38 +99,13 @@
         "draws": 0
       },
       "bullet": {
-        "points": 360,
-        "wins": 118,
-        "draws": 6
+        "points": 386,
+        "wins": 126,
+        "draws": 8
       },
       "rapid_points": 0,
       "blitz_points": 0,
-      "bullet_points": 360
-    },
-    {
-      "username": "n0si11a",
-      "points": 303,
-      "wins": 33,
-      "draws": 2,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/400842877.656cf51d.200x200o.380a4f0756c2.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 303,
-        "wins": 33,
-        "draws": 2
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 303,
-      "bullet_points": 0
+      "bullet_points": 386
     }
   ]
 }
