@@ -2029,7 +2029,7 @@ html, body, .sb, .sb *{
         </div>
       </div>
       <div class="yw-updated" id="yesterdayWinsUpdated">
-        <span class="yw-reset-note">Race ends at 00:00 UTC</span>
+        <span class="yw-reset-note">Race resets at 00:00 UTC</span>
       </div>
     </div>
 
@@ -2523,7 +2523,7 @@ function showDailyRaceWaiting(mainText = 'Shhh... I am counting', subText = 'Rac
     </div>`;
 }
 
-function drawDailyPointsRace(data, state){
+function drawDailyPointsRace(data, state, showUpdated = false){
   const board = document.getElementById('yesterdayWinsBoard');
   const updated = document.getElementById('yesterdayWinsUpdated');
 
@@ -2574,7 +2574,7 @@ function drawDailyPointsRace(data, state){
     </div>`;
 
   if(updated){
-    updateRaceFooter(state, true);
+    updateRaceFooter(state, showUpdated && state.mode === 'race');
   }
 }
 
@@ -2626,7 +2626,7 @@ async function loadDailyPointsRace(){
 
     if(hasPlayers && data.mode === state.mode && data.date === state.date && data.ready !== false && data.status !== 'counting'){
       setDailyRaceHeader(state);
-      drawDailyPointsRace(data, state);
+      drawDailyPointsRace(data, state, state.mode === 'race');
       return;
     }
 
@@ -2640,14 +2640,14 @@ async function loadDailyPointsRace(){
     if(hasPlayers && state.mode === 'winner' && data.mode === 'race'){
       const pendingState = lockPendingState(state);
       setDailyRaceHeader(pendingState);
-      drawDailyPointsRace(data, pendingState);
+      drawDailyPointsRace(data, pendingState, false);
       return;
     }
 
     if(hasPlayers){
       const dataState = stateFromRaceData(data, state);
       setDailyRaceHeader(dataState);
-      drawDailyPointsRace(data, dataState);
+      drawDailyPointsRace(data, dataState, state.mode === 'race' && dataState.mode === 'race');
       return;
     }
 
