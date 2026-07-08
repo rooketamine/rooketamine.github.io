@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-08",
-  "generated_at": "2026-07-08T08:46:26.434Z",
+  "generated_at": "2026-07-08T11:19:45.844Z",
   "window_start": "2026-07-08T00:00:00.000Z",
-  "window_end": "2026-07-08T08:44:17.255Z",
-  "total_members_checked": 3447,
+  "window_end": "2026-07-08T11:17:37.840Z",
+  "total_members_checked": 3445,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -33,9 +33,34 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
+      "username": "nikkotello",
+      "points": 234,
+      "wins": 19,
+      "draws": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
+      "rapid": {
+        "points": 150,
+        "wins": 10,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 84,
+        "wins": 9,
+        "draws": 1
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 150,
+      "blitz_points": 84,
+      "bullet_points": 0
+    },
+    {
       "username": "xuyen1786",
-      "points": 206,
-      "wins": 38,
+      "points": 218,
+      "wins": 42,
       "draws": 2,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/506548327.8c023650.200x200o.3a2266bfe83f.jpg",
       "rapid": {
@@ -49,23 +74,23 @@
         "draws": 0
       },
       "bullet": {
-        "points": 71,
-        "wins": 23,
+        "points": 83,
+        "wins": 27,
         "draws": 2
       },
       "rapid_points": 0,
       "blitz_points": 135,
-      "bullet_points": 71
+      "bullet_points": 83
     },
     {
-      "username": "deusvult2384",
-      "points": 195,
-      "wins": 13,
+      "username": "b_jay97",
+      "points": 210,
+      "wins": 14,
       "draws": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/187848553.818d336b.200x200o.1bf0ac064167.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/302996475.8fd70386.200x200o.f05fed35c951.jpg",
       "rapid": {
-        "points": 195,
-        "wins": 13,
+        "points": 210,
+        "wins": 14,
         "draws": 0
       },
       "blitz": {
@@ -78,34 +103,9 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 195,
+      "rapid_points": 210,
       "blitz_points": 0,
       "bullet_points": 0
-    },
-    {
-      "username": "gothamsub8914",
-      "points": 190,
-      "wins": 21,
-      "draws": 1,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/452349544.3d93426c.200x200o.43347a91f167.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 189,
-        "wins": 21,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 1,
-        "wins": 0,
-        "draws": 1
-      },
-      "rapid_points": 0,
-      "blitz_points": 189,
-      "bullet_points": 1
     }
   ]
 }
