@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-08",
-  "generated_at": "2026-07-08T16:52:15.777Z",
+  "generated_at": "2026-07-08T17:20:23.500Z",
   "window_start": "2026-07-08T00:00:00.000Z",
-  "window_end": "2026-07-08T16:50:05.946Z",
+  "window_end": "2026-07-08T17:18:10.913Z",
   "total_members_checked": 3447,
   "scoring": {
     "rapid": {
@@ -31,5 +31,81 @@
     "minimum_half_moves": 4
   },
   "note": "Live race updates every 3 hours after 06:00 UTC.",
-  "players": []
+  "players": [
+    {
+      "username": "nikkotello",
+      "points": 404,
+      "wins": 30,
+      "draws": 2,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
+      "rapid": {
+        "points": 320,
+        "wins": 21,
+        "draws": 1
+      },
+      "blitz": {
+        "points": 84,
+        "wins": 9,
+        "draws": 1
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 320,
+      "blitz_points": 84,
+      "bullet_points": 0
+    },
+    {
+      "username": "90smp3",
+      "points": 360,
+      "wins": 118,
+      "draws": 6,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/183098845.6b9242e6.200x200o.1b2479b9019f.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 360,
+        "wins": 118,
+        "draws": 6
+      },
+      "rapid_points": 0,
+      "blitz_points": 0,
+      "bullet_points": 360
+    },
+    {
+      "username": "n0si11a",
+      "points": 303,
+      "wins": 33,
+      "draws": 2,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/400842877.656cf51d.200x200o.380a4f0756c2.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 303,
+        "wins": 33,
+        "draws": 2
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 303,
+      "bullet_points": 0
+    }
+  ]
 }
