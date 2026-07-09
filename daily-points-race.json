@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-09",
-  "generated_at": "2026-07-09T20:06:20.106Z",
+  "generated_at": "2026-07-09T22:45:40.157Z",
   "window_start": "2026-07-09T00:00:00.000Z",
-  "window_end": "2026-07-09T20:04:12.473Z",
-  "total_members_checked": 3475,
+  "window_end": "2026-07-09T22:43:33.830Z",
+  "total_members_checked": 3479,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -33,60 +33,10 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "its_me_tanmay",
-      "points": 399,
-      "wins": 88,
-      "draws": 11,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/518685981.437a5728.200x200o.4ef90cf0887c.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 186,
-        "wins": 20,
-        "draws": 2
-      },
-      "bullet": {
-        "points": 213,
-        "wins": 68,
-        "draws": 9
-      },
-      "rapid_points": 0,
-      "blitz_points": 186,
-      "bullet_points": 213
-    },
-    {
-      "username": "nikkotello",
-      "points": 386,
-      "wins": 76,
-      "draws": 2,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
-      "rapid": {
-        "points": 15,
-        "wins": 1,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 216,
-        "wins": 24,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 155,
-        "wins": 51,
-        "draws": 2
-      },
-      "rapid_points": 15,
-      "blitz_points": 216,
-      "bullet_points": 155
-    },
-    {
       "username": "miguumiguu",
-      "points": 378,
-      "wins": 41,
-      "draws": 3,
+      "points": 588,
+      "wins": 64,
+      "draws": 4,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
       "rapid": {
         "points": 0,
@@ -94,9 +44,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 378,
-        "wins": 41,
-        "draws": 3
+        "points": 588,
+        "wins": 64,
+        "draws": 4
       },
       "bullet": {
         "points": 0,
@@ -104,7 +54,57 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 378,
+      "blitz_points": 588,
+      "bullet_points": 0
+    },
+    {
+      "username": "nikkotello",
+      "points": 506,
+      "wins": 96,
+      "draws": 2,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
+      "rapid": {
+        "points": 30,
+        "wins": 2,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 288,
+        "wins": 32,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 188,
+        "wins": 62,
+        "draws": 2
+      },
+      "rapid_points": 30,
+      "blitz_points": 288,
+      "bullet_points": 188
+    },
+    {
+      "username": "vraj1428",
+      "points": 498,
+      "wins": 54,
+      "draws": 4,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/78452396.6f499b37.200x200o.b3167222398c.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 498,
+        "wins": 54,
+        "draws": 4
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 498,
       "bullet_points": 0
     }
   ]
