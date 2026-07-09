@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-09",
-  "generated_at": "2026-07-09T09:59:40.609Z",
+  "generated_at": "2026-07-09T15:35:59.589Z",
   "window_start": "2026-07-09T00:00:00.000Z",
-  "window_end": "2026-07-09T09:57:34.884Z",
+  "window_end": "2026-07-09T15:33:51.829Z",
   "total_members_checked": 3470,
   "scoring": {
     "rapid": {
@@ -32,6 +32,31 @@
   },
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
+    {
+      "username": "its_me_tanmay",
+      "points": 372,
+      "wins": 85,
+      "draws": 11,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/518685981.437a5728.200x200o.4ef90cf0887c.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 159,
+        "wins": 17,
+        "draws": 2
+      },
+      "bullet": {
+        "points": 213,
+        "wins": 68,
+        "draws": 9
+      },
+      "rapid_points": 0,
+      "blitz_points": 159,
+      "bullet_points": 213
+    },
     {
       "username": "mualimo",
       "points": 355,
@@ -58,54 +83,29 @@
       "bullet_points": 0
     },
     {
-      "username": "miguumiguu",
-      "points": 237,
-      "wins": 26,
-      "draws": 1,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
+      "username": "sabawatpiyesa",
+      "points": 324,
+      "wins": 34,
+      "draws": 4,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/321151194.248b0148.200x200o.830a89eb46f9.jpg",
       "rapid": {
-        "points": 0,
-        "wins": 0,
+        "points": 30,
+        "wins": 2,
         "draws": 0
       },
       "blitz": {
-        "points": 237,
-        "wins": 26,
-        "draws": 1
+        "points": 291,
+        "wins": 31,
+        "draws": 4
       },
       "bullet": {
-        "points": 0,
-        "wins": 0,
+        "points": 3,
+        "wins": 1,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 237,
-      "bullet_points": 0
-    },
-    {
-      "username": "warszawaairport",
-      "points": 222,
-      "wins": 24,
-      "draws": 2,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/141923741.84662b80.200x200o.9efc512c3e24.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 222,
-        "wins": 24,
-        "draws": 2
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 222,
-      "bullet_points": 0
+      "rapid_points": 30,
+      "blitz_points": 291,
+      "bullet_points": 3
     }
   ]
 }
