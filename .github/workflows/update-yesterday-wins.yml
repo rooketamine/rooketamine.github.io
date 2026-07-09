@@ -2,7 +2,7 @@ name: Update Points Race
 
 on:
   schedule:
-    # Daily race updates after yesterday champion window ends at 06:00 UTC
+    # Runs at 06:17 UTC, then again every 3 hours
     - cron: "17 6,9,12,15,18,21 * * *"
 
   workflow_dispatch:
