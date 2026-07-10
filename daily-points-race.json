@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-10",
-  "generated_at": "2026-07-10T06:25:17.638Z",
+  "generated_at": "2026-07-10T06:44:32.987Z",
   "window_start": "2026-07-10T00:00:00.000Z",
-  "window_end": "2026-07-10T06:23:06.280Z",
+  "window_end": "2026-07-10T06:42:24.041Z",
   "total_members_checked": 3484,
   "scoring": {
     "rapid": {
@@ -28,40 +28,46 @@
       "chess",
       "chess960"
     ],
-    "minimum_half_moves": 4
+    "minimum_full_moves": 5,
+    "minimum_half_moves": 10,
+    "maximum_games_per_opponent": 15
   },
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "hotziztek",
-      "points": 1053,
-      "wins": 71,
-      "draws": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/131073658.12c75c18.200x200o.25d40a018480.jpg",
+      "username": "nyan2yan",
+      "points": 261,
+      "wins": 27,
+      "draws": 6,
+      "games_counted": 59,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/362279065.d2201be4.200x200o.23573f47d18f.jpg",
       "rapid": {
-        "points": 1050,
-        "wins": 70,
-        "draws": 0
-      },
-      "blitz": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
+      "blitz": {
+        "points": 261,
+        "wins": 27,
+        "draws": 6
+      },
       "bullet": {
-        "points": 3,
-        "wins": 1,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
-      "rapid_points": 1050,
-      "blitz_points": 0,
-      "bullet_points": 3
+      "rapid_points": 0,
+      "blitz_points": 261,
+      "bullet_points": 0
     },
     {
       "username": "xuyen1786",
-      "points": 245,
-      "wins": 48,
+      "points": 248,
+      "wins": 49,
       "draws": 5,
+      "games_counted": 72,
+      "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/506548327.8c023650.200x200o.3a2266bfe83f.jpg",
       "rapid": {
         "points": 75,
@@ -74,29 +80,31 @@
         "draws": 0
       },
       "bullet": {
-        "points": 116,
-        "wins": 37,
+        "points": 119,
+        "wins": 38,
         "draws": 5
       },
       "rapid_points": 75,
       "blitz_points": 54,
-      "bullet_points": 116
+      "bullet_points": 119
     },
     {
-      "username": "nyan2yan",
-      "points": 243,
+      "username": "miguumiguu",
+      "points": 234,
       "wins": 25,
-      "draws": 6,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/362279065.d2201be4.200x200o.23573f47d18f.jpg",
+      "draws": 3,
+      "games_counted": 41,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 243,
+        "points": 234,
         "wins": 25,
-        "draws": 6
+        "draws": 3
       },
       "bullet": {
         "points": 0,
@@ -104,7 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 243,
+      "blitz_points": 234,
       "bullet_points": 0
     }
   ]
