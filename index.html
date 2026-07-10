@@ -1974,14 +1974,26 @@ html, body, .sb, .sb *{
   z-index:3;
   top:-14px;
   right:5px;
-  height:87px;
+  height:75px;
   width:auto;
-  max-width:75px;
+  max-width:65px;
   object-fit:contain;
   object-position:top center;
-  pointer-events:none;
+  display:block;
+  pointer-events:auto;
   user-select:none;
+  cursor:default;
+  transform-origin:top center;
+  transition:height .28s ease, max-width .28s ease, transform .28s ease, filter .28s ease;
+  will-change:height, max-width, transform, filter;
   filter:drop-shadow(0 4px 5px rgba(0,0,0,.28));
+}
+
+.hanging-queen:hover{
+  height:88px;
+  max-width:76px;
+  transform:scale(1.03);
+  filter:drop-shadow(0 8px 10px rgba(0,0,0,.30));
 }
 
 .arena-intro + .mca-countdown-card{
@@ -1995,6 +2007,10 @@ html, body, .sb, .sb *{
   }
   .hanging-queen{
     right:3px;
+    height:73px;
+    max-width:57px;
+  }
+  .hanging-queen:hover{
     height:84px;
     max-width:66px;
   }
