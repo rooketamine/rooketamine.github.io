@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-10",
-  "generated_at": "2026-07-10T15:03:59.165Z",
+  "generated_at": "2026-07-10T17:10:33.542Z",
   "window_start": "2026-07-10T00:00:00.000Z",
-  "window_end": "2026-07-10T15:01:39.546Z",
-  "total_members_checked": 3487,
+  "window_end": "2026-07-10T17:08:20.630Z",
+  "total_members_checked": 3488,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "alexguevara18",
-      "points": 457,
-      "wins": 146,
-      "draws": 19,
-      "games_counted": 344,
+      "points": 551,
+      "wins": 176,
+      "draws": 23,
+      "games_counted": 408,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/425643933.cea569e7.200x200o.fde89f35e9cb.png",
       "rapid": {
@@ -53,52 +53,52 @@
         "draws": 0
       },
       "bullet": {
-        "points": 457,
-        "wins": 146,
-        "draws": 19
+        "points": 551,
+        "wins": 176,
+        "draws": 23
       },
       "rapid_points": 0,
       "blitz_points": 0,
-      "bullet_points": 457
+      "bullet_points": 551
     },
     {
-      "username": "its_me_tanmay",
-      "points": 435,
-      "wins": 68,
-      "draws": 9,
-      "games_counted": 127,
+      "username": "yptoski",
+      "points": 507,
+      "wins": 55,
+      "draws": 4,
+      "games_counted": 94,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/518685981.437a5728.200x200o.4ef90cf0887c.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/384165357.5521dff8.200x200o.b63d517f0ea5.png",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 333,
-        "wins": 35,
-        "draws": 6
+        "points": 507,
+        "wins": 55,
+        "draws": 4
       },
       "bullet": {
-        "points": 102,
-        "wins": 33,
-        "draws": 3
+        "points": 0,
+        "wins": 0,
+        "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 333,
-      "bullet_points": 102
+      "blitz_points": 507,
+      "bullet_points": 0
     },
     {
       "username": "kafleyravi",
-      "points": 426,
-      "wins": 41,
+      "points": 456,
+      "wins": 43,
       "draws": 3,
-      "games_counted": 86,
+      "games_counted": 88,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/328519009.3f30a010.200x200o.2c126a025085.jpg",
       "rapid": {
-        "points": 120,
-        "wins": 8,
+        "points": 150,
+        "wins": 10,
         "draws": 0
       },
       "blitz": {
@@ -111,7 +111,7 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 120,
+      "rapid_points": 150,
       "blitz_points": 306,
       "bullet_points": 0
     }
