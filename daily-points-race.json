@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-11",
-  "generated_at": "2026-07-11T08:17:11.652Z",
+  "generated_at": "2026-07-11T10:36:43.559Z",
   "window_start": "2026-07-11T00:00:00.000Z",
-  "window_end": "2026-07-11T08:15:01.847Z",
-  "total_members_checked": 3497,
+  "window_end": "2026-07-11T10:34:31.981Z",
+  "total_members_checked": 3496,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -35,84 +35,84 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "tatar",
-      "points": 206,
-      "wins": 34,
-      "draws": 4,
-      "games_counted": 63,
+      "username": "kinsuk_kk",
+      "points": 294,
+      "wins": 31,
+      "draws": 5,
+      "games_counted": 76,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/199546741.357e41fc.200x200o.c13e5ac83fbc.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/264301393.5ee70a0a.200x200o.1443c4cba5ff.jpg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 150,
-        "wins": 16,
-        "draws": 2
+        "points": 294,
+        "wins": 31,
+        "draws": 5
       },
       "bullet": {
-        "points": 56,
-        "wins": 18,
-        "draws": 2
+        "points": 0,
+        "wins": 0,
+        "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 150,
-      "bullet_points": 56
-    },
-    {
-      "username": "yawninggnu",
-      "points": 185,
-      "wins": 12,
-      "draws": 1,
-      "games_counted": 19,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/93094050.9b6f567d.200x200o.77e143507737.jpeg",
-      "rapid": {
-        "points": 185,
-        "wins": 12,
-        "draws": 1
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 185,
-      "blitz_points": 0,
+      "blitz_points": 294,
       "bullet_points": 0
     },
     {
-      "username": "nickoreborn",
-      "points": 183,
-      "wins": 12,
-      "draws": 5,
-      "games_counted": 35,
+      "username": "kiran7g",
+      "points": 265,
+      "wins": 88,
+      "draws": 1,
+      "games_counted": 151,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/416907945.b4147e08.200x200o.bbdc79b40c90.jpg",
       "rapid": {
-        "points": 150,
-        "wins": 9,
-        "draws": 3
+        "points": 0,
+        "wins": 0,
+        "draws": 0
       },
       "blitz": {
-        "points": 33,
-        "wins": 3,
-        "draws": 2
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 265,
+        "wins": 88,
+        "draws": 1
+      },
+      "rapid_points": 0,
+      "blitz_points": 0,
+      "bullet_points": 265
+    },
+    {
+      "username": "damjan1989",
+      "points": 243,
+      "wins": 27,
+      "draws": 0,
+      "games_counted": 30,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/145826935.78cc33cb.200x200o.68adf09ed4b5.png",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 243,
+        "wins": 27,
+        "draws": 0
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 150,
-      "blitz_points": 33,
+      "rapid_points": 0,
+      "blitz_points": 243,
       "bullet_points": 0
     }
   ]
