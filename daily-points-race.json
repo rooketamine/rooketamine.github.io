@@ -2,13 +2,13 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "winner",
-  "title": "Yesterday's Champion",
-  "date": "2026-07-10",
-  "generated_at": "2026-07-11T00:02:47.522Z",
-  "window_start": "2026-07-10T00:00:00.000Z",
-  "window_end": "2026-07-11T00:00:00.000Z",
-  "total_members_checked": 3491,
+  "mode": "race",
+  "title": "Today's Points Race",
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T06:25:02.461Z",
+  "window_start": "2026-07-11T00:00:00.000Z",
+  "window_end": "2026-07-11T06:22:58.643Z",
+  "total_members_checked": 3496,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -32,20 +32,20 @@
     "minimum_half_moves": 10,
     "maximum_games_per_opponent": 15
   },
-  "note": "Final podium is shown until 06:00 UTC.",
+  "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "alexguevara18",
-      "points": 695,
-      "wins": 223,
-      "draws": 26,
-      "games_counted": 516,
+      "username": "yawninggnu",
+      "points": 185,
+      "wins": 12,
+      "draws": 1,
+      "games_counted": 19,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/425643933.cea569e7.200x200o.fde89f35e9cb.png",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/93094050.9b6f567d.200x200o.77e143507737.jpeg",
       "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
+        "points": 185,
+        "wins": 12,
+        "draws": 1
       },
       "blitz": {
         "points": 0,
@@ -53,58 +53,31 @@
         "draws": 0
       },
       "bullet": {
-        "points": 695,
-        "wins": 223,
-        "draws": 26
+        "points": 0,
+        "wins": 0,
+        "draws": 0
       },
-      "rapid_points": 0,
+      "rapid_points": 185,
       "blitz_points": 0,
-      "bullet_points": 695
-    },
-    {
-      "username": "yptoski",
-      "points": 645,
-      "wins": 70,
-      "draws": 5,
-      "games_counted": 128,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/384165357.5521dff8.200x200o.b63d517f0ea5.png",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 645,
-        "wins": 70,
-        "draws": 5
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 645,
       "bullet_points": 0
     },
     {
-      "username": "kinsuk_kk",
-      "points": 507,
-      "wins": 55,
-      "draws": 4,
-      "games_counted": 90,
+      "username": "balajeeswar",
+      "points": 180,
+      "wins": 20,
+      "draws": 0,
+      "games_counted": 28,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/264301393.5ee70a0a.200x200o.1443c4cba5ff.jpg",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 507,
-        "wins": 55,
-        "draws": 4
+        "points": 180,
+        "wins": 20,
+        "draws": 0
       },
       "bullet": {
         "points": 0,
@@ -112,7 +85,34 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 507,
+      "blitz_points": 180,
+      "bullet_points": 0
+    },
+    {
+      "username": "dalton-fc-1981",
+      "points": 171,
+      "wins": 19,
+      "draws": 0,
+      "games_counted": 35,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/70274598.8bc536fa.200x200o.a7a6a6b7ba96.jpeg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 171,
+        "wins": 19,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 171,
       "bullet_points": 0
     }
   ]
