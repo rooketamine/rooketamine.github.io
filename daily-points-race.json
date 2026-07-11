@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-11",
-  "generated_at": "2026-07-11T19:34:22.474Z",
+  "generated_at": "2026-07-11T22:10:38.072Z",
   "window_start": "2026-07-11T00:00:00.000Z",
-  "window_end": "2026-07-11T19:32:11.339Z",
-  "total_members_checked": 3497,
+  "window_end": "2026-07-11T22:08:26.787Z",
+  "total_members_checked": 3498,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "queiser",
-      "points": 888,
-      "wins": 98,
+      "points": 1014,
+      "wins": 112,
       "draws": 2,
-      "games_counted": 128,
+      "games_counted": 147,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/52164932.75ea5019.200x200o.ebc383dc724b.png",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 888,
-        "wins": 98,
+        "points": 1014,
+        "wins": 112,
         "draws": 2
       },
       "bullet": {
@@ -58,21 +58,21 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 888,
+      "blitz_points": 1014,
       "bullet_points": 0
     },
     {
       "username": "damjan1989",
-      "points": 719,
+      "points": 724,
       "wins": 76,
-      "draws": 7,
-      "games_counted": 100,
+      "draws": 8,
+      "games_counted": 102,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/145826935.78cc33cb.200x200o.68adf09ed4b5.png",
       "rapid": {
-        "points": 185,
+        "points": 190,
         "wins": 10,
-        "draws": 7
+        "draws": 8
       },
       "blitz": {
         "points": 504,
@@ -84,16 +84,16 @@
         "wins": 10,
         "draws": 0
       },
-      "rapid_points": 185,
+      "rapid_points": 190,
       "blitz_points": 504,
       "bullet_points": 30
     },
     {
       "username": "neelbhangure",
-      "points": 465,
-      "wins": 51,
+      "points": 537,
+      "wins": 59,
       "draws": 2,
-      "games_counted": 85,
+      "games_counted": 96,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
@@ -102,8 +102,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 465,
-        "wins": 51,
+        "points": 537,
+        "wins": 59,
         "draws": 2
       },
       "bullet": {
@@ -112,7 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 465,
+      "blitz_points": 537,
       "bullet_points": 0
     }
   ]
