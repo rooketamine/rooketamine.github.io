@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-11",
-  "generated_at": "2026-07-11T16:12:19.846Z",
+  "generated_at": "2026-07-11T19:34:22.474Z",
   "window_start": "2026-07-11T00:00:00.000Z",
-  "window_end": "2026-07-11T16:10:33.250Z",
-  "total_members_checked": 3496,
+  "window_end": "2026-07-11T19:32:11.339Z",
+  "total_members_checked": 3497,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "queiser",
-      "points": 708,
-      "wins": 78,
+      "points": 888,
+      "wins": 98,
       "draws": 2,
-      "games_counted": 100,
+      "games_counted": 128,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/52164932.75ea5019.200x200o.ebc383dc724b.png",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 708,
-        "wins": 78,
+        "points": 888,
+        "wins": 98,
         "draws": 2
       },
       "bullet": {
@@ -58,21 +58,21 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 708,
+      "blitz_points": 888,
       "bullet_points": 0
     },
     {
       "username": "damjan1989",
-      "points": 594,
-      "wins": 61,
-      "draws": 3,
-      "games_counted": 72,
+      "points": 719,
+      "wins": 76,
+      "draws": 7,
+      "games_counted": 100,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/145826935.78cc33cb.200x200o.68adf09ed4b5.png",
       "rapid": {
-        "points": 90,
-        "wins": 5,
-        "draws": 3
+        "points": 185,
+        "wins": 10,
+        "draws": 7
       },
       "blitz": {
         "points": 504,
@@ -80,40 +80,40 @@
         "draws": 0
       },
       "bullet": {
-        "points": 0,
-        "wins": 0,
+        "points": 30,
+        "wins": 10,
         "draws": 0
       },
-      "rapid_points": 90,
+      "rapid_points": 185,
       "blitz_points": 504,
-      "bullet_points": 0
+      "bullet_points": 30
     },
     {
-      "username": "payalsobhgmailcom",
-      "points": 366,
-      "wins": 41,
-      "draws": 3,
-      "games_counted": 56,
+      "username": "neelbhangure",
+      "points": 465,
+      "wins": 51,
+      "draws": 2,
+      "games_counted": 85,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/380406461.72abb888.200x200o.f1a5459021e5.jpg",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 360,
-        "wins": 39,
-        "draws": 3
+        "points": 465,
+        "wins": 51,
+        "draws": 2
       },
       "bullet": {
-        "points": 6,
-        "wins": 2,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 360,
-      "bullet_points": 6
+      "blitz_points": 465,
+      "bullet_points": 0
     }
   ]
 }
