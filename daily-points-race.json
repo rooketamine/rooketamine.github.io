@@ -2,13 +2,13 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "winner",
-  "title": "Yesterday's Champion",
-  "date": "2026-07-11",
-  "generated_at": "2026-07-12T00:08:04.613Z",
-  "window_start": "2026-07-11T00:00:00.000Z",
-  "window_end": "2026-07-12T00:00:00.000Z",
-  "total_members_checked": 3497,
+  "mode": "race",
+  "title": "Today's Points Race",
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T06:21:41.853Z",
+  "window_start": "2026-07-12T00:00:00.000Z",
+  "window_end": "2026-07-12T06:19:30.572Z",
+  "total_members_checked": 3498,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -32,25 +32,25 @@
     "minimum_half_moves": 10,
     "maximum_games_per_opponent": 15
   },
-  "note": "Final podium is shown until 06:00 UTC.",
+  "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "queiser",
-      "points": 1086,
-      "wins": 120,
-      "draws": 2,
-      "games_counted": 157,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/52164932.75ea5019.200x200o.ebc383dc724b.png",
+      "username": "miguumiguu",
+      "points": 369,
+      "wins": 40,
+      "draws": 3,
+      "games_counted": 45,
+      "games_skipped_opponent_cap": 5,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 1086,
-        "wins": 120,
-        "draws": 2
+        "points": 369,
+        "wins": 40,
+        "draws": 3
       },
       "bullet": {
         "points": 0,
@@ -58,53 +58,53 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 1086,
+      "blitz_points": 369,
       "bullet_points": 0
     },
     {
-      "username": "damjan1989",
-      "points": 739,
-      "wins": 77,
-      "draws": 8,
-      "games_counted": 103,
+      "username": "lewis69273791",
+      "points": 275,
+      "wins": 18,
+      "draws": 1,
+      "games_counted": 34,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/145826935.78cc33cb.200x200o.68adf09ed4b5.png",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
       "rapid": {
-        "points": 205,
-        "wins": 11,
-        "draws": 8
+        "points": 275,
+        "wins": 18,
+        "draws": 1
       },
       "blitz": {
-        "points": 504,
-        "wins": 56,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
       "bullet": {
-        "points": 30,
-        "wins": 10,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
-      "rapid_points": 205,
-      "blitz_points": 504,
-      "bullet_points": 30
+      "rapid_points": 275,
+      "blitz_points": 0,
+      "bullet_points": 0
     },
     {
-      "username": "neelbhangure",
-      "points": 537,
-      "wins": 59,
-      "draws": 2,
-      "games_counted": 96,
+      "username": "alexanderslawbook",
+      "points": 246,
+      "wins": 27,
+      "draws": 1,
+      "games_counted": 30,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/512946891.d5781642.200x200o.d66a246bf314.jpg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 537,
-        "wins": 59,
-        "draws": 2
+        "points": 246,
+        "wins": 27,
+        "draws": 1
       },
       "bullet": {
         "points": 0,
@@ -112,7 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 537,
+      "blitz_points": 246,
       "bullet_points": 0
     }
   ]
