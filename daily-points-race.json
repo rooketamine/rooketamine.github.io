@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-12",
-  "generated_at": "2026-07-12T10:44:39.826Z",
+  "generated_at": "2026-07-12T13:58:26.050Z",
   "window_start": "2026-07-12T00:00:00.000Z",
-  "window_end": "2026-07-12T10:42:34.016Z",
-  "total_members_checked": 3500,
+  "window_end": "2026-07-12T13:56:16.883Z",
+  "total_members_checked": 3502,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -62,6 +62,33 @@
       "bullet_points": 0
     },
     {
+      "username": "taker_of_worlds",
+      "points": 372,
+      "wins": 38,
+      "draws": 10,
+      "games_counted": 85,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/294028069.544082a9.200x200o.7e55cbe206af.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 372,
+        "wins": 38,
+        "draws": 10
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 372,
+      "bullet_points": 0
+    },
+    {
       "username": "miguumiguu",
       "points": 369,
       "wins": 40,
@@ -86,33 +113,6 @@
       },
       "rapid_points": 0,
       "blitz_points": 369,
-      "bullet_points": 0
-    },
-    {
-      "username": "taker_of_worlds",
-      "points": 324,
-      "wins": 33,
-      "draws": 9,
-      "games_counted": 77,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/294028069.544082a9.200x200o.7e55cbe206af.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 324,
-        "wins": 33,
-        "draws": 9
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 324,
       "bullet_points": 0
     }
   ]
