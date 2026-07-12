@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-12",
-  "generated_at": "2026-07-12T13:58:26.050Z",
+  "generated_at": "2026-07-12T16:14:13.026Z",
   "window_start": "2026-07-12T00:00:00.000Z",
-  "window_end": "2026-07-12T13:56:16.883Z",
-  "total_members_checked": 3502,
+  "window_end": "2026-07-12T16:12:05.227Z",
+  "total_members_checked": 3500,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -35,11 +35,65 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
+      "username": "lewis69273791",
+      "points": 430,
+      "wins": 28,
+      "draws": 2,
+      "games_counted": 60,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
+      "rapid": {
+        "points": 430,
+        "wins": 28,
+        "draws": 2
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 430,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
+      "username": "over613",
+      "points": 410,
+      "wins": 133,
+      "draws": 11,
+      "games_counted": 272,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 410,
+        "wins": 133,
+        "draws": 11
+      },
+      "rapid_points": 0,
+      "blitz_points": 0,
+      "bullet_points": 410
+    },
+    {
       "username": "alexanderslawbook",
-      "points": 372,
-      "wins": 41,
+      "points": 408,
+      "wins": 45,
       "draws": 1,
-      "games_counted": 50,
+      "games_counted": 56,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/512946891.d5781642.200x200o.d66a246bf314.jpg",
       "rapid": {
@@ -48,8 +102,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 372,
-        "wins": 41,
+        "points": 408,
+        "wins": 45,
         "draws": 1
       },
       "bullet": {
@@ -58,61 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 372,
-      "bullet_points": 0
-    },
-    {
-      "username": "taker_of_worlds",
-      "points": 372,
-      "wins": 38,
-      "draws": 10,
-      "games_counted": 85,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/294028069.544082a9.200x200o.7e55cbe206af.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 372,
-        "wins": 38,
-        "draws": 10
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 372,
-      "bullet_points": 0
-    },
-    {
-      "username": "miguumiguu",
-      "points": 369,
-      "wins": 40,
-      "draws": 3,
-      "games_counted": 45,
-      "games_skipped_opponent_cap": 5,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 369,
-        "wins": 40,
-        "draws": 3
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 369,
+      "blitz_points": 408,
       "bullet_points": 0
     }
   ]
