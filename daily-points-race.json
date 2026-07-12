@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-12",
-  "generated_at": "2026-07-12T16:14:13.026Z",
+  "generated_at": "2026-07-12T19:33:46.835Z",
   "window_start": "2026-07-12T00:00:00.000Z",
-  "window_end": "2026-07-12T16:12:05.227Z",
-  "total_members_checked": 3500,
+  "window_end": "2026-07-12T19:31:37.730Z",
+  "total_members_checked": 3501,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -35,38 +35,11 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "lewis69273791",
-      "points": 430,
-      "wins": 28,
-      "draws": 2,
-      "games_counted": 60,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
-      "rapid": {
-        "points": 430,
-        "wins": 28,
-        "draws": 2
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 430,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
       "username": "over613",
-      "points": 410,
-      "wins": 133,
-      "draws": 11,
-      "games_counted": 272,
+      "points": 567,
+      "wins": 184,
+      "draws": 15,
+      "games_counted": 378,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
@@ -80,20 +53,47 @@
         "draws": 0
       },
       "bullet": {
-        "points": 410,
-        "wins": 133,
-        "draws": 11
+        "points": 567,
+        "wins": 184,
+        "draws": 15
       },
       "rapid_points": 0,
       "blitz_points": 0,
-      "bullet_points": 410
+      "bullet_points": 567
+    },
+    {
+      "username": "lewis69273791",
+      "points": 505,
+      "wins": 33,
+      "draws": 2,
+      "games_counted": 74,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
+      "rapid": {
+        "points": 505,
+        "wins": 33,
+        "draws": 2
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 505,
+      "blitz_points": 0,
+      "bullet_points": 0
     },
     {
       "username": "alexanderslawbook",
-      "points": 408,
-      "wins": 45,
-      "draws": 1,
-      "games_counted": 56,
+      "points": 489,
+      "wins": 53,
+      "draws": 4,
+      "games_counted": 69,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/512946891.d5781642.200x200o.d66a246bf314.jpg",
       "rapid": {
@@ -102,9 +102,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 408,
-        "wins": 45,
-        "draws": 1
+        "points": 489,
+        "wins": 53,
+        "draws": 4
       },
       "bullet": {
         "points": 0,
@@ -112,7 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 408,
+      "blitz_points": 489,
       "bullet_points": 0
     }
   ]
