@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-12",
-  "generated_at": "2026-07-12T06:21:41.853Z",
+  "generated_at": "2026-07-12T08:33:49.551Z",
   "window_start": "2026-07-12T00:00:00.000Z",
-  "window_end": "2026-07-12T06:19:30.572Z",
-  "total_members_checked": 3498,
+  "window_end": "2026-07-12T08:31:38.899Z",
+  "total_members_checked": 3497,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -62,38 +62,11 @@
       "bullet_points": 0
     },
     {
-      "username": "lewis69273791",
-      "points": 275,
-      "wins": 18,
-      "draws": 1,
-      "games_counted": 34,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
-      "rapid": {
-        "points": 275,
-        "wins": 18,
-        "draws": 1
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 275,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
       "username": "alexanderslawbook",
-      "points": 246,
-      "wins": 27,
+      "points": 345,
+      "wins": 38,
       "draws": 1,
-      "games_counted": 30,
+      "games_counted": 45,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/512946891.d5781642.200x200o.d66a246bf314.jpg",
       "rapid": {
@@ -102,8 +75,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 246,
-        "wins": 27,
+        "points": 345,
+        "wins": 38,
         "draws": 1
       },
       "bullet": {
@@ -112,7 +85,34 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 246,
+      "blitz_points": 345,
+      "bullet_points": 0
+    },
+    {
+      "username": "lewis69273791",
+      "points": 320,
+      "wins": 21,
+      "draws": 1,
+      "games_counted": 42,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
+      "rapid": {
+        "points": 320,
+        "wins": 21,
+        "draws": 1
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 320,
+      "blitz_points": 0,
       "bullet_points": 0
     }
   ]
