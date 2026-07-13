@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-13",
-  "generated_at": "2026-07-13T09:51:00.122Z",
+  "generated_at": "2026-07-13T15:13:51.258Z",
   "window_start": "2026-07-13T00:00:00.000Z",
-  "window_end": "2026-07-13T09:47:58.358Z",
-  "total_members_checked": 3496,
+  "window_end": "2026-07-13T15:11:42.570Z",
+  "total_members_checked": 3500,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -35,17 +35,17 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "geauxgang",
-      "points": 260,
-      "wins": 17,
-      "draws": 1,
-      "games_counted": 29,
+      "username": "over613",
+      "points": 369,
+      "wins": 120,
+      "draws": 9,
+      "games_counted": 242,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/367575473.01fc2b74.200x200o.421727923f59.jpg",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 260,
-        "wins": 17,
-        "draws": 1
+        "points": 0,
+        "wins": 0,
+        "draws": 0
       },
       "blitz": {
         "points": 0,
@@ -53,58 +53,31 @@
         "draws": 0
       },
       "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
+        "points": 369,
+        "wins": 120,
+        "draws": 9
       },
-      "rapid_points": 260,
+      "rapid_points": 0,
       "blitz_points": 0,
-      "bullet_points": 0
+      "bullet_points": 369
     },
     {
-      "username": "great-war-man",
-      "points": 245,
-      "wins": 16,
-      "draws": 1,
-      "games_counted": 43,
+      "username": "kinsuk_kk",
+      "points": 315,
+      "wins": 33,
+      "draws": 6,
+      "games_counted": 65,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/437737783.abe9196d.200x200o.3e0b265b94f8.jpg",
-      "rapid": {
-        "points": 245,
-        "wins": 16,
-        "draws": 1
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 245,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
-      "username": "dadivitanodnanref",
-      "points": 225,
-      "wins": 25,
-      "draws": 0,
-      "games_counted": 39,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/55340248.d82228f0.200x200o.c73210b68c0d.jpeg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/264301393.5ee70a0a.200x200o.1443c4cba5ff.jpg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 225,
-        "wins": 25,
-        "draws": 0
+        "points": 315,
+        "wins": 33,
+        "draws": 6
       },
       "bullet": {
         "points": 0,
@@ -112,7 +85,34 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 225,
+      "blitz_points": 315,
+      "bullet_points": 0
+    },
+    {
+      "username": "lewis69273791",
+      "points": 315,
+      "wins": 21,
+      "draws": 0,
+      "games_counted": 39,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
+      "rapid": {
+        "points": 315,
+        "wins": 21,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 315,
+      "blitz_points": 0,
       "bullet_points": 0
     }
   ]
