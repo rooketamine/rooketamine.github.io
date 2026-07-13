@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-13",
-  "generated_at": "2026-07-13T19:51:30.999Z",
+  "generated_at": "2026-07-13T22:12:17.802Z",
   "window_start": "2026-07-13T00:00:00.000Z",
-  "window_end": "2026-07-13T19:49:23.794Z",
+  "window_end": "2026-07-13T22:10:08.416Z",
   "total_members_checked": 3502,
   "scoring": {
     "rapid": {
@@ -34,6 +34,33 @@
   },
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
+    {
+      "username": "warecy",
+      "points": 543,
+      "wins": 122,
+      "draws": 5,
+      "games_counted": 194,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 258,
+        "wins": 28,
+        "draws": 2
+      },
+      "bullet": {
+        "points": 285,
+        "wins": 94,
+        "draws": 3
+      },
+      "rapid_points": 0,
+      "blitz_points": 258,
+      "bullet_points": 285
+    },
     {
       "username": "over613",
       "points": 530,
@@ -62,57 +89,30 @@
       "bullet_points": 530
     },
     {
-      "username": "warecy",
-      "points": 516,
-      "wins": 119,
-      "draws": 5,
-      "games_counted": 190,
+      "username": "user_505232549",
+      "points": 470,
+      "wins": 31,
+      "draws": 1,
+      "games_counted": 56,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/505232549.855362aa.200x200o.992620541f9d.jpg",
       "rapid": {
+        "points": 470,
+        "wins": 31,
+        "draws": 1
+      },
+      "blitz": {
         "points": 0,
         "wins": 0,
         "draws": 0
-      },
-      "blitz": {
-        "points": 231,
-        "wins": 25,
-        "draws": 2
-      },
-      "bullet": {
-        "points": 285,
-        "wins": 94,
-        "draws": 3
-      },
-      "rapid_points": 0,
-      "blitz_points": 231,
-      "bullet_points": 285
-    },
-    {
-      "username": "maxxanon",
-      "points": 402,
-      "wins": 41,
-      "draws": 11,
-      "games_counted": 106,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/226469711.58476543.200x200o.f6ca1f334701.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 402,
-        "wins": 41,
-        "draws": 11
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 402,
+      "rapid_points": 470,
+      "blitz_points": 0,
       "bullet_points": 0
     }
   ]
