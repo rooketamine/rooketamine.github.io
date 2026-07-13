@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-13",
-  "generated_at": "2026-07-13T06:30:03.970Z",
+  "generated_at": "2026-07-13T09:51:00.122Z",
   "window_start": "2026-07-13T00:00:00.000Z",
-  "window_end": "2026-07-13T06:27:50.863Z",
-  "total_members_checked": 3497,
+  "window_end": "2026-07-13T09:47:58.358Z",
+  "total_members_checked": 3496,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -39,7 +39,7 @@
       "points": 260,
       "wins": 17,
       "draws": 1,
-      "games_counted": 28,
+      "games_counted": 29,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/367575473.01fc2b74.200x200o.421727923f59.jpg",
       "rapid": {
@@ -62,21 +62,48 @@
       "bullet_points": 0
     },
     {
-      "username": "reti2rumbl3",
-      "points": 171,
-      "wins": 19,
-      "draws": 0,
-      "games_counted": 38,
+      "username": "great-war-man",
+      "points": 245,
+      "wins": 16,
+      "draws": 1,
+      "games_counted": 43,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/437737783.abe9196d.200x200o.3e0b265b94f8.jpg",
+      "rapid": {
+        "points": 245,
+        "wins": 16,
+        "draws": 1
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 245,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
+      "username": "dadivitanodnanref",
+      "points": 225,
+      "wins": 25,
+      "draws": 0,
+      "games_counted": 39,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/55340248.d82228f0.200x200o.c73210b68c0d.jpeg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 171,
-        "wins": 19,
+        "points": 225,
+        "wins": 25,
         "draws": 0
       },
       "bullet": {
@@ -85,34 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 171,
-      "bullet_points": 0
-    },
-    {
-      "username": "lewis69273791",
-      "points": 165,
-      "wins": 11,
-      "draws": 0,
-      "games_counted": 27,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
-      "rapid": {
-        "points": 165,
-        "wins": 11,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 165,
-      "blitz_points": 0,
+      "blitz_points": 225,
       "bullet_points": 0
     }
   ]
