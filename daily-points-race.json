@@ -2,13 +2,13 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "race",
-  "title": "Today's Points Race",
+  "mode": "winner",
+  "title": "Yesterday's Champion",
   "date": "2026-07-12",
-  "generated_at": "2026-07-12T22:09:29.345Z",
+  "generated_at": "2026-07-13T00:26:34.697Z",
   "window_start": "2026-07-12T00:00:00.000Z",
-  "window_end": "2026-07-12T22:07:44.125Z",
-  "total_members_checked": 3503,
+  "window_end": "2026-07-13T00:00:00.000Z",
+  "total_members_checked": 3504,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -32,7 +32,7 @@
     "minimum_half_moves": 10,
     "maximum_games_per_opponent": 15
   },
-  "note": "Live race updates every 3 hours after 06:00 UTC.",
+  "note": "Final podium is shown until 06:00 UTC.",
   "players": [
     {
       "username": "over613",
@@ -63,15 +63,15 @@
     },
     {
       "username": "lewis69273791",
-      "points": 655,
-      "wins": 43,
+      "points": 670,
+      "wins": 44,
       "draws": 2,
-      "games_counted": 91,
+      "games_counted": 94,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
       "rapid": {
-        "points": 655,
-        "wins": 43,
+        "points": 670,
+        "wins": 44,
         "draws": 2
       },
       "blitz": {
@@ -84,16 +84,16 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 655,
+      "rapid_points": 670,
       "blitz_points": 0,
       "bullet_points": 0
     },
     {
       "username": "alexanderslawbook",
-      "points": 537,
-      "wins": 58,
+      "points": 582,
+      "wins": 63,
       "draws": 5,
-      "games_counted": 76,
+      "games_counted": 83,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/512946891.d5781642.200x200o.d66a246bf314.jpg",
       "rapid": {
@@ -102,8 +102,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 537,
-        "wins": 58,
+        "points": 582,
+        "wins": 63,
         "draws": 5
       },
       "bullet": {
@@ -112,7 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 537,
+      "blitz_points": 582,
       "bullet_points": 0
     }
   ]
