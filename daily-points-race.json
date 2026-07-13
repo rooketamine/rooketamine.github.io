@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-13",
-  "generated_at": "2026-07-13T15:13:51.258Z",
+  "generated_at": "2026-07-13T17:25:30.142Z",
   "window_start": "2026-07-13T00:00:00.000Z",
-  "window_end": "2026-07-13T15:11:42.570Z",
+  "window_end": "2026-07-13T17:23:07.557Z",
   "total_members_checked": 3500,
   "scoring": {
     "rapid": {
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "over613",
-      "points": 369,
-      "wins": 120,
-      "draws": 9,
-      "games_counted": 242,
+      "points": 454,
+      "wins": 147,
+      "draws": 13,
+      "games_counted": 299,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
@@ -53,31 +53,31 @@
         "draws": 0
       },
       "bullet": {
-        "points": 369,
-        "wins": 120,
-        "draws": 9
+        "points": 454,
+        "wins": 147,
+        "draws": 13
       },
       "rapid_points": 0,
       "blitz_points": 0,
-      "bullet_points": 369
+      "bullet_points": 454
     },
     {
-      "username": "kinsuk_kk",
-      "points": 315,
-      "wins": 33,
-      "draws": 6,
-      "games_counted": 65,
+      "username": "maxxanon",
+      "points": 369,
+      "wins": 38,
+      "draws": 9,
+      "games_counted": 99,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/264301393.5ee70a0a.200x200o.1443c4cba5ff.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/226469711.58476543.200x200o.f6ca1f334701.jpg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 315,
-        "wins": 33,
-        "draws": 6
+        "points": 369,
+        "wins": 38,
+        "draws": 9
       },
       "bullet": {
         "points": 0,
@@ -85,20 +85,20 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 315,
+      "blitz_points": 369,
       "bullet_points": 0
     },
     {
       "username": "lewis69273791",
-      "points": 315,
-      "wins": 21,
+      "points": 345,
+      "wins": 23,
       "draws": 0,
-      "games_counted": 39,
+      "games_counted": 43,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
       "rapid": {
-        "points": 315,
-        "wins": 21,
+        "points": 345,
+        "wins": 23,
         "draws": 0
       },
       "blitz": {
@@ -111,7 +111,7 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 315,
+      "rapid_points": 345,
       "blitz_points": 0,
       "bullet_points": 0
     }
