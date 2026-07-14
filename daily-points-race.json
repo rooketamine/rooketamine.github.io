@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-14",
-  "generated_at": "2026-07-14T08:30:10.313Z",
+  "generated_at": "2026-07-14T10:58:27.794Z",
   "window_start": "2026-07-14T00:00:00.000Z",
-  "window_end": "2026-07-14T08:28:02.469Z",
-  "total_members_checked": 3503,
+  "window_end": "2026-07-14T10:56:17.773Z",
+  "total_members_checked": 3501,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -35,85 +35,85 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "nikhiloftopic",
-      "points": 225,
-      "wins": 15,
-      "draws": 0,
-      "games_counted": 25,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/363714507.94753bd9.200x200o.1a7712cf34ff.jpg",
-      "rapid": {
-        "points": 225,
-        "wins": 15,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 225,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
-      "username": "mitchierichie",
-      "points": 205,
-      "wins": 13,
-      "draws": 2,
-      "games_counted": 23,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/251719115.7b9fd933.200x200o.9a5c82ee4974.jpg",
-      "rapid": {
-        "points": 205,
-        "wins": 13,
-        "draws": 2
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 205,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
       "username": "financial_dragon",
-      "points": 196,
-      "wins": 24,
-      "draws": 4,
-      "games_counted": 49,
-      "games_skipped_opponent_cap": 0,
+      "points": 372,
+      "wins": 39,
+      "draws": 7,
+      "games_counted": 73,
+      "games_skipped_opponent_cap": 3,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/490428617.2a888fd3.200x200o.e438c0a06815.jpg",
       "rapid": {
-        "points": 120,
-        "wins": 8,
-        "draws": 0
+        "points": 200,
+        "wins": 13,
+        "draws": 1
       },
       "blitz": {
-        "points": 36,
-        "wins": 4,
-        "draws": 0
+        "points": 132,
+        "wins": 14,
+        "draws": 2
       },
       "bullet": {
         "points": 40,
         "wins": 12,
         "draws": 4
       },
-      "rapid_points": 120,
-      "blitz_points": 36,
+      "rapid_points": 200,
+      "blitz_points": 132,
       "bullet_points": 40
+    },
+    {
+      "username": "warecy",
+      "points": 369,
+      "wins": 40,
+      "draws": 3,
+      "games_counted": 64,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 369,
+        "wins": 40,
+        "draws": 3
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 369,
+      "bullet_points": 0
+    },
+    {
+      "username": "nikhiloftopic",
+      "points": 290,
+      "wins": 19,
+      "draws": 1,
+      "games_counted": 32,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/363714507.94753bd9.200x200o.1a7712cf34ff.jpg",
+      "rapid": {
+        "points": 290,
+        "wins": 19,
+        "draws": 1
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 290,
+      "blitz_points": 0,
+      "bullet_points": 0
     }
   ]
 }
