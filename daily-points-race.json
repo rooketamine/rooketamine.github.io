@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-14",
-  "generated_at": "2026-07-14T10:58:27.794Z",
+  "generated_at": "2026-07-14T14:16:53.137Z",
   "window_start": "2026-07-14T00:00:00.000Z",
-  "window_end": "2026-07-14T10:56:17.773Z",
-  "total_members_checked": 3501,
+  "window_end": "2026-07-14T14:13:55.317Z",
+  "total_members_checked": 3502,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -35,38 +35,11 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "financial_dragon",
-      "points": 372,
-      "wins": 39,
-      "draws": 7,
-      "games_counted": 73,
-      "games_skipped_opponent_cap": 3,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/490428617.2a888fd3.200x200o.e438c0a06815.jpg",
-      "rapid": {
-        "points": 200,
-        "wins": 13,
-        "draws": 1
-      },
-      "blitz": {
-        "points": 132,
-        "wins": 14,
-        "draws": 2
-      },
-      "bullet": {
-        "points": 40,
-        "wins": 12,
-        "draws": 4
-      },
-      "rapid_points": 200,
-      "blitz_points": 132,
-      "bullet_points": 40
-    },
-    {
       "username": "warecy",
-      "points": 369,
-      "wins": 40,
-      "draws": 3,
-      "games_counted": 64,
+      "points": 507,
+      "wins": 55,
+      "draws": 4,
+      "games_counted": 92,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -75,9 +48,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 369,
-        "wins": 40,
-        "draws": 3
+        "points": 507,
+        "wins": 55,
+        "draws": 4
       },
       "bullet": {
         "points": 0,
@@ -85,21 +58,48 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 369,
+      "blitz_points": 507,
       "bullet_points": 0
     },
     {
-      "username": "nikhiloftopic",
-      "points": 290,
-      "wins": 19,
-      "draws": 1,
-      "games_counted": 32,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/363714507.94753bd9.200x200o.1a7712cf34ff.jpg",
+      "username": "financial_dragon",
+      "points": 498,
+      "wins": 53,
+      "draws": 7,
+      "games_counted": 94,
+      "games_skipped_opponent_cap": 3,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/490428617.2a888fd3.200x200o.e438c0a06815.jpg",
       "rapid": {
         "points": 290,
         "wins": 19,
         "draws": 1
+      },
+      "blitz": {
+        "points": 150,
+        "wins": 16,
+        "draws": 2
+      },
+      "bullet": {
+        "points": 58,
+        "wins": 18,
+        "draws": 4
+      },
+      "rapid_points": 290,
+      "blitz_points": 150,
+      "bullet_points": 58
+    },
+    {
+      "username": "nikkotello",
+      "points": 335,
+      "wins": 21,
+      "draws": 4,
+      "games_counted": 40,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
+      "rapid": {
+        "points": 335,
+        "wins": 21,
+        "draws": 4
       },
       "blitz": {
         "points": 0,
@@ -111,7 +111,7 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 290,
+      "rapid_points": 335,
       "blitz_points": 0,
       "bullet_points": 0
     }
