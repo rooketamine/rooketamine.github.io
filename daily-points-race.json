@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T19:39:54.510Z",
+  "generated_at": "2026-07-15T22:15:56.764Z",
   "window_start": "2026-07-15T00:00:00.000Z",
-  "window_end": "2026-07-15T19:36:48.704Z",
-  "total_members_checked": 3506,
+  "window_end": "2026-07-15T22:12:54.842Z",
+  "total_members_checked": 3507,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 630,
-      "wins": 69,
+      "points": 657,
+      "wins": 72,
       "draws": 3,
-      "games_counted": 121,
+      "games_counted": 125,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 630,
-        "wins": 69,
+        "points": 657,
+        "wins": 72,
         "draws": 3
       },
       "bullet": {
@@ -58,20 +58,20 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 630,
+      "blitz_points": 657,
       "bullet_points": 0
     },
     {
       "username": "nikkotello",
-      "points": 500,
-      "wins": 32,
+      "points": 590,
+      "wins": 38,
       "draws": 4,
-      "games_counted": 69,
+      "games_counted": 81,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
       "rapid": {
-        "points": 500,
-        "wins": 32,
+        "points": 590,
+        "wins": 38,
         "draws": 4
       },
       "blitz": {
@@ -84,36 +84,36 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 500,
+      "rapid_points": 590,
       "blitz_points": 0,
       "bullet_points": 0
     },
     {
-      "username": "financial_dragon",
-      "points": 444,
-      "wins": 78,
-      "draws": 4,
-      "games_counted": 126,
-      "games_skipped_opponent_cap": 1,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/490428617.2a888fd3.200x200o.e438c0a06815.jpg",
+      "username": "windofshu777",
+      "points": 445,
+      "wins": 29,
+      "draws": 2,
+      "games_counted": 71,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/465388906.fed4e3c6.200x200o.41cbc3550131.jpg",
       "rapid": {
-        "points": 15,
-        "wins": 1,
-        "draws": 0
+        "points": 445,
+        "wins": 29,
+        "draws": 2
       },
       "blitz": {
-        "points": 291,
-        "wins": 31,
-        "draws": 4
-      },
-      "bullet": {
-        "points": 138,
-        "wins": 46,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
-      "rapid_points": 15,
-      "blitz_points": 291,
-      "bullet_points": 138
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 445,
+      "blitz_points": 0,
+      "bullet_points": 0
     }
   ]
 }
