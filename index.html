@@ -933,6 +933,89 @@ body{display:block;}
   fill:currentColor;
 }
 
+/* Trophy cabinet: one icon for each MCA result */
+.trophy-summary-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  align-items:start;
+  justify-items:center;
+  gap:14px 8px;
+  width:100%;
+}
+
+.trophy-summary-item{
+  width:100%;
+  min-width:0;
+  padding:3px 1px;
+  color:#ffffff;
+  text-decoration:none;
+  text-align:center;
+  outline:none;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-start;
+}
+
+/* Preserve the original Chess.com time-control colors. */
+.trophy-summary-item.yw-rapid-icon{color:#78b84c;}
+.trophy-summary-item.yw-blitz-icon{color:#ffd21f;}
+.trophy-summary-item.yw-bullet-icon{color:#c9a24e;}
+
+/* Put the seventh result by itself in the middle of the third row. */
+.trophy-summary-item:last-child{
+  grid-column:2;
+}
+
+.trophy-summary-icon{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:46px;
+  height:46px;
+  color:inherit;
+  filter:drop-shadow(0 5px 8px rgba(0,0,0,.30));
+  transition:transform .2s ease, filter .2s ease;
+  transform-origin:center center;
+}
+
+.trophy-summary-icon svg{
+  width:42px;
+  height:42px;
+  display:block;
+  fill:currentColor;
+}
+
+.trophy-summary-points{
+  display:block;
+  margin-top:4px;
+  font-size:11.5px;
+  font-weight:400!important;
+  color:#a8b9aa;
+  line-height:1.05;
+  white-space:nowrap;
+  transition:transform .2s ease, color .2s ease, text-shadow .2s ease;
+}
+
+.trophy-summary-number{
+  font-size:12.5px!important;
+  font-weight:600!important;
+}
+
+/* Subtle hover: icon and points only pop up slightly, with no glow or highlight. */
+.trophy-summary-item:hover .trophy-summary-icon,
+.trophy-summary-item:focus-visible .trophy-summary-icon{
+  transform:translateY(-3px) scale(1.06);
+  filter:drop-shadow(0 5px 8px rgba(0,0,0,.30));
+}
+
+.trophy-summary-item:hover .trophy-summary-points,
+.trophy-summary-item:focus-visible .trophy-summary-points{
+  transform:translateY(-1px) scale(1.02);
+  color:#a8b9aa;
+  text-shadow:none;
+}
+
 .yw-stage{
   height:192px;
   display:flex;
@@ -2138,55 +2221,82 @@ html, body, .sb, .sb *{
     <div class="div"></div>
 
     <!-- TROPHY CABINET -->
-    <div class="sec-label">🏆 Trophy Cabinet</div>
+    <div class="sec-label">🏆 MCA Trophy Cabinet</div>
     <div class="sec-sub">Our greatest wins...</div>
     <div class="card">
+      <div class="trophy-summary-grid">
 
-      <a class="list-btn gold-btn trophy-btn"
-        href="https://www.chess.com/tournament/live/arena/blundering-buddies-open-unrated-10-multi-club-31097859"
-        target="_blank" rel="noopener noreferrer">
-        👑 MCA Champion <span class="trophy-icon yw-bullet-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7.17,15.3 l1.43,1.47 l-8.27,6.9 Z M0.3,17.6 l4.5,-6.0 l0.9,2 Z M10.77,10.1 c3.47,-3.6,5.93,-5.2,8.7,-6.4 c-2.4,0,-5.3,0.37,-9.8,4.6 c0.03,0.5,0.7,1.47,1.1,1.8 Z M21.83,2.17 c0,0,0.23,1.1,0.23,2.77 c0,2.67,-0.67,6.83,-4.17,10.33 l-2.17,2.17 c-0.67,0.67,-1.33,0.6,-2.13,0.27 l-7.47,6.3 l9.8,-12.17 l-5.23,4.03 c-0.43,-0.4,-0.93,-0.83,-1.33,-1.23 c-1.73,-1.7,-4.13,-5,-2.77,-6.37 l2.2,-2.13 c3.53,-3.5,7.63,-4.2,10.3,-4.2 c1.63,0,2.73,0.23,2.73,0.23 Z"></path></svg></span> 2839 pts
-      </a>
+        <a class="trophy-summary-item yw-bullet-icon"
+          href="https://www.chess.com/tournament/live/arena/blundering-buddies-open-unrated-10-multi-club-31097859"
+          target="_blank" rel="noopener noreferrer"
+          aria-label="MCA result 1: Bullet, 2,839 points">
+          <span class="trophy-summary-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7.17,15.3 l1.43,1.47 l-8.27,6.9 Z M0.3,17.6 l4.5,-6.0 l0.9,2 Z M10.77,10.1 c3.47,-3.6,5.93,-5.2,8.7,-6.4 c-2.4,0,-5.3,0.37,-9.8,4.6 c0.03,0.5,0.7,1.47,1.1,1.8 Z M21.83,2.17 c0,0,0.23,1.1,0.23,2.77 c0,2.67,-0.67,6.83,-4.17,10.33 l-2.17,2.17 c-0.67,0.67,-1.33,0.6,-2.13,0.27 l-7.47,6.3 l9.8,-12.17 l-5.23,4.03 c-0.43,-0.4,-0.93,-0.83,-1.33,-1.23 c-1.73,-1.7,-4.13,-5,-2.77,-6.37 l2.2,-2.13 c3.53,-3.5,7.63,-4.2,10.3,-4.2 c1.63,0,2.73,0.23,2.73,0.23 Z"></path></svg>
+          </span>
+          <span class="trophy-summary-points"><span class="trophy-summary-number">2,839</span> pts</span>
+        </a>
 
-      <a class="list-btn trophy-btn"
-        href="https://www.chess.com/tournament/live/arena/blundering-buddies-blitz-30-unrated-multiclub-31181063"
-        target="_blank" rel="noopener noreferrer">
-        MCA Champion <span class="trophy-icon yw-blitz-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.9 1.2 4.7 13h5.1L7.9 22.8 19.3 9.4h-6.2L12.9 1.2Z"></path></svg></span> 2544 pts
-      </a>
+        <a class="trophy-summary-item yw-blitz-icon"
+          href="https://www.chess.com/tournament/live/arena/blundering-buddies-blitz-30-unrated-multiclub-31181063"
+          target="_blank" rel="noopener noreferrer"
+          aria-label="MCA result 2: Blitz, 2,544 points">
+          <span class="trophy-summary-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.15 1.7h9.35c.82 0 1.28.94.78 1.59l-5.08 6.64h5.18c.9 0 1.32 1.12.65 1.72L7.95 22.42c-.72.64-1.82-.03-1.57-.96l2.35-8.52H4.62c-.75 0-1.2-.8-.86-1.46L8.29 2.23c.16-.33.49-.53.86-.53Z"></path></svg>
+          </span>
+          <span class="trophy-summary-points"><span class="trophy-summary-number">2,544</span> pts</span>
+        </a>
 
-      <a class="list-btn trophy-btn"
-        href="https://www.chess.com/tournament/live/arena/blundering-buddies-unrated-multiclub-4706553"
-        target="_blank" rel="noopener noreferrer">
-        MCA Champion <span class="trophy-icon yw-blitz-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.9 1.2 4.7 13h5.1L7.9 22.8 19.3 9.4h-6.2L12.9 1.2Z"></path></svg></span> 1658 pts
-      </a>
+        <a class="trophy-summary-item yw-blitz-icon"
+          href="https://www.chess.com/tournament/live/arena/blundering-buddies-unrated-multiclub-4706553"
+          target="_blank" rel="noopener noreferrer"
+          aria-label="MCA result 3: Blitz, 1,658 points">
+          <span class="trophy-summary-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.15 1.7h9.35c.82 0 1.28.94.78 1.59l-5.08 6.64h5.18c.9 0 1.32 1.12.65 1.72L7.95 22.42c-.72.64-1.82-.03-1.57-.96l2.35-8.52H4.62c-.75 0-1.2-.8-.86-1.46L8.29 2.23c.16-.33.49-.53.86-.53Z"></path></svg>
+          </span>
+          <span class="trophy-summary-points"><span class="trophy-summary-number">1,658</span> pts</span>
+        </a>
 
-      <a class="list-btn trophy-btn"
-        href="https://www.chess.com/tournament/live/arena/blundering-buddies-rapid-100-unrated-multiclub-31263965"
-        target="_blank" rel="noopener noreferrer">
-        MCA Champion <span class="trophy-icon yw-rapid-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.97,14.63 c-0.9,0,-1.87,-0.73,-1.5,-2.23 l1.03,-4.4 l1,0 l1.03,4.37 c0.37,1.53,-0.63,2.27,-1.57,2.27 Z M12,22.5 c-5.23,0,-9.5,-4.27,-9.5,-9.5 c0,-5.23,4.27,-9.5,9.5,-9.5 c5.23,0,9.5,4.27,9.5,9.5 c0,5.23,-4.27,9.5,-9.5,9.5 Z M12,19.5 c4,0,6.5,-2.5,6.5,-6.5 c0,-4,-2.5,-6.5,-6.5,-6.5 c-4,0,-6.5,2.5,-6.5,6.5 c0,4,2.5,6.5,6.5,6.5 Z M10.5,5.23 l0,-4.23 l3,0 l0,4.23 Z M15.5,2 l-7,0 c0,-1.7,0.43,-2,3.5,-2 c3.07,0,3.5,0.3,3.5,2 Z"></path></svg></span> 1311 pts
-      </a>
+        <a class="trophy-summary-item yw-rapid-icon"
+          href="https://www.chess.com/tournament/live/arena/blundering-buddies-rapid-100-unrated-multiclub-31263965"
+          target="_blank" rel="noopener noreferrer"
+          aria-label="MCA result 4: Rapid, 1,311 points">
+          <span class="trophy-summary-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.97,14.63 c-0.9,0,-1.87,-0.73,-1.5,-2.23 l1.03,-4.4 l1,0 l1.03,4.37 c0.37,1.53,-0.63,2.27,-1.57,2.27 Z M12,22.5 c-5.23,0,-9.5,-4.27,-9.5,-9.5 c0,-5.23,4.27,-9.5,9.5,-9.5 c5.23,0,9.5,4.27,9.5,9.5 c0,5.23,-4.27,9.5,-9.5,9.5 Z M12,19.5 c4,0,6.5,-2.5,6.5,-6.5 c0,-4,-2.5,-6.5,-6.5,-6.5 c-4,0,-6.5,2.5,-6.5,6.5 c0,4,2.5,6.5,6.5,6.5 Z M10.5,5.23 l0,-4.23 l3,0 l0,4.23 Z M15.5,2 l-7,0 c0,-1.7,0.43,-2,3.5,-2 c3.07,0,3.5,0.3,3.5,2 Z"></path></svg>
+          </span>
+          <span class="trophy-summary-points"><span class="trophy-summary-number">1,311</span> pts</span>
+        </a>
 
-      <a class="list-btn trophy-btn"
-        href="https://www.chess.com/tournament/live/arena/blundering-buddies-open-unrated-100-multi-club--31047155"
-        target="_blank" rel="noopener noreferrer">
-        MCA Champion <span class="trophy-icon yw-rapid-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.97,14.63 c-0.9,0,-1.87,-0.73,-1.5,-2.23 l1.03,-4.4 l1,0 l1.03,4.37 c0.37,1.53,-0.63,2.27,-1.57,2.27 Z M12,22.5 c-5.23,0,-9.5,-4.27,-9.5,-9.5 c0,-5.23,4.27,-9.5,9.5,-9.5 c5.23,0,9.5,4.27,9.5,9.5 c0,5.23,-4.27,9.5,-9.5,9.5 Z M12,19.5 c4,0,6.5,-2.5,6.5,-6.5 c0,-4,-2.5,-6.5,-6.5,-6.5 c-4,0,-6.5,2.5,-6.5,6.5 c0,4,2.5,6.5,6.5,6.5 Z M10.5,5.23 l0,-4.23 l3,0 l0,4.23 Z M15.5,2 l-7,0 c0,-1.7,0.43,-2,3.5,-2 c3.07,0,3.5,0.3,3.5,2 Z"></path></svg></span> 1154 pts
-      </a>
+        <a class="trophy-summary-item yw-rapid-icon"
+          href="https://www.chess.com/tournament/live/arena/blundering-buddies-open-unrated-100-multi-club--31047155"
+          target="_blank" rel="noopener noreferrer"
+          aria-label="MCA result 5: Rapid, 1,154 points">
+          <span class="trophy-summary-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.97,14.63 c-0.9,0,-1.87,-0.73,-1.5,-2.23 l1.03,-4.4 l1,0 l1.03,4.37 c0.37,1.53,-0.63,2.27,-1.57,2.27 Z M12,22.5 c-5.23,0,-9.5,-4.27,-9.5,-9.5 c0,-5.23,4.27,-9.5,9.5,-9.5 c5.23,0,9.5,4.27,9.5,9.5 c0,5.23,-4.27,9.5,-9.5,9.5 Z M12,19.5 c4,0,6.5,-2.5,6.5,-6.5 c0,-4,-2.5,-6.5,-6.5,-6.5 c-4,0,-6.5,2.5,-6.5,6.5 c0,4,2.5,6.5,6.5,6.5 Z M10.5,5.23 l0,-4.23 l3,0 l0,4.23 Z M15.5,2 l-7,0 c0,-1.7,0.43,-2,3.5,-2 c3.07,0,3.5,0.3,3.5,2 Z"></path></svg>
+          </span>
+          <span class="trophy-summary-points"><span class="trophy-summary-number">1,154</span> pts</span>
+        </a>
 
-      <a class="list-btn trophy-btn"
-        href="https://www.chess.com/tournament/live/arena/blundering-buddies-open-multi-club-arena-4646151"
-        target="_blank" rel="noopener noreferrer">
-        MCA Champion <span class="trophy-icon yw-blitz-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.9 1.2 4.7 13h5.1L7.9 22.8 19.3 9.4h-6.2L12.9 1.2Z"></path></svg></span> 1060 pts
-      </a>
+        <a class="trophy-summary-item yw-blitz-icon"
+          href="https://www.chess.com/tournament/live/arena/blundering-buddies-open-multi-club-arena-4646151"
+          target="_blank" rel="noopener noreferrer"
+          aria-label="MCA result 6: Blitz, 1,060 points">
+          <span class="trophy-summary-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.15 1.7h9.35c.82 0 1.28.94.78 1.59l-5.08 6.64h5.18c.9 0 1.32 1.12.65 1.72L7.95 22.42c-.72.64-1.82-.03-1.57-.96l2.35-8.52H4.62c-.75 0-1.2-.8-.86-1.46L8.29 2.23c.16-.33.49-.53.86-.53Z"></path></svg>
+          </span>
+          <span class="trophy-summary-points"><span class="trophy-summary-number">1,060</span> pts</span>
+        </a>
 
-      <a class="list-btn trophy-btn"
-        href="https://www.chess.com/tournament/live/arena/shirokuro-multi-club-arena-2025-4631081"
-        target="_blank" rel="noopener noreferrer">
-        MCA Champion <span class="trophy-icon yw-blitz-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.9 1.2 4.7 13h5.1L7.9 22.8 19.3 9.4h-6.2L12.9 1.2Z"></path></svg></span> 572 pts
-      </a>
-      <a class="list-btn"
-        href="https://www.chess.com/clubs/forum/view/blundering-buddies-hall-of-fame"
-        target="_blank" rel="noopener noreferrer">🏆 Hall of Fame</a>
+        <a class="trophy-summary-item yw-blitz-icon"
+          href="https://www.chess.com/tournament/live/arena/shirokuro-multi-club-arena-2025-4631081"
+          target="_blank" rel="noopener noreferrer"
+          aria-label="MCA result 7: Blitz, 572 points">
+          <span class="trophy-summary-icon" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.15 1.7h9.35c.82 0 1.28.94.78 1.59l-5.08 6.64h5.18c.9 0 1.32 1.12.65 1.72L7.95 22.42c-.72.64-1.82-.03-1.57-.96l2.35-8.52H4.62c-.75 0-1.2-.8-.86-1.46L8.29 2.23c.16-.33.49-.53.86-.53Z"></path></svg>
+          </span>
+          <span class="trophy-summary-points"><span class="trophy-summary-number">572</span> pts</span>
+        </a>
 
+      </div>
     </div>
 
     <div class="div"></div>
@@ -2439,7 +2549,7 @@ setInterval(loadMembers, REFRESH_MS);
 const YW_FALLBACK_AVATAR = 'https://www.chess.com/bundles/web/images/user-image.007dad08.svg';
 const YW_DATA_URL = 'daily-points-race.json';
 const YW_ICON_RAPID = '<span class="yw-chip-icon yw-rapid-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.97,14.63 c-0.9,0,-1.87,-0.73,-1.5,-2.23 l1.03,-4.4 l1,0 l1.03,4.37 c0.37,1.53,-0.63,2.27,-1.57,2.27 Z M12,22.5 c-5.23,0,-9.5,-4.27,-9.5,-9.5 c0,-5.23,4.27,-9.5,9.5,-9.5 c5.23,0,9.5,4.27,9.5,9.5 c0,5.23,-4.27,9.5,-9.5,9.5 Z M12,19.5 c4,0,6.5,-2.5,6.5,-6.5 c0,-4,-2.5,-6.5,-6.5,-6.5 c-4,0,-6.5,2.5,-6.5,6.5 c0,4,2.5,6.5,6.5,6.5 Z M10.5,5.23 l0,-4.23 l3,0 l0,4.23 Z M15.5,2 l-7,0 c0,-1.7,0.43,-2,3.5,-2 c3.07,0,3.5,0.3,3.5,2 Z"></path></svg></span>';
-const YW_ICON_BLITZ = '<span class="yw-chip-icon yw-blitz-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12.9 1.2 4.7 13h5.1L7.9 22.8 19.3 9.4h-6.2L12.9 1.2Z"></path></svg></span>';
+const YW_ICON_BLITZ = '<span class="yw-chip-icon yw-blitz-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.15 1.7h9.35c.82 0 1.28.94.78 1.59l-5.08 6.64h5.18c.9 0 1.32 1.12.65 1.72L7.95 22.42c-.72.64-1.82-.03-1.57-.96l2.35-8.52H4.62c-.75 0-1.2-.8-.86-1.46L8.29 2.23c.16-.33.49-.53.86-.53Z"></path></svg></span>';
 const YW_ICON_BULLET = '<span class="yw-chip-icon yw-bullet-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7.17,15.3 l1.43,1.47 l-8.27,6.9 Z M0.3,17.6 l4.5,-6.0 l0.9,2 Z M10.77,10.1 c3.47,-3.6,5.93,-5.2,8.7,-6.4 c-2.4,0,-5.3,0.37,-9.8,4.6 c0.03,0.5,0.7,1.47,1.1,1.8 Z M21.83,2.17 c0,0,0.23,1.1,0.23,2.77 c0,2.67,-0.67,6.83,-4.17,10.33 l-2.17,2.17 c-0.67,0.67,-1.33,0.6,-2.13,0.27 l-7.47,6.3 l9.8,-12.17 l-5.23,4.03 c-0.43,-0.4,-0.93,-0.83,-1.33,-1.23 c-1.73,-1.7,-4.13,-5,-2.77,-6.37 l2.2,-2.13 c3.53,-3.5,7.63,-4.2,10.3,-4.2 c1.63,0,2.73,0.23,2.73,0.23 Z"></path></svg></span>';
 
 function getUTCDateKey(offsetDays = 0){
