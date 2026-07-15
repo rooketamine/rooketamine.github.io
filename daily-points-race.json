@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-15",
-  "generated_at": "2026-07-15T06:14:53.717Z",
+  "generated_at": "2026-07-15T08:39:11.783Z",
   "window_start": "2026-07-15T00:00:00.000Z",
-  "window_end": "2026-07-15T06:12:44.081Z",
-  "total_members_checked": 3505,
+  "window_end": "2026-07-15T08:35:58.854Z",
+  "total_members_checked": 3503,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -35,6 +35,60 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
+      "username": "mishrafish",
+      "points": 261,
+      "wins": 42,
+      "draws": 3,
+      "games_counted": 72,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/16716510.7131de21.200x200o.2199085e79b7.png",
+      "rapid": {
+        "points": 165,
+        "wins": 11,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 96,
+        "wins": 31,
+        "draws": 3
+      },
+      "rapid_points": 165,
+      "blitz_points": 0,
+      "bullet_points": 96
+    },
+    {
+      "username": "financial_dragon",
+      "points": 258,
+      "wins": 45,
+      "draws": 1,
+      "games_counted": 77,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/490428617.2a888fd3.200x200o.e438c0a06815.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 183,
+        "wins": 20,
+        "draws": 1
+      },
+      "bullet": {
+        "points": 75,
+        "wins": 25,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 183,
+      "bullet_points": 75
+    },
+    {
       "username": "mitchierichie",
       "points": 195,
       "wins": 13,
@@ -60,60 +114,6 @@
       "rapid_points": 195,
       "blitz_points": 0,
       "bullet_points": 0
-    },
-    {
-      "username": "mishrafish",
-      "points": 171,
-      "wins": 36,
-      "draws": 3,
-      "games_counted": 62,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/16716510.7131de21.200x200o.2199085e79b7.png",
-      "rapid": {
-        "points": 75,
-        "wins": 5,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 96,
-        "wins": 31,
-        "draws": 3
-      },
-      "rapid_points": 75,
-      "blitz_points": 0,
-      "bullet_points": 96
-    },
-    {
-      "username": "financial_dragon",
-      "points": 150,
-      "wins": 26,
-      "draws": 0,
-      "games_counted": 46,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/490428617.2a888fd3.200x200o.e438c0a06815.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 108,
-        "wins": 12,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 42,
-        "wins": 14,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 108,
-      "bullet_points": 42
     }
   ]
 }
