@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-16",
-  "generated_at": "2026-07-16T14:26:06.230Z",
+  "generated_at": "2026-07-16T16:48:52.451Z",
   "window_start": "2026-07-16T00:00:00.000Z",
-  "window_end": "2026-07-16T14:23:15.547Z",
-  "total_members_checked": 3518,
+  "window_end": "2026-07-16T16:41:41.062Z",
+  "total_members_checked": 3517,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,16 +36,16 @@
   "players": [
     {
       "username": "jimanchowdhury24",
-      "points": 270,
-      "wins": 18,
-      "draws": 0,
-      "games_counted": 32,
+      "points": 425,
+      "wins": 28,
+      "draws": 1,
+      "games_counted": 45,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/330276489.94596854.200x200o.24908227719e.jpg",
       "rapid": {
-        "points": 270,
-        "wins": 18,
-        "draws": 0
+        "points": 425,
+        "wins": 28,
+        "draws": 1
       },
       "blitz": {
         "points": 0,
@@ -57,43 +57,43 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 270,
+      "rapid_points": 425,
       "blitz_points": 0,
       "bullet_points": 0
     },
     {
-      "username": "miguumiguu",
-      "points": 234,
-      "wins": 25,
-      "draws": 3,
+      "username": "lewis69273791",
+      "points": 340,
+      "wins": 22,
+      "draws": 2,
       "games_counted": 40,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
       "rapid": {
+        "points": 340,
+        "wins": 22,
+        "draws": 2
+      },
+      "blitz": {
         "points": 0,
         "wins": 0,
         "draws": 0
-      },
-      "blitz": {
-        "points": 234,
-        "wins": 25,
-        "draws": 3
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 234,
+      "rapid_points": 340,
+      "blitz_points": 0,
       "bullet_points": 0
     },
     {
       "username": "warszawaairport",
-      "points": 234,
-      "wins": 25,
+      "points": 324,
+      "wins": 35,
       "draws": 3,
-      "games_counted": 52,
+      "games_counted": 68,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/141923741.84662b80.200x200o.9efc512c3e24.jpg",
       "rapid": {
@@ -102,8 +102,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 234,
-        "wins": 25,
+        "points": 324,
+        "wins": 35,
         "draws": 3
       },
       "bullet": {
@@ -112,7 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 234,
+      "blitz_points": 324,
       "bullet_points": 0
     }
   ]
