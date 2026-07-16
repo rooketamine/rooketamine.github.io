@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-16",
-  "generated_at": "2026-07-16T16:48:52.451Z",
+  "generated_at": "2026-07-16T19:36:29.779Z",
   "window_start": "2026-07-16T00:00:00.000Z",
-  "window_end": "2026-07-16T16:41:41.062Z",
+  "window_end": "2026-07-16T19:34:18.962Z",
   "total_members_checked": 3517,
   "scoring": {
     "rapid": {
@@ -36,15 +36,15 @@
   "players": [
     {
       "username": "jimanchowdhury24",
-      "points": 425,
-      "wins": 28,
+      "points": 545,
+      "wins": 36,
       "draws": 1,
-      "games_counted": 45,
+      "games_counted": 55,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/330276489.94596854.200x200o.24908227719e.jpg",
       "rapid": {
-        "points": 425,
-        "wins": 28,
+        "points": 545,
+        "wins": 36,
         "draws": 1
       },
       "blitz": {
@@ -57,21 +57,48 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 425,
+      "rapid_points": 545,
       "blitz_points": 0,
       "bullet_points": 0
     },
     {
+      "username": "warecy",
+      "points": 417,
+      "wins": 46,
+      "draws": 1,
+      "games_counted": 65,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 417,
+        "wins": 46,
+        "draws": 1
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 417,
+      "bullet_points": 0
+    },
+    {
       "username": "lewis69273791",
-      "points": 340,
-      "wins": 22,
+      "points": 415,
+      "wins": 27,
       "draws": 2,
-      "games_counted": 40,
+      "games_counted": 50,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
       "rapid": {
-        "points": 340,
-        "wins": 22,
+        "points": 415,
+        "wins": 27,
         "draws": 2
       },
       "blitz": {
@@ -84,35 +111,8 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 340,
+      "rapid_points": 415,
       "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
-      "username": "warszawaairport",
-      "points": 324,
-      "wins": 35,
-      "draws": 3,
-      "games_counted": 68,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/141923741.84662b80.200x200o.9efc512c3e24.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 324,
-        "wins": 35,
-        "draws": 3
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 324,
       "bullet_points": 0
     }
   ]
