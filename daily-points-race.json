@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-16",
-  "generated_at": "2026-07-16T19:36:29.779Z",
+  "generated_at": "2026-07-16T22:17:21.379Z",
   "window_start": "2026-07-16T00:00:00.000Z",
-  "window_end": "2026-07-16T19:34:18.962Z",
-  "total_members_checked": 3517,
+  "window_end": "2026-07-16T22:15:18.711Z",
+  "total_members_checked": 3518,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -35,38 +35,11 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "jimanchowdhury24",
-      "points": 545,
-      "wins": 36,
-      "draws": 1,
-      "games_counted": 55,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/330276489.94596854.200x200o.24908227719e.jpg",
-      "rapid": {
-        "points": 545,
-        "wins": 36,
-        "draws": 1
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 545,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
       "username": "warecy",
-      "points": 417,
-      "wins": 46,
+      "points": 579,
+      "wins": 64,
       "draws": 1,
-      "games_counted": 65,
+      "games_counted": 94,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -75,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 417,
-        "wins": 46,
+        "points": 579,
+        "wins": 64,
         "draws": 1
       },
       "bullet": {
@@ -85,21 +58,21 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 417,
+      "blitz_points": 579,
       "bullet_points": 0
     },
     {
-      "username": "lewis69273791",
-      "points": 415,
-      "wins": 27,
-      "draws": 2,
-      "games_counted": 50,
+      "username": "jimanchowdhury24",
+      "points": 575,
+      "wins": 38,
+      "draws": 1,
+      "games_counted": 58,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/330276489.94596854.200x200o.24908227719e.jpg",
       "rapid": {
-        "points": 415,
-        "wins": 27,
-        "draws": 2
+        "points": 575,
+        "wins": 38,
+        "draws": 1
       },
       "blitz": {
         "points": 0,
@@ -111,7 +84,34 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 415,
+      "rapid_points": 575,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
+      "username": "lewis69273791",
+      "points": 510,
+      "wins": 33,
+      "draws": 3,
+      "games_counted": 59,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
+      "rapid": {
+        "points": 510,
+        "wins": 33,
+        "draws": 3
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 510,
       "blitz_points": 0,
       "bullet_points": 0
     }
