@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-16",
-  "generated_at": "2026-07-16T08:36:46.050Z",
+  "generated_at": "2026-07-16T12:19:15.937Z",
   "window_start": "2026-07-16T00:00:00.000Z",
-  "window_end": "2026-07-16T08:34:19.176Z",
+  "window_end": "2026-07-16T11:12:40.785Z",
   "total_members_checked": 3518,
   "scoring": {
     "rapid": {
@@ -62,6 +62,33 @@
       "bullet_points": 0
     },
     {
+      "username": "jimanchowdhury24",
+      "points": 225,
+      "wins": 15,
+      "draws": 0,
+      "games_counted": 28,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/330276489.94596854.200x200o.24908227719e.jpg",
+      "rapid": {
+        "points": 225,
+        "wins": 15,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 225,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
       "username": "nikkotello",
       "points": 219,
       "wins": 29,
@@ -87,33 +114,6 @@
       "rapid_points": 165,
       "blitz_points": 0,
       "bullet_points": 54
-    },
-    {
-      "username": "warszawaairport",
-      "points": 216,
-      "wins": 23,
-      "draws": 3,
-      "games_counted": 50,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/141923741.84662b80.200x200o.9efc512c3e24.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 216,
-        "wins": 23,
-        "draws": 3
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 216,
-      "bullet_points": 0
     }
   ]
 }
