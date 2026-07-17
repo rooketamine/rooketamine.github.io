@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-17",
-  "generated_at": "2026-07-17T19:35:49.660Z",
+  "generated_at": "2026-07-17T22:08:49.130Z",
   "window_start": "2026-07-17T00:00:00.000Z",
-  "window_end": "2026-07-17T19:33:05.672Z",
-  "total_members_checked": 3528,
+  "window_end": "2026-07-17T22:06:34.130Z",
+  "total_members_checked": 3526,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 705,
-      "wins": 77,
-      "draws": 4,
-      "games_counted": 117,
+      "points": 798,
+      "wins": 87,
+      "draws": 5,
+      "games_counted": 133,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,9 +48,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 705,
-        "wins": 77,
-        "draws": 4
+        "points": 798,
+        "wins": 87,
+        "draws": 5
       },
       "bullet": {
         "points": 0,
@@ -58,42 +58,15 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 705,
-      "bullet_points": 0
-    },
-    {
-      "username": "kinsuk_kk",
-      "points": 642,
-      "wins": 70,
-      "draws": 4,
-      "games_counted": 145,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/264301393.5ee70a0a.200x200o.1443c4cba5ff.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 642,
-        "wins": 70,
-        "draws": 4
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 642,
+      "blitz_points": 798,
       "bullet_points": 0
     },
     {
       "username": "basiic_chess_ttv",
-      "points": 585,
-      "wins": 63,
-      "draws": 6,
-      "games_counted": 147,
+      "points": 735,
+      "wins": 79,
+      "draws": 8,
+      "games_counted": 177,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/141893757.a642dad2.200x200o.34ce1d7b6514.jpg",
       "rapid": {
@@ -102,8 +75,35 @@
         "draws": 0
       },
       "blitz": {
-        "points": 585,
-        "wins": 63,
+        "points": 735,
+        "wins": 79,
+        "draws": 8
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 735,
+      "bullet_points": 0
+    },
+    {
+      "username": "kinsuk_kk",
+      "points": 675,
+      "wins": 73,
+      "draws": 6,
+      "games_counted": 155,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/264301393.5ee70a0a.200x200o.1443c4cba5ff.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 675,
+        "wins": 73,
         "draws": 6
       },
       "bullet": {
@@ -112,7 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 585,
+      "blitz_points": 675,
       "bullet_points": 0
     }
   ]
