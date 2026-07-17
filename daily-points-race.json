@@ -2,12 +2,12 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "race",
-  "title": "Today's Points Race",
+  "mode": "winner",
+  "title": "Yesterday's Champion",
   "date": "2026-07-16",
-  "generated_at": "2026-07-16T22:17:21.379Z",
+  "generated_at": "2026-07-17T00:08:10.664Z",
   "window_start": "2026-07-16T00:00:00.000Z",
-  "window_end": "2026-07-16T22:15:18.711Z",
+  "window_end": "2026-07-17T00:00:00.000Z",
   "total_members_checked": 3518,
   "scoring": {
     "rapid": {
@@ -32,14 +32,14 @@
     "minimum_half_moves": 10,
     "maximum_games_per_opponent": 15
   },
-  "note": "Live race updates every 3 hours after 06:00 UTC.",
+  "note": "Final podium is shown until 06:00 UTC.",
   "players": [
     {
       "username": "warecy",
-      "points": 579,
-      "wins": 64,
+      "points": 633,
+      "wins": 70,
       "draws": 1,
-      "games_counted": 94,
+      "games_counted": 102,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 579,
-        "wins": 64,
+        "points": 633,
+        "wins": 70,
         "draws": 1
       },
       "bullet": {
@@ -58,47 +58,47 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 579,
+      "blitz_points": 633,
       "bullet_points": 0
     },
     {
-      "username": "jimanchowdhury24",
-      "points": 575,
-      "wins": 38,
-      "draws": 1,
-      "games_counted": 58,
+      "username": "miguumiguu",
+      "points": 600,
+      "wins": 65,
+      "draws": 5,
+      "games_counted": 91,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/330276489.94596854.200x200o.24908227719e.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
       "rapid": {
-        "points": 575,
-        "wins": 38,
-        "draws": 1
-      },
-      "blitz": {
         "points": 0,
         "wins": 0,
         "draws": 0
+      },
+      "blitz": {
+        "points": 600,
+        "wins": 65,
+        "draws": 5
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 575,
-      "blitz_points": 0,
+      "rapid_points": 0,
+      "blitz_points": 600,
       "bullet_points": 0
     },
     {
       "username": "lewis69273791",
-      "points": 510,
-      "wins": 33,
+      "points": 585,
+      "wins": 38,
       "draws": 3,
-      "games_counted": 59,
+      "games_counted": 68,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
       "rapid": {
-        "points": 510,
-        "wins": 33,
+        "points": 585,
+        "wins": 38,
         "draws": 3
       },
       "blitz": {
@@ -111,7 +111,7 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 510,
+      "rapid_points": 585,
       "blitz_points": 0,
       "bullet_points": 0
     }
