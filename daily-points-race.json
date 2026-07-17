@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-17",
-  "generated_at": "2026-07-17T06:27:59.582Z",
+  "generated_at": "2026-07-17T08:30:40.543Z",
   "window_start": "2026-07-17T00:00:00.000Z",
-  "window_end": "2026-07-17T06:25:48.648Z",
+  "window_end": "2026-07-17T08:28:29.542Z",
   "total_members_checked": 3523,
   "scoring": {
     "rapid": {
@@ -34,6 +34,33 @@
   },
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
+    {
+      "username": "kinsuk_kk",
+      "points": 375,
+      "wins": 41,
+      "draws": 2,
+      "games_counted": 82,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/264301393.5ee70a0a.200x200o.1443c4cba5ff.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 375,
+        "wins": 41,
+        "draws": 2
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 375,
+      "bullet_points": 0
+    },
     {
       "username": "basiic_chess_ttv",
       "points": 270,
@@ -62,57 +89,30 @@
       "bullet_points": 0
     },
     {
-      "username": "kinsuk_kk",
-      "points": 246,
-      "wins": 27,
-      "draws": 1,
-      "games_counted": 59,
+      "username": "vraj1428",
+      "points": 260,
+      "wins": 16,
+      "draws": 4,
+      "games_counted": 30,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/264301393.5ee70a0a.200x200o.1443c4cba5ff.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/78452396.6f499b37.200x200o.b3167222398c.jpg",
       "rapid": {
+        "points": 260,
+        "wins": 16,
+        "draws": 4
+      },
+      "blitz": {
         "points": 0,
         "wins": 0,
         "draws": 0
-      },
-      "blitz": {
-        "points": 246,
-        "wins": 27,
-        "draws": 1
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 246,
-      "bullet_points": 0
-    },
-    {
-      "username": "warszawaairport",
-      "points": 195,
-      "wins": 21,
-      "draws": 2,
-      "games_counted": 31,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/141923741.84662b80.200x200o.9efc512c3e24.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 195,
-        "wins": 21,
-        "draws": 2
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 195,
+      "rapid_points": 260,
+      "blitz_points": 0,
       "bullet_points": 0
     }
   ]
