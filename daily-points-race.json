@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-17",
-  "generated_at": "2026-07-17T08:30:40.543Z",
+  "generated_at": "2026-07-17T11:00:13.141Z",
   "window_start": "2026-07-17T00:00:00.000Z",
-  "window_end": "2026-07-17T08:28:29.542Z",
-  "total_members_checked": 3523,
+  "window_end": "2026-07-17T10:58:03.812Z",
+  "total_members_checked": 3525,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "kinsuk_kk",
-      "points": 375,
-      "wins": 41,
-      "draws": 2,
-      "games_counted": 82,
+      "points": 522,
+      "wins": 57,
+      "draws": 3,
+      "games_counted": 113,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/264301393.5ee70a0a.200x200o.1443c4cba5ff.jpg",
       "rapid": {
@@ -48,9 +48,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 375,
-        "wins": 41,
-        "draws": 2
+        "points": 522,
+        "wins": 57,
+        "draws": 3
       },
       "bullet": {
         "points": 0,
@@ -58,62 +58,62 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 375,
+      "blitz_points": 522,
       "bullet_points": 0
     },
     {
-      "username": "basiic_chess_ttv",
-      "points": 270,
-      "wins": 28,
-      "draws": 6,
-      "games_counted": 75,
+      "username": "imxshaurya",
+      "points": 353,
+      "wins": 31,
+      "draws": 2,
+      "games_counted": 39,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/141893757.a642dad2.200x200o.34ce1d7b6514.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/468785454.daa2ec86.200x200o.0174253404ef.jpg",
       "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
+        "points": 170,
+        "wins": 11,
+        "draws": 1
       },
       "blitz": {
-        "points": 270,
-        "wins": 28,
-        "draws": 6
+        "points": 183,
+        "wins": 20,
+        "draws": 1
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 270,
+      "rapid_points": 170,
+      "blitz_points": 183,
       "bullet_points": 0
     },
     {
-      "username": "vraj1428",
-      "points": 260,
-      "wins": 16,
-      "draws": 4,
-      "games_counted": 30,
+      "username": "tyson820",
+      "points": 346,
+      "wins": 38,
+      "draws": 2,
+      "games_counted": 57,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/78452396.6f499b37.200x200o.b3167222398c.jpg",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 260,
-        "wins": 16,
-        "draws": 4
+        "points": 90,
+        "wins": 6,
+        "draws": 0
       },
       "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
+        "points": 237,
+        "wins": 26,
+        "draws": 1
       },
       "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
+        "points": 19,
+        "wins": 6,
+        "draws": 1
       },
-      "rapid_points": 260,
-      "blitz_points": 0,
-      "bullet_points": 0
+      "rapid_points": 90,
+      "blitz_points": 237,
+      "bullet_points": 19
     }
   ]
 }
