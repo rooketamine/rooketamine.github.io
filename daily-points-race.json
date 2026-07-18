@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-18",
-  "generated_at": "2026-07-18T06:35:34.300Z",
+  "generated_at": "2026-07-18T08:11:20.760Z",
   "window_start": "2026-07-18T00:00:00.000Z",
-  "window_end": "2026-07-18T06:33:23.712Z",
-  "total_members_checked": 3527,
+  "window_end": "2026-07-18T08:09:11.195Z",
+  "total_members_checked": 3526,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -35,11 +35,38 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "sheayurdana",
-      "points": 240,
-      "wins": 24,
+      "username": "warecy",
+      "points": 279,
+      "wins": 31,
       "draws": 0,
-      "games_counted": 34,
+      "games_counted": 41,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 279,
+        "wins": 31,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 279,
+      "bullet_points": 0
+    },
+    {
+      "username": "sheayurdana",
+      "points": 249,
+      "wins": 25,
+      "draws": 0,
+      "games_counted": 35,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/405676539.87f7b56c.200x200o.9d24f10a8787.jpg",
       "rapid": {
@@ -48,8 +75,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 180,
-        "wins": 20,
+        "points": 189,
+        "wins": 21,
         "draws": 0
       },
       "bullet": {
@@ -58,7 +85,7 @@
         "draws": 0
       },
       "rapid_points": 60,
-      "blitz_points": 180,
+      "blitz_points": 189,
       "bullet_points": 0
     },
     {
@@ -87,33 +114,6 @@
       "rapid_points": 15,
       "blitz_points": 144,
       "bullet_points": 72
-    },
-    {
-      "username": "warecy",
-      "points": 180,
-      "wins": 20,
-      "draws": 0,
-      "games_counted": 23,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 180,
-        "wins": 20,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 180,
-      "bullet_points": 0
     }
   ]
 }
