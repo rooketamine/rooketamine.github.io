@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-18",
-  "generated_at": "2026-07-18T08:11:20.760Z",
+  "generated_at": "2026-07-18T10:43:38.302Z",
   "window_start": "2026-07-18T00:00:00.000Z",
-  "window_end": "2026-07-18T08:09:11.195Z",
-  "total_members_checked": 3526,
+  "window_end": "2026-07-18T10:41:27.901Z",
+  "total_members_checked": 3527,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 279,
-      "wins": 31,
+      "points": 423,
+      "wins": 47,
       "draws": 0,
-      "games_counted": 41,
+      "games_counted": 65,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 279,
-        "wins": 31,
+        "points": 423,
+        "wins": 47,
         "draws": 0
       },
       "bullet": {
@@ -58,25 +58,25 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 279,
+      "blitz_points": 423,
       "bullet_points": 0
     },
     {
-      "username": "sheayurdana",
-      "points": 249,
-      "wins": 25,
-      "draws": 0,
-      "games_counted": 35,
+      "username": "shubham67809",
+      "points": 405,
+      "wins": 26,
+      "draws": 3,
+      "games_counted": 54,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/405676539.87f7b56c.200x200o.9d24f10a8787.jpg",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 60,
-        "wins": 4,
-        "draws": 0
+        "points": 405,
+        "wins": 26,
+        "draws": 3
       },
       "blitz": {
-        "points": 189,
-        "wins": 21,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
       "bullet": {
@@ -84,36 +84,36 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 60,
-      "blitz_points": 189,
+      "rapid_points": 405,
+      "blitz_points": 0,
       "bullet_points": 0
     },
     {
-      "username": "kfpenguin",
-      "points": 231,
-      "wins": 41,
-      "draws": 0,
-      "games_counted": 53,
+      "username": "qidaas1",
+      "points": 249,
+      "wins": 26,
+      "draws": 7,
+      "games_counted": 61,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/32441618.2c0642d3.200x200o.a9431d66baee.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/296791967.65fdd59b.200x200o.02f7d0e7b661.jpg",
       "rapid": {
-        "points": 15,
-        "wins": 1,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 144,
-        "wins": 16,
-        "draws": 0
+        "points": 246,
+        "wins": 25,
+        "draws": 7
       },
       "bullet": {
-        "points": 72,
-        "wins": 24,
+        "points": 3,
+        "wins": 1,
         "draws": 0
       },
-      "rapid_points": 15,
-      "blitz_points": 144,
-      "bullet_points": 72
+      "rapid_points": 0,
+      "blitz_points": 246,
+      "bullet_points": 3
     }
   ]
 }
