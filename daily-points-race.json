@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-19",
-  "generated_at": "2026-07-19T06:25:53.648Z",
+  "generated_at": "2026-07-19T08:35:43.444Z",
   "window_start": "2026-07-19T00:00:00.000Z",
-  "window_end": "2026-07-19T06:23:17.727Z",
-  "total_members_checked": 3535,
+  "window_end": "2026-07-19T08:33:16.121Z",
+  "total_members_checked": 3538,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "omidamrii",
-      "points": 309,
-      "wins": 34,
+      "points": 327,
+      "wins": 36,
       "draws": 1,
-      "games_counted": 71,
+      "games_counted": 75,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/335426705.9cf3ab71.200x200o.a78067912926.jpg",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 309,
-        "wins": 34,
+        "points": 327,
+        "wins": 36,
         "draws": 1
       },
       "bullet": {
@@ -58,7 +58,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 309,
+      "blitz_points": 327,
       "bullet_points": 0
     },
     {
