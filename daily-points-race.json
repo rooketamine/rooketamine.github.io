@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-19",
-  "generated_at": "2026-07-19T13:55:54.146Z",
+  "generated_at": "2026-07-19T16:12:29.819Z",
   "window_start": "2026-07-19T00:00:00.000Z",
-  "window_end": "2026-07-19T13:53:38.849Z",
-  "total_members_checked": 3540,
+  "window_end": "2026-07-19T16:10:11.804Z",
+  "total_members_checked": 3543,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 387,
-      "wins": 43,
+      "points": 459,
+      "wins": 51,
       "draws": 0,
-      "games_counted": 59,
+      "games_counted": 69,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 387,
-        "wins": 43,
+        "points": 459,
+        "wins": 51,
         "draws": 0
       },
       "bullet": {
@@ -58,42 +58,15 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 387,
-      "bullet_points": 0
-    },
-    {
-      "username": "omidamrii",
-      "points": 336,
-      "wins": 37,
-      "draws": 1,
-      "games_counted": 78,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/335426705.9cf3ab71.200x200o.a78067912926.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 336,
-        "wins": 37,
-        "draws": 1
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 336,
+      "blitz_points": 459,
       "bullet_points": 0
     },
     {
       "username": "kinsuk_kk",
-      "points": 327,
-      "wins": 36,
-      "draws": 1,
-      "games_counted": 56,
+      "points": 450,
+      "wins": 49,
+      "draws": 3,
+      "games_counted": 91,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/264301393.5ee70a0a.200x200o.1443c4cba5ff.jpg",
       "rapid": {
@@ -102,8 +75,35 @@
         "draws": 0
       },
       "blitz": {
-        "points": 327,
-        "wins": 36,
+        "points": 450,
+        "wins": 49,
+        "draws": 3
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 450,
+      "bullet_points": 0
+    },
+    {
+      "username": "neelbhangure",
+      "points": 408,
+      "wins": 45,
+      "draws": 1,
+      "games_counted": 83,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 408,
+        "wins": 45,
         "draws": 1
       },
       "bullet": {
@@ -112,7 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 327,
+      "blitz_points": 408,
       "bullet_points": 0
     }
   ]
