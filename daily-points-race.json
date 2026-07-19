@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-19",
-  "generated_at": "2026-07-19T16:12:29.819Z",
+  "generated_at": "2026-07-19T19:35:31.118Z",
   "window_start": "2026-07-19T00:00:00.000Z",
-  "window_end": "2026-07-19T16:10:11.804Z",
-  "total_members_checked": 3543,
+  "window_end": "2026-07-19T19:32:38.562Z",
+  "total_members_checked": 3542,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 459,
-      "wins": 51,
-      "draws": 0,
-      "games_counted": 69,
+      "points": 528,
+      "wins": 58,
+      "draws": 2,
+      "games_counted": 81,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,9 +48,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 459,
-        "wins": 51,
-        "draws": 0
+        "points": 528,
+        "wins": 58,
+        "draws": 2
       },
       "bullet": {
         "points": 0,
@@ -58,15 +58,15 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 459,
+      "blitz_points": 528,
       "bullet_points": 0
     },
     {
       "username": "kinsuk_kk",
-      "points": 450,
-      "wins": 49,
-      "draws": 3,
-      "games_counted": 91,
+      "points": 507,
+      "wins": 55,
+      "draws": 4,
+      "games_counted": 108,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/264301393.5ee70a0a.200x200o.1443c4cba5ff.jpg",
       "rapid": {
@@ -75,9 +75,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 450,
-        "wins": 49,
-        "draws": 3
+        "points": 507,
+        "wins": 55,
+        "draws": 4
       },
       "bullet": {
         "points": 0,
@@ -85,34 +85,34 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 450,
+      "blitz_points": 507,
       "bullet_points": 0
     },
     {
-      "username": "neelbhangure",
-      "points": 408,
-      "wins": 45,
-      "draws": 1,
-      "games_counted": 83,
+      "username": "damjan1989",
+      "points": 469,
+      "wins": 43,
+      "draws": 6,
+      "games_counted": 58,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/145826935.78cc33cb.200x200o.68adf09ed4b5.png",
       "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
+        "points": 160,
+        "wins": 10,
+        "draws": 2
       },
       "blitz": {
-        "points": 408,
-        "wins": 45,
-        "draws": 1
+        "points": 309,
+        "wins": 33,
+        "draws": 4
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 408,
+      "rapid_points": 160,
+      "blitz_points": 309,
       "bullet_points": 0
     }
   ]
