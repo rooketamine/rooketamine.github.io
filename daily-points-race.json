@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T19:59:16.548Z",
+  "generated_at": "2026-07-20T22:16:15.522Z",
   "window_start": "2026-07-20T00:00:00.000Z",
-  "window_end": "2026-07-20T19:56:21.540Z",
-  "total_members_checked": 3559,
+  "window_end": "2026-07-20T22:13:22.728Z",
+  "total_members_checked": 3560,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -62,11 +62,38 @@
       "bullet_points": 3
     },
     {
+      "username": "yptoski",
+      "points": 414,
+      "wins": 45,
+      "draws": 3,
+      "games_counted": 92,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/384165357.5521dff8.200x200o.b63d517f0ea5.png",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 414,
+        "wins": 45,
+        "draws": 3
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 414,
+      "bullet_points": 0
+    },
+    {
       "username": "kinsuk_kk",
-      "points": 405,
-      "wins": 43,
+      "points": 414,
+      "wins": 44,
       "draws": 6,
-      "games_counted": 84,
+      "games_counted": 85,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/264301393.5ee70a0a.200x200o.1443c4cba5ff.jpg",
       "rapid": {
@@ -75,8 +102,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 405,
-        "wins": 43,
+        "points": 414,
+        "wins": 44,
         "draws": 6
       },
       "bullet": {
@@ -85,34 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 405,
-      "bullet_points": 0
-    },
-    {
-      "username": "neelbhangure",
-      "points": 387,
-      "wins": 41,
-      "draws": 6,
-      "games_counted": 83,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 387,
-        "wins": 41,
-        "draws": 6
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 387,
+      "blitz_points": 414,
       "bullet_points": 0
     }
   ]
