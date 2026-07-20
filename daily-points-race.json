@@ -2,13 +2,13 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "winner",
-  "title": "Yesterday's Champion",
-  "date": "2026-07-19",
-  "generated_at": "2026-07-20T00:19:20.954Z",
-  "window_start": "2026-07-19T00:00:00.000Z",
-  "window_end": "2026-07-20T00:00:00.000Z",
-  "total_members_checked": 3541,
+  "mode": "race",
+  "title": "Today's Points Race",
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T06:25:19.894Z",
+  "window_start": "2026-07-20T00:00:00.000Z",
+  "window_end": "2026-07-20T06:23:07.163Z",
+  "total_members_checked": 3552,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -32,25 +32,25 @@
     "minimum_half_moves": 10,
     "maximum_games_per_opponent": 15
   },
-  "note": "Final podium is shown until 06:00 UTC.",
+  "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "warecy",
-      "points": 573,
-      "wins": 63,
-      "draws": 2,
-      "games_counted": 88,
+      "username": "basiic_chess_ttv",
+      "points": 216,
+      "wins": 23,
+      "draws": 3,
+      "games_counted": 54,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/141893757.a642dad2.200x200o.34ce1d7b6514.jpg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 573,
-        "wins": 63,
-        "draws": 2
+        "points": 216,
+        "wins": 23,
+        "draws": 3
       },
       "bullet": {
         "points": 0,
@@ -58,62 +58,62 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 573,
+      "blitz_points": 216,
       "bullet_points": 0
     },
     {
-      "username": "kinsuk_kk",
-      "points": 507,
-      "wins": 55,
-      "draws": 4,
-      "games_counted": 108,
+      "username": "great-war-man",
+      "points": 185,
+      "wins": 12,
+      "draws": 1,
+      "games_counted": 25,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/264301393.5ee70a0a.200x200o.1443c4cba5ff.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/437737783.abe9196d.200x200o.3e0b265b94f8.jpg",
       "rapid": {
+        "points": 185,
+        "wins": 12,
+        "draws": 1
+      },
+      "blitz": {
         "points": 0,
         "wins": 0,
         "draws": 0
-      },
-      "blitz": {
-        "points": 507,
-        "wins": 55,
-        "draws": 4
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 507,
+      "rapid_points": 185,
+      "blitz_points": 0,
       "bullet_points": 0
     },
     {
-      "username": "damjan1989",
-      "points": 505,
-      "wins": 47,
-      "draws": 6,
-      "games_counted": 62,
+      "username": "bbl_bob2",
+      "points": 168,
+      "wins": 12,
+      "draws": 0,
+      "games_counted": 18,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/145826935.78cc33cb.200x200o.68adf09ed4b5.png",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/545962027.95477a5a.200x200o.d8df3ccdfa6f.jpg",
       "rapid": {
-        "points": 160,
-        "wins": 10,
-        "draws": 2
+        "points": 165,
+        "wins": 11,
+        "draws": 0
       },
       "blitz": {
-        "points": 345,
-        "wins": 37,
-        "draws": 4
-      },
-      "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 160,
-      "blitz_points": 345,
-      "bullet_points": 0
+      "bullet": {
+        "points": 3,
+        "wins": 1,
+        "draws": 0
+      },
+      "rapid_points": 165,
+      "blitz_points": 0,
+      "bullet_points": 3
     }
   ]
 }
