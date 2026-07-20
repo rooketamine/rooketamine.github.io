@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T09:36:40.564Z",
+  "generated_at": "2026-07-20T14:36:29.365Z",
   "window_start": "2026-07-20T00:00:00.000Z",
-  "window_end": "2026-07-20T09:33:44.208Z",
-  "total_members_checked": 3553,
+  "window_end": "2026-07-20T14:33:26.635Z",
+  "total_members_checked": 3554,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 231,
-      "wins": 26,
+      "points": 357,
+      "wins": 40,
       "draws": 1,
-      "games_counted": 35,
+      "games_counted": 57,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 228,
-        "wins": 25,
+        "points": 354,
+        "wins": 39,
         "draws": 1
       },
       "bullet": {
@@ -58,26 +58,53 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 228,
+      "blitz_points": 354,
       "bullet_points": 3
     },
     {
-      "username": "basiic_chess_ttv",
-      "points": 216,
-      "wins": 23,
-      "draws": 3,
-      "games_counted": 54,
+      "username": "mualimo",
+      "points": 285,
+      "wins": 19,
+      "draws": 0,
+      "games_counted": 38,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/141893757.a642dad2.200x200o.34ce1d7b6514.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/532575703.0fa8650a.200x200o.6cab7d01f2c9.jpg",
+      "rapid": {
+        "points": 285,
+        "wins": 19,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 285,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
+      "username": "yptoski",
+      "points": 276,
+      "wins": 30,
+      "draws": 2,
+      "games_counted": 61,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/384165357.5521dff8.200x200o.b63d517f0ea5.png",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 216,
-        "wins": 23,
-        "draws": 3
+        "points": 276,
+        "wins": 30,
+        "draws": 2
       },
       "bullet": {
         "points": 0,
@@ -85,34 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 216,
-      "bullet_points": 0
-    },
-    {
-      "username": "nikkotello",
-      "points": 195,
-      "wins": 13,
-      "draws": 0,
-      "games_counted": 18,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
-      "rapid": {
-        "points": 195,
-        "wins": 13,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 195,
-      "blitz_points": 0,
+      "blitz_points": 276,
       "bullet_points": 0
     }
   ]
