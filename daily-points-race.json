@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T06:25:19.894Z",
+  "generated_at": "2026-07-20T09:36:40.564Z",
   "window_start": "2026-07-20T00:00:00.000Z",
-  "window_end": "2026-07-20T06:23:07.163Z",
-  "total_members_checked": 3552,
+  "window_end": "2026-07-20T09:33:44.208Z",
+  "total_members_checked": 3553,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -34,6 +34,33 @@
   },
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
+    {
+      "username": "warecy",
+      "points": 231,
+      "wins": 26,
+      "draws": 1,
+      "games_counted": 35,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 228,
+        "wins": 25,
+        "draws": 1
+      },
+      "bullet": {
+        "points": 3,
+        "wins": 1,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 228,
+      "bullet_points": 3
+    },
     {
       "username": "basiic_chess_ttv",
       "points": 216,
@@ -62,43 +89,16 @@
       "bullet_points": 0
     },
     {
-      "username": "great-war-man",
-      "points": 185,
-      "wins": 12,
-      "draws": 1,
-      "games_counted": 25,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/437737783.abe9196d.200x200o.3e0b265b94f8.jpg",
-      "rapid": {
-        "points": 185,
-        "wins": 12,
-        "draws": 1
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 185,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
-      "username": "bbl_bob2",
-      "points": 168,
-      "wins": 12,
+      "username": "nikkotello",
+      "points": 195,
+      "wins": 13,
       "draws": 0,
       "games_counted": 18,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/545962027.95477a5a.200x200o.d8df3ccdfa6f.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
       "rapid": {
-        "points": 165,
-        "wins": 11,
+        "points": 195,
+        "wins": 13,
         "draws": 0
       },
       "blitz": {
@@ -107,13 +107,13 @@
         "draws": 0
       },
       "bullet": {
-        "points": 3,
-        "wins": 1,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
-      "rapid_points": 165,
+      "rapid_points": 195,
       "blitz_points": 0,
-      "bullet_points": 3
+      "bullet_points": 0
     }
   ]
 }
