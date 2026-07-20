@@ -2,13 +2,13 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "race",
-  "title": "Today's Points Race",
+  "mode": "winner",
+  "title": "Yesterday's Champion",
   "date": "2026-07-19",
-  "generated_at": "2026-07-19T22:11:51.302Z",
+  "generated_at": "2026-07-20T00:19:20.954Z",
   "window_start": "2026-07-19T00:00:00.000Z",
-  "window_end": "2026-07-19T22:09:23.452Z",
-  "total_members_checked": 3542,
+  "window_end": "2026-07-20T00:00:00.000Z",
+  "total_members_checked": 3541,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -32,14 +32,14 @@
     "minimum_half_moves": 10,
     "maximum_games_per_opponent": 15
   },
-  "note": "Live race updates every 3 hours after 06:00 UTC.",
+  "note": "Final podium is shown until 06:00 UTC.",
   "players": [
     {
       "username": "warecy",
-      "points": 537,
-      "wins": 59,
+      "points": 573,
+      "wins": 63,
       "draws": 2,
-      "games_counted": 83,
+      "games_counted": 88,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 537,
-        "wins": 59,
+        "points": 573,
+        "wins": 63,
         "draws": 2
       },
       "bullet": {
@@ -58,7 +58,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 537,
+      "blitz_points": 573,
       "bullet_points": 0
     },
     {
@@ -89,30 +89,30 @@
       "bullet_points": 0
     },
     {
-      "username": "lewis69273791",
-      "points": 500,
-      "wins": 33,
-      "draws": 1,
-      "games_counted": 58,
+      "username": "damjan1989",
+      "points": 505,
+      "wins": 47,
+      "draws": 6,
+      "games_counted": 62,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/145826935.78cc33cb.200x200o.68adf09ed4b5.png",
       "rapid": {
-        "points": 500,
-        "wins": 33,
-        "draws": 1
+        "points": 160,
+        "wins": 10,
+        "draws": 2
       },
       "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
+        "points": 345,
+        "wins": 37,
+        "draws": 4
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 500,
-      "blitz_points": 0,
+      "rapid_points": 160,
+      "blitz_points": 345,
       "bullet_points": 0
     }
   ]
