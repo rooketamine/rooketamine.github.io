@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T14:36:29.365Z",
+  "generated_at": "2026-07-20T16:46:38.714Z",
   "window_start": "2026-07-20T00:00:00.000Z",
-  "window_end": "2026-07-20T14:33:26.635Z",
-  "total_members_checked": 3554,
+  "window_end": "2026-07-20T16:44:06.684Z",
+  "total_members_checked": 3556,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 357,
-      "wins": 40,
+      "points": 429,
+      "wins": 48,
       "draws": 1,
-      "games_counted": 57,
+      "games_counted": 75,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 354,
-        "wins": 39,
+        "points": 426,
+        "wins": 47,
         "draws": 1
       },
       "bullet": {
@@ -58,20 +58,20 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 354,
+      "blitz_points": 426,
       "bullet_points": 3
     },
     {
       "username": "mualimo",
-      "points": 285,
-      "wins": 19,
+      "points": 360,
+      "wins": 24,
       "draws": 0,
-      "games_counted": 38,
+      "games_counted": 45,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/532575703.0fa8650a.200x200o.6cab7d01f2c9.jpg",
       "rapid": {
-        "points": 285,
-        "wins": 19,
+        "points": 360,
+        "wins": 24,
         "draws": 0
       },
       "blitz": {
@@ -84,35 +84,35 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 285,
+      "rapid_points": 360,
       "blitz_points": 0,
       "bullet_points": 0
     },
     {
-      "username": "yptoski",
-      "points": 276,
-      "wins": 30,
-      "draws": 2,
-      "games_counted": 61,
+      "username": "alinar_babashev",
+      "points": 336,
+      "wins": 32,
+      "draws": 4,
+      "games_counted": 64,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/384165357.5521dff8.200x200o.b63d517f0ea5.png",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 0,
-        "wins": 0,
+        "points": 90,
+        "wins": 6,
         "draws": 0
       },
       "blitz": {
-        "points": 276,
-        "wins": 30,
-        "draws": 2
+        "points": 246,
+        "wins": 26,
+        "draws": 4
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 276,
+      "rapid_points": 90,
+      "blitz_points": 246,
       "bullet_points": 0
     }
   ]
