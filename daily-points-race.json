@@ -2,13 +2,13 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "winner",
-  "title": "Yesterday's Champion",
-  "date": "2026-07-20",
-  "generated_at": "2026-07-21T00:03:26.906Z",
-  "window_start": "2026-07-20T00:00:00.000Z",
-  "window_end": "2026-07-21T00:00:00.000Z",
-  "total_members_checked": 3560,
+  "mode": "race",
+  "title": "Today's Points Race",
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T06:21:43.719Z",
+  "window_start": "2026-07-21T00:00:00.000Z",
+  "window_end": "2026-07-21T06:18:45.938Z",
+  "total_members_checked": 3569,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -32,88 +32,88 @@
     "minimum_half_moves": 10,
     "maximum_games_per_opponent": 15
   },
-  "note": "Final podium is shown until 06:00 UTC.",
+  "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "warecy",
-      "points": 693,
-      "wins": 68,
-      "draws": 1,
+      "username": "miguumiguu",
+      "points": 429,
+      "wins": 44,
+      "draws": 11,
       "games_counted": 97,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
       "rapid": {
-        "points": 210,
-        "wins": 14,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 480,
-        "wins": 53,
-        "draws": 1
+        "points": 429,
+        "wins": 44,
+        "draws": 11
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 429,
+      "bullet_points": 0
+    },
+    {
+      "username": "shubham67809",
+      "points": 240,
+      "wins": 15,
+      "draws": 3,
+      "games_counted": 29,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "rapid": {
+        "points": 240,
+        "wins": 15,
+        "draws": 3
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 240,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
+      "username": "abdurauftt00",
+      "points": 225,
+      "wins": 25,
+      "draws": 2,
+      "games_counted": 36,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/509694397.65ca85b3.200x200o.714585793939.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 222,
+        "wins": 24,
+        "draws": 2
       },
       "bullet": {
         "points": 3,
         "wins": 1,
         "draws": 0
       },
-      "rapid_points": 210,
-      "blitz_points": 480,
+      "rapid_points": 0,
+      "blitz_points": 222,
       "bullet_points": 3
-    },
-    {
-      "username": "yptoski",
-      "points": 444,
-      "wins": 48,
-      "draws": 4,
-      "games_counted": 100,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/384165357.5521dff8.200x200o.b63d517f0ea5.png",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 444,
-        "wins": 48,
-        "draws": 4
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 444,
-      "bullet_points": 0
-    },
-    {
-      "username": "basiic_chess_ttv",
-      "points": 426,
-      "wins": 46,
-      "draws": 4,
-      "games_counted": 101,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/141893757.a642dad2.200x200o.34ce1d7b6514.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 426,
-        "wins": 46,
-        "draws": 4
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 426,
-      "bullet_points": 0
     }
   ]
 }
