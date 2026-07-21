@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-21",
-  "generated_at": "2026-07-21T14:25:51.618Z",
+  "generated_at": "2026-07-21T16:49:12.584Z",
   "window_start": "2026-07-21T00:00:00.000Z",
-  "window_end": "2026-07-21T14:22:36.561Z",
+  "window_end": "2026-07-21T16:41:59.114Z",
   "total_members_checked": 3572,
   "scoring": {
     "rapid": {
@@ -36,16 +36,16 @@
   "players": [
     {
       "username": "shubham67809",
-      "points": 600,
+      "points": 605,
       "wins": 39,
-      "draws": 3,
-      "games_counted": 75,
+      "draws": 4,
+      "games_counted": 78,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 600,
+        "points": 605,
         "wins": 39,
-        "draws": 3
+        "draws": 4
       },
       "blitz": {
         "points": 0,
@@ -57,16 +57,16 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 600,
+      "rapid_points": 605,
       "blitz_points": 0,
       "bullet_points": 0
     },
     {
       "username": "warecy",
-      "points": 438,
-      "wins": 57,
+      "points": 582,
+      "wins": 73,
       "draws": 1,
-      "games_counted": 98,
+      "games_counted": 122,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -75,8 +75,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 399,
-        "wins": 44,
+        "points": 543,
+        "wins": 60,
         "draws": 1
       },
       "bullet": {
@@ -85,7 +85,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 399,
+      "blitz_points": 543,
       "bullet_points": 39
     },
     {
