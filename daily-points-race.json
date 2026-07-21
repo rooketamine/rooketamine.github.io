@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-21",
-  "generated_at": "2026-07-21T19:53:34.397Z",
+  "generated_at": "2026-07-21T22:14:47.254Z",
   "window_start": "2026-07-21T00:00:00.000Z",
-  "window_end": "2026-07-21T19:51:05.717Z",
+  "window_end": "2026-07-21T22:12:31.436Z",
   "total_members_checked": 3575,
   "scoring": {
     "rapid": {
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 789,
-      "wins": 96,
+      "points": 924,
+      "wins": 111,
       "draws": 1,
-      "games_counted": 156,
+      "games_counted": 177,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 750,
-        "wins": 83,
+        "points": 885,
+        "wins": 98,
         "draws": 1
       },
       "bullet": {
@@ -58,20 +58,47 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 750,
+      "blitz_points": 885,
       "bullet_points": 39
     },
     {
+      "username": "vraj1428",
+      "points": 639,
+      "wins": 66,
+      "draws": 15,
+      "games_counted": 154,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/78452396.6f499b37.200x200o.b3167222398c.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 639,
+        "wins": 66,
+        "draws": 15
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 639,
+      "bullet_points": 0
+    },
+    {
       "username": "shubham67809",
-      "points": 605,
-      "wins": 39,
+      "points": 620,
+      "wins": 40,
       "draws": 4,
-      "games_counted": 78,
+      "games_counted": 81,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 605,
-        "wins": 39,
+        "points": 620,
+        "wins": 40,
         "draws": 4
       },
       "blitz": {
@@ -84,35 +111,8 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 605,
+      "rapid_points": 620,
       "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
-      "username": "vraj1428",
-      "points": 534,
-      "wins": 55,
-      "draws": 13,
-      "games_counted": 126,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/78452396.6f499b37.200x200o.b3167222398c.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 534,
-        "wins": 55,
-        "draws": 13
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 534,
       "bullet_points": 0
     }
   ]
