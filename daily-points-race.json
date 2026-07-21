@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-21",
-  "generated_at": "2026-07-21T06:21:43.719Z",
+  "generated_at": "2026-07-21T08:47:15.017Z",
   "window_start": "2026-07-21T00:00:00.000Z",
-  "window_end": "2026-07-21T06:18:45.938Z",
-  "total_members_checked": 3569,
+  "window_end": "2026-07-21T08:44:57.330Z",
+  "total_members_checked": 3570,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -35,43 +35,16 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "miguumiguu",
-      "points": 429,
-      "wins": 44,
-      "draws": 11,
-      "games_counted": 97,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 429,
-        "wins": 44,
-        "draws": 11
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 429,
-      "bullet_points": 0
-    },
-    {
       "username": "shubham67809",
-      "points": 240,
-      "wins": 15,
+      "points": 465,
+      "wins": 30,
       "draws": 3,
-      "games_counted": 29,
+      "games_counted": 52,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 240,
-        "wins": 15,
+        "points": 465,
+        "wins": 30,
         "draws": 3
       },
       "blitz": {
@@ -84,36 +57,63 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 240,
+      "rapid_points": 465,
       "blitz_points": 0,
       "bullet_points": 0
     },
     {
-      "username": "abdurauftt00",
-      "points": 225,
-      "wins": 25,
-      "draws": 2,
-      "games_counted": 36,
+      "username": "miguumiguu",
+      "points": 432,
+      "wins": 44,
+      "draws": 12,
+      "games_counted": 98,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/509694397.65ca85b3.200x200o.714585793939.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 222,
-        "wins": 24,
-        "draws": 2
+        "points": 432,
+        "wins": 44,
+        "draws": 12
       },
       "bullet": {
-        "points": 3,
-        "wins": 1,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 222,
-      "bullet_points": 3
+      "blitz_points": 432,
+      "bullet_points": 0
+    },
+    {
+      "username": "nikkotello",
+      "points": 235,
+      "wins": 15,
+      "draws": 2,
+      "games_counted": 36,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
+      "rapid": {
+        "points": 235,
+        "wins": 15,
+        "draws": 2
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 235,
+      "blitz_points": 0,
+      "bullet_points": 0
     }
   ]
 }
