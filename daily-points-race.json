@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-21",
-  "generated_at": "2026-07-21T11:21:33.263Z",
+  "generated_at": "2026-07-21T14:25:51.618Z",
   "window_start": "2026-07-21T00:00:00.000Z",
-  "window_end": "2026-07-21T11:18:49.443Z",
-  "total_members_checked": 3573,
+  "window_end": "2026-07-21T14:22:36.561Z",
+  "total_members_checked": 3572,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,15 +36,15 @@
   "players": [
     {
       "username": "shubham67809",
-      "points": 495,
-      "wins": 32,
+      "points": 600,
+      "wins": 39,
       "draws": 3,
-      "games_counted": 59,
+      "games_counted": 75,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 495,
-        "wins": 32,
+        "points": 600,
+        "wins": 39,
         "draws": 3
       },
       "blitz": {
@@ -57,9 +57,36 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 495,
+      "rapid_points": 600,
       "blitz_points": 0,
       "bullet_points": 0
+    },
+    {
+      "username": "warecy",
+      "points": 438,
+      "wins": 57,
+      "draws": 1,
+      "games_counted": 98,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 399,
+        "wins": 44,
+        "draws": 1
+      },
+      "bullet": {
+        "points": 39,
+        "wins": 13,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 399,
+      "bullet_points": 39
     },
     {
       "username": "miguumiguu",
@@ -86,33 +113,6 @@
       },
       "rapid_points": 0,
       "blitz_points": 432,
-      "bullet_points": 0
-    },
-    {
-      "username": "aim_ccsavvy",
-      "points": 330,
-      "wins": 35,
-      "draws": 5,
-      "games_counted": 65,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/262116947.74a1c590.200x200o.3775a172d9dd.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 330,
-        "wins": 35,
-        "draws": 5
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 330,
       "bullet_points": 0
     }
   ]
