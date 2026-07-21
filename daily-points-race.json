@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-21",
-  "generated_at": "2026-07-21T16:49:12.584Z",
+  "generated_at": "2026-07-21T19:53:34.397Z",
   "window_start": "2026-07-21T00:00:00.000Z",
-  "window_end": "2026-07-21T16:41:59.114Z",
-  "total_members_checked": 3572,
+  "window_end": "2026-07-21T19:51:05.717Z",
+  "total_members_checked": 3575,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -34,6 +34,33 @@
   },
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
+    {
+      "username": "warecy",
+      "points": 789,
+      "wins": 96,
+      "draws": 1,
+      "games_counted": 156,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 750,
+        "wins": 83,
+        "draws": 1
+      },
+      "bullet": {
+        "points": 39,
+        "wins": 13,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 750,
+      "bullet_points": 39
+    },
     {
       "username": "shubham67809",
       "points": 605,
@@ -62,49 +89,22 @@
       "bullet_points": 0
     },
     {
-      "username": "warecy",
-      "points": 582,
-      "wins": 73,
-      "draws": 1,
-      "games_counted": 122,
+      "username": "vraj1428",
+      "points": 534,
+      "wins": 55,
+      "draws": 13,
+      "games_counted": 126,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/78452396.6f499b37.200x200o.b3167222398c.jpg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 543,
-        "wins": 60,
-        "draws": 1
-      },
-      "bullet": {
-        "points": 39,
-        "wins": 13,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 543,
-      "bullet_points": 39
-    },
-    {
-      "username": "miguumiguu",
-      "points": 432,
-      "wins": 44,
-      "draws": 12,
-      "games_counted": 98,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 432,
-        "wins": 44,
-        "draws": 12
+        "points": 534,
+        "wins": 55,
+        "draws": 13
       },
       "bullet": {
         "points": 0,
@@ -112,7 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 432,
+      "blitz_points": 534,
       "bullet_points": 0
     }
   ]
