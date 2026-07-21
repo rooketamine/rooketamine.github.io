@@ -2,12 +2,12 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "race",
-  "title": "Today's Points Race",
+  "mode": "winner",
+  "title": "Yesterday's Champion",
   "date": "2026-07-20",
-  "generated_at": "2026-07-20T22:16:15.522Z",
+  "generated_at": "2026-07-21T00:03:26.906Z",
   "window_start": "2026-07-20T00:00:00.000Z",
-  "window_end": "2026-07-20T22:13:22.728Z",
+  "window_end": "2026-07-21T00:00:00.000Z",
   "total_members_checked": 3560,
   "scoring": {
     "rapid": {
@@ -32,7 +32,7 @@
     "minimum_half_moves": 10,
     "maximum_games_per_opponent": 15
   },
-  "note": "Live race updates every 3 hours after 06:00 UTC.",
+  "note": "Final podium is shown until 06:00 UTC.",
   "players": [
     {
       "username": "warecy",
@@ -63,10 +63,10 @@
     },
     {
       "username": "yptoski",
-      "points": 414,
-      "wins": 45,
-      "draws": 3,
-      "games_counted": 92,
+      "points": 444,
+      "wins": 48,
+      "draws": 4,
+      "games_counted": 100,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/384165357.5521dff8.200x200o.b63d517f0ea5.png",
       "rapid": {
@@ -75,9 +75,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 414,
-        "wins": 45,
-        "draws": 3
+        "points": 444,
+        "wins": 48,
+        "draws": 4
       },
       "bullet": {
         "points": 0,
@@ -85,26 +85,26 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 414,
+      "blitz_points": 444,
       "bullet_points": 0
     },
     {
-      "username": "kinsuk_kk",
-      "points": 414,
-      "wins": 44,
-      "draws": 6,
-      "games_counted": 85,
+      "username": "basiic_chess_ttv",
+      "points": 426,
+      "wins": 46,
+      "draws": 4,
+      "games_counted": 101,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/264301393.5ee70a0a.200x200o.1443c4cba5ff.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/141893757.a642dad2.200x200o.34ce1d7b6514.jpg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 414,
-        "wins": 44,
-        "draws": 6
+        "points": 426,
+        "wins": 46,
+        "draws": 4
       },
       "bullet": {
         "points": 0,
@@ -112,7 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 414,
+      "blitz_points": 426,
       "bullet_points": 0
     }
   ]
