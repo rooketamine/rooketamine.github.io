@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-22",
-  "generated_at": "2026-07-22T11:22:48.147Z",
+  "generated_at": "2026-07-22T14:25:25.695Z",
   "window_start": "2026-07-22T00:00:00.000Z",
-  "window_end": "2026-07-22T11:19:58.650Z",
-  "total_members_checked": 3586,
+  "window_end": "2026-07-22T14:22:26.060Z",
+  "total_members_checked": 3587,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -62,49 +62,22 @@
       "bullet_points": 9
     },
     {
-      "username": "rooketamine",
-      "points": 249,
-      "wins": 45,
-      "draws": 8,
-      "games_counted": 111,
-      "games_skipped_opponent_cap": 1,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/507944171.ecd56b45.200x200o.de572ae6d07d.jpg",
-      "rapid": {
-        "points": 30,
-        "wins": 2,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 123,
-        "wins": 13,
-        "draws": 2
-      },
-      "bullet": {
-        "points": 96,
-        "wins": 30,
-        "draws": 6
-      },
-      "rapid_points": 30,
-      "blitz_points": 123,
-      "bullet_points": 96
-    },
-    {
-      "username": "basiic_chess_ttv",
-      "points": 219,
-      "wins": 24,
-      "draws": 1,
-      "games_counted": 47,
+      "username": "vraj1428",
+      "points": 321,
+      "wins": 34,
+      "draws": 5,
+      "games_counted": 78,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/141893757.a642dad2.200x200o.34ce1d7b6514.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/78452396.6f499b37.200x200o.b3167222398c.jpg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 219,
-        "wins": 24,
-        "draws": 1
+        "points": 321,
+        "wins": 34,
+        "draws": 5
       },
       "bullet": {
         "points": 0,
@@ -112,7 +85,34 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 219,
+      "blitz_points": 321,
+      "bullet_points": 0
+    },
+    {
+      "username": "warecy",
+      "points": 270,
+      "wins": 30,
+      "draws": 0,
+      "games_counted": 64,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 270,
+        "wins": 30,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 270,
       "bullet_points": 0
     }
   ]
