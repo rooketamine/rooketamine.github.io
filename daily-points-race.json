@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-22",
-  "generated_at": "2026-07-22T08:47:42.464Z",
+  "generated_at": "2026-07-22T11:22:48.147Z",
   "window_start": "2026-07-22T00:00:00.000Z",
-  "window_end": "2026-07-22T08:45:05.486Z",
-  "total_members_checked": 3583,
+  "window_end": "2026-07-22T11:19:58.650Z",
+  "total_members_checked": 3586,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,20 +36,20 @@
   "players": [
     {
       "username": "nikkotello",
-      "points": 429,
-      "wins": 49,
-      "draws": 2,
-      "games_counted": 84,
+      "points": 452,
+      "wins": 51,
+      "draws": 3,
+      "games_counted": 92,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
       "rapid": {
-        "points": 0,
+        "points": 5,
         "wins": 0,
-        "draws": 0
+        "draws": 1
       },
       "blitz": {
-        "points": 420,
-        "wins": 46,
+        "points": 438,
+        "wins": 48,
         "draws": 2
       },
       "bullet": {
@@ -57,16 +57,16 @@
         "wins": 3,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 420,
+      "rapid_points": 5,
+      "blitz_points": 438,
       "bullet_points": 9
     },
     {
       "username": "rooketamine",
-      "points": 237,
-      "wins": 44,
-      "draws": 7,
-      "games_counted": 109,
+      "points": 249,
+      "wins": 45,
+      "draws": 8,
+      "games_counted": 111,
       "games_skipped_opponent_cap": 1,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/507944171.ecd56b45.200x200o.de572ae6d07d.jpg",
       "rapid": {
@@ -75,9 +75,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 111,
-        "wins": 12,
-        "draws": 1
+        "points": 123,
+        "wins": 13,
+        "draws": 2
       },
       "bullet": {
         "points": 96,
@@ -85,7 +85,7 @@
         "draws": 6
       },
       "rapid_points": 30,
-      "blitz_points": 111,
+      "blitz_points": 123,
       "bullet_points": 96
     },
     {
