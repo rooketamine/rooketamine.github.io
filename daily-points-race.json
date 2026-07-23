@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-23",
-  "generated_at": "2026-07-23T16:49:12.351Z",
+  "generated_at": "2026-07-23T19:49:07.212Z",
   "window_start": "2026-07-23T00:00:00.000Z",
-  "window_end": "2026-07-23T16:46:33.434Z",
+  "window_end": "2026-07-23T19:45:51.294Z",
   "total_members_checked": 3592,
   "scoring": {
     "rapid": {
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "dalton-fc-1981",
-      "points": 417,
-      "wins": 46,
+      "points": 471,
+      "wins": 52,
       "draws": 1,
-      "games_counted": 83,
+      "games_counted": 92,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/70274598.8bc536fa.200x200o.a7a6a6b7ba96.jpeg",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 417,
-        "wins": 46,
+        "points": 471,
+        "wins": 52,
         "draws": 1
       },
       "bullet": {
@@ -58,62 +58,62 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 417,
+      "blitz_points": 471,
       "bullet_points": 0
     },
     {
-      "username": "the_lonely_manof_thenight",
-      "points": 395,
-      "wins": 25,
-      "draws": 4,
-      "games_counted": 50,
+      "username": "warecy",
+      "points": 453,
+      "wins": 50,
+      "draws": 3,
+      "games_counted": 86,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/504500653.7dbc865a.200x200o.e09f78ca34bf.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
-        "points": 395,
-        "wins": 25,
-        "draws": 4
+        "points": 0,
+        "wins": 0,
+        "draws": 0
       },
       "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
+        "points": 450,
+        "wins": 49,
+        "draws": 3
       },
       "bullet": {
-        "points": 0,
-        "wins": 0,
+        "points": 3,
+        "wins": 1,
         "draws": 0
       },
-      "rapid_points": 395,
-      "blitz_points": 0,
-      "bullet_points": 0
+      "rapid_points": 0,
+      "blitz_points": 450,
+      "bullet_points": 3
     },
     {
-      "username": "vivaan1145",
-      "points": 393,
-      "wins": 57,
-      "draws": 2,
-      "games_counted": 88,
+      "username": "libranchess1227",
+      "points": 414,
+      "wins": 44,
+      "draws": 10,
+      "games_counted": 106,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/482459757.ef31d63e.200x200o.dcb445ffdbd1.png",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/469726084.8cf1c119.200x200o.a9e9c08903e9.jpg",
       "rapid": {
-        "points": 275,
-        "wins": 18,
-        "draws": 1
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
+        "points": 15,
+        "wins": 1,
         "draws": 0
       },
-      "bullet": {
-        "points": 118,
-        "wins": 39,
-        "draws": 1
+      "blitz": {
+        "points": 390,
+        "wins": 40,
+        "draws": 10
       },
-      "rapid_points": 275,
-      "blitz_points": 0,
-      "bullet_points": 118
+      "bullet": {
+        "points": 9,
+        "wins": 3,
+        "draws": 0
+      },
+      "rapid_points": 15,
+      "blitz_points": 390,
+      "bullet_points": 9
     }
   ]
 }
