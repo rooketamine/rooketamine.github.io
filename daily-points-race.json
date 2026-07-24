@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-24",
-  "generated_at": "2026-07-24T17:00:33.444Z",
+  "generated_at": "2026-07-24T19:49:42.228Z",
   "window_start": "2026-07-24T00:00:00.000Z",
-  "window_end": "2026-07-24T16:57:52.451Z",
-  "total_members_checked": 3631,
+  "window_end": "2026-07-24T19:47:15.520Z",
+  "total_members_checked": 3633,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 618,
-      "wins": 68,
+      "points": 726,
+      "wins": 80,
       "draws": 2,
-      "games_counted": 116,
+      "games_counted": 147,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 618,
-        "wins": 68,
+        "points": 726,
+        "wins": 80,
         "draws": 2
       },
       "bullet": {
@@ -58,47 +58,20 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 618,
+      "blitz_points": 726,
       "bullet_points": 0
     },
     {
-      "username": "libranchess1227",
-      "points": 485,
-      "wins": 65,
-      "draws": 8,
-      "games_counted": 90,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/469726084.8cf1c119.200x200o.a9e9c08903e9.jpg",
-      "rapid": {
-        "points": 165,
-        "wins": 11,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 225,
-        "wins": 23,
-        "draws": 6
-      },
-      "bullet": {
-        "points": 95,
-        "wins": 31,
-        "draws": 2
-      },
-      "rapid_points": 165,
-      "blitz_points": 225,
-      "bullet_points": 95
-    },
-    {
       "username": "b_jay97",
-      "points": 485,
-      "wins": 31,
+      "points": 605,
+      "wins": 39,
       "draws": 4,
-      "games_counted": 61,
+      "games_counted": 71,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/302996475.8fd70386.200x200o.f05fed35c951.jpg",
       "rapid": {
-        "points": 485,
-        "wins": 31,
+        "points": 605,
+        "wins": 39,
         "draws": 4
       },
       "blitz": {
@@ -111,9 +84,36 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 485,
+      "rapid_points": 605,
       "blitz_points": 0,
       "bullet_points": 0
+    },
+    {
+      "username": "libranchess1227",
+      "points": 500,
+      "wins": 66,
+      "draws": 8,
+      "games_counted": 91,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/469726084.8cf1c119.200x200o.a9e9c08903e9.jpg",
+      "rapid": {
+        "points": 180,
+        "wins": 12,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 225,
+        "wins": 23,
+        "draws": 6
+      },
+      "bullet": {
+        "points": 95,
+        "wins": 31,
+        "draws": 2
+      },
+      "rapid_points": 180,
+      "blitz_points": 225,
+      "bullet_points": 95
     }
   ]
 }
