@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-24",
-  "generated_at": "2026-07-24T14:15:59.661Z",
+  "generated_at": "2026-07-24T17:00:33.444Z",
   "window_start": "2026-07-24T00:00:00.000Z",
-  "window_end": "2026-07-24T14:13:09.765Z",
-  "total_members_checked": 3623,
+  "window_end": "2026-07-24T16:57:52.451Z",
+  "total_members_checked": 3631,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 525,
-      "wins": 58,
-      "draws": 1,
-      "games_counted": 91,
+      "points": 618,
+      "wins": 68,
+      "draws": 2,
+      "games_counted": 116,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,9 +48,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 525,
-        "wins": 58,
-        "draws": 1
+        "points": 618,
+        "wins": 68,
+        "draws": 2
       },
       "bullet": {
         "points": 0,
@@ -58,15 +58,15 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 525,
+      "blitz_points": 618,
       "bullet_points": 0
     },
     {
       "username": "libranchess1227",
-      "points": 458,
-      "wins": 60,
+      "points": 485,
+      "wins": 65,
       "draws": 8,
-      "games_counted": 85,
+      "games_counted": 90,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/469726084.8cf1c119.200x200o.a9e9c08903e9.jpg",
       "rapid": {
@@ -75,31 +75,31 @@
         "draws": 0
       },
       "blitz": {
-        "points": 207,
-        "wins": 21,
+        "points": 225,
+        "wins": 23,
         "draws": 6
       },
       "bullet": {
-        "points": 86,
-        "wins": 28,
+        "points": 95,
+        "wins": 31,
         "draws": 2
       },
       "rapid_points": 165,
-      "blitz_points": 207,
-      "bullet_points": 86
+      "blitz_points": 225,
+      "bullet_points": 95
     },
     {
       "username": "b_jay97",
-      "points": 435,
-      "wins": 28,
-      "draws": 3,
-      "games_counted": 53,
+      "points": 485,
+      "wins": 31,
+      "draws": 4,
+      "games_counted": 61,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/302996475.8fd70386.200x200o.f05fed35c951.jpg",
       "rapid": {
-        "points": 435,
-        "wins": 28,
-        "draws": 3
+        "points": 485,
+        "wins": 31,
+        "draws": 4
       },
       "blitz": {
         "points": 0,
@@ -111,7 +111,7 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 435,
+      "rapid_points": 485,
       "blitz_points": 0,
       "bullet_points": 0
     }
