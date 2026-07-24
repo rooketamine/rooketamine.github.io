@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-24",
-  "generated_at": "2026-07-24T08:45:50.045Z",
+  "generated_at": "2026-07-24T11:15:34.834Z",
   "window_start": "2026-07-24T00:00:00.000Z",
-  "window_end": "2026-07-24T08:42:35.130Z",
-  "total_members_checked": 3617,
+  "window_end": "2026-07-24T11:12:31.339Z",
+  "total_members_checked": 3620,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "nikkotello",
-      "points": 360,
-      "wins": 28,
+      "points": 378,
+      "wins": 30,
       "draws": 0,
-      "games_counted": 56,
+      "games_counted": 59,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 90,
-        "wins": 10,
+        "points": 108,
+        "wins": 12,
         "draws": 0
       },
       "bullet": {
@@ -58,62 +58,62 @@
         "draws": 0
       },
       "rapid_points": 270,
-      "blitz_points": 90,
+      "blitz_points": 108,
       "bullet_points": 0
     },
     {
-      "username": "patrickkoomson",
-      "points": 250,
-      "wins": 16,
-      "draws": 2,
-      "games_counted": 35,
+      "username": "libranchess1227",
+      "points": 301,
+      "wins": 32,
+      "draws": 7,
+      "games_counted": 55,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/28479500.85f9b855.200x200o.564eb5ecafca.gif",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/469726084.8cf1c119.200x200o.a9e9c08903e9.jpg",
       "rapid": {
-        "points": 250,
-        "wins": 16,
-        "draws": 2
+        "points": 90,
+        "wins": 6,
+        "draws": 0
       },
       "blitz": {
+        "points": 189,
+        "wins": 19,
+        "draws": 6
+      },
+      "bullet": {
+        "points": 22,
+        "wins": 7,
+        "draws": 1
+      },
+      "rapid_points": 90,
+      "blitz_points": 189,
+      "bullet_points": 22
+    },
+    {
+      "username": "warecy",
+      "points": 282,
+      "wins": 31,
+      "draws": 1,
+      "games_counted": 53,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
+      },
+      "blitz": {
+        "points": 282,
+        "wins": 31,
+        "draws": 1
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 250,
-      "blitz_points": 0,
+      "rapid_points": 0,
+      "blitz_points": 282,
       "bullet_points": 0
-    },
-    {
-      "username": "abcdertery",
-      "points": 243,
-      "wins": 29,
-      "draws": 0,
-      "games_counted": 31,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/348514337.dc829a32.200x200o.9dab892d8aa6.jpg",
-      "rapid": {
-        "points": 195,
-        "wins": 13,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 48,
-        "wins": 16,
-        "draws": 0
-      },
-      "rapid_points": 195,
-      "blitz_points": 0,
-      "bullet_points": 48
     }
   ]
 }
