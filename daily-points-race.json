@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-25",
-  "generated_at": "2026-07-25T08:10:33.474Z",
+  "generated_at": "2026-07-25T08:26:22.348Z",
   "window_start": "2026-07-25T00:00:00.000Z",
-  "window_end": "2026-07-25T08:07:43.624Z",
+  "window_end": "2026-07-25T08:23:42.586Z",
   "total_members_checked": 3649,
   "scoring": {
     "rapid": {
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "abcdertery",
-      "points": 351,
-      "wins": 43,
+      "points": 387,
+      "wins": 47,
       "draws": 2,
-      "games_counted": 49,
+      "games_counted": 53,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/348514337.dc829a32.200x200o.9dab892d8aa6.jpg",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 150,
-        "wins": 16,
+        "points": 186,
+        "wins": 20,
         "draws": 2
       },
       "bullet": {
@@ -58,7 +58,7 @@
         "draws": 0
       },
       "rapid_points": 150,
-      "blitz_points": 150,
+      "blitz_points": 186,
       "bullet_points": 51
     },
     {
@@ -66,7 +66,7 @@
       "points": 240,
       "wins": 26,
       "draws": 2,
-      "games_counted": 45,
+      "games_counted": 48,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/477395624.81107396.200x200o.59eb87edd6a0.png",
       "rapid": {
@@ -90,10 +90,10 @@
     },
     {
       "username": "swimmis",
-      "points": 210,
-      "wins": 22,
+      "points": 228,
+      "wins": 24,
       "draws": 4,
-      "games_counted": 53,
+      "games_counted": 57,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/413156191.46ea62a6.200x200o.0a58ad4bfffc.jpg",
       "rapid": {
@@ -102,8 +102,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 210,
-        "wins": 22,
+        "points": 228,
+        "wins": 24,
         "draws": 4
       },
       "bullet": {
@@ -112,7 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 210,
+      "blitz_points": 228,
       "bullet_points": 0
     }
   ]
