@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-25",
-  "generated_at": "2026-07-25T16:15:43.334Z",
+  "generated_at": "2026-07-25T19:37:11.021Z",
   "window_start": "2026-07-25T00:00:00.000Z",
-  "window_end": "2026-07-25T16:12:28.117Z",
-  "total_members_checked": 3651,
+  "window_end": "2026-07-25T19:34:35.695Z",
+  "total_members_checked": 3650,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,15 +36,15 @@
   "players": [
     {
       "username": "warecy",
-      "points": 804,
-      "wins": 77,
+      "points": 1089,
+      "wins": 96,
       "draws": 5,
-      "games_counted": 102,
+      "games_counted": 121,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
-        "points": 240,
-        "wins": 16,
+        "points": 525,
+        "wins": 35,
         "draws": 0
       },
       "blitz": {
@@ -57,16 +57,43 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 240,
+      "rapid_points": 525,
       "blitz_points": 564,
       "bullet_points": 0
     },
     {
+      "username": "arianacapasso",
+      "points": 711,
+      "wins": 78,
+      "draws": 3,
+      "games_counted": 108,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/142112849.d1d78bfd.200x200o.912973e64733.png",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 711,
+        "wins": 78,
+        "draws": 3
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 711,
+      "bullet_points": 0
+    },
+    {
       "username": "edogawa_conan_real",
-      "points": 606,
-      "wins": 76,
+      "points": 624,
+      "wins": 82,
       "draws": 2,
-      "games_counted": 88,
+      "games_counted": 94,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/348514337.dc829a32.200x200o.9dab892d8aa6.jpg",
       "rapid": {
@@ -80,40 +107,13 @@
         "draws": 2
       },
       "bullet": {
-        "points": 72,
-        "wins": 24,
+        "points": 90,
+        "wins": 30,
         "draws": 0
       },
       "rapid_points": 150,
       "blitz_points": 384,
-      "bullet_points": 72
-    },
-    {
-      "username": "arianacapasso",
-      "points": 573,
-      "wins": 63,
-      "draws": 2,
-      "games_counted": 82,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/142112849.d1d78bfd.200x200o.912973e64733.png",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 573,
-        "wins": 63,
-        "draws": 2
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 573,
-      "bullet_points": 0
+      "bullet_points": 90
     }
   ]
 }
