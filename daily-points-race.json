@@ -2,13 +2,13 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "race",
-  "title": "Today's Points Race",
+  "mode": "winner",
+  "title": "Yesterday's Champion",
   "date": "2026-07-24",
-  "generated_at": "2026-07-24T22:21:32.205Z",
+  "generated_at": "2026-07-25T00:11:49.781Z",
   "window_start": "2026-07-24T00:00:00.000Z",
-  "window_end": "2026-07-24T22:18:31.641Z",
-  "total_members_checked": 3636,
+  "window_end": "2026-07-25T00:00:00.000Z",
+  "total_members_checked": 3637,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -32,14 +32,14 @@
     "minimum_half_moves": 10,
     "maximum_games_per_opponent": 15
   },
-  "note": "Live race updates every 3 hours after 06:00 UTC.",
+  "note": "Final podium is shown until 06:00 UTC.",
   "players": [
     {
       "username": "warecy",
-      "points": 867,
-      "wins": 95,
+      "points": 912,
+      "wins": 100,
       "draws": 2,
-      "games_counted": 171,
+      "games_counted": 179,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 852,
-        "wins": 94,
+        "points": 897,
+        "wins": 99,
         "draws": 2
       },
       "bullet": {
@@ -58,42 +58,42 @@
         "draws": 0
       },
       "rapid_points": 15,
-      "blitz_points": 852,
+      "blitz_points": 897,
       "bullet_points": 0
     },
     {
-      "username": "b_jay97",
-      "points": 640,
-      "wins": 41,
-      "draws": 5,
-      "games_counted": 78,
+      "username": "miguumiguu",
+      "points": 669,
+      "wins": 71,
+      "draws": 10,
+      "games_counted": 126,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/302996475.8fd70386.200x200o.f05fed35c951.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
       "rapid": {
-        "points": 640,
-        "wins": 41,
-        "draws": 5
-      },
-      "blitz": {
         "points": 0,
         "wins": 0,
         "draws": 0
+      },
+      "blitz": {
+        "points": 669,
+        "wins": 71,
+        "draws": 10
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 640,
-      "blitz_points": 0,
+      "rapid_points": 0,
+      "blitz_points": 669,
       "bullet_points": 0
     },
     {
       "username": "vraj1428",
-      "points": 630,
-      "wins": 67,
-      "draws": 9,
-      "games_counted": 128,
+      "points": 654,
+      "wins": 69,
+      "draws": 11,
+      "games_counted": 133,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/78452396.6f499b37.200x200o.b3167222398c.jpg",
       "rapid": {
@@ -102,9 +102,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 630,
-        "wins": 67,
-        "draws": 9
+        "points": 654,
+        "wins": 69,
+        "draws": 11
       },
       "bullet": {
         "points": 0,
@@ -112,7 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 630,
+      "blitz_points": 654,
       "bullet_points": 0
     }
   ]
