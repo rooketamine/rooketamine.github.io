@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-25",
-  "generated_at": "2026-07-25T06:20:27.581Z",
+  "generated_at": "2026-07-25T08:10:33.474Z",
   "window_start": "2026-07-25T00:00:00.000Z",
-  "window_end": "2026-07-25T06:17:20.145Z",
-  "total_members_checked": 3648,
+  "window_end": "2026-07-25T08:07:43.624Z",
+  "total_members_checked": 3649,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "abcdertery",
-      "points": 327,
-      "wins": 40,
-      "draws": 1,
-      "games_counted": 44,
+      "points": 351,
+      "wins": 43,
+      "draws": 2,
+      "games_counted": 49,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/348514337.dc829a32.200x200o.9dab892d8aa6.jpg",
       "rapid": {
@@ -48,25 +48,52 @@
         "draws": 0
       },
       "blitz": {
-        "points": 129,
-        "wins": 14,
-        "draws": 1
+        "points": 150,
+        "wins": 16,
+        "draws": 2
       },
       "bullet": {
-        "points": 48,
-        "wins": 16,
+        "points": 51,
+        "wins": 17,
         "draws": 0
       },
       "rapid_points": 150,
-      "blitz_points": 129,
-      "bullet_points": 48
+      "blitz_points": 150,
+      "bullet_points": 51
+    },
+    {
+      "username": "balze_end1337",
+      "points": 240,
+      "wins": 26,
+      "draws": 2,
+      "games_counted": 45,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/477395624.81107396.200x200o.59eb87edd6a0.png",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 240,
+        "wins": 26,
+        "draws": 2
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 240,
+      "bullet_points": 0
     },
     {
       "username": "swimmis",
-      "points": 180,
-      "wins": 19,
-      "draws": 3,
-      "games_counted": 47,
+      "points": 210,
+      "wins": 22,
+      "draws": 4,
+      "games_counted": 53,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/413156191.46ea62a6.200x200o.0a58ad4bfffc.jpg",
       "rapid": {
@@ -75,9 +102,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 180,
-        "wins": 19,
-        "draws": 3
+        "points": 210,
+        "wins": 22,
+        "draws": 4
       },
       "bullet": {
         "points": 0,
@@ -85,35 +112,8 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 180,
+      "blitz_points": 210,
       "bullet_points": 0
-    },
-    {
-      "username": "tokudashigeojr",
-      "points": 158,
-      "wins": 11,
-      "draws": 1,
-      "games_counted": 14,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/262570259.c560f6d4.200x200o.3d3df3f3c7b1.jpg",
-      "rapid": {
-        "points": 155,
-        "wins": 10,
-        "draws": 1
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 3,
-        "wins": 1,
-        "draws": 0
-      },
-      "rapid_points": 155,
-      "blitz_points": 0,
-      "bullet_points": 3
     }
   ]
 }
