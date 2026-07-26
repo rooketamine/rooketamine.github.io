@@ -888,72 +888,6 @@ body{display:block;}
   box-shadow:0 9px 18px rgba(0,0,0,.42),0 0 15px rgba(129,182,76,.24);
 }
 
-.top-mini-tooltip{
-  position:absolute;
-  left:50%;
-  bottom:calc(100% + 10px);
-  min-width:136px;
-  max-width:190px;
-  padding:7px 9px 8px;
-  border-radius:10px;
-  border:1px solid #454a50;
-  background:linear-gradient(180deg,#151719,#08090a);
-  color:#ffffff;
-  text-align:center;
-  white-space:nowrap;
-  box-shadow:0 9px 22px rgba(0,0,0,.48);
-  opacity:0;
-  visibility:hidden;
-  pointer-events:none;
-  transform:translate(-50%,7px) scale(.96);
-  transition:opacity .18s ease, transform .18s ease, visibility .18s ease;
-  z-index:40;
-}
-
-.top-mini-tooltip::after{
-  content:"";
-  position:absolute;
-  left:50%;
-  top:100%;
-  transform:translateX(-50%);
-  border:6px solid transparent;
-  border-top-color:#08090a;
-}
-
-.top-mini:hover .top-mini-tooltip,
-.top-mini:focus-visible .top-mini-tooltip{
-  opacity:1;
-  visibility:visible;
-  transform:translate(-50%,0) scale(1);
-}
-
-.top-mini-rank{
-  color:#c9d0d7;
-  font-size:10px;
-  font-weight:800!important;
-  line-height:1;
-}
-
-.top-mini-name{
-  display:block;
-  max-width:170px;
-  margin-top:3px;
-  overflow:hidden;
-  text-overflow:ellipsis;
-  color:#ffffff;
-  font-size:11px;
-  font-weight:700!important;
-  line-height:1.05;
-}
-
-.top-mini-points{
-  display:block;
-  margin-top:3px;
-  color:#e6d39a;
-  font-size:10.5px;
-  font-weight:600!important;
-  line-height:1;
-}
 
 .top-loading{
   width:100%;
@@ -3373,11 +3307,6 @@ async function loadTopScorers(){
              src="${player.avatar}"
              alt="${escapeTopScorerText(player.username)} profile picture"
              onerror="this.onerror=null;this.src='${fallback}'">
-        <span class="top-mini-tooltip" aria-hidden="true">
-          <span class="top-mini-rank">#${player.place}</span>
-          <span class="top-mini-name">@${escapeTopScorerText(player.username)}</span>
-          <span class="top-mini-points">${player.points} pts</span>
-        </span>
       </a>
     `).join("");
 
