@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-26",
-  "generated_at": "2026-07-26T10:56:33.889Z",
+  "generated_at": "2026-07-26T13:59:07.543Z",
   "window_start": "2026-07-26T00:00:00.000Z",
-  "window_end": "2026-07-26T10:53:33.570Z",
-  "total_members_checked": 3660,
+  "window_end": "2026-07-26T13:56:36.257Z",
+  "total_members_checked": 3663,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -35,6 +35,60 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
+      "username": "warecy",
+      "points": 570,
+      "wins": 38,
+      "draws": 0,
+      "games_counted": 50,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "rapid": {
+        "points": 570,
+        "wins": 38,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 570,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
+      "username": "nayataz",
+      "points": 438,
+      "wins": 48,
+      "draws": 2,
+      "games_counted": 53,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/104131378.74072a66.200x200o.d764054d4b63.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 438,
+        "wins": 48,
+        "draws": 2
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 438,
+      "bullet_points": 0
+    },
+    {
       "username": "queiser",
       "points": 423,
       "wins": 47,
@@ -59,60 +113,6 @@
       },
       "rapid_points": 0,
       "blitz_points": 423,
-      "bullet_points": 0
-    },
-    {
-      "username": "warecy",
-      "points": 405,
-      "wins": 27,
-      "draws": 0,
-      "games_counted": 32,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
-      "rapid": {
-        "points": 405,
-        "wins": 27,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 405,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
-      "username": "nayataz",
-      "points": 384,
-      "wins": 42,
-      "draws": 2,
-      "games_counted": 47,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/104131378.74072a66.200x200o.d764054d4b63.jpg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 384,
-        "wins": 42,
-        "draws": 2
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 384,
       "bullet_points": 0
     }
   ]
