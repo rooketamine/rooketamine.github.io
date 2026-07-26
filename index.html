@@ -2460,6 +2460,44 @@ html,body{
   50%{color:#ff2b2b;}
 }
 
+
+
+/* First MCA Champion bullet: dub-dub, pause, repeat */
+.trophy-summary-item.mca-heartbeat .trophy-summary-icon svg{
+  transform-origin:center center;
+  will-change:transform,filter;
+  animation:mcaBulletHeartbeat 1.55s ease-in-out infinite;
+}
+
+@keyframes mcaBulletHeartbeat{
+  0%, 100%{
+    transform:scale(1);
+    filter:drop-shadow(0 0 0 rgba(201,162,78,0));
+  }
+  8%{
+    transform:scale(1.13);
+    filter:drop-shadow(0 0 5px rgba(201,162,78,.42));
+  }
+  14%{
+    transform:scale(1);
+    filter:drop-shadow(0 0 1px rgba(201,162,78,.16));
+  }
+  22%{
+    transform:scale(1.25);
+    filter:drop-shadow(0 0 9px rgba(201,162,78,.68));
+  }
+  31%, 92%{
+    transform:scale(1);
+    filter:drop-shadow(0 0 0 rgba(201,162,78,0));
+  }
+}
+
+@media (prefers-reduced-motion:reduce){
+  .trophy-summary-item.mca-heartbeat .trophy-summary-icon svg{
+    animation:none;
+  }
+}
+
 </style>
 </head>
 
@@ -2584,7 +2622,7 @@ html,body{
     <div class="card">
       <div class="trophy-summary-grid">
 
-        <a class="trophy-summary-item yw-bullet-icon"
+        <a class="trophy-summary-item yw-bullet-icon mca-heartbeat"
           href="https://www.chess.com/tournament/live/arena/blundering-buddies-bullet-10-unrated-multiclub-31319705"
           target="_blank" rel="noopener noreferrer"
           aria-label="MCA result 1: Bullet, 5,214 points">
