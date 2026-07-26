@@ -2,13 +2,13 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "race",
-  "title": "Today's Points Race",
+  "mode": "winner",
+  "title": "Yesterday's Champion",
   "date": "2026-07-25",
-  "generated_at": "2026-07-25T22:14:02.367Z",
+  "generated_at": "2026-07-26T00:03:19.573Z",
   "window_start": "2026-07-25T00:00:00.000Z",
-  "window_end": "2026-07-25T22:10:42.591Z",
-  "total_members_checked": 3652,
+  "window_end": "2026-07-26T00:00:00.000Z",
+  "total_members_checked": 3655,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -32,19 +32,19 @@
     "minimum_half_moves": 10,
     "maximum_games_per_opponent": 15
   },
-  "note": "Live race updates every 3 hours after 06:00 UTC.",
+  "note": "Final podium is shown until 06:00 UTC.",
   "players": [
     {
       "username": "warecy",
-      "points": 1209,
-      "wins": 104,
+      "points": 1314,
+      "wins": 111,
       "draws": 5,
-      "games_counted": 135,
+      "games_counted": 145,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
-        "points": 645,
-        "wins": 43,
+        "points": 750,
+        "wins": 50,
         "draws": 0
       },
       "blitz": {
@@ -57,7 +57,7 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 645,
+      "rapid_points": 750,
       "blitz_points": 564,
       "bullet_points": 0
     },
