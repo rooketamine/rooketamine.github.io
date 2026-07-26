@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-26",
-  "generated_at": "2026-07-26T06:47:41.783Z",
+  "generated_at": "2026-07-26T08:42:41.542Z",
   "window_start": "2026-07-26T00:00:00.000Z",
-  "window_end": "2026-07-26T06:44:32.204Z",
-  "total_members_checked": 3657,
+  "window_end": "2026-07-26T08:39:35.593Z",
+  "total_members_checked": 3659,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "queiser",
-      "points": 414,
-      "wins": 46,
+      "points": 423,
+      "wins": 47,
       "draws": 0,
-      "games_counted": 58,
+      "games_counted": 59,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/52164932.75ea5019.200x200o.ebc383dc724b.png",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 414,
-        "wins": 46,
+        "points": 423,
+        "wins": 47,
         "draws": 0
       },
       "bullet": {
@@ -58,62 +58,62 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 414,
+      "blitz_points": 423,
       "bullet_points": 0
     },
     {
-      "username": "mohamedsaber13579",
-      "points": 294,
-      "wins": 41,
+      "username": "deadlychessboard",
+      "points": 361,
+      "wins": 38,
       "draws": 1,
-      "games_counted": 72,
+      "games_counted": 40,
+      "games_skipped_opponent_cap": 11,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/575812384.9ea902f5.200x200o.199d60f5c47a.png",
+      "rapid": {
+        "points": 270,
+        "wins": 18,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 45,
+        "wins": 5,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 46,
+        "wins": 15,
+        "draws": 1
+      },
+      "rapid_points": 270,
+      "blitz_points": 45,
+      "bullet_points": 46
+    },
+    {
+      "username": "nayataz",
+      "points": 339,
+      "wins": 37,
+      "draws": 2,
+      "games_counted": 42,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/324232003.aa5bddce.200x200o.2dec41a6b7e1.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/104131378.74072a66.200x200o.d764054d4b63.jpg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 255,
-        "wins": 28,
-        "draws": 1
+        "points": 339,
+        "wins": 37,
+        "draws": 2
       },
       "bullet": {
-        "points": 39,
-        "wins": 13,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 255,
-      "bullet_points": 39
-    },
-    {
-      "username": "deadlychessboard",
-      "points": 285,
-      "wins": 21,
-      "draws": 0,
-      "games_counted": 21,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/575812384.9ea902f5.200x200o.199d60f5c47a.png",
-      "rapid": {
-        "points": 255,
-        "wins": 17,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 27,
-        "wins": 3,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 3,
-        "wins": 1,
-        "draws": 0
-      },
-      "rapid_points": 255,
-      "blitz_points": 27,
-      "bullet_points": 3
+      "blitz_points": 339,
+      "bullet_points": 0
     }
   ]
 }
