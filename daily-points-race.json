@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-26",
-  "generated_at": "2026-07-26T16:17:01.168Z",
+  "generated_at": "2026-07-26T19:37:36.019Z",
   "window_start": "2026-07-26T00:00:00.000Z",
-  "window_end": "2026-07-26T16:14:24.491Z",
-  "total_members_checked": 3663,
+  "window_end": "2026-07-26T19:34:48.682Z",
+  "total_members_checked": 3666,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 652,
-      "wins": 53,
-      "draws": 1,
-      "games_counted": 69,
+      "points": 776,
+      "wins": 90,
+      "draws": 2,
+      "games_counted": 129,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,25 +48,25 @@
         "draws": 0
       },
       "blitz": {
-        "points": 36,
-        "wins": 4,
+        "points": 54,
+        "wins": 6,
         "draws": 0
       },
       "bullet": {
-        "points": 31,
-        "wins": 10,
-        "draws": 1
+        "points": 137,
+        "wins": 45,
+        "draws": 2
       },
       "rapid_points": 585,
-      "blitz_points": 36,
-      "bullet_points": 31
+      "blitz_points": 54,
+      "bullet_points": 137
     },
     {
       "username": "nayataz",
-      "points": 438,
-      "wins": 48,
-      "draws": 2,
-      "games_counted": 53,
+      "points": 522,
+      "wins": 57,
+      "draws": 3,
+      "games_counted": 63,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/104131378.74072a66.200x200o.d764054d4b63.jpg",
       "rapid": {
@@ -75,9 +75,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 438,
-        "wins": 48,
-        "draws": 2
+        "points": 522,
+        "wins": 57,
+        "draws": 3
       },
       "bullet": {
         "points": 0,
@@ -85,7 +85,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 438,
+      "blitz_points": 522,
       "bullet_points": 0
     },
     {
