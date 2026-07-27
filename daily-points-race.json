@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-27",
-  "generated_at": "2026-07-27T19:58:34.457Z",
+  "generated_at": "2026-07-27T22:21:22.402Z",
   "window_start": "2026-07-27T00:00:00.000Z",
-  "window_end": "2026-07-27T19:54:58.504Z",
+  "window_end": "2026-07-27T22:18:30.175Z",
   "total_members_checked": 3673,
   "scoring": {
     "rapid": {
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 635,
-      "wins": 122,
-      "draws": 3,
-      "games_counted": 181,
+      "points": 710,
+      "wins": 130,
+      "draws": 4,
+      "games_counted": 197,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,9 +48,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 399,
-        "wins": 44,
-        "draws": 1
+        "points": 474,
+        "wins": 52,
+        "draws": 2
       },
       "bullet": {
         "points": 236,
@@ -58,15 +58,15 @@
         "draws": 2
       },
       "rapid_points": 0,
-      "blitz_points": 399,
+      "blitz_points": 474,
       "bullet_points": 236
     },
     {
       "username": "yptoski",
-      "points": 456,
-      "wins": 48,
+      "points": 537,
+      "wins": 57,
       "draws": 8,
-      "games_counted": 90,
+      "games_counted": 104,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/384165357.5521dff8.200x200o.b63d517f0ea5.png",
       "rapid": {
@@ -75,8 +75,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 456,
-        "wins": 48,
+        "points": 537,
+        "wins": 57,
         "draws": 8
       },
       "bullet": {
@@ -85,26 +85,26 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 456,
+      "blitz_points": 537,
       "bullet_points": 0
     },
     {
-      "username": "aravindhnath",
-      "points": 423,
-      "wins": 43,
-      "draws": 12,
-      "games_counted": 82,
+      "username": "dalton-fc-1981",
+      "points": 471,
+      "wins": 52,
+      "draws": 1,
+      "games_counted": 102,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/70274598.8bc536fa.200x200o.a7a6a6b7ba96.jpeg",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 423,
-        "wins": 43,
-        "draws": 12
+        "points": 471,
+        "wins": 52,
+        "draws": 1
       },
       "bullet": {
         "points": 0,
@@ -112,7 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 423,
+      "blitz_points": 471,
       "bullet_points": 0
     }
   ]
