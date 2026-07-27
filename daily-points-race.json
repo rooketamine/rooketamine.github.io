@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-27",
-  "generated_at": "2026-07-27T06:08:56.469Z",
+  "generated_at": "2026-07-27T10:11:55.137Z",
   "window_start": "2026-07-27T00:00:00.000Z",
-  "window_end": "2026-07-27T06:05:48.136Z",
+  "window_end": "2026-07-27T10:09:27.566Z",
   "total_members_checked": 3668,
   "scoring": {
     "rapid": {
@@ -34,6 +34,33 @@
   },
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
+    {
+      "username": "matrix1991",
+      "points": 232,
+      "wins": 76,
+      "draws": 4,
+      "games_counted": 154,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 232,
+        "wins": 76,
+        "draws": 4
+      },
+      "rapid_points": 0,
+      "blitz_points": 0,
+      "bullet_points": 232
+    },
     {
       "username": "dalton-fc-1981",
       "points": 201,
@@ -62,57 +89,30 @@
       "bullet_points": 0
     },
     {
-      "username": "arexroat1",
-      "points": 180,
-      "wins": 12,
-      "draws": 0,
-      "games_counted": 29,
+      "username": "yashchavan_35",
+      "points": 189,
+      "wins": 20,
+      "draws": 3,
+      "games_counted": 44,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/41963288.f98af573.200x200o.c96b61af2e62.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/234222463.3e4f9003.200x200o.25ce3ef7e12c.jpg",
       "rapid": {
-        "points": 180,
-        "wins": 12,
-        "draws": 0
-      },
-      "blitz": {
         "points": 0,
         "wins": 0,
         "draws": 0
+      },
+      "blitz": {
+        "points": 189,
+        "wins": 20,
+        "draws": 3
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 180,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
-      "username": "lewis69273791",
-      "points": 180,
-      "wins": 12,
-      "draws": 0,
-      "games_counted": 15,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/156926683.381cb6c0.200x200o.c2e5678d58c7.jpg",
-      "rapid": {
-        "points": 180,
-        "wins": 12,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 180,
-      "blitz_points": 0,
+      "rapid_points": 0,
+      "blitz_points": 189,
       "bullet_points": 0
     }
   ]
