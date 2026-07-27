@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-27",
-  "generated_at": "2026-07-27T17:14:22.071Z",
+  "generated_at": "2026-07-27T19:58:34.457Z",
   "window_start": "2026-07-27T00:00:00.000Z",
-  "window_end": "2026-07-27T17:11:24.329Z",
-  "total_members_checked": 3670,
+  "window_end": "2026-07-27T19:54:58.504Z",
+  "total_members_checked": 3673,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 434,
-      "wins": 100,
-      "draws": 2,
-      "games_counted": 146,
+      "points": 635,
+      "wins": 122,
+      "draws": 3,
+      "games_counted": 181,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,9 +48,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 198,
-        "wins": 22,
-        "draws": 0
+        "points": 399,
+        "wins": 44,
+        "draws": 1
       },
       "bullet": {
         "points": 236,
@@ -58,15 +58,42 @@
         "draws": 2
       },
       "rapid_points": 0,
-      "blitz_points": 198,
+      "blitz_points": 399,
       "bullet_points": 236
     },
     {
+      "username": "yptoski",
+      "points": 456,
+      "wins": 48,
+      "draws": 8,
+      "games_counted": 90,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/384165357.5521dff8.200x200o.b63d517f0ea5.png",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 456,
+        "wins": 48,
+        "draws": 8
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 456,
+      "bullet_points": 0
+    },
+    {
       "username": "aravindhnath",
-      "points": 387,
-      "wins": 39,
+      "points": 423,
+      "wins": 43,
       "draws": 12,
-      "games_counted": 77,
+      "games_counted": 82,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
@@ -75,8 +102,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 387,
-        "wins": 39,
+        "points": 423,
+        "wins": 43,
         "draws": 12
       },
       "bullet": {
@@ -85,34 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 387,
-      "bullet_points": 0
-    },
-    {
-      "username": "mohammadjavad144",
-      "points": 348,
-      "wins": 38,
-      "draws": 2,
-      "games_counted": 64,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 348,
-        "wins": 38,
-        "draws": 2
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 348,
+      "blitz_points": 423,
       "bullet_points": 0
     }
   ]
