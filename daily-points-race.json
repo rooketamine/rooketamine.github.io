@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-28",
-  "generated_at": "2026-07-28T09:07:58.488Z",
+  "generated_at": "2026-07-28T11:30:41.522Z",
   "window_start": "2026-07-28T00:00:00.000Z",
-  "window_end": "2026-07-28T09:04:38.631Z",
-  "total_members_checked": 3675,
+  "window_end": "2026-07-28T11:27:48.469Z",
+  "total_members_checked": 3676,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,69 +36,15 @@
   "players": [
     {
       "username": "shubham67809",
-      "points": 225,
-      "wins": 15,
-      "draws": 0,
-      "games_counted": 24,
+      "points": 320,
+      "wins": 21,
+      "draws": 1,
+      "games_counted": 38,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 225,
-        "wins": 15,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 225,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
-      "username": "king_red_a",
-      "points": 205,
-      "wins": 67,
-      "draws": 4,
-      "games_counted": 133,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/364881033.955b6e95.200x200o.ed5228e9a04e.png",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 205,
-        "wins": 67,
-        "draws": 4
-      },
-      "rapid_points": 0,
-      "blitz_points": 0,
-      "bullet_points": 205
-    },
-    {
-      "username": "rammerhuman",
-      "points": 200,
-      "wins": 13,
-      "draws": 1,
-      "games_counted": 19,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/141115839.80d2a422.200x200o.772909ededd5.jpeg",
-      "rapid": {
-        "points": 200,
-        "wins": 13,
+        "points": 320,
+        "wins": 21,
         "draws": 1
       },
       "blitz": {
@@ -111,8 +57,62 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 200,
+      "rapid_points": 320,
       "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
+      "username": "rammerhuman",
+      "points": 250,
+      "wins": 16,
+      "draws": 2,
+      "games_counted": 28,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/141115839.80d2a422.200x200o.772909ededd5.jpeg",
+      "rapid": {
+        "points": 250,
+        "wins": 16,
+        "draws": 2
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 250,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
+      "username": "swagmoor",
+      "points": 234,
+      "wins": 26,
+      "draws": 0,
+      "games_counted": 59,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/2567982.f33e8bba.200x200o.2130ebf6e1dc.jpeg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 234,
+        "wins": 26,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 234,
       "bullet_points": 0
     }
   ]
