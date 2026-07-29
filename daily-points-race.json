@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-29",
-  "generated_at": "2026-07-29T09:11:43.150Z",
+  "generated_at": "2026-07-29T11:36:40.669Z",
   "window_start": "2026-07-29T00:00:00.000Z",
-  "window_end": "2026-07-29T09:08:46.461Z",
-  "total_members_checked": 3691,
+  "window_end": "2026-07-29T11:33:53.645Z",
+  "total_members_checked": 3695,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -62,6 +62,33 @@
       "bullet_points": 0
     },
     {
+      "username": "duckivuk9",
+      "points": 333,
+      "wins": 44,
+      "draws": 3,
+      "games_counted": 79,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/315051283.855b837f.200x200o.fa26fd012291.gif",
+      "rapid": {
+        "points": 45,
+        "wins": 3,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 243,
+        "wins": 26,
+        "draws": 3
+      },
+      "bullet": {
+        "points": 45,
+        "wins": 15,
+        "draws": 0
+      },
+      "rapid_points": 45,
+      "blitz_points": 243,
+      "bullet_points": 45
+    },
+    {
       "username": "patrickkoomson",
       "points": 310,
       "wins": 20,
@@ -87,33 +114,6 @@
       "rapid_points": 310,
       "blitz_points": 0,
       "bullet_points": 0
-    },
-    {
-      "username": "mishrafish",
-      "points": 250,
-      "wins": 79,
-      "draws": 13,
-      "games_counted": 159,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/16716510.7131de21.200x200o.2199085e79b7.png",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 250,
-        "wins": 79,
-        "draws": 13
-      },
-      "rapid_points": 0,
-      "blitz_points": 0,
-      "bullet_points": 250
     }
   ]
 }
