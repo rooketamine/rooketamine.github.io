@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-29",
-  "generated_at": "2026-07-29T11:36:40.669Z",
+  "generated_at": "2026-07-29T14:34:29.895Z",
   "window_start": "2026-07-29T00:00:00.000Z",
-  "window_end": "2026-07-29T11:33:53.645Z",
+  "window_end": "2026-07-29T14:31:33.675Z",
   "total_members_checked": 3695,
   "scoring": {
     "rapid": {
@@ -35,6 +35,60 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
+      "username": "duckivuk9",
+      "points": 384,
+      "wins": 61,
+      "draws": 3,
+      "games_counted": 111,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/315051283.855b837f.200x200o.fa26fd012291.gif",
+      "rapid": {
+        "points": 45,
+        "wins": 3,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 243,
+        "wins": 26,
+        "draws": 3
+      },
+      "bullet": {
+        "points": 96,
+        "wins": 32,
+        "draws": 0
+      },
+      "rapid_points": 45,
+      "blitz_points": 243,
+      "bullet_points": 96
+    },
+    {
+      "username": "warecy",
+      "points": 375,
+      "wins": 42,
+      "draws": 1,
+      "games_counted": 70,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 372,
+        "wins": 41,
+        "draws": 1
+      },
+      "bullet": {
+        "points": 3,
+        "wins": 1,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 372,
+      "bullet_points": 3
+    },
+    {
       "username": "miguumiguu",
       "points": 348,
       "wins": 38,
@@ -59,60 +113,6 @@
       },
       "rapid_points": 0,
       "blitz_points": 348,
-      "bullet_points": 0
-    },
-    {
-      "username": "duckivuk9",
-      "points": 333,
-      "wins": 44,
-      "draws": 3,
-      "games_counted": 79,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/315051283.855b837f.200x200o.fa26fd012291.gif",
-      "rapid": {
-        "points": 45,
-        "wins": 3,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 243,
-        "wins": 26,
-        "draws": 3
-      },
-      "bullet": {
-        "points": 45,
-        "wins": 15,
-        "draws": 0
-      },
-      "rapid_points": 45,
-      "blitz_points": 243,
-      "bullet_points": 45
-    },
-    {
-      "username": "patrickkoomson",
-      "points": 310,
-      "wins": 20,
-      "draws": 2,
-      "games_counted": 42,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/28479500.85f9b855.200x200o.564eb5ecafca.gif",
-      "rapid": {
-        "points": 310,
-        "wins": 20,
-        "draws": 2
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 310,
-      "blitz_points": 0,
       "bullet_points": 0
     }
   ]
