@@ -2,13 +2,13 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "race",
-  "title": "Today's Points Race",
+  "mode": "winner",
+  "title": "Yesterday's Champion",
   "date": "2026-07-28",
-  "generated_at": "2026-07-28T22:20:11.272Z",
+  "generated_at": "2026-07-29T00:28:35.570Z",
   "window_start": "2026-07-28T00:00:00.000Z",
-  "window_end": "2026-07-28T22:17:03.824Z",
-  "total_members_checked": 3681,
+  "window_end": "2026-07-29T00:00:00.000Z",
+  "total_members_checked": 3682,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -32,7 +32,7 @@
     "minimum_half_moves": 10,
     "maximum_games_per_opponent": 15
   },
-  "note": "Live race updates every 3 hours after 06:00 UTC.",
+  "note": "Final podium is shown until 06:00 UTC.",
   "players": [
     {
       "username": "warecy",
