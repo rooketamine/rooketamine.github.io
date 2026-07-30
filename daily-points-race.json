@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-30",
-  "generated_at": "2026-07-30T11:24:00.527Z",
+  "generated_at": "2026-07-30T14:35:51.695Z",
   "window_start": "2026-07-30T00:00:00.000Z",
-  "window_end": "2026-07-30T11:21:03.828Z",
-  "total_members_checked": 3714,
+  "window_end": "2026-07-30T14:32:16.989Z",
+  "total_members_checked": 3718,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 336,
-      "wins": 37,
+      "points": 498,
+      "wins": 55,
       "draws": 1,
-      "games_counted": 63,
+      "games_counted": 95,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 336,
-        "wins": 37,
+        "points": 498,
+        "wins": 55,
         "draws": 1
       },
       "bullet": {
@@ -58,62 +58,62 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 336,
+      "blitz_points": 498,
       "bullet_points": 0
     },
     {
-      "username": "bentlyskool",
-      "points": 306,
-      "wins": 33,
-      "draws": 3,
-      "games_counted": 55,
+      "username": "jojo8888888888",
+      "points": 318,
+      "wins": 34,
+      "draws": 2,
+      "games_counted": 59,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/235257817.17976aef.200x200o.14e3f23fd045.jpg",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 306,
-        "wins": 33,
-        "draws": 3
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 306,
-      "bullet_points": 0
-    },
-    {
-      "username": "kafleyravi",
-      "points": 243,
-      "wins": 26,
-      "draws": 1,
-      "games_counted": 33,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/328519009.3f30a010.200x200o.2c126a025085.jpg",
-      "rapid": {
-        "points": 30,
-        "wins": 2,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 210,
-        "wins": 23,
-        "draws": 1
-      },
-      "bullet": {
-        "points": 3,
+        "points": 15,
         "wins": 1,
         "draws": 0
       },
-      "rapid_points": 30,
-      "blitz_points": 210,
-      "bullet_points": 3
+      "blitz": {
+        "points": 303,
+        "wins": 33,
+        "draws": 2
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 15,
+      "blitz_points": 303,
+      "bullet_points": 0
+    },
+    {
+      "username": "harsh_d7",
+      "points": 314,
+      "wins": 53,
+      "draws": 3,
+      "games_counted": 91,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/487439629.63f074f3.200x200o.4e173fedcdf6.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 228,
+        "wins": 25,
+        "draws": 1
+      },
+      "bullet": {
+        "points": 86,
+        "wins": 28,
+        "draws": 2
+      },
+      "rapid_points": 0,
+      "blitz_points": 228,
+      "bullet_points": 86
     }
   ]
 }
