@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-30",
-  "generated_at": "2026-07-30T16:52:44.889Z",
+  "generated_at": "2026-07-30T19:55:03.278Z",
   "window_start": "2026-07-30T00:00:00.000Z",
-  "window_end": "2026-07-30T16:49:34.872Z",
-  "total_members_checked": 3719,
+  "window_end": "2026-07-30T19:52:15.534Z",
+  "total_members_checked": 3717,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 645,
-      "wins": 71,
+      "points": 801,
+      "wins": 91,
       "draws": 2,
-      "games_counted": 119,
+      "games_counted": 148,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,25 +48,25 @@
         "draws": 0
       },
       "blitz": {
-        "points": 645,
-        "wins": 71,
+        "points": 789,
+        "wins": 87,
         "draws": 2
       },
       "bullet": {
-        "points": 0,
-        "wins": 0,
+        "points": 12,
+        "wins": 4,
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 645,
-      "bullet_points": 0
+      "blitz_points": 789,
+      "bullet_points": 12
     },
     {
       "username": "harsh_d7",
-      "points": 359,
-      "wins": 67,
-      "draws": 6,
-      "games_counted": 126,
+      "points": 433,
+      "wins": 89,
+      "draws": 8,
+      "games_counted": 166,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/487439629.63f074f3.200x200o.4e173fedcdf6.jpg",
       "rapid": {
@@ -75,25 +75,25 @@
         "draws": 0
       },
       "blitz": {
-        "points": 228,
-        "wins": 25,
+        "points": 237,
+        "wins": 26,
         "draws": 1
       },
       "bullet": {
-        "points": 131,
-        "wins": 42,
-        "draws": 5
+        "points": 196,
+        "wins": 63,
+        "draws": 7
       },
       "rapid_points": 0,
-      "blitz_points": 228,
-      "bullet_points": 131
+      "blitz_points": 237,
+      "bullet_points": 196
     },
     {
       "username": "terryknox700",
-      "points": 321,
-      "wins": 47,
+      "points": 366,
+      "wins": 52,
       "draws": 6,
-      "games_counted": 72,
+      "games_counted": 78,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/271176299.cc502f50.200x200o.a8e2033e1969.jpg",
       "rapid": {
@@ -102,8 +102,8 @@
         "draws": 0
       },
       "blitz": {
-        "points": 99,
-        "wins": 10,
+        "points": 144,
+        "wins": 15,
         "draws": 3
       },
       "bullet": {
@@ -112,7 +112,7 @@
         "draws": 3
       },
       "rapid_points": 135,
-      "blitz_points": 99,
+      "blitz_points": 144,
       "bullet_points": 87
     }
   ]
