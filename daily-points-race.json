@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-30",
-  "generated_at": "2026-07-30T06:29:22.759Z",
+  "generated_at": "2026-07-30T08:53:38.206Z",
   "window_start": "2026-07-30T00:00:00.000Z",
-  "window_end": "2026-07-30T06:26:05.523Z",
-  "total_members_checked": 3710,
+  "window_end": "2026-07-30T08:50:19.360Z",
+  "total_members_checked": 3713,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -62,6 +62,33 @@
       "bullet_points": 0
     },
     {
+      "username": "nuubinator",
+      "points": 207,
+      "wins": 19,
+      "draws": 0,
+      "games_counted": 30,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/111749030.4ba0fa6e.200x200o.66dda7004b9d.png",
+      "rapid": {
+        "points": 90,
+        "wins": 6,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 117,
+        "wins": 13,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 90,
+      "blitz_points": 117,
+      "bullet_points": 0
+    },
+    {
       "username": "error938",
       "points": 195,
       "wins": 12,
@@ -86,33 +113,6 @@
       },
       "rapid_points": 195,
       "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
-      "username": "nuubinator",
-      "points": 171,
-      "wins": 15,
-      "draws": 0,
-      "games_counted": 22,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/111749030.4ba0fa6e.200x200o.66dda7004b9d.png",
-      "rapid": {
-        "points": 90,
-        "wins": 6,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 81,
-        "wins": 9,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 90,
-      "blitz_points": 81,
       "bullet_points": 0
     }
   ]
