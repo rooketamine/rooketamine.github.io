@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T19:55:45.574Z",
+  "generated_at": "2026-07-31T22:19:31.961Z",
   "window_start": "2026-07-31T00:00:00.000Z",
-  "window_end": "2026-07-31T19:52:47.930Z",
+  "window_end": "2026-07-31T22:15:41.427Z",
   "total_members_checked": 3719,
   "scoring": {
     "rapid": {
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 570,
-      "wins": 64,
-      "draws": 6,
-      "games_counted": 110,
+      "points": 690,
+      "wins": 77,
+      "draws": 7,
+      "games_counted": 130,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,9 +48,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 558,
-        "wins": 60,
-        "draws": 6
+        "points": 678,
+        "wins": 73,
+        "draws": 7
       },
       "bullet": {
         "points": 12,
@@ -58,7 +58,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 558,
+      "blitz_points": 678,
       "bullet_points": 12
     },
     {
