@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T17:00:00.584Z",
+  "generated_at": "2026-07-31T19:55:45.574Z",
   "window_start": "2026-07-31T00:00:00.000Z",
-  "window_end": "2026-07-31T16:57:06.082Z",
-  "total_members_checked": 3718,
+  "window_end": "2026-07-31T19:52:47.930Z",
+  "total_members_checked": 3719,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 441,
-      "wins": 50,
-      "draws": 5,
-      "games_counted": 91,
+      "points": 570,
+      "wins": 64,
+      "draws": 6,
+      "games_counted": 110,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,9 +48,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 429,
-        "wins": 46,
-        "draws": 5
+        "points": 558,
+        "wins": 60,
+        "draws": 6
       },
       "bullet": {
         "points": 12,
@@ -58,52 +58,52 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 429,
+      "blitz_points": 558,
       "bullet_points": 12
     },
     {
       "username": "libranchess1227",
-      "points": 391,
-      "wins": 42,
+      "points": 481,
+      "wins": 58,
       "draws": 1,
-      "games_counted": 44,
+      "games_counted": 61,
       "games_skipped_opponent_cap": 6,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/469726084.8cf1c119.200x200o.a9e9c08903e9.jpg",
       "rapid": {
-        "points": 195,
-        "wins": 13,
+        "points": 225,
+        "wins": 15,
         "draws": 0
       },
       "blitz": {
-        "points": 162,
-        "wins": 18,
+        "points": 189,
+        "wins": 21,
         "draws": 0
       },
       "bullet": {
-        "points": 34,
-        "wins": 11,
+        "points": 67,
+        "wins": 22,
         "draws": 1
       },
-      "rapid_points": 195,
-      "blitz_points": 162,
-      "bullet_points": 34
+      "rapid_points": 225,
+      "blitz_points": 189,
+      "bullet_points": 67
     },
     {
-      "username": "luffydzorod",
-      "points": 387,
-      "wins": 25,
-      "draws": 6,
-      "games_counted": 56,
+      "username": "brayyton2013",
+      "points": 460,
+      "wins": 29,
+      "draws": 5,
+      "games_counted": 47,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 360,
-        "wins": 22,
-        "draws": 6
+        "points": 460,
+        "wins": 29,
+        "draws": 5
       },
       "blitz": {
-        "points": 27,
-        "wins": 3,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
       "bullet": {
@@ -111,8 +111,8 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 360,
-      "blitz_points": 27,
+      "rapid_points": 460,
+      "blitz_points": 0,
       "bullet_points": 0
     }
   ]
