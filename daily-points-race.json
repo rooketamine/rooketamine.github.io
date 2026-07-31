@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-07-31",
-  "generated_at": "2026-07-31T14:38:37.639Z",
+  "generated_at": "2026-07-31T17:00:00.584Z",
   "window_start": "2026-07-31T00:00:00.000Z",
-  "window_end": "2026-07-31T14:35:11.328Z",
-  "total_members_checked": 3719,
+  "window_end": "2026-07-31T16:57:06.082Z",
+  "total_members_checked": 3718,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 399,
-      "wins": 46,
-      "draws": 3,
-      "games_counted": 79,
+      "points": 441,
+      "wins": 50,
+      "draws": 5,
+      "games_counted": 91,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,9 +48,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 387,
-        "wins": 42,
-        "draws": 3
+        "points": 429,
+        "wins": 46,
+        "draws": 5
       },
       "bullet": {
         "points": 12,
@@ -58,7 +58,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 387,
+      "blitz_points": 429,
       "bullet_points": 12
     },
     {
@@ -90,16 +90,16 @@
     },
     {
       "username": "luffydzorod",
-      "points": 352,
-      "wins": 23,
-      "draws": 5,
-      "games_counted": 50,
+      "points": 387,
+      "wins": 25,
+      "draws": 6,
+      "games_counted": 56,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 325,
-        "wins": 20,
-        "draws": 5
+        "points": 360,
+        "wins": 22,
+        "draws": 6
       },
       "blitz": {
         "points": 27,
@@ -111,7 +111,7 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 325,
+      "rapid_points": 360,
       "blitz_points": 27,
       "bullet_points": 0
     }
