@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-08-01",
-  "generated_at": "2026-08-01T08:04:40.035Z",
+  "generated_at": "2026-08-01T08:36:02.146Z",
   "window_start": "2026-08-01T00:00:00.000Z",
-  "window_end": "2026-08-01T08:01:57.726Z",
+  "window_end": "2026-08-01T08:33:45.475Z",
   "total_members_checked": 3725,
   "scoring": {
     "rapid": {
@@ -36,15 +36,15 @@
   "players": [
     {
       "username": "libranchess1227",
-      "points": 96,
-      "wins": 8,
+      "points": 132,
+      "wins": 12,
       "draws": 0,
-      "games_counted": 8,
+      "games_counted": 12,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/469726084.8cf1c119.200x200o.a9e9c08903e9.jpg",
       "rapid": {
-        "points": 60,
-        "wins": 4,
+        "points": 90,
+        "wins": 6,
         "draws": 0
       },
       "blitz": {
@@ -53,25 +53,52 @@
         "draws": 0
       },
       "bullet": {
+        "points": 6,
+        "wins": 2,
+        "draws": 0
+      },
+      "rapid_points": 90,
+      "blitz_points": 36,
+      "bullet_points": 6
+    },
+    {
+      "username": "alexanderslawbook",
+      "points": 126,
+      "wins": 14,
+      "draws": 0,
+      "games_counted": 16,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/512946891.d5781642.200x200o.d66a246bf314.jpg",
+      "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 60,
-      "blitz_points": 36,
+      "blitz": {
+        "points": 126,
+        "wins": 14,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 126,
       "bullet_points": 0
     },
     {
       "username": "aubakirovich_04",
-      "points": 78,
-      "wins": 6,
+      "points": 93,
+      "wins": 7,
       "draws": 0,
-      "games_counted": 7,
+      "games_counted": 10,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/253157551.a4bd42d3.200x200o.6d3616520ee8.jpg",
       "rapid": {
-        "points": 60,
-        "wins": 4,
+        "points": 75,
+        "wins": 5,
         "draws": 0
       },
       "blitz": {
@@ -84,35 +111,8 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 60,
+      "rapid_points": 75,
       "blitz_points": 18,
-      "bullet_points": 0
-    },
-    {
-      "username": "mrayushxyt",
-      "points": 65,
-      "wins": 4,
-      "draws": 1,
-      "games_counted": 8,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/550001483.a7bf1757.200x200o.3bf26c73b34e.png",
-      "rapid": {
-        "points": 65,
-        "wins": 4,
-        "draws": 1
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 65,
-      "blitz_points": 0,
       "bullet_points": 0
     }
   ]
