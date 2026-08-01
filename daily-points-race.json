@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-08-01",
-  "generated_at": "2026-08-01T13:57:37.726Z",
+  "generated_at": "2026-08-01T16:15:37.715Z",
   "window_start": "2026-08-01T00:00:00.000Z",
-  "window_end": "2026-08-01T13:55:05.559Z",
+  "window_end": "2026-08-01T16:13:11.935Z",
   "total_members_checked": 3727,
   "scoring": {
     "rapid": {
@@ -35,38 +35,11 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "mrayushxyt",
-      "points": 535,
-      "wins": 35,
-      "draws": 2,
-      "games_counted": 50,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/550001483.a7bf1757.200x200o.3bf26c73b34e.png",
-      "rapid": {
-        "points": 535,
-        "wins": 35,
-        "draws": 2
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 535,
-      "blitz_points": 0,
-      "bullet_points": 0
-    },
-    {
       "username": "alexanderslawbook",
-      "points": 474,
-      "wins": 52,
-      "draws": 2,
-      "games_counted": 66,
+      "points": 567,
+      "wins": 62,
+      "draws": 3,
+      "games_counted": 81,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/512946891.d5781642.200x200o.d66a246bf314.jpg",
       "rapid": {
@@ -75,9 +48,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 474,
-        "wins": 52,
-        "draws": 2
+        "points": 567,
+        "wins": 62,
+        "draws": 3
       },
       "bullet": {
         "points": 0,
@@ -85,15 +58,15 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 474,
+      "blitz_points": 567,
       "bullet_points": 0
     },
     {
       "username": "queiser",
-      "points": 333,
-      "wins": 37,
-      "draws": 0,
-      "games_counted": 44,
+      "points": 516,
+      "wins": 57,
+      "draws": 1,
+      "games_counted": 67,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/52164932.75ea5019.200x200o.ebc383dc724b.png",
       "rapid": {
@@ -102,9 +75,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 333,
-        "wins": 37,
-        "draws": 0
+        "points": 516,
+        "wins": 57,
+        "draws": 1
       },
       "bullet": {
         "points": 0,
@@ -112,7 +85,34 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 333,
+      "blitz_points": 516,
+      "bullet_points": 0
+    },
+    {
+      "username": "neelbhangure",
+      "points": 351,
+      "wins": 38,
+      "draws": 3,
+      "games_counted": 81,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 351,
+        "wins": 38,
+        "draws": 3
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 351,
       "bullet_points": 0
     }
   ]
