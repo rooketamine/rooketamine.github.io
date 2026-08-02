@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-08-02",
-  "generated_at": "2026-08-02T16:15:09.712Z",
+  "generated_at": "2026-08-02T19:36:15.175Z",
   "window_start": "2026-08-02T00:00:00.000Z",
-  "window_end": "2026-08-02T16:12:50.807Z",
-  "total_members_checked": 3738,
+  "window_end": "2026-08-02T19:34:45.464Z",
+  "total_members_checked": 3737,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "damjan1989",
-      "points": 542,
-      "wins": 47,
-      "draws": 3,
-      "games_counted": 60,
+      "points": 608,
+      "wins": 54,
+      "draws": 4,
+      "games_counted": 71,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/145826935.78cc33cb.200x200o.68adf09ed4b5.png",
       "rapid": {
@@ -48,9 +48,9 @@
         "draws": 1
       },
       "blitz": {
-        "points": 267,
-        "wins": 29,
-        "draws": 2
+        "points": 333,
+        "wins": 36,
+        "draws": 3
       },
       "bullet": {
         "points": 0,
@@ -58,48 +58,21 @@
         "draws": 0
       },
       "rapid_points": 275,
-      "blitz_points": 267,
-      "bullet_points": 0
-    },
-    {
-      "username": "flabbi",
-      "points": 420,
-      "wins": 28,
-      "draws": 4,
-      "games_counted": 42,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3907324.3af46c6b.200x200o.da6204a56491.jpg",
-      "rapid": {
-        "points": 390,
-        "wins": 25,
-        "draws": 3
-      },
-      "blitz": {
-        "points": 30,
-        "wins": 3,
-        "draws": 1
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 390,
-      "blitz_points": 30,
+      "blitz_points": 333,
       "bullet_points": 0
     },
     {
       "username": "assassinrules",
-      "points": 399,
-      "wins": 26,
-      "draws": 3,
-      "games_counted": 47,
+      "points": 479,
+      "wins": 31,
+      "draws": 4,
+      "games_counted": 57,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 390,
-        "wins": 25,
-        "draws": 3
+        "points": 470,
+        "wins": 30,
+        "draws": 4
       },
       "blitz": {
         "points": 9,
@@ -111,8 +84,35 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 390,
+      "rapid_points": 470,
       "blitz_points": 9,
+      "bullet_points": 0
+    },
+    {
+      "username": "shubham67809",
+      "points": 450,
+      "wins": 29,
+      "draws": 3,
+      "games_counted": 64,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "rapid": {
+        "points": 450,
+        "wins": 29,
+        "draws": 3
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 450,
+      "blitz_points": 0,
       "bullet_points": 0
     }
   ]
