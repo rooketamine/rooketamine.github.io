@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-08-02",
-  "generated_at": "2026-08-02T13:57:08.681Z",
+  "generated_at": "2026-08-02T16:15:09.712Z",
   "window_start": "2026-08-02T00:00:00.000Z",
-  "window_end": "2026-08-02T13:54:55.267Z",
-  "total_members_checked": 3735,
+  "window_end": "2026-08-02T16:12:50.807Z",
+  "total_members_checked": 3738,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "damjan1989",
-      "points": 401,
-      "wins": 32,
-      "draws": 1,
-      "games_counted": 40,
+      "points": 542,
+      "wins": 47,
+      "draws": 3,
+      "games_counted": 60,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/145826935.78cc33cb.200x200o.68adf09ed4b5.png",
       "rapid": {
@@ -48,9 +48,9 @@
         "draws": 1
       },
       "blitz": {
-        "points": 126,
-        "wins": 14,
-        "draws": 0
+        "points": 267,
+        "wins": 29,
+        "draws": 2
       },
       "bullet": {
         "points": 0,
@@ -58,15 +58,15 @@
         "draws": 0
       },
       "rapid_points": 275,
-      "blitz_points": 126,
+      "blitz_points": 267,
       "bullet_points": 0
     },
     {
       "username": "flabbi",
-      "points": 390,
-      "wins": 25,
-      "draws": 3,
-      "games_counted": 35,
+      "points": 420,
+      "wins": 28,
+      "draws": 4,
+      "games_counted": 42,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3907324.3af46c6b.200x200o.da6204a56491.jpg",
       "rapid": {
@@ -75,9 +75,9 @@
         "draws": 3
       },
       "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
+        "points": 30,
+        "wins": 3,
+        "draws": 1
       },
       "bullet": {
         "points": 0,
@@ -85,21 +85,21 @@
         "draws": 0
       },
       "rapid_points": 390,
-      "blitz_points": 0,
+      "blitz_points": 30,
       "bullet_points": 0
     },
     {
       "username": "assassinrules",
-      "points": 334,
-      "wins": 22,
-      "draws": 2,
-      "games_counted": 33,
+      "points": 399,
+      "wins": 26,
+      "draws": 3,
+      "games_counted": 47,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 325,
-        "wins": 21,
-        "draws": 2
+        "points": 390,
+        "wins": 25,
+        "draws": 3
       },
       "blitz": {
         "points": 9,
@@ -111,7 +111,7 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 325,
+      "rapid_points": 390,
       "blitz_points": 9,
       "bullet_points": 0
     }
