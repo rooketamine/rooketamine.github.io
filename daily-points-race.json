@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-08-02",
-  "generated_at": "2026-08-02T08:39:12.662Z",
+  "generated_at": "2026-08-02T10:52:43.690Z",
   "window_start": "2026-08-02T00:00:00.000Z",
-  "window_end": "2026-08-02T08:36:44.655Z",
-  "total_members_checked": 3732,
+  "window_end": "2026-08-02T10:50:20.434Z",
+  "total_members_checked": 3733,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -35,6 +35,33 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
+      "username": "flabbi",
+      "points": 390,
+      "wins": 25,
+      "draws": 3,
+      "games_counted": 35,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3907324.3af46c6b.200x200o.da6204a56491.jpg",
+      "rapid": {
+        "points": 390,
+        "wins": 25,
+        "draws": 3
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 390,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
       "username": "miguumiguu",
       "points": 294,
       "wins": 32,
@@ -59,33 +86,6 @@
       },
       "rapid_points": 0,
       "blitz_points": 294,
-      "bullet_points": 0
-    },
-    {
-      "username": "flabbi",
-      "points": 280,
-      "wins": 18,
-      "draws": 2,
-      "games_counted": 27,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3907324.3af46c6b.200x200o.da6204a56491.jpg",
-      "rapid": {
-        "points": 280,
-        "wins": 18,
-        "draws": 2
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 280,
-      "blitz_points": 0,
       "bullet_points": 0
     },
     {
