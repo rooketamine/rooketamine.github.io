@@ -2,13 +2,13 @@
   "ready": true,
   "status": "ready",
   "club": "blundering-buddies",
-  "mode": "winner",
-  "title": "Yesterday's Champion",
-  "date": "2026-08-01",
-  "generated_at": "2026-08-02T00:11:40.588Z",
-  "window_start": "2026-08-01T00:00:00.000Z",
-  "window_end": "2026-08-02T00:00:00.000Z",
-  "total_members_checked": 3728,
+  "mode": "race",
+  "title": "Today's Points Race",
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T06:29:30.715Z",
+  "window_start": "2026-08-02T00:00:00.000Z",
+  "window_end": "2026-08-02T06:27:06.553Z",
+  "total_members_checked": 3732,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -32,25 +32,25 @@
     "minimum_half_moves": 10,
     "maximum_games_per_opponent": 15
   },
-  "note": "Final podium is shown until 06:00 UTC.",
+  "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "alexanderslawbook",
-      "points": 909,
-      "wins": 99,
-      "draws": 6,
-      "games_counted": 128,
+      "username": "doggo-the-woof-bork-kind",
+      "points": 198,
+      "wins": 21,
+      "draws": 3,
+      "games_counted": 46,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/512946891.d5781642.200x200o.d66a246bf314.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/529537155.b393a1e3.200x200o.b5b4cadd4686.png",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 909,
-        "wins": 99,
-        "draws": 6
+        "points": 198,
+        "wins": 21,
+        "draws": 3
       },
       "bullet": {
         "points": 0,
@@ -58,26 +58,53 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 909,
+      "blitz_points": 198,
       "bullet_points": 0
     },
     {
-      "username": "queiser",
-      "points": 564,
-      "wins": 62,
-      "draws": 2,
-      "games_counted": 75,
+      "username": "itsjonney",
+      "points": 194,
+      "wins": 15,
+      "draws": 1,
+      "games_counted": 35,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/52164932.75ea5019.200x200o.ebc383dc724b.png",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "rapid": {
+        "points": 185,
+        "wins": 12,
+        "draws": 1
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 9,
+        "wins": 3,
+        "draws": 0
+      },
+      "rapid_points": 185,
+      "blitz_points": 0,
+      "bullet_points": 9
+    },
+    {
+      "username": "yael981",
+      "points": 192,
+      "wins": 21,
+      "draws": 1,
+      "games_counted": 43,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/306633269.af5b7388.200x200o.83ec08f00984.png",
       "rapid": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
       "blitz": {
-        "points": 564,
-        "wins": 62,
-        "draws": 2
+        "points": 192,
+        "wins": 21,
+        "draws": 1
       },
       "bullet": {
         "points": 0,
@@ -85,34 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 564,
-      "bullet_points": 0
-    },
-    {
-      "username": "damjan1989",
-      "points": 500,
-      "wins": 46,
-      "draws": 2,
-      "games_counted": 54,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/145826935.78cc33cb.200x200o.68adf09ed4b5.png",
-      "rapid": {
-        "points": 200,
-        "wins": 13,
-        "draws": 1
-      },
-      "blitz": {
-        "points": 300,
-        "wins": 33,
-        "draws": 1
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 200,
-      "blitz_points": 300,
+      "blitz_points": 192,
       "bullet_points": 0
     }
   ]
