@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-08-02",
-  "generated_at": "2026-08-02T06:29:30.715Z",
+  "generated_at": "2026-08-02T08:39:12.662Z",
   "window_start": "2026-08-02T00:00:00.000Z",
-  "window_end": "2026-08-02T06:27:06.553Z",
+  "window_end": "2026-08-02T08:36:44.655Z",
   "total_members_checked": 3732,
   "scoring": {
     "rapid": {
@@ -35,11 +35,65 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
+      "username": "miguumiguu",
+      "points": 294,
+      "wins": 32,
+      "draws": 2,
+      "games_counted": 45,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 294,
+        "wins": 32,
+        "draws": 2
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 294,
+      "bullet_points": 0
+    },
+    {
+      "username": "flabbi",
+      "points": 280,
+      "wins": 18,
+      "draws": 2,
+      "games_counted": 27,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3907324.3af46c6b.200x200o.da6204a56491.jpg",
+      "rapid": {
+        "points": 280,
+        "wins": 18,
+        "draws": 2
+      },
+      "blitz": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 280,
+      "blitz_points": 0,
+      "bullet_points": 0
+    },
+    {
       "username": "doggo-the-woof-bork-kind",
-      "points": 198,
-      "wins": 21,
-      "draws": 3,
-      "games_counted": 46,
+      "points": 258,
+      "wins": 27,
+      "draws": 5,
+      "games_counted": 59,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/529537155.b393a1e3.200x200o.b5b4cadd4686.png",
       "rapid": {
@@ -48,9 +102,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 198,
-        "wins": 21,
-        "draws": 3
+        "points": 258,
+        "wins": 27,
+        "draws": 5
       },
       "bullet": {
         "points": 0,
@@ -58,61 +112,7 @@
         "draws": 0
       },
       "rapid_points": 0,
-      "blitz_points": 198,
-      "bullet_points": 0
-    },
-    {
-      "username": "itsjonney",
-      "points": 194,
-      "wins": 15,
-      "draws": 1,
-      "games_counted": 35,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "rapid": {
-        "points": 185,
-        "wins": 12,
-        "draws": 1
-      },
-      "blitz": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "bullet": {
-        "points": 9,
-        "wins": 3,
-        "draws": 0
-      },
-      "rapid_points": 185,
-      "blitz_points": 0,
-      "bullet_points": 9
-    },
-    {
-      "username": "yael981",
-      "points": 192,
-      "wins": 21,
-      "draws": 1,
-      "games_counted": 43,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/306633269.af5b7388.200x200o.83ec08f00984.png",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 192,
-        "wins": 21,
-        "draws": 1
-      },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 192,
+      "blitz_points": 258,
       "bullet_points": 0
     }
   ]
