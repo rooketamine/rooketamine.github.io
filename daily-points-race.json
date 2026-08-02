@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-08-02",
-  "generated_at": "2026-08-02T10:52:43.690Z",
+  "generated_at": "2026-08-02T13:57:08.681Z",
   "window_start": "2026-08-02T00:00:00.000Z",
-  "window_end": "2026-08-02T10:50:20.434Z",
-  "total_members_checked": 3733,
+  "window_end": "2026-08-02T13:54:55.267Z",
+  "total_members_checked": 3735,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -34,6 +34,33 @@
   },
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
+    {
+      "username": "damjan1989",
+      "points": 401,
+      "wins": 32,
+      "draws": 1,
+      "games_counted": 40,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/145826935.78cc33cb.200x200o.68adf09ed4b5.png",
+      "rapid": {
+        "points": 275,
+        "wins": 18,
+        "draws": 1
+      },
+      "blitz": {
+        "points": 126,
+        "wins": 14,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "rapid_points": 275,
+      "blitz_points": 126,
+      "bullet_points": 0
+    },
     {
       "username": "flabbi",
       "points": 390,
@@ -62,57 +89,30 @@
       "bullet_points": 0
     },
     {
-      "username": "miguumiguu",
-      "points": 294,
-      "wins": 32,
+      "username": "assassinrules",
+      "points": 334,
+      "wins": 22,
       "draws": 2,
-      "games_counted": 45,
+      "games_counted": 33,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/173621315.f72d49ee.200x200o.f722f5ef395b.jpg",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 294,
-        "wins": 32,
+        "points": 325,
+        "wins": 21,
         "draws": 2
       },
-      "bullet": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "rapid_points": 0,
-      "blitz_points": 294,
-      "bullet_points": 0
-    },
-    {
-      "username": "doggo-the-woof-bork-kind",
-      "points": 258,
-      "wins": 27,
-      "draws": 5,
-      "games_counted": 59,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/529537155.b393a1e3.200x200o.b5b4cadd4686.png",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
       "blitz": {
-        "points": 258,
-        "wins": 27,
-        "draws": 5
+        "points": 9,
+        "wins": 1,
+        "draws": 0
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 258,
+      "rapid_points": 325,
+      "blitz_points": 9,
       "bullet_points": 0
     }
   ]
