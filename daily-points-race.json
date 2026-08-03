@@ -5,9 +5,9 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-08-03",
-  "generated_at": "2026-08-03T10:08:02.242Z",
+  "generated_at": "2026-08-03T15:17:18.432Z",
   "window_start": "2026-08-03T00:00:00.000Z",
-  "window_end": "2026-08-03T10:05:41.659Z",
+  "window_end": "2026-08-03T15:15:58.422Z",
   "total_members_checked": 3743,
   "scoring": {
     "rapid": {
@@ -35,84 +35,84 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "xuyen1786",
-      "points": 312,
-      "wins": 86,
-      "draws": 4,
-      "games_counted": 130,
+      "username": "warecy",
+      "points": 530,
+      "wins": 35,
+      "draws": 1,
+      "games_counted": 42,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/506548327.8c023650.200x200o.3a2266bfe83f.jpg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
-      "blitz": {
-        "points": 75,
-        "wins": 8,
+        "points": 530,
+        "wins": 35,
         "draws": 1
       },
-      "bullet": {
-        "points": 237,
-        "wins": 78,
-        "draws": 3
-      },
-      "rapid_points": 0,
-      "blitz_points": 75,
-      "bullet_points": 237
-    },
-    {
-      "username": "whattodowhatnottodo",
-      "points": 240,
-      "wins": 25,
-      "draws": 5,
-      "games_counted": 43,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
-      },
       "blitz": {
-        "points": 240,
-        "wins": 25,
-        "draws": 5
+        "points": 0,
+        "wins": 0,
+        "draws": 0
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 240,
+      "rapid_points": 530,
+      "blitz_points": 0,
       "bullet_points": 0
     },
     {
-      "username": "gamesetmatch1234",
-      "points": 230,
-      "wins": 15,
-      "draws": 1,
-      "games_counted": 25,
+      "username": "milenaischcool",
+      "points": 435,
+      "wins": 93,
+      "draws": 0,
+      "games_counted": 161,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/211176683.21a29b2b.200x200o.cd177d1bda4b.jpg",
       "rapid": {
-        "points": 230,
-        "wins": 15,
-        "draws": 1
-      },
-      "blitz": {
         "points": 0,
         "wins": 0,
         "draws": 0
+      },
+      "blitz": {
+        "points": 234,
+        "wins": 26,
+        "draws": 0
+      },
+      "bullet": {
+        "points": 201,
+        "wins": 67,
+        "draws": 0
+      },
+      "rapid_points": 0,
+      "blitz_points": 234,
+      "bullet_points": 201
+    },
+    {
+      "username": "whattodowhatnottodo",
+      "points": 417,
+      "wins": 43,
+      "draws": 10,
+      "games_counted": 85,
+      "games_skipped_opponent_cap": 0,
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "rapid": {
+        "points": 0,
+        "wins": 0,
+        "draws": 0
+      },
+      "blitz": {
+        "points": 417,
+        "wins": 43,
+        "draws": 10
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 230,
-      "blitz_points": 0,
+      "rapid_points": 0,
+      "blitz_points": 417,
       "bullet_points": 0
     }
   ]
