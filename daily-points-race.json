@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-08-03",
-  "generated_at": "2026-08-03T17:22:53.937Z",
+  "generated_at": "2026-08-03T19:59:01.589Z",
   "window_start": "2026-08-03T00:00:00.000Z",
-  "window_end": "2026-08-03T17:20:37.076Z",
-  "total_members_checked": 3745,
+  "window_end": "2026-08-03T19:57:38.671Z",
+  "total_members_checked": 3744,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,20 +36,20 @@
   "players": [
     {
       "username": "warecy",
-      "points": 566,
-      "wins": 39,
+      "points": 677,
+      "wins": 50,
       "draws": 1,
-      "games_counted": 48,
+      "games_counted": 62,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
-        "points": 530,
-        "wins": 35,
+        "points": 560,
+        "wins": 37,
         "draws": 1
       },
       "blitz": {
-        "points": 36,
-        "wins": 4,
+        "points": 117,
+        "wins": 13,
         "draws": 0
       },
       "bullet": {
@@ -57,8 +57,8 @@
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 530,
-      "blitz_points": 36,
+      "rapid_points": 560,
+      "blitz_points": 117,
       "bullet_points": 0
     },
     {
@@ -89,31 +89,31 @@
       "bullet_points": 229
     },
     {
-      "username": "whattodowhatnottodo",
-      "points": 447,
-      "wins": 46,
-      "draws": 11,
-      "games_counted": 92,
+      "username": "shubham67809",
+      "points": 452,
+      "wins": 49,
+      "draws": 1,
+      "games_counted": 89,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 0,
-        "wins": 0,
-        "draws": 0
+        "points": 380,
+        "wins": 25,
+        "draws": 1
       },
       "blitz": {
-        "points": 447,
-        "wins": 46,
-        "draws": 11
-      },
-      "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 0,
-      "blitz_points": 447,
-      "bullet_points": 0
+      "bullet": {
+        "points": 72,
+        "wins": 24,
+        "draws": 0
+      },
+      "rapid_points": 380,
+      "blitz_points": 0,
+      "bullet_points": 72
     }
   ]
 }
