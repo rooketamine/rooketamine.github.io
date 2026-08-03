@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-08-03",
-  "generated_at": "2026-08-03T19:59:01.589Z",
+  "generated_at": "2026-08-03T22:20:02.890Z",
   "window_start": "2026-08-03T00:00:00.000Z",
-  "window_end": "2026-08-03T19:57:38.671Z",
-  "total_members_checked": 3744,
+  "window_end": "2026-08-03T22:17:43.007Z",
+  "total_members_checked": 3745,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -36,10 +36,10 @@
   "players": [
     {
       "username": "warecy",
-      "points": 677,
-      "wins": 50,
+      "points": 821,
+      "wins": 66,
       "draws": 1,
-      "games_counted": 62,
+      "games_counted": 83,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
@@ -48,8 +48,8 @@
         "draws": 1
       },
       "blitz": {
-        "points": 117,
-        "wins": 13,
+        "points": 261,
+        "wins": 29,
         "draws": 0
       },
       "bullet": {
@@ -58,15 +58,15 @@
         "draws": 0
       },
       "rapid_points": 560,
-      "blitz_points": 117,
+      "blitz_points": 261,
       "bullet_points": 0
     },
     {
       "username": "milenaischcool",
-      "points": 463,
-      "wins": 102,
+      "points": 511,
+      "wins": 114,
       "draws": 1,
-      "games_counted": 182,
+      "games_counted": 217,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/211176683.21a29b2b.200x200o.cd177d1bda4b.jpg",
       "rapid": {
@@ -75,45 +75,45 @@
         "draws": 0
       },
       "blitz": {
-        "points": 234,
-        "wins": 26,
+        "points": 252,
+        "wins": 28,
         "draws": 0
       },
       "bullet": {
-        "points": 229,
-        "wins": 76,
+        "points": 259,
+        "wins": 86,
         "draws": 1
       },
       "rapid_points": 0,
-      "blitz_points": 234,
-      "bullet_points": 229
+      "blitz_points": 252,
+      "bullet_points": 259
     },
     {
-      "username": "shubham67809",
-      "points": 452,
-      "wins": 49,
-      "draws": 1,
-      "games_counted": 89,
+      "username": "whattodowhatnottodo",
+      "points": 465,
+      "wins": 48,
+      "draws": 11,
+      "games_counted": 97,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "rapid": {
-        "points": 380,
-        "wins": 25,
-        "draws": 1
-      },
-      "blitz": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
+      "blitz": {
+        "points": 465,
+        "wins": 48,
+        "draws": 11
+      },
       "bullet": {
-        "points": 72,
-        "wins": 24,
+        "points": 0,
+        "wins": 0,
         "draws": 0
       },
-      "rapid_points": 380,
-      "blitz_points": 0,
-      "bullet_points": 72
+      "rapid_points": 0,
+      "blitz_points": 465,
+      "bullet_points": 0
     }
   ]
 }
