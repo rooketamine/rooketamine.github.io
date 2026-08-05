@@ -4227,6 +4227,32 @@ body::before{
   color:#c9a24e!important;
 }
 
+
+/* When the embed/frame is taller than the sidebar, fill the extra space
+   with the same dark navy seen behind the bottom copyright text. */
+html{
+  min-height:100%!important;
+  background:#010714!important;
+}
+
+body{
+  min-height:100vh!important;
+  background:#010714!important;
+}
+
+/* Prevent any decorative page layer from changing that extra-height color. */
+body::before,
+body::after{
+  display:none!important;
+  content:none!important;
+}
+
+
+/* Use one solid color only in the area under the top section */
+.inner{
+  background:#04112A!important;
+}
+
 </style>
 </head>
 
@@ -4485,7 +4511,7 @@ body::before{
       <div class="shout-desc">
         Most active in our fun zone...<br>
         bringing energy beyond the board,<br>
-        keeping us engaged during the US Open,<br>
+        keeping us engaged during FIFA,<br>
         and making the club more fun. 🙌
       </div>
 
