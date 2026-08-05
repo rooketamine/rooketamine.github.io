@@ -5,10 +5,10 @@
   "mode": "race",
   "title": "Today's Points Race",
   "date": "2026-08-05",
-  "generated_at": "2026-08-05T09:07:50.148Z",
+  "generated_at": "2026-08-05T11:31:41.947Z",
   "window_start": "2026-08-05T00:00:00.000Z",
-  "window_end": "2026-08-05T09:05:29.898Z",
-  "total_members_checked": 3766,
+  "window_end": "2026-08-05T11:29:24.458Z",
+  "total_members_checked": 3768,
   "scoring": {
     "rapid": {
       "win": 15,
@@ -35,65 +35,65 @@
   "note": "Live race updates every 3 hours after 06:00 UTC.",
   "players": [
     {
-      "username": "pollux5",
-      "points": 215,
-      "wins": 14,
-      "draws": 1,
-      "games_counted": 21,
+      "username": "warecy",
+      "points": 234,
+      "wins": 25,
+      "draws": 3,
+      "games_counted": 45,
       "games_skipped_opponent_cap": 0,
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/64150292.f27f8163.200x200o.fdb211b6d007.png",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "rapid": {
-        "points": 215,
-        "wins": 14,
-        "draws": 1
-      },
-      "blitz": {
         "points": 0,
         "wins": 0,
         "draws": 0
+      },
+      "blitz": {
+        "points": 234,
+        "wins": 25,
+        "draws": 3
       },
       "bullet": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "rapid_points": 215,
-      "blitz_points": 0,
+      "rapid_points": 0,
+      "blitz_points": 234,
       "bullet_points": 0
     },
     {
-      "username": "wenhoh",
-      "points": 206,
-      "wins": 48,
-      "draws": 2,
-      "games_counted": 84,
-      "games_skipped_opponent_cap": 0,
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "username": "xuyen1786",
+      "points": 225,
+      "wins": 57,
+      "draws": 6,
+      "games_counted": 112,
+      "games_skipped_opponent_cap": 1,
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/506548327.8c023650.200x200o.3a2266bfe83f.jpg",
       "rapid": {
+        "points": 60,
+        "wins": 4,
+        "draws": 0
+      },
+      "blitz": {
         "points": 0,
         "wins": 0,
         "draws": 0
       },
-      "blitz": {
-        "points": 90,
-        "wins": 10,
-        "draws": 0
-      },
       "bullet": {
-        "points": 116,
-        "wins": 38,
-        "draws": 2
+        "points": 165,
+        "wins": 53,
+        "draws": 6
       },
-      "rapid_points": 0,
-      "blitz_points": 90,
-      "bullet_points": 116
+      "rapid_points": 60,
+      "blitz_points": 0,
+      "bullet_points": 165
     },
     {
       "username": "krish_rathod",
-      "points": 205,
-      "wins": 47,
-      "draws": 4,
-      "games_counted": 93,
+      "points": 223,
+      "wins": 48,
+      "draws": 7,
+      "games_counted": 100,
       "games_skipped_opponent_cap": 0,
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/43328710.16a79fba.200x200o.61a33b6e6b6b.jpeg",
       "rapid": {
@@ -102,9 +102,9 @@
         "draws": 0
       },
       "blitz": {
-        "points": 90,
-        "wins": 10,
-        "draws": 0
+        "points": 108,
+        "wins": 11,
+        "draws": 3
       },
       "bullet": {
         "points": 115,
@@ -112,7 +112,7 @@
         "draws": 4
       },
       "rapid_points": 0,
-      "blitz_points": 90,
+      "blitz_points": 108,
       "bullet_points": 115
     }
   ]
