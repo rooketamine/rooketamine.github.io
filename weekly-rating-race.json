@@ -1,13 +1,59 @@
 {
-  "status": "baseline-created",
-  "updatedAt": "2026-08-05T06:09:32.840Z",
+  "status": "ready",
+  "updatedAt": "2026-08-05T06:43:10.930Z",
   "weekStartedAt": "2026-08-02T00:00:00.000Z",
   "weekEndsAt": "2026-08-09T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3753,
-  "failedMembers": 2,
-  "eligibleMembers": 3378,
-  "players": []
+  "checkedMembers": 3760,
+  "failedMembers": 1,
+  "eligibleMembers": 3384,
+  "players": [
+    {
+      "username": "cymba237",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/274023615.f689348d.200x200o.1d38c637667e.png",
+      "profileUrl": "https://www.chess.com/member/Cymba237",
+      "totalChange": 41,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 41,
+      "rapidStartRating": 254,
+      "blitzStartRating": 252,
+      "bulletStartRating": 255,
+      "rapidCurrentRating": 254,
+      "blitzCurrentRating": 252,
+      "bulletCurrentRating": 296
+    },
+    {
+      "username": "lil_injun",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/121717588.6c9d1bf2.200x200o.ec278f0d6d89.jpeg",
+      "profileUrl": "https://www.chess.com/member/lil_injun",
+      "totalChange": 40,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 40,
+      "rapidStartRating": 1514,
+      "blitzStartRating": 1712,
+      "bulletStartRating": 1642,
+      "rapidCurrentRating": 1514,
+      "blitzCurrentRating": 1712,
+      "bulletCurrentRating": 1682
+    },
+    {
+      "username": "not_soyeb66",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "profileUrl": "https://www.chess.com/member/NOT_SOYEB66",
+      "totalChange": 30,
+      "rapidChange": 0,
+      "blitzChange": 30,
+      "bulletChange": 0,
+      "rapidStartRating": 988,
+      "blitzStartRating": 981,
+      "bulletStartRating": 1305,
+      "rapidCurrentRating": 988,
+      "blitzCurrentRating": 1011,
+      "bulletCurrentRating": 1305
+    }
+  ]
 }
