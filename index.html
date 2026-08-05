@@ -4122,6 +4122,111 @@ body::before{
   filter:none!important;
 }
 
+
+/* Keep exact FIFA geometry, but blend the exposed transition into US Open blue */
+.sb-top::after{
+  background:#001C62!important;
+}
+
+/* FIFA uses 18px top padding and -10px GIF margin.
+   This colors that exposed 8px area blue instead of near-black. */
+.inner{
+  background:
+    linear-gradient(
+      180deg,
+      #001C62 0,
+      #001C62 18px,
+      transparent 18px,
+      transparent 100%
+    )!important;
+}
+
+
+/* Reduce the top-right US Open ball symbol by 50% */
+.top-usopen-logo{
+  width:37px!important;
+  max-width:13%!important;
+  right:10px!important;
+  top:9px!important;
+}
+
+@media (max-width:320px){
+  .top-usopen-logo{
+    width:32px!important;
+    max-width:12%!important;
+    right:9px!important;
+    top:10px!important;
+  }
+}
+
+
+/* Center the smaller top-right ball vertically */
+.top-usopen-logo{
+  top:50%!important;
+  bottom:auto!important;
+  transform:translateY(-50%)!important;
+}
+
+@media (max-width:320px){
+  .top-usopen-logo{
+    top:50%!important;
+    bottom:auto!important;
+    transform:translateY(-50%)!important;
+  }
+}
+
+
+/* Match the curved transition to the background behind
+   “Multiclub Arena / Serve for glory…” */
+.sb-top::after{
+  background:#04112A!important;
+}
+
+.inner{
+  background:
+    linear-gradient(
+      180deg,
+      #04112A 0,
+      #04112A 18px,
+      transparent 18px,
+      transparent 100%
+    )!important;
+}
+
+
+/* Weekly Rating Climbers:
+   1st stays yellow, 2nd and 3rd both blue */
+.yw-second .yw-photo,
+.yw-third .yw-photo{
+  border-color:#00288C!important;
+  box-shadow:0 8px 18px rgba(0,0,0,.30),0 0 15px rgba(0,40,140,.24)!important;
+}
+
+.yw-second .yw-rank-tag,
+.yw-third .yw-rank-tag{
+  background:linear-gradient(180deg,#6389de,#00288C)!important;
+  color:#fff!important;
+}
+
+.yw-second .yw-bar,
+.yw-third .yw-bar{
+  background:linear-gradient(180deg,#0B3EAD,#00288C)!important;
+  color:#fff!important;
+}
+
+/* Restore original Rapid / Blitz / Bullet symbol colors */
+.yw-rapid-icon{
+  color:#78b84c!important;
+}
+
+.yw-blitz-icon{
+  color:#ffd21f!important;
+}
+
+.yw-bullet-icon{
+  color:#c9a24e!important;
+}
+
 </style>
 </head>
 
