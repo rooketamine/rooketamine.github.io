@@ -1,7 +1,13 @@
 {
-  "status": "waiting",
-  "updatedAt": null,
-  "weekStartedAt": null,
-  "weekEndsAt": null,
+  "status": "baseline-created",
+  "updatedAt": "2026-08-05T06:09:32.840Z",
+  "weekStartedAt": "2026-08-02T00:00:00.000Z",
+  "weekEndsAt": "2026-08-09T00:00:00.000Z",
+  "resetRule": "Every Sunday at 00:00 UTC",
+  "minimumAccountAgeDays": 90,
+  "minimumGamesPerCountedFormat": 100,
+  "checkedMembers": 3753,
+  "failedMembers": 2,
+  "eligibleMembers": 3378,
   "players": []
 }
