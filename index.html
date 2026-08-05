@@ -914,7 +914,7 @@ body{display:block;}
 }
 
 
-/* DAILY POINTS RACE */
+/* WEEKLY RATING CLIMBERS */
 .yw-shell{
   min-height:252px;
   display:flex;
@@ -1592,7 +1592,7 @@ body{display:block;}
   font-size:11.5px;
 }
 
-/* Daily Points Race: keep the podium compact and readable. */
+/* Weekly Rating Climbers: keep the podium compact and readable. */
 .yw-spot{
   min-width:72px;
 }
@@ -2598,19 +2598,19 @@ html,body{
     <div class="div"></div>
 
     
-    <!-- DAILY POINTS RACE -->
-    <div class="sec-label" id="dailyRaceTitle">🏎️ Daily Points Race</div>
-    <div class="sec-sub" id="dailyRaceSub">Beat the tilt...</div>
+    <!-- WEEKLY RATING CLIMBERS -->
+    <div class="sec-label" id="weeklyRaceTitle">📈 Weekly Rating Climbers</div>
+    <div class="sec-sub" id="weeklyRaceSub">Beat the tilt...</div>
     <div class="card">
-      <div class="yw-shell" id="yesterdayWinsBoard">
+      <div class="yw-shell" id="weeklyRatingBoard">
         <div class="yw-loading">
-          <img class="yw-counting-pawn" src="images/counting-pawn.png" alt="Shhh I am counting">
-          <div class="yw-shh">Shhh... I am counting</div>
-          <div class="yw-load-sub">Race board is warming up</div>
+          <img class="yw-counting-pawn" src="images/counting-pawn.png" alt="Checking weekly rating changes">
+          <div class="yw-shh">Checking the rating race...</div>
+          <div class="yw-load-sub">The weekly podium is warming up</div>
         </div>
       </div>
-      <div class="yw-updated" id="yesterdayWinsUpdated">
-        <span class="yw-reset-note">Race resets at 00:00 UTC</span>
+      <div class="yw-updated" id="weeklyRatingUpdated">
+        <span class="yw-reset-note">Resets every Sunday</span>
       </div>
     </div>
 
@@ -2954,53 +2954,26 @@ setInterval(loadMembers, REFRESH_MS);
 
 
 
-/* DAILY POINTS RACE */
+/* WEEKLY RATING CLIMBERS */
 const YW_FALLBACK_AVATAR = 'https://www.chess.com/bundles/web/images/user-image.007dad08.svg';
-const YW_DATA_URL = 'daily-points-race.json';
+const WEEKLY_RATING_DATA_URL = 'weekly-rating-race.json';
 const YW_ICON_RAPID = '<span class="yw-chip-icon yw-rapid-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M11.97,14.63 c-0.9,0,-1.87,-0.73,-1.5,-2.23 l1.03,-4.4 l1,0 l1.03,4.37 c0.37,1.53,-0.63,2.27,-1.57,2.27 Z M12,22.5 c-5.23,0,-9.5,-4.27,-9.5,-9.5 c0,-5.23,4.27,-9.5,9.5,-9.5 c5.23,0,9.5,4.27,9.5,9.5 c0,5.23,-4.27,9.5,-9.5,9.5 Z M12,19.5 c4,0,6.5,-2.5,6.5,-6.5 c0,-4,-2.5,-6.5,-6.5,-6.5 c-4,0,-6.5,2.5,-6.5,6.5 c0,4,2.5,6.5,6.5,6.5 Z M10.5,5.23 l0,-4.23 l3,0 l0,4.23 Z M15.5,2 l-7,0 c0,-1.7,0.43,-2,3.5,-2 c3.07,0,3.5,0.3,3.5,2 Z"></path></svg></span>';
 const YW_ICON_BLITZ = '<span class="yw-chip-icon yw-blitz-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.15 1.7h9.35c.82 0 1.28.94.78 1.59l-5.08 6.64h5.18c.9 0 1.32 1.12.65 1.72L7.95 22.42c-.72.64-1.82-.03-1.57-.96l2.35-8.52H4.62c-.75 0-1.2-.8-.86-1.46L8.29 2.23c.16-.33.49-.53.86-.53Z"></path></svg></span>';
 const YW_ICON_BULLET = '<span class="yw-chip-icon yw-bullet-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M7.17,15.3 l1.43,1.47 l-8.27,6.9 Z M0.3,17.6 l4.5,-6.0 l0.9,2 Z M10.77,10.1 c3.47,-3.6,5.93,-5.2,8.7,-6.4 c-2.4,0,-5.3,0.37,-9.8,4.6 c0.03,0.5,0.7,1.47,1.1,1.8 Z M21.83,2.17 c0,0,0.23,1.1,0.23,2.77 c0,2.67,-0.67,6.83,-4.17,10.33 l-2.17,2.17 c-0.67,0.67,-1.33,0.6,-2.13,0.27 l-7.47,6.3 l9.8,-12.17 l-5.23,4.03 c-0.43,-0.4,-0.93,-0.83,-1.33,-1.23 c-1.73,-1.7,-4.13,-5,-2.77,-6.37 l2.2,-2.13 c3.53,-3.5,7.63,-4.2,10.3,-4.2 c1.63,0,2.73,0.23,2.73,0.23 Z"></path></svg></span>';
 
-function getUTCDateKey(offsetDays = 0){
-  const now = new Date();
-  const start = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + offsetDays);
-  return new Date(start).toISOString().slice(0,10);
+let lastWeeklyRatingUpdatedAt = null;
+
+function escapeWeeklyRatingHtml(value){
+  return String(value ?? '').replace(/[&<>"']/g, character => ({
+    '&':'&amp;',
+    '<':'&lt;',
+    '>':'&gt;',
+    '"':'&quot;',
+    "'":'&#39;'
+  })[character]);
 }
 
-function getRaceWindowState(){
-  const now = new Date();
-  const hour = now.getUTCHours();
-
-  if(hour < 6){
-    return {
-      mode:'winner',
-      date:getUTCDateKey(-1),
-      title:"🏆 Yesterday's Champion",
-      sub:'Final podium is locked...'
-    };
-  }
-
-  return {
-    mode:'race',
-    date:getUTCDateKey(0),
-    title:"🏎️ Daily Points Race",
-    sub:'Beat the tilt...'
-  };
-}
-
-function setDailyRaceHeader(state){
-  const title = document.getElementById('dailyRaceTitle');
-  const sub = document.getElementById('dailyRaceSub');
-
-  if(title) title.textContent = state.title;
-  if(sub) sub.textContent = state.sub;
-}
-
-let lastRaceUpdatedAt = null;
-let currentRaceFooterState = null;
-let raceFooterShowsUpdated = false;
-
-function parseRaceDate(value){
+function parseWeeklyRatingDate(value){
   if(!value) return null;
 
   if(value instanceof Date){
@@ -3017,32 +2990,11 @@ function parseRaceDate(value){
   return Number.isFinite(time) ? time : null;
 }
 
-function getRaceUpdatedAt(data, res){
-  const candidates = [
-    data?.updated_at,
-    data?.updatedAt,
-    data?.last_updated,
-    data?.lastUpdated,
-    data?.generated_at,
-    data?.generatedAt,
-    data?.timestamp,
-    data?.updated
-  ];
+function formatWeeklyRatingAgo(updatedAt = lastWeeklyRatingUpdatedAt){
+  if(!updatedAt) return 'Waiting for first update';
 
-  for(const value of candidates){
-    const parsed = parseRaceDate(value);
-    if(parsed) return parsed;
-  }
-
-  const headerDate = res?.headers?.get?.('Last-Modified');
-  return parseRaceDate(headerDate);
-}
-
-function formatRaceAgo(updatedAt = lastRaceUpdatedAt){
-  if(!updatedAt) return 'Updated just now';
-
-  const diffMs = Math.max(0, Date.now() - updatedAt);
-  const minutes = Math.floor(diffMs / 60000);
+  const differenceMs = Math.max(0, Date.now() - updatedAt);
+  const minutes = Math.floor(differenceMs / 60000);
 
   if(minutes < 1) return 'Updated just now';
   if(minutes < 60) return `Updated ${minutes} min${minutes === 1 ? '' : 's'} ago`;
@@ -3054,64 +3006,69 @@ function formatRaceAgo(updatedAt = lastRaceUpdatedAt){
   return `Updated ${days} day${days === 1 ? '' : 's'} ago`;
 }
 
-function raceFooterHTML(){
-  const reset = '<span class="yw-reset-note">Race resets at 00:00 UTC</span>';
-  if(!raceFooterShowsUpdated) return reset;
-  return `${formatRaceAgo()}${reset}`;
+function signedRatingChange(value){
+  const number = Number(value);
+  if(!Number.isFinite(number)) return null;
+  return number > 0 ? `+${number}` : String(number);
 }
 
-function updateRaceFooter(state, showUpdated = raceFooterShowsUpdated){
-  currentRaceFooterState = state;
-  raceFooterShowsUpdated = Boolean(showUpdated);
-  const updated = document.getElementById('yesterdayWinsUpdated');
-  if(updated) updated.innerHTML = raceFooterHTML();
+function weeklyRatingBreakdown(player){
+  const formats = [
+    { value:player?.rapidChange, icon:YW_ICON_RAPID, label:'Rapid' },
+    { value:player?.blitzChange, icon:YW_ICON_BLITZ, label:'Blitz' },
+    { value:player?.bulletChange, icon:YW_ICON_BULLET, label:'Bullet' }
+  ];
+
+  return formats
+    .filter(format => Number.isFinite(Number(format.value)))
+    .map(format => `
+      <span class="yw-mini-stat" title="${format.label}">
+        ${format.icon}<span>${signedRatingChange(format.value)}</span>
+      </span>`)
+    .join('');
 }
 
-function playerPoints(player){
-  return Number(player.points ?? player.score ?? player.total_points ?? player.wins ?? 0);
+function updateWeeklyRatingFooter(){
+  const footer = document.getElementById('weeklyRatingUpdated');
+  if(!footer) return;
+
+  footer.innerHTML = `
+    ${formatWeeklyRatingAgo()}
+    <span class="yw-reset-note">Resets every Sunday</span>`;
 }
 
-function escapeHtml(value){
-  return String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
-}
-
-function pointBreakdown(player){
-  const pieces = [];
-  const rapid = Number(player.rapid_points ?? player.rapid?.points ?? 0);
-  const blitz = Number(player.blitz_points ?? player.blitz?.points ?? 0);
-  const bullet = Number(player.bullet_points ?? player.bullet?.points ?? 0);
-
-  if(rapid > 0) pieces.push(`<span class="yw-mini-stat">${YW_ICON_RAPID}<span>${rapid}</span></span>`);
-  if(blitz > 0) pieces.push(`<span class="yw-mini-stat">${YW_ICON_BLITZ}<span>${blitz}</span></span>`);
-  if(bullet > 0) pieces.push(`<span class="yw-mini-stat">${YW_ICON_BULLET}<span>${bullet}</span></span>`);
-
-  return pieces.join(' ');
-}
-
-function showDailyRaceWaiting(mainText = 'Shhh... I am counting', subText = 'Race board is warming up'){
-  const board = document.getElementById('yesterdayWinsBoard');
-
+function showWeeklyRatingWaiting(
+  mainText = 'Checking the rating race...',
+  subText = 'The weekly podium is warming up'
+){
+  const board = document.getElementById('weeklyRatingBoard');
   if(!board) return;
 
   board.innerHTML = `
     <div class="yw-loading">
-      <img class="yw-counting-pawn" src="images/counting-pawn.png" alt="Shhh I am counting">
-      <div class="yw-shh">${mainText}</div>
-      <div class="yw-load-sub">${subText}</div>
+      <img class="yw-counting-pawn" src="images/counting-pawn.png" alt="Checking weekly rating changes">
+      <div class="yw-shh">${escapeWeeklyRatingHtml(mainText)}</div>
+      <div class="yw-load-sub">${escapeWeeklyRatingHtml(subText)}</div>
     </div>`;
 }
 
-function drawDailyPointsRace(data, state, showUpdated = false){
-  const board = document.getElementById('yesterdayWinsBoard');
-  const updated = document.getElementById('yesterdayWinsUpdated');
-
+function drawWeeklyRatingRace(data){
+  const board = document.getElementById('weeklyRatingBoard');
   if(!board) return;
 
-  const players = Array.isArray(data.players) ? data.players.slice(0,3) : [];
+  const players = Array.isArray(data?.players) ? data.players.slice(0,3) : [];
 
   if(!players.length){
-    showDailyRaceWaiting('Shhh... I am counting', 'No race points found yet');
-    updateRaceFooter(state, false);
+    const baselineCreated = data?.status === 'baseline-created';
+
+    showWeeklyRatingWaiting(
+      baselineCreated ? 'Weekly baseline saved!' : 'Checking the rating race...',
+      baselineCreated
+        ? 'Rating changes will appear after the next scan'
+        : 'No weekly rating changes found yet'
+    );
+
+    updateWeeklyRatingFooter();
     return;
   }
 
@@ -3121,151 +3078,79 @@ function drawDailyPointsRace(data, state, showUpdated = false){
 
   board.innerHTML = `
     <div class="yw-score-row">
-      <div class="yw-chip rapid">${YW_ICON_RAPID}W15 D5</div>
-      <div class="yw-chip blitz">${YW_ICON_BLITZ}W9 D3</div>
-      <div class="yw-chip bullet">${YW_ICON_BULLET}W3 D1</div>
+      <div class="yw-chip rapid">${YW_ICON_RAPID}Rapid</div>
+      <div class="yw-chip blitz">${YW_ICON_BLITZ}Blitz</div>
+      <div class="yw-chip bullet">${YW_ICON_BULLET}Bullet</div>
     </div>
     <div class="yw-stage">
       ${podiumOrder.map(index => {
         const player = players[index];
-        const points = playerPoints(player);
-        const username = player.username || 'unknown';
-        const safeName = escapeHtml(username);
-        const breakdown = pointBreakdown(player);
+        const username = String(player?.username || 'unknown');
+        const safeName = escapeWeeklyRatingHtml(username);
+        const total = signedRatingChange(player?.totalChange) ?? '0';
+        const breakdown = weeklyRatingBreakdown(player);
+        const profileUrl =
+          player?.profileUrl ||
+          `https://www.chess.com/member/${encodeURIComponent(username)}`;
+        const safeProfileUrl = escapeWeeklyRatingHtml(profileUrl);
+        const safeAvatar = escapeWeeklyRatingHtml(player?.avatar || YW_FALLBACK_AVATAR);
 
         return `
-          <a class="yw-spot ${classes[index]}" href="https://www.chess.com/member/${encodeURIComponent(username)}" target="_blank" rel="noopener noreferrer" title="${points} points">
+          <a class="yw-spot ${classes[index]}"
+             href="${safeProfileUrl}"
+             target="_blank"
+             rel="noopener noreferrer"
+             title="${safeName}: ${total} rating this week">
             <div class="yw-photo-ring">
               <div class="yw-rank-tag">${places[index]}</div>
-              <img class="yw-photo" src="${player.avatar || YW_FALLBACK_AVATAR}" alt="${safeName}" onerror="this.src='${YW_FALLBACK_AVATAR}'">
+              <img class="yw-photo"
+                   src="${safeAvatar}"
+                   alt="${safeName}"
+                   onerror="this.src='${YW_FALLBACK_AVATAR}'">
             </div>
             <div class="yw-name">@${safeName}</div>
             <div class="yw-breakdown">${breakdown}</div>
             <div class="yw-bar">
               <span class="yw-bar-score">
-                <span class="yw-bar-num">${points}</span>
-                <span class="yw-bar-pts">pts</span>
+                <span class="yw-bar-num">${total}</span>
+                <span class="yw-bar-pts">rating</span>
               </span>
             </div>
           </a>`;
       }).join('')}
     </div>`;
 
-  if(updated){
-    updateRaceFooter(state, showUpdated && state.mode === 'race');
-  }
+  updateWeeklyRatingFooter();
 }
 
-function hasRacePlayers(data){
-  return Array.isArray(data?.players) && data.players.length > 0;
-}
-
-function stateFromRaceData(data, fallbackState){
-  if(data?.mode === 'winner'){
-    return {
-      mode:'winner',
-      date:data.date || fallbackState.date,
-      title:"🏆 Yesterday's Champion",
-      sub:'Final podium is locked...'
-    };
-  }
-
-  return {
-    mode:'race',
-    date:data?.date || fallbackState.date,
-    title:"🏎️ Daily Points Race",
-    sub:'Beat the tilt...'
-  };
-}
-
-function lockPendingState(state){
-  return {
-    mode:'race',
-    date:state.date,
-    title:'🏎️ Daily Points Race',
-    sub:'Locking final podium...'
-  };
-}
-
-async function loadDailyPointsRace(){
-  const updated = document.getElementById('yesterdayWinsUpdated');
-  const state = getRaceWindowState();
-
-  setDailyRaceHeader(state);
-  updateRaceFooter(state, false);
-
+async function loadWeeklyRatingRace(){
   try{
-    const res = await fetch(YW_DATA_URL + '?v=' + Date.now());
-    if(!res.ok) throw new Error('Missing daily points race file');
+    const response = await fetch(WEEKLY_RATING_DATA_URL + '?v=' + Date.now());
+    if(!response.ok) throw new Error('Missing weekly rating race file');
 
-    const data = await res.json();
-    lastRaceUpdatedAt = getRaceUpdatedAt(data, res) || lastRaceUpdatedAt || Date.now();
-    const hasPlayers = hasRacePlayers(data);
+    const data = await response.json();
+    lastWeeklyRatingUpdatedAt =
+      parseWeeklyRatingDate(data?.updatedAt) ||
+      parseWeeklyRatingDate(response.headers.get('Last-Modified')) ||
+      lastWeeklyRatingUpdatedAt;
 
-    if(hasPlayers && data.mode === state.mode && data.date === state.date && data.ready !== false && data.status !== 'counting'){
-      setDailyRaceHeader(state);
-      drawDailyPointsRace(data, state, state.mode === 'race');
-      return;
-    }
-
-    if(hasPlayers && state.mode === 'race' && data.mode === 'winner'){
-      setDailyRaceHeader(state);
-      showDailyRaceWaiting('Shhh... I am counting', "Daily race board is warming up");
-      updateRaceFooter(state, false);
-      return;
-    }
-
-    if(hasPlayers && state.mode === 'winner' && data.mode === 'race'){
-      const pendingState = lockPendingState(state);
-      setDailyRaceHeader(pendingState);
-      drawDailyPointsRace(data, pendingState, false);
-      return;
-    }
-
-    if(hasPlayers){
-      const dataState = stateFromRaceData(data, state);
-      setDailyRaceHeader(dataState);
-      drawDailyPointsRace(data, dataState, state.mode === 'race' && dataState.mode === 'race');
-      return;
-    }
-
-    showDailyRaceWaiting('Shhh... I am counting', 'No leaderboard data found yet');
-    updateRaceFooter(state, false);
-  }catch(err){
-    console.error('Daily points race file load failed:', err);
-    showDailyRaceWaiting('Shhh... I am counting', 'Race board could not load');
-    updateRaceFooter(state, false);
+    drawWeeklyRatingRace(data);
+  }catch(error){
+    console.error('Weekly rating race file load failed:', error);
+    showWeeklyRatingWaiting(
+      'Shhh... the leaderboard is almost here 🤫',
+      'Sit tight...'
+    );
+    updateWeeklyRatingFooter();
   }
 }
 
-const YW_RACE_REFRESH_MS = 3 * 60 * 60 * 1000;
-const YW_WAITING_REFRESH_MS = 5 * 60 * 1000;
-let dailyRaceRefreshTimer = null;
+const WEEKLY_RATING_PAGE_REFRESH_MS = 10 * 60 * 1000;
 
-function getNextDailyRaceRefreshDelay(){
-  const state = getRaceWindowState();
+loadWeeklyRatingRace();
+setInterval(loadWeeklyRatingRace, WEEKLY_RATING_PAGE_REFRESH_MS);
+setInterval(updateWeeklyRatingFooter, 60 * 1000);
 
-  if(state.mode === 'race'){
-    return YW_RACE_REFRESH_MS;
-  }
-
-  const now = new Date();
-  const sixUTC = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), 6, 0, 0);
-  const untilRaceShows = Math.max(0, sixUTC - now.getTime()) + 1000;
-
-  return Math.min(YW_WAITING_REFRESH_MS, untilRaceShows);
-}
-
-async function refreshDailyPointsRaceAndSchedule(){
-  clearTimeout(dailyRaceRefreshTimer);
-  await loadDailyPointsRace();
-  dailyRaceRefreshTimer = setTimeout(refreshDailyPointsRaceAndSchedule, getNextDailyRaceRefreshDelay());
-}
-
-refreshDailyPointsRaceAndSchedule();
-setInterval(() => {
-  if(currentRaceFooterState) updateRaceFooter(currentRaceFooterState);
-}, 60 * 1000);
 /* MCA TOP SCORERS */
 const MCA_TOP_SCORERS = [
   { username:"harsh_d7",       place:1,  points:504, profile:"https://www.chess.com/member/harsh_d7" },
