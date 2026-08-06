@@ -5334,6 +5334,389 @@ body{
   flex:0 0 13px!important;
 }
 
+
+/* ---------------------------------------------------------
+   More realistic moving tennis balls:
+   - felt-like Wilson-style color
+   - original curved white seams
+   - 3D seam tumble instead of flat 2D look
+   --------------------------------------------------------- */
+.top-ball{
+  width:20px!important;
+  height:20px!important;
+  border-radius:50%!important;
+  position:absolute!important;
+  overflow:hidden!important;
+  display:block!important;
+  background:
+    radial-gradient(circle at 32% 26%, rgba(255,255,255,.35) 0 10%, transparent 11%),
+    radial-gradient(circle at 38% 36%, #D9F264 0%, #C9E94E 38%, #BADC3D 62%, #99C028 82%, #6F9516 100%)!important;
+  border:1px solid rgba(241,248,175,.92)!important;
+  box-shadow:
+    inset -2px -3px 4px rgba(0,0,0,.18),
+    inset 2px 2px 2px rgba(255,255,255,.08),
+    0 2px 6px rgba(0,0,0,.34),
+    0 0 8px rgba(201,233,78,.16)!important;
+  perspective:120px;
+  transform-style:preserve-3d;
+}
+
+/* fine felt texture that also gently tumbles */
+.top-ball::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:50%;
+  opacity:.17;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(255,255,255,.28) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 64% 24%, rgba(0,0,0,.12) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 38% 64%, rgba(255,255,255,.18) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 80% 72%, rgba(0,0,0,.14) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 52% 48%, rgba(255,255,255,.13) 0 1px, transparent 1.6px);
+  background-size:6px 6px,7px 7px,8px 8px,6px 6px,7px 7px;
+  pointer-events:none;
+  transform-origin:center center;
+  animation:tennisFeltTumble 3.4s ease-in-out infinite;
+}
+
+/* original tennis-ball seam shape, animated in 3D */
+.top-ball::before{
+  content:"";
+  position:absolute;
+  inset:-5%;
+  border-radius:50%;
+  background:
+    radial-gradient(
+      ellipse 74% 98% at -7% 50%,
+      transparent 60%,
+      rgba(255,255,255,.98) 62%,
+      rgba(255,255,255,.98) 70%,
+      transparent 72%
+    ),
+    radial-gradient(
+      ellipse 74% 98% at 107% 50%,
+      transparent 60%,
+      rgba(255,255,255,.98) 62%,
+      rgba(255,255,255,.98) 70%,
+      transparent 72%
+    );
+  pointer-events:none;
+  transform-origin:center center;
+  animation:tennisSeamOrbit 2.8s linear infinite;
+}
+
+/* give both balls slightly different spinning personalities */
+.top-ball.ball-a::before{ animation-duration:2.7s; animation-direction:normal; }
+.top-ball.ball-b::before{ animation-duration:3.1s; animation-direction:reverse; }
+.top-ball.ball-a::after{ animation-duration:3.3s; animation-direction:normal; }
+.top-ball.ball-b::after{ animation-duration:3.8s; animation-direction:reverse; }
+
+@keyframes tennisSeamOrbit{
+  0%{
+    transform:rotateZ(18deg) rotateX(0deg) rotateY(0deg) scale(1);
+  }
+  20%{
+    transform:rotateZ(78deg) rotateX(48deg) rotateY(14deg) scale(.995);
+  }
+  40%{
+    transform:rotateZ(148deg) rotateX(10deg) rotateY(72deg) scale(1);
+  }
+  60%{
+    transform:rotateZ(228deg) rotateX(-52deg) rotateY(18deg) scale(.992);
+  }
+  80%{
+    transform:rotateZ(304deg) rotateX(-8deg) rotateY(-66deg) scale(1);
+  }
+  100%{
+    transform:rotateZ(378deg) rotateX(0deg) rotateY(0deg) scale(1);
+  }
+}
+
+@keyframes tennisFeltTumble{
+  0%{
+    transform:rotateZ(0deg) rotateX(0deg) rotateY(0deg);
+  }
+  25%{
+    transform:rotateZ(30deg) rotateX(16deg) rotateY(-18deg);
+  }
+  50%{
+    transform:rotateZ(78deg) rotateX(-8deg) rotateY(22deg);
+  }
+  75%{
+    transform:rotateZ(118deg) rotateX(12deg) rotateY(-16deg);
+  }
+  100%{
+    transform:rotateZ(160deg) rotateX(0deg) rotateY(0deg);
+  }
+}
+
+
+/* True 3D canvas tennis balls with a continuous real-style seam */
+.top-ball{
+  width:20px!important;
+  height:20px!important;
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+  overflow:visible!important;
+  perspective:none!important;
+  transform-style:flat!important;
+}
+
+.top-ball::before,
+.top-ball::after{
+  content:none!important;
+  display:none!important;
+  animation:none!important;
+}
+
+.top-ball-canvas{
+  display:block;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  pointer-events:none;
+  filter:drop-shadow(0 2px 4px rgba(0,0,0,.34));
+}
+
+
+/* Make the tennis-ball seam clearer and darken the felt very slightly */
+.top-ball{
+  background:
+    radial-gradient(circle at 32% 26%, rgba(255,255,255,.30) 0 10%, transparent 11%),
+    radial-gradient(circle at 38% 36%, #D3EE5A 0%, #C0E047 38%, #AFD237 62%, #90BC23 82%, #668A13 100%)!important;
+  border:1px solid rgba(233,244,160,.92)!important;
+  box-shadow:
+    inset -2px -3px 4px rgba(0,0,0,.20),
+    inset 2px 2px 2px rgba(255,255,255,.07),
+    0 2px 6px rgba(0,0,0,.34),
+    0 0 8px rgba(192,224,71,.14)!important;
+}
+
+/* clearer original tennis seams */
+.top-ball::before{
+  background:
+    radial-gradient(
+      ellipse 74% 98% at -7% 50%,
+      transparent 58%,
+      rgba(246,246,242,.96) 60%,
+      rgba(255,255,255,1) 63%,
+      rgba(255,255,255,1) 72%,
+      rgba(244,244,240,.94) 75%,
+      transparent 77%
+    ),
+    radial-gradient(
+      ellipse 74% 98% at 107% 50%,
+      transparent 58%,
+      rgba(246,246,242,.96) 60%,
+      rgba(255,255,255,1) 63%,
+      rgba(255,255,255,1) 72%,
+      rgba(244,244,240,.94) 75%,
+      transparent 77%
+    )!important;
+  filter:
+    drop-shadow(0 0 .35px rgba(255,255,255,.70))
+    drop-shadow(0 0 .4px rgba(0,0,0,.10));
+}
+
+
+/* Highlight the white tennis-ball seam more */
+.top-ball::before{
+  background:
+    radial-gradient(
+      ellipse 74% 98% at -7% 50%,
+      transparent 56%,
+      rgba(242,242,236,.98) 58%,
+      rgba(255,255,255,1) 61%,
+      rgba(255,255,255,1) 74%,
+      rgba(247,247,243,.97) 77%,
+      transparent 79%
+    ),
+    radial-gradient(
+      ellipse 74% 98% at 107% 50%,
+      transparent 56%,
+      rgba(242,242,236,.98) 58%,
+      rgba(255,255,255,1) 61%,
+      rgba(255,255,255,1) 74%,
+      rgba(247,247,243,.97) 77%,
+      transparent 79%
+    )!important;
+  filter:
+    drop-shadow(0 0 .7px rgba(255,255,255,.95))
+    drop-shadow(0 0 1px rgba(255,255,255,.45))
+    drop-shadow(0 0 .5px rgba(0,0,0,.10))!important;
+}
+
+
+/* Make the white tennis-ball seam stand out even more */
+.top-ball{
+  background:
+    radial-gradient(circle at 32% 26%, rgba(255,255,255,.26) 0 10%, transparent 11%),
+    radial-gradient(circle at 38% 36%, #CDE654 0%, #BAD93F 38%, #A8CA31 62%, #87B11F 82%, #5F8210 100%)!important;
+}
+
+.top-ball::before{
+  background:
+    radial-gradient(
+      ellipse 74% 98% at -7% 50%,
+      transparent 53%,
+      rgba(238,238,232,.99) 55%,
+      rgba(255,255,255,1) 58%,
+      rgba(255,255,255,1) 77%,
+      rgba(248,248,245,.99) 80%,
+      transparent 82%
+    ),
+    radial-gradient(
+      ellipse 74% 98% at 107% 50%,
+      transparent 53%,
+      rgba(238,238,232,.99) 55%,
+      rgba(255,255,255,1) 58%,
+      rgba(255,255,255,1) 77%,
+      rgba(248,248,245,.99) 80%,
+      transparent 82%
+    )!important;
+  filter:
+    drop-shadow(0 0 1px rgba(255,255,255,1))
+    drop-shadow(0 0 1.4px rgba(255,255,255,.72))
+    drop-shadow(0 0 .6px rgba(0,0,0,.14))!important;
+}
+
+
+/* =========================================================
+   WEEKLY RATING CLIMBERS TUNING
+   - move rapid/blitz/bullet gains into bars
+   - longer bars
+   - stronger 2nd / 3rd colors
+   - bigger top capsules
+   ========================================================= */
+
+/* Bigger capsules, text first */
+.yw-chip{
+  min-height:31px!important;
+  padding:7px 8px!important;
+  gap:6px!important;
+  font-size:11px!important;
+  line-height:1!important;
+}
+
+.yw-chip svg{
+  width:14px!important;
+  height:14px!important;
+  flex:0 0 14px!important;
+}
+
+/* Give the podium a bit more usable width */
+.yw-spot{
+  width:33%!important;
+}
+
+.yw-spot.yw-first{
+  width:34%!important;
+  max-width:104px!important;
+}
+
+.yw-spot.yw-second,
+.yw-spot.yw-third{
+  max-width:100px!important;
+}
+
+/* Remove old under-name spacing expectations */
+.yw-name{
+  margin-bottom:3px!important;
+}
+
+/* Make the bars longer and format their content vertically */
+.yw-bar{
+  max-width:100px!important;
+  width:100%!important;
+  margin-top:4px!important;
+  padding:8px 5px 10px!important;
+  box-sizing:border-box!important;
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:5px!important;
+}
+
+.yw-first .yw-bar{
+  height:84px!important;
+}
+
+.yw-second .yw-bar{
+  height:68px!important;
+  background:linear-gradient(180deg,#89A8CE,#6F8FB8)!important;
+  color:#ffffff!important;
+}
+
+.yw-third .yw-bar{
+  height:60px!important;
+  background:linear-gradient(180deg,#7694B8,#58749A)!important;
+  color:#ffffff!important;
+}
+
+.yw-bar-score{
+  gap:0!important;
+}
+
+.yw-bar-num{
+  font-size:18px!important;
+  line-height:1!important;
+}
+
+.yw-bar-pts{
+  margin-top:2px!important;
+  font-size:8px!important;
+  line-height:1!important;
+  opacity:.98!important;
+}
+
+/* New breakdown row inside the bars */
+.yw-bar-breakdown{
+  position:relative!important;
+  z-index:1!important;
+  min-height:12px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:5px!important;
+  flex-wrap:wrap!important;
+  font-size:8px!important;
+  line-height:1!important;
+  color:inherit!important;
+}
+
+.yw-bar-breakdown .yw-mini-stat{
+  display:inline-flex!important;
+  align-items:center!important;
+  gap:2px!important;
+  font-size:8px!important;
+  font-weight:800!important;
+  white-space:nowrap!important;
+  opacity:.98!important;
+}
+
+.yw-bar-breakdown .yw-mini-stat span{
+  font-weight:900!important;
+}
+
+/* Keep original icon colors inside the bars */
+.yw-bar-breakdown .yw-rapid-icon{ color:#78b84c!important; }
+.yw-bar-breakdown .yw-blitz-icon{ color:#ffd21f!important; }
+.yw-bar-breakdown .yw-bullet-icon{ color:#c9a24e!important; }
+
+/* Slightly stronger rank tags for 2nd and 3rd to harmonize with bars */
+.yw-second .yw-rank-tag{
+  background:linear-gradient(180deg,#A3BCDB,#6F8FB8)!important;
+  color:#ffffff!important;
+}
+
+.yw-third .yw-rank-tag{
+  background:linear-gradient(180deg,#8FA6C3,#58749A)!important;
+  color:#ffffff!important;
+}
+
 </style>
 </head>
 
@@ -5945,12 +6328,12 @@ function drawWeeklyRatingRace(data){
                    onerror="this.src='${YW_FALLBACK_AVATAR}'">
             </div>
             <div class="yw-name">@${safeName}</div>
-            <div class="yw-breakdown">${breakdown}</div>
             <div class="yw-bar">
               <span class="yw-bar-score">
                 <span class="yw-bar-num">${total}</span>
                 <span class="yw-bar-pts">rating</span>
               </span>
+              <div class="yw-bar-breakdown">${breakdown}</div>
             </div>
           </a>`;
       }).join('')}
@@ -6235,16 +6618,39 @@ function initTopBalls(){
     }
   }
 
-  const state = balls.map((el, index) => ({
-    el,
-    x: index === 0 ? RADIUS + 6 : Math.max(RADIUS + 28, top.clientWidth - RADIUS - 14),
-    y: index === 0 ? RADIUS + 6 : RADIUS + 18,
-    vx: index === 0 ? randomRange(40, 52) : -randomRange(40, 52),
-    vy: randomSign() * randomRange(18, 32),
-    spin: 0,
-    symbolCooldown: 0,
-    boostDecayRate: KICK_DECAY_RATE
-  }));
+  const state = balls.map((el, index) => {
+    const canvas = document.createElement('canvas');
+    canvas.className = 'top-ball-canvas';
+    canvas.width = 64;
+    canvas.height = 64;
+    el.replaceChildren(canvas);
+
+    const texture = Array.from({ length: 85 }, (_, i) => ({
+      x: ((i * 37) % 97) / 97,
+      y: ((i * 61 + 17) % 101) / 101,
+      a: 0.025 + (((i * 13) % 17) / 17) * 0.055,
+      light: i % 3 === 0
+    }));
+
+    return {
+      el,
+      canvas,
+      ctx: canvas.getContext('2d'),
+      texture,
+      x: index === 0 ? RADIUS + 6 : Math.max(RADIUS + 28, top.clientWidth - RADIUS - 14),
+      y: index === 0 ? RADIUS + 6 : RADIUS + 18,
+      vx: index === 0 ? randomRange(40, 52) : -randomRange(40, 52),
+      vy: randomSign() * randomRange(18, 32),
+      rotX: index === 0 ? 0.34 : -0.56,
+      rotY: index === 0 ? 0.78 : -0.92,
+      rotZ: index === 0 ? 0.18 : 1.06,
+      omegaZ: index === 0 ? 0.72 : -0.64,
+      symbolCooldown: 0,
+      boostDecayRate: KICK_DECAY_RATE
+    };
+  });
+
+  state.forEach(drawTennisBall);
 
   function clamp(value, min, max){
     return Math.max(min, Math.min(max, value));
@@ -6335,6 +6741,9 @@ function initTopBalls(){
     ball.vx = (ball.vx - (1 + RESTITUTION) * dot * nx);
     ball.vy = (ball.vy - (1 + RESTITUTION) * dot * ny);
     tinyCollisionVariation(ball);
+    ball.omegaZ = Math.max(-1.55, Math.min(1.55,
+      -ball.omegaZ * 0.72 + randomSign() * randomRange(0.18, 0.52)
+    ));
     return true;
   }
 
@@ -6433,10 +6842,137 @@ function initTopBalls(){
     tinyCollisionVariation(b);
   }
 
+  function rotateSpherePoint(x, y, z, rx, ry, rz){
+    const cx = Math.cos(rx), sx = Math.sin(rx);
+    const cy = Math.cos(ry), sy = Math.sin(ry);
+    const cz = Math.cos(rz), sz = Math.sin(rz);
+
+    const y1 = y * cx - z * sx;
+    const z1 = y * sx + z * cx;
+    const x2 = x * cy + z1 * sy;
+    const z2 = -x * sy + z1 * cy;
+    const x3 = x2 * cz - y1 * sz;
+    const y3 = x2 * sz + y1 * cz;
+
+    return { x:x3, y:y3, z:z2 };
+  }
+
+  function makeVisibleSeamRuns(ball){
+    const runs = [];
+    let run = [];
+    const steps = 280;
+    const amplitude = 0.61;
+
+    for(let i = 0; i <= steps; i++){
+      const t = (i / steps) * Math.PI * 2;
+      /* Four-lobed spherical curve created by the two-panel tennis-ball seam. */
+      const latitude = amplitude * Math.sin(2 * t);
+      const cosLat = Math.cos(latitude);
+      const point = rotateSpherePoint(
+        cosLat * Math.cos(t),
+        Math.sin(latitude),
+        cosLat * Math.sin(t),
+        ball.rotX,
+        ball.rotY,
+        ball.rotZ
+      );
+
+      if(point.z > -0.025){
+        run.push({
+          x:32 + point.x * 28.4,
+          y:32 - point.y * 28.4,
+          z:point.z
+        });
+      }else if(run.length){
+        if(run.length > 1) runs.push(run);
+        run = [];
+      }
+    }
+
+    if(run.length > 1) runs.push(run);
+    return runs;
+  }
+
+  function strokeSeamRuns(ctx, runs, width, color){
+    ctx.strokeStyle = color;
+    ctx.lineWidth = width;
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+
+    runs.forEach(run => {
+      ctx.beginPath();
+      run.forEach((point, index) => {
+        if(index === 0) ctx.moveTo(point.x, point.y);
+        else ctx.lineTo(point.x, point.y);
+      });
+      ctx.stroke();
+    });
+  }
+
+  function drawTennisBall(ball){
+    const ctx = ball.ctx;
+    if(!ctx) return;
+
+    ctx.clearRect(0, 0, 64, 64);
+    ctx.save();
+    ctx.beginPath();
+    ctx.arc(32, 32, 29.5, 0, Math.PI * 2);
+    ctx.clip();
+
+    const felt = ctx.createRadialGradient(21, 18, 2, 33, 34, 35);
+    felt.addColorStop(0, '#e5f879');
+    felt.addColorStop(.24, '#d3ef5e');
+    felt.addColorStop(.55, '#bddf40');
+    felt.addColorStop(.78, '#9fc42b');
+    felt.addColorStop(1, '#6f9217');
+    ctx.fillStyle = felt;
+    ctx.fillRect(0, 0, 64, 64);
+
+    /* Fine felt grain, intentionally subtle at the final 20px display size. */
+    ball.texture.forEach(dot => {
+      const dx = dot.x * 64;
+      const dy = dot.y * 64;
+      const ox = dx - 32;
+      const oy = dy - 32;
+      if((ox * ox + oy * oy) > 810) return;
+      ctx.fillStyle = dot.light
+        ? `rgba(255,255,225,${dot.a})`
+        : `rgba(43,66,8,${dot.a})`;
+      ctx.fillRect(dx, dy, 1.1, 1.1);
+    });
+
+    const runs = makeVisibleSeamRuns(ball);
+    /* Recessed seam edge, then the lighter molded strip. */
+    strokeSeamRuns(ctx, runs, 6.4, 'rgba(72,88,45,.27)');
+    strokeSeamRuns(ctx, runs, 4.25, 'rgba(232,235,214,.96)');
+    strokeSeamRuns(ctx, runs, 1.15, 'rgba(255,255,247,.54)');
+
+    const shine = ctx.createRadialGradient(20, 17, 0, 20, 17, 20);
+    shine.addColorStop(0, 'rgba(255,255,255,.28)');
+    shine.addColorStop(.35, 'rgba(255,255,255,.08)');
+    shine.addColorStop(1, 'rgba(255,255,255,0)');
+    ctx.fillStyle = shine;
+    ctx.fillRect(0, 0, 64, 64);
+
+    ctx.restore();
+
+    ctx.beginPath();
+    ctx.arc(32, 32, 29.4, 0, Math.PI * 2);
+    ctx.strokeStyle = 'rgba(232,244,161,.82)';
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+  }
+
   function render(dt){
     state.forEach(ball => {
-      ball.spin += (ball.vx * dt) * 2.2;
-      ball.el.style.transform = `translate(${ball.x - VISUAL_SIZE / 2}px, ${ball.y - VISUAL_SIZE / 2}px) rotate(${ball.spin}deg)`;
+      /* Rolling direction follows screen movement: vertical movement turns X,
+         horizontal movement turns Y, and a small Z precession gives natural tumble. */
+      ball.rotX += (ball.vy / RADIUS) * dt * 0.82;
+      ball.rotY += -(ball.vx / RADIUS) * dt * 0.82;
+      ball.rotZ += ball.omegaZ * dt;
+
+      ball.el.style.transform = `translate3d(${ball.x - VISUAL_SIZE / 2}px, ${ball.y - VISUAL_SIZE / 2}px, 0)`;
+      drawTennisBall(ball);
     });
   }
 
@@ -6481,7 +7017,10 @@ function initTopBalls(){
       state[0].y = centerY - 8;
       state[0].vx = -randomRange(38, 48);
       state[0].vy = randomSign() * randomRange(18, 30);
-      state[0].spin = 0;
+      state[0].rotX = 0.34;
+      state[0].rotY = 0.78;
+      state[0].rotZ = 0.18;
+      state[0].omegaZ = 0.72;
       state[0].symbolCooldown = 0;
       state[0].boostDecayRate = KICK_DECAY_RATE;
     }
@@ -6491,7 +7030,10 @@ function initTopBalls(){
       state[1].y = centerY + 9;
       state[1].vx = randomRange(40, 52);
       state[1].vy = randomSign() * randomRange(18, 30);
-      state[1].spin = 0;
+      state[1].rotX = -0.56;
+      state[1].rotY = -0.92;
+      state[1].rotZ = 1.06;
+      state[1].omegaZ = -0.64;
       state[1].symbolCooldown = 0;
       state[1].boostDecayRate = KICK_DECAY_RATE;
     }
