@@ -1,29 +1,44 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-05T17:55:06.148Z",
+  "updatedAt": "2026-08-06T00:48:16.885Z",
   "weekStartedAt": "2026-08-02T00:00:00.000Z",
   "weekEndsAt": "2026-08-09T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3766,
-  "failedMembers": 8,
-  "eligibleMembers": 3400,
+  "checkedMembers": 3767,
+  "failedMembers": 7,
+  "eligibleMembers": 3402,
   "players": [
+    {
+      "username": "warecy",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "profileUrl": "https://www.chess.com/member/warecy",
+      "totalChange": 144,
+      "rapidChange": 0,
+      "blitzChange": 152,
+      "bulletChange": -8,
+      "rapidStartRating": 1857,
+      "blitzStartRating": 1804,
+      "bulletStartRating": 1449,
+      "rapidCurrentRating": 1857,
+      "blitzCurrentRating": 1956,
+      "bulletCurrentRating": 1441
+    },
     {
       "username": "nikkotello",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/524057635.dc0a666b.200x200o.1e3e3b675179.jpg",
       "profileUrl": "https://www.chess.com/member/Nikkotello",
-      "totalChange": 149,
+      "totalChange": 141,
       "rapidChange": 42,
-      "blitzChange": 0,
-      "bulletChange": 107,
+      "blitzChange": 8,
+      "bulletChange": 91,
       "rapidStartRating": 1864,
       "blitzStartRating": 1537,
       "bulletStartRating": 1133,
       "rapidCurrentRating": 1906,
-      "blitzCurrentRating": 1537,
-      "bulletCurrentRating": 1240
+      "blitzCurrentRating": 1545,
+      "bulletCurrentRating": 1224
     },
     {
       "username": "supercool456",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1070,
       "blitzCurrentRating": 951,
       "bulletCurrentRating": 805
-    },
-    {
-      "username": "dagoat-0516",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/312642593.227a2e16.200x200o.d288f61c33dc.png",
-      "profileUrl": "https://www.chess.com/member/DaGoat-0516",
-      "totalChange": 131,
-      "rapidChange": 0,
-      "blitzChange": 0,
-      "bulletChange": 131,
-      "rapidStartRating": 1595,
-      "blitzStartRating": 1435,
-      "bulletStartRating": 1398,
-      "rapidCurrentRating": 1595,
-      "blitzCurrentRating": 1435,
-      "bulletCurrentRating": 1529
     }
   ]
 }
