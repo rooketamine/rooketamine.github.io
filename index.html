@@ -5717,6 +5717,125 @@ body{
   color:#ffffff!important;
 }
 
+
+/* =========================================================
+   WEEKLY RATING CLIMBERS: HIGH-CONTRAST BARS
+   ========================================================= */
+
+/* First place stays yellow, but uses crisp dark text */
+.yw-first .yw-bar{
+  background:linear-gradient(180deg,#FFE96B 0%,#FFD400 58%,#E7B900 100%)!important;
+  color:#0B1522!important;
+  border:1px solid rgba(255,238,129,.85)!important;
+}
+
+.yw-first .yw-bar-num,
+.yw-first .yw-bar-pts{
+  color:#0B1522!important;
+  text-shadow:none!important;
+}
+
+/* Second place: brighter steel blue, clearly separate from the card */
+.yw-second .yw-bar{
+  background:linear-gradient(180deg,#8CB7E8 0%,#5F8FC8 55%,#426C9F 100%)!important;
+  color:#071522!important;
+  border:1px solid rgba(177,211,245,.76)!important;
+  box-shadow:
+    0 4px 0 rgba(13,32,52,.72),
+    0 10px 20px rgba(0,0,0,.26),
+    0 0 12px rgba(111,157,210,.18)!important;
+}
+
+.yw-second .yw-bar-num,
+.yw-second .yw-bar-pts{
+  color:#071522!important;
+  text-shadow:0 1px 0 rgba(255,255,255,.22)!important;
+}
+
+/* Third place: deeper slate blue, visibly different from second and background */
+.yw-third .yw-bar{
+  background:linear-gradient(180deg,#718AA9 0%,#536D8C 55%,#394F6B 100%)!important;
+  color:#FFFFFF!important;
+  border:1px solid rgba(154,177,204,.70)!important;
+  box-shadow:
+    0 4px 0 rgba(8,21,35,.76),
+    0 10px 20px rgba(0,0,0,.27),
+    0 0 12px rgba(83,109,140,.18)!important;
+}
+
+.yw-third .yw-bar-num,
+.yw-third .yw-bar-pts{
+  color:#FFFFFF!important;
+  text-shadow:0 1px 2px rgba(0,0,0,.40)!important;
+}
+
+/* Give the total score stronger readability */
+.yw-bar-num{
+  font-size:19px!important;
+  font-weight:900!important;
+  letter-spacing:-.2px!important;
+}
+
+.yw-bar-pts{
+  font-size:8.5px!important;
+  font-weight:900!important;
+  opacity:1!important;
+}
+
+/* Put Rapid / Blitz / Bullet changes on a dark contrast strip */
+.yw-bar-breakdown{
+  width:calc(100% - 6px)!important;
+  min-height:20px!important;
+  margin-top:2px!important;
+  padding:4px 3px!important;
+  border-radius:8px!important;
+  background:rgba(7,16,27,.78)!important;
+  border:1px solid rgba(255,255,255,.10)!important;
+  box-shadow:
+    0 2px 5px rgba(0,0,0,.22) inset,
+    0 1px 2px rgba(255,255,255,.04)!important;
+  color:#FFFFFF!important;
+  gap:4px!important;
+}
+
+/* Keep the change numbers white and crisp */
+.yw-bar-breakdown .yw-mini-stat,
+.yw-bar-breakdown .yw-mini-stat span{
+  color:#FFFFFF!important;
+  font-size:8.5px!important;
+  font-weight:900!important;
+  text-shadow:0 1px 2px rgba(0,0,0,.55)!important;
+}
+
+/* Stronger original time-control colors */
+.yw-bar-breakdown .yw-rapid-icon{
+  color:#8FD14F!important;
+  filter:drop-shadow(0 0 2px rgba(143,209,79,.34))!important;
+}
+
+.yw-bar-breakdown .yw-blitz-icon{
+  color:#FFD400!important;
+  filter:drop-shadow(0 0 2px rgba(255,212,0,.34))!important;
+}
+
+.yw-bar-breakdown .yw-bullet-icon{
+  color:#E3A64A!important;
+  filter:drop-shadow(0 0 2px rgba(227,166,74,.30))!important;
+}
+
+/* Ensure the SVG icons inherit the stronger colors */
+.yw-bar-breakdown .yw-chip-icon svg{
+  width:11px!important;
+  height:11px!important;
+  fill:currentColor!important;
+}
+
+/* Keep the bottom shadow strip subtle instead of muddying the colors */
+.yw-bar::after{
+  height:4px!important;
+  background:rgba(0,0,0,.26)!important;
+}
+
 </style>
 </head>
 
