@@ -4468,9 +4468,14 @@ body::after{
 }
 
 
-/* Remove the decorative diagonal header overlay line/stripes */
+/* Keep the subtle header design stripes, but remove the single diagonal highlight line */
 .sb-top::before{
-  background:none!important;
+  background:
+    repeating-linear-gradient(
+      135deg,
+      rgba(255,255,255,.035) 0 1px,
+      transparent 1px 9px
+    )!important;
 }
 
 </style>
