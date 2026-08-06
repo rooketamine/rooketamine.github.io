@@ -5893,6 +5893,167 @@ body{
   display:none!important;
 }
 
+
+/* =========================================================
+   FINAL WEEKLY RATING CLIMBERS TWEAKS
+   ========================================================= */
+
+/* Rapid / Blitz / Bullet top capsules: a bit bigger and clearer */
+.yw-chip{
+  min-height:33px!important;
+  padding:8px 10px!important;
+  gap:6px!important;
+  font-size:12px!important;
+  line-height:1!important;
+}
+
+.yw-chip svg{
+  width:15px!important;
+  height:15px!important;
+  flex:0 0 15px!important;
+}
+
+/* Breakdown goes back under username and should be clearly visible */
+.yw-name{
+  margin-bottom:4px!important;
+}
+
+.yw-breakdown{
+  min-height:14px!important;
+  margin:0 0 6px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:5px!important;
+  flex-wrap:wrap!important;
+  font-size:9px!important;
+  font-weight:500!important;
+  line-height:1.1!important;
+  color:#E8EEF5!important;
+}
+
+.yw-breakdown .yw-mini-stat{
+  display:inline-flex!important;
+  align-items:center!important;
+  gap:2px!important;
+  font-size:9px!important;
+  font-weight:500!important;
+  white-space:nowrap!important;
+  color:inherit!important;
+}
+
+.yw-breakdown .yw-mini-stat span{
+  font-weight:500!important;
+  color:inherit!important;
+}
+
+.yw-breakdown .yw-chip-icon svg{
+  width:11px!important;
+  height:11px!important;
+  fill:currentColor!important;
+}
+
+.yw-breakdown .yw-rapid-icon{ color:#7CC74A!important; }
+.yw-breakdown .yw-blitz-icon{ color:#FFD400!important; }
+.yw-breakdown .yw-bullet-icon{ color:#C89A53!important; }
+
+/* Bars only show total rating now */
+.yw-bar-breakdown{
+  display:none!important;
+}
+
+/* Podium widths and bar length */
+.yw-stage{
+  gap:4px!important;
+}
+
+.yw-spot{
+  width:33.333%!important;
+}
+
+.yw-spot.yw-first{
+  width:33.333%!important;
+}
+
+.yw-bar{
+  width:100%!important;
+  max-width:103px!important;
+  padding:8px 4px 9px!important;
+  gap:3px!important;
+  border-radius:14px 14px 0 0!important;
+}
+
+.yw-first .yw-bar{
+  height:80px!important;
+  background:linear-gradient(180deg,#2FCF6B 0%, #1FA44F 58%, #16793A 100%)!important;
+  color:#FFFFFF!important;
+  border:1px solid rgba(129,234,166,.62)!important;
+}
+
+.yw-second .yw-bar{
+  height:64px!important;
+  background:linear-gradient(180deg,#FFE978 0%, #FFD400 60%, #DFB700 100%)!important;
+  color:#111827!important;
+  border:1px solid rgba(255,240,144,.72)!important;
+}
+
+.yw-third .yw-bar{
+  height:58px!important;
+  background:linear-gradient(180deg,#FFE978 0%, #FFD400 60%, #DFB700 100%)!important;
+  color:#111827!important;
+  border:1px solid rgba(255,240,144,.72)!important;
+}
+
+/* Text treatment: number bold, rating not bold */
+.yw-bar-score{
+  gap:0!important;
+}
+
+.yw-bar-num{
+  font-size:18px!important;
+  line-height:1!important;
+  font-weight:900!important;
+  letter-spacing:-.2px!important;
+}
+
+.yw-bar-pts{
+  margin-top:2px!important;
+  font-size:8px!important;
+  line-height:1!important;
+  font-weight:400!important;
+  opacity:1!important;
+}
+
+.yw-first .yw-bar-num,
+.yw-first .yw-bar-pts{
+  color:#FFFFFF!important;
+  text-shadow:0 1px 2px rgba(0,0,0,.16)!important;
+}
+
+.yw-second .yw-bar-num,
+.yw-second .yw-bar-pts,
+.yw-third .yw-bar-num,
+.yw-third .yw-bar-pts{
+  color:#111827!important;
+  text-shadow:none!important;
+}
+
+/* Keep rank badges harmonized */
+.yw-first .yw-rank-tag{
+  background:linear-gradient(180deg,#FFE66D,#FFD400)!important;
+  color:#111827!important;
+}
+
+.yw-second .yw-rank-tag{
+  background:linear-gradient(180deg,#DDE6F0,#AFC2D7)!important;
+  color:#172330!important;
+}
+
+.yw-third .yw-rank-tag{
+  background:linear-gradient(180deg,#E3B37B,#BF8551)!important;
+  color:#FFFFFF!important;
+}
+
 </style>
 </head>
 
@@ -6504,12 +6665,12 @@ function drawWeeklyRatingRace(data){
                    onerror="this.src='${YW_FALLBACK_AVATAR}'">
             </div>
             <div class="yw-name">@${safeName}</div>
+            <div class="yw-breakdown">${breakdown}</div>
             <div class="yw-bar">
               <span class="yw-bar-score">
                 <span class="yw-bar-num">${total}</span>
                 <span class="yw-bar-pts">rating</span>
               </span>
-              <div class="yw-bar-breakdown">${breakdown}</div>
             </div>
           </a>`;
       }).join('')}
