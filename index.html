@@ -4457,6 +4457,22 @@ body::after{
   }
 }
 
+
+/* Remove the yellow shade behind the top-right US Open symbol */
+.sb-top{
+  background:linear-gradient(115deg,#00288C 0%,#001C62 58%,#000D32 100%)!important;
+}
+
+.top-usopen-logo{
+  filter:drop-shadow(0 2px 6px rgba(0,0,0,.20))!important;
+}
+
+
+/* Remove the decorative diagonal header overlay line/stripes */
+.sb-top::before{
+  background:none!important;
+}
+
 </style>
 </head>
 
