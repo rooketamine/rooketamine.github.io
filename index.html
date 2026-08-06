@@ -5264,6 +5264,76 @@ body{
   background:#13202C!important;
 }
 
+
+/* Make the two moving top balls look more like real tennis balls */
+.top-ball{
+  width:20px!important;
+  height:20px!important;
+  border-radius:50%!important;
+  display:block!important;
+  overflow:hidden!important;
+  background:
+    radial-gradient(circle at 30% 28%, rgba(255,255,255,.42) 0 10%, transparent 11%),
+    radial-gradient(circle at 38% 36%, #D6F15F 0%, #C2E348 40%, #B3D93C 62%, #95BF25 82%, #6E9415 100%)!important;
+  border:1px solid rgba(235,247,165,.92)!important;
+  box-shadow:
+    inset -2px -3px 4px rgba(0,0,0,.18),
+    inset 2px 2px 3px rgba(255,255,255,.12),
+    0 2px 6px rgba(0,0,0,.34),
+    0 0 10px rgba(194,227,72,.20)!important;
+  position:absolute!important;
+}
+
+/* subtle felt texture */
+.top-ball::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  border-radius:50%;
+  opacity:.18;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255,255,255,.28) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 70% 38%, rgba(0,0,0,.14) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 42% 72%, rgba(255,255,255,.20) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 78% 76%, rgba(0,0,0,.12) 0 1px, transparent 1.6px);
+  background-size:6px 6px,7px 7px,8px 8px,6px 6px;
+  pointer-events:none;
+}
+
+/* realistic tennis-ball seams */
+.top-ball::before{
+  content:"";
+  position:absolute;
+  inset:-1px;
+  border-radius:50%;
+  background:
+    radial-gradient(ellipse 72% 92% at -2% 50%, transparent 58%, rgba(255,255,255,.95) 60%, rgba(255,255,255,.95) 69%, transparent 71%),
+    radial-gradient(ellipse 72% 92% at 102% 50%, transparent 58%, rgba(255,255,255,.95) 60%, rgba(255,255,255,.95) 69%, transparent 71%);
+  transform:rotate(18deg);
+  pointer-events:none;
+}
+
+
+/* Make the Rapid / Blitz / Bullet capsules a little bigger,
+   with more noticeable text size increase */
+.yw-chip{
+  padding:7px 5px!important;
+  font-size:10px!important;
+  gap:5px!important;
+  min-height:28px!important;
+}
+
+.yw-chip .icon{
+  font-size:13px!important;
+  line-height:1!important;
+}
+
+.yw-chip svg{
+  width:13px!important;
+  height:13px!important;
+  flex:0 0 13px!important;
+}
+
 </style>
 </head>
 
