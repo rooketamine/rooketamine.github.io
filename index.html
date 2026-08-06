@@ -4478,6 +4478,772 @@ body::after{
     )!important;
 }
 
+
+/* =========================================================
+   NIGHT COURT THEME
+   Tennis green + yellow + dark graphite
+   ========================================================= */
+
+:root{
+  --court-graphite:#111317;
+  --court-graphite-2:#171B21;
+  --court-graphite-3:#1D232B;
+  --court-green:#BCDF52;
+  --court-green-deep:#7E9F24;
+  --court-yellow:#FFD400;
+  --court-yellow-soft:#FFE667;
+  --court-white:#F7FAFC;
+  --court-text:#D7E0EA;
+
+  --accent:var(--court-yellow)!important;
+  --panel:var(--court-graphite)!important;
+  --panel-2:var(--court-graphite-2)!important;
+  --border:var(--court-green)!important;
+  --gold:var(--court-yellow)!important;
+  --pitch:var(--court-graphite)!important;
+  --line:#263021!important;
+}
+
+html{
+  background:#101317!important;
+}
+
+body{
+  background:
+    radial-gradient(circle at 14% 0%, rgba(188,223,82,.08), transparent 24%),
+    radial-gradient(circle at 90% 12%, rgba(255,212,0,.05), transparent 22%),
+    linear-gradient(180deg, #121419 0%, #0E1115 100%)!important;
+  color:var(--court-white)!important;
+}
+
+.sb{
+  background:
+    radial-gradient(circle at 100% 0%, rgba(188,223,82,.06), transparent 24%),
+    linear-gradient(180deg, var(--court-graphite-2), var(--court-graphite))!important;
+  border:3px solid var(--court-green)!important;
+  box-shadow:
+    0 0 0 1px rgba(255,212,0,.11) inset,
+    0 18px 52px rgba(0,0,0,.44),
+    0 0 26px rgba(188,223,82,.10)!important;
+}
+
+.sb:hover{
+  box-shadow:
+    0 0 0 1px rgba(255,212,0,.15) inset,
+    0 22px 58px rgba(0,0,0,.48),
+    0 0 30px rgba(188,223,82,.14)!important;
+}
+
+.sb-top{
+  background:linear-gradient(115deg, #1A1E24 0%, #14181D 55%, #0E1115 100%)!important;
+  border-bottom:0!important;
+}
+
+.sb-top::after{
+  background:var(--court-graphite)!important;
+}
+
+.inner{
+  background:var(--court-graphite)!important;
+}
+
+.club-title{
+  color:var(--court-white)!important;
+  text-shadow:0 2px 0 rgba(0,0,0,.34), 0 0 14px rgba(188,223,82,.14)!important;
+}
+
+.club-sub{
+  color:var(--court-yellow)!important;
+  text-shadow:0 0 10px rgba(255,212,0,.20)!important;
+}
+
+.club-check{
+  filter:drop-shadow(0 0 7px rgba(188,223,82,.30))!important;
+}
+
+.club-check svg path:first-child{
+  fill:#22C55E!important;
+}
+
+/* Keep subtle diagonal stripe design in header */
+.sb-top::before{
+  background:
+    repeating-linear-gradient(
+      135deg,
+      rgba(255,255,255,.035) 0 1px,
+      transparent 1px 9px
+    )!important;
+}
+
+/* Divider line */
+.div::before{
+  background:linear-gradient(90deg, transparent 0%, rgba(188,223,82,.34) 16%, rgba(255,212,0,.76) 50%, rgba(188,223,82,.34) 84%, transparent 100%)!important;
+  box-shadow:0 0 9px rgba(188,223,82,.14)!important;
+}
+
+.sec-label{
+  color:var(--court-white)!important;
+  text-shadow:0 0 10px rgba(188,223,82,.10)!important;
+}
+
+.sec-sub{
+  color:#B8C79B!important;
+}
+
+.card,
+.shout-card{
+  border:2px solid var(--court-green)!important;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(255,212,0,.025), transparent 26%),
+    linear-gradient(145deg, #161B21, #0F1318)!important;
+  box-shadow:
+    0 5px 0 #090B0E,
+    0 12px 24px rgba(0,0,0,.30),
+    0 0 0 1px rgba(188,223,82,.06) inset!important;
+}
+
+.card:hover,
+.shout-card:hover{
+  border-color:var(--court-yellow)!important;
+  box-shadow:
+    0 5px 0 #090B0E,
+    0 14px 26px rgba(0,0,0,.34),
+    0 0 18px rgba(188,223,82,.08)!important;
+}
+
+.member-row,
+.list-btn,
+.forum-btn{
+  border-color:var(--court-green)!important;
+  background:linear-gradient(90deg, rgba(21,26,32,.98), rgba(28,34,41,.98))!important;
+}
+
+.member-row:hover,
+.list-btn:hover,
+.forum-btn:hover{
+  border-color:var(--court-yellow)!important;
+  background:linear-gradient(90deg, rgba(31,37,44,.98), rgba(41,48,56,.98))!important;
+  box-shadow:0 7px 18px rgba(188,223,82,.08)!important;
+}
+
+.avatar,
+.shout-avatar,
+.top-mini-avatar{
+  border-color:var(--court-green)!important;
+  box-shadow:0 0 12px rgba(188,223,82,.10)!important;
+}
+
+.gif-frame-wrap{
+  box-shadow:
+    0 10px 24px rgba(0,0,0,.34),
+    0 0 14px rgba(188,223,82,.08),
+    0 0 20px rgba(255,212,0,.04)!important;
+}
+
+.gif-frame{
+  border:2px solid #33401A!important;
+  box-shadow:0 0 0 1px rgba(255,255,255,.06) inset!important;
+}
+
+.arena-sub{
+  color:var(--court-yellow)!important;
+}
+
+.title-box{
+  background:linear-gradient(180deg,#1D232B,#151A20)!important;
+  border-color:var(--court-yellow)!important;
+  color:var(--court-white)!important;
+  box-shadow:0 5px 0 #080A0C,0 0 16px rgba(255,212,0,.12)!important;
+}
+
+.mca-date-line{
+  color:var(--court-white)!important;
+}
+
+.format-line{
+  color:#BFC9D2!important;
+}
+
+.format-line .format-main{
+  color:var(--court-yellow)!important;
+}
+
+.status-line{
+  color:#CED8E1!important;
+}
+
+.countdown{
+  color:var(--court-white)!important;
+  text-shadow:0 0 12px rgba(188,223,82,.12)!important;
+}
+
+.live-badge{
+  border-color:var(--court-green)!important;
+  background:rgba(188,223,82,.10)!important;
+  color:var(--court-green)!important;
+  box-shadow:0 0 14px rgba(188,223,82,.18)!important;
+}
+
+.live-dot{
+  background:var(--court-green)!important;
+  box-shadow:0 0 9px rgba(188,223,82,.95)!important;
+}
+
+.join-btn{
+  border-color:var(--court-yellow)!important;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(255,255,255,.18), transparent 18%),
+    linear-gradient(180deg, var(--court-yellow-soft), var(--court-yellow))!important;
+  color:#101317!important;
+  box-shadow:
+    0 5px 0 #A88600,
+    0 12px 18px rgba(0,0,0,.22),
+    0 0 18px rgba(255,212,0,.18)!important;
+}
+
+.join-btn:hover{
+  background:linear-gradient(180deg, #FFF18E, var(--court-yellow))!important;
+  color:#101317!important;
+  box-shadow:
+    0 7px 0 #A88600,
+    0 15px 22px rgba(0,0,0,.24),
+    0 0 24px rgba(255,212,0,.24)!important;
+}
+
+.results-link{
+  color:#C6D59D!important;
+}
+
+.results-link:hover{
+  color:var(--court-yellow)!important;
+}
+
+.countdown-bullet-showcase{
+  color:var(--court-yellow)!important;
+  filter:drop-shadow(0 0 12px rgba(255,212,0,.28)) drop-shadow(0 3px 8px rgba(0,0,0,.30))!important;
+}
+
+/* Weekly rating climbers */
+.yw-chip{
+  border-color:var(--court-green)!important;
+  background:linear-gradient(180deg,#1A1F25,#101317)!important;
+  color:var(--court-white)!important;
+}
+
+.yw-first .yw-photo{
+  border-color:var(--court-yellow)!important;
+  box-shadow:0 8px 20px rgba(0,0,0,.30),0 0 18px rgba(255,212,0,.22)!important;
+}
+
+.yw-first .yw-rank-tag{
+  background:linear-gradient(180deg, #FFF08D, var(--court-yellow))!important;
+  color:#101317!important;
+}
+
+.yw-first .yw-bar{
+  background:linear-gradient(180deg, #FFE871, var(--court-yellow))!important;
+  color:#101317!important;
+}
+
+.yw-second .yw-photo,
+.yw-third .yw-photo{
+  border-color:var(--court-green)!important;
+  box-shadow:0 8px 18px rgba(0,0,0,.28),0 0 15px rgba(188,223,82,.15)!important;
+}
+
+.yw-second .yw-rank-tag,
+.yw-third .yw-rank-tag{
+  background:linear-gradient(180deg, #D7EE8B, #98BE35)!important;
+  color:#101317!important;
+}
+
+.yw-second .yw-bar,
+.yw-third .yw-bar{
+  background:linear-gradient(180deg, #B8D859, #7D9D24)!important;
+  color:#101317!important;
+}
+
+.yw-rapid-icon{ color:#78b84c!important; }
+.yw-blitz-icon{ color:#ffd21f!important; }
+.yw-bullet-icon{ color:#c9a24e!important; }
+
+.yw-updated,
+.yw-reset-note,
+.yw-load-sub{
+  color:#B7C59B!important;
+}
+
+/* MCA top scorers */
+.featured-avatar{
+  border-color:var(--court-yellow)!important;
+  box-shadow:
+    0 9px 20px rgba(0,0,0,.38),
+    0 0 0 3px rgba(255,212,0,.08),
+    0 0 22px rgba(255,212,0,.16)!important;
+}
+
+.featured-rank{
+  border-color:#F7F4A4!important;
+  background:linear-gradient(180deg,#FFF07C,#D4E43A)!important;
+  color:#101317!important;
+}
+
+.top-mini:hover .top-mini-avatar,
+.top-mini:focus-visible .top-mini-avatar{
+  border-color:var(--court-yellow)!important;
+  box-shadow:0 9px 18px rgba(0,0,0,.34),0 0 16px rgba(255,212,0,.12)!important;
+}
+
+/* Preserve original colors for MCA champions icons */
+.trophy-summary-item.yw-rapid-icon{ color:#78b84c!important; }
+.trophy-summary-item.yw-blitz-icon{ color:#ffd21f!important; }
+.trophy-summary-item.yw-bullet-icon{ color:#c9a24e!important; }
+.trophy-summary-points{ color:#C9D3DC!important; }
+
+.shout-desc{
+  color:#D4DEE8!important;
+}
+
+.member-elo,
+.welcome-text,
+.footer-text,
+.loading{
+  color:#BBC5CF!important;
+}
+
+.gold-btn{
+  border-color:var(--court-yellow)!important;
+  background:linear-gradient(90deg,#B4D247,#FFD400,#B4D247)!important;
+  color:#101317!important;
+  box-shadow:0 4px 0 #889E34,0 10px 16px rgba(0,0,0,.16),0 0 16px rgba(255,212,0,.12)!important;
+}
+
+.gold-btn:hover{
+  background:linear-gradient(90deg,#CFE86E,#FFE25D,#CFE86E)!important;
+}
+
+.bb-footer-copy{
+  color:#E8EEF5!important;
+}
+
+.bb-footer-slogan{
+  color:var(--court-yellow)!important;
+  text-shadow:0 0 10px rgba(255,212,0,.18)!important;
+}
+
+/* Extra bottom/embed area */
+html,
+body{
+  background-color:#101317!important;
+}
+
+
+/* =========================================================
+   MUTED COURT BLUE + YELLOW
+   Softer tennis-style blue, less shiny than the previous version
+   ========================================================= */
+
+:root{
+  --bb-blue-1:#2F4E78;
+  --bb-blue-2:#274262;
+  --bb-blue-3:#1E334B;
+  --bb-blue-4:#162636;
+  --bb-yellow:#FFD400;
+  --bb-yellow-soft:#FFE45A;
+  --bb-white:#F5F8FC;
+  --bb-text:#D8E1EC;
+  --bb-muted:#B9C6D4;
+}
+
+html{
+  background:#0F1620!important;
+}
+
+body{
+  background:
+    radial-gradient(circle at 14% 0%, rgba(47,78,120,.10), transparent 24%),
+    radial-gradient(circle at 88% 10%, rgba(255,212,0,.05), transparent 22%),
+    linear-gradient(180deg, #101821 0%, #0D141C 100%)!important;
+  color:var(--bb-white)!important;
+}
+
+.sb{
+  background:
+    radial-gradient(circle at 100% 0%, rgba(255,212,0,.05), transparent 24%),
+    linear-gradient(180deg, #182534, #121C27)!important;
+  border:3px solid var(--bb-blue-1)!important;
+  box-shadow:
+    0 0 0 1px rgba(255,212,0,.10) inset,
+    0 18px 52px rgba(0,0,0,.44),
+    0 0 22px rgba(47,78,120,.10)!important;
+}
+
+.sb:hover{
+  box-shadow:
+    0 0 0 1px rgba(255,212,0,.14) inset,
+    0 22px 58px rgba(0,0,0,.48),
+    0 0 26px rgba(47,78,120,.14)!important;
+}
+
+.sb-top{
+  background:linear-gradient(115deg, #304F79 0%, #274262 56%, #1B3048 100%)!important;
+}
+
+.sb-top::after{
+  background:#13202C!important;
+}
+
+.inner{
+  background:#13202C!important;
+}
+
+.club-title{
+  color:var(--bb-white)!important;
+  text-shadow:0 2px 0 rgba(0,0,0,.34), 0 0 12px rgba(47,78,120,.18)!important;
+}
+
+.club-sub{
+  color:var(--bb-yellow)!important;
+  text-shadow:0 0 10px rgba(255,212,0,.18)!important;
+}
+
+/* keep subtle header stripes */
+.sb-top::before{
+  background:
+    repeating-linear-gradient(
+      135deg,
+      rgba(255,255,255,.035) 0 1px,
+      transparent 1px 9px
+    )!important;
+}
+
+.div::before{
+  background:
+    linear-gradient(
+      90deg,
+      transparent 0%,
+      rgba(47,78,120,.32) 16%,
+      rgba(255,212,0,.74) 50%,
+      rgba(47,78,120,.32) 84%,
+      transparent 100%
+    )!important;
+  box-shadow:0 0 8px rgba(47,78,120,.10)!important;
+}
+
+.sec-label{
+  color:var(--bb-white)!important;
+  text-shadow:0 0 10px rgba(47,78,120,.10)!important;
+}
+
+.sec-sub{
+  color:#C0CDD8!important;
+}
+
+.card,
+.shout-card{
+  border:2px solid var(--bb-blue-1)!important;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(255,212,0,.022), transparent 26%),
+    linear-gradient(145deg, #1A2734, #111A23)!important;
+  box-shadow:
+    0 5px 0 #0A1016,
+    0 12px 24px rgba(0,0,0,.30),
+    0 0 0 1px rgba(47,78,120,.06) inset!important;
+}
+
+.card:hover,
+.shout-card:hover{
+  border-color:var(--bb-yellow)!important;
+  box-shadow:
+    0 5px 0 #0A1016,
+    0 14px 26px rgba(0,0,0,.34),
+    0 0 16px rgba(47,78,120,.08)!important;
+}
+
+.member-row,
+.list-btn,
+.forum-btn{
+  border-color:var(--bb-blue-1)!important;
+  background:linear-gradient(90deg, rgba(24,36,50,.98), rgba(31,46,62,.98))!important;
+}
+
+.member-row:hover,
+.list-btn:hover,
+.forum-btn:hover{
+  border-color:var(--bb-yellow)!important;
+  background:linear-gradient(90deg, rgba(33,47,64,.98), rgba(40,57,75,.98))!important;
+  box-shadow:0 7px 18px rgba(47,78,120,.08)!important;
+}
+
+.avatar,
+.shout-avatar,
+.top-mini-avatar{
+  border-color:var(--bb-blue-1)!important;
+  box-shadow:0 0 10px rgba(47,78,120,.10)!important;
+}
+
+.gif-frame-wrap{
+  box-shadow:
+    0 10px 24px rgba(0,0,0,.34),
+    0 0 12px rgba(47,78,120,.08),
+    0 0 18px rgba(255,212,0,.04)!important;
+}
+
+.gif-frame{
+  border:2px solid #314F77!important;
+  box-shadow:0 0 0 1px rgba(255,255,255,.06) inset!important;
+}
+
+/* Arena countdown */
+.arena-sub{
+  color:var(--bb-yellow)!important;
+}
+
+.title-box{
+  background:linear-gradient(180deg,#2C4668,#223651)!important;
+  border-color:var(--bb-yellow)!important;
+  color:var(--bb-white)!important;
+  box-shadow:0 5px 0 #152230,0 0 14px rgba(47,78,120,.10)!important;
+}
+
+.mca-date-line{
+  color:var(--bb-white)!important;
+}
+
+.format-line{
+  color:#C7D1DB!important;
+}
+
+.format-line .format-main{
+  color:var(--bb-yellow)!important;
+}
+
+.status-line{
+  color:#D6DEE7!important;
+}
+
+.countdown{
+  color:var(--bb-white)!important;
+  text-shadow:0 0 10px rgba(47,78,120,.12)!important;
+}
+
+.live-badge{
+  border-color:var(--bb-yellow)!important;
+  background:rgba(255,212,0,.10)!important;
+  color:var(--bb-yellow)!important;
+  box-shadow:0 0 12px rgba(255,212,0,.16)!important;
+}
+
+.live-dot{
+  background:var(--bb-yellow)!important;
+  box-shadow:0 0 8px rgba(255,212,0,.95)!important;
+}
+
+.join-btn{
+  border-color:var(--bb-yellow)!important;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(255,255,255,.18), transparent 18%),
+    linear-gradient(180deg, var(--bb-yellow-soft), var(--bb-yellow))!important;
+  color:#11151B!important;
+  box-shadow:
+    0 5px 0 #A88600,
+    0 12px 18px rgba(0,0,0,.22),
+    0 0 16px rgba(255,212,0,.16)!important;
+}
+
+.join-btn:hover{
+  background:linear-gradient(180deg, #FFF08B, var(--bb-yellow))!important;
+  color:#11151B!important;
+  box-shadow:
+    0 7px 0 #A88600,
+    0 15px 22px rgba(0,0,0,.24),
+    0 0 22px rgba(255,212,0,.20)!important;
+}
+
+.results-link{
+  color:#C7D6E5!important;
+}
+
+.results-link:hover{
+  color:var(--bb-yellow)!important;
+}
+
+.countdown-bullet-showcase{
+  color:var(--bb-yellow)!important;
+  filter:drop-shadow(0 0 10px rgba(255,212,0,.24)) drop-shadow(0 3px 8px rgba(0,0,0,.30))!important;
+}
+
+/* Weekly rating climbers */
+.yw-chip{
+  border-color:var(--bb-blue-1)!important;
+  background:linear-gradient(180deg,#26384D,#131B24)!important;
+  color:var(--bb-white)!important;
+}
+
+.yw-first .yw-photo{
+  border-color:var(--bb-yellow)!important;
+  box-shadow:0 8px 20px rgba(0,0,0,.30),0 0 16px rgba(255,212,0,.18)!important;
+}
+
+.yw-first .yw-rank-tag{
+  background:linear-gradient(180deg, #FFF08A, var(--bb-yellow))!important;
+  color:#101317!important;
+}
+
+.yw-first .yw-bar{
+  background:linear-gradient(180deg, #FFE871, var(--bb-yellow))!important;
+  color:#101317!important;
+}
+
+.yw-second .yw-photo,
+.yw-third .yw-photo{
+  border-color:var(--bb-blue-1)!important;
+  box-shadow:0 8px 18px rgba(0,0,0,.28),0 0 14px rgba(47,78,120,.12)!important;
+}
+
+.yw-second .yw-rank-tag,
+.yw-third .yw-rank-tag{
+  background:linear-gradient(180deg, #5B7EA7, #2F4E78)!important;
+  color:#fff!important;
+}
+
+.yw-second .yw-bar,
+.yw-third .yw-bar{
+  background:linear-gradient(180deg, #446893, #2A4568)!important;
+  color:#fff!important;
+}
+
+/* Keep original icon colors */
+.yw-rapid-icon{ color:#78b84c!important; }
+.yw-blitz-icon{ color:#ffd21f!important; }
+.yw-bullet-icon{ color:#c9a24e!important; }
+
+.yw-updated,
+.yw-reset-note,
+.yw-load-sub{
+  color:#C0CCD8!important;
+}
+
+/* MCA Top Scorers */
+.featured-avatar{
+  border-color:var(--bb-yellow)!important;
+  box-shadow:
+    0 9px 20px rgba(0,0,0,.38),
+    0 0 0 3px rgba(255,212,0,.08),
+    0 0 20px rgba(255,212,0,.14)!important;
+}
+
+.featured-rank{
+  border-color:#F7F4A4!important;
+  background:linear-gradient(180deg,#FFF07C,#D4E43A)!important;
+  color:#101317!important;
+}
+
+.top-mini:hover .top-mini-avatar,
+.top-mini:focus-visible .top-mini-avatar{
+  border-color:var(--bb-yellow)!important;
+  box-shadow:0 9px 18px rgba(0,0,0,.34),0 0 14px rgba(255,212,0,.10)!important;
+}
+
+/* preserve original MCA champions icon colors */
+.trophy-summary-item.yw-rapid-icon{ color:#78b84c!important; }
+.trophy-summary-item.yw-blitz-icon{ color:#ffd21f!important; }
+.trophy-summary-item.yw-bullet-icon{ color:#c9a24e!important; }
+.trophy-summary-points{ color:#D0D8E2!important; }
+
+.shout-desc{
+  color:#D7E0E9!important;
+}
+
+.member-elo,
+.welcome-text,
+.footer-text,
+.loading{
+  color:#C2CCD7!important;
+}
+
+.gold-btn{
+  border-color:var(--bb-yellow)!important;
+  background:linear-gradient(90deg,#D3E57B,#FFD400,#D3E57B)!important;
+  color:#101317!important;
+  box-shadow:0 4px 0 #93A83D,0 10px 16px rgba(0,0,0,.16),0 0 14px rgba(255,212,0,.10)!important;
+}
+
+.gold-btn:hover{
+  background:linear-gradient(90deg,#E0F093,#FFE25D,#E0F093)!important;
+}
+
+.bb-footer-copy{
+  color:#E8EEF5!important;
+}
+
+.bb-footer-slogan{
+  color:var(--bb-yellow)!important;
+  text-shadow:0 0 9px rgba(255,212,0,.14)!important;
+}
+
+html,
+body{
+  background-color:#0F1620!important;
+}
+
+
+/* Keep the borders yellow all the time, not only on hover */
+.sb{
+  border-color:#FFD400!important;
+}
+
+.card,
+.shout-card,
+.member-row,
+.list-btn,
+.forum-btn,
+.yw-chip,
+.title-box,
+.join-btn,
+.live-badge,
+.gold-btn{
+  border-color:#FFD400!important;
+}
+
+
+/* Keep the main sidebar background the same,
+   but make all boxes/cards a bit lighter */
+.card,
+.shout-card{
+  background:
+    radial-gradient(circle at 100% 0%, rgba(255,212,0,.022), transparent 26%),
+    linear-gradient(145deg, #243446, #1C2A39)!important;
+}
+
+.member-row,
+.list-btn,
+.forum-btn{
+  background:linear-gradient(90deg, rgba(38,55,74,.98), rgba(46,64,84,.98))!important;
+}
+
+.yw-chip{
+  background:linear-gradient(180deg,#314862,#223245)!important;
+}
+
+.title-box{
+  background:linear-gradient(180deg,#3A587F,#2D4565)!important;
+}
+
+.mca-countdown-card,
+.trophy-card,
+.champs-card,
+.members-card,
+.forum-card,
+.yw-card,
+.top-card,
+.shout-card{
+  box-shadow:
+    0 5px 0 #0A1016,
+    0 12px 24px rgba(0,0,0,.30),
+    0 0 0 1px rgba(255,255,255,.03) inset!important;
+}
+
 </style>
 </head>
 
