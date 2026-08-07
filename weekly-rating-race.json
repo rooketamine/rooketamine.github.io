@@ -1,29 +1,29 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-07T07:40:50.319Z",
+  "updatedAt": "2026-08-07T10:10:36.180Z",
   "weekStartedAt": "2026-08-02T00:00:00.000Z",
   "weekEndsAt": "2026-08-09T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3790,
-  "failedMembers": 11,
-  "eligibleMembers": 3427,
+  "checkedMembers": 3787,
+  "failedMembers": 16,
+  "eligibleMembers": 3428,
   "players": [
     {
       "username": "supercool456",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/440847157.10ff1337.200x200o.246e8bb16c7c.jpg",
       "profileUrl": "https://www.chess.com/member/SuPeRcOoL456",
-      "totalChange": 292,
+      "totalChange": 340,
       "rapidChange": 0,
       "blitzChange": 47,
-      "bulletChange": 245,
+      "bulletChange": 293,
       "rapidStartRating": 1070,
       "blitzStartRating": 904,
       "bulletStartRating": 719,
       "rapidCurrentRating": 1070,
       "blitzCurrentRating": 951,
-      "bulletCurrentRating": 964
+      "bulletCurrentRating": 1012
     },
     {
       "username": "siddpanther",
