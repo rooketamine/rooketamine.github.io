@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-06T18:04:34.008Z",
+  "updatedAt": "2026-08-07T00:09:18.559Z",
   "weekStartedAt": "2026-08-02T00:00:00.000Z",
   "weekEndsAt": "2026-08-09T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3760,
-  "failedMembers": 25,
-  "eligibleMembers": 3411,
+  "checkedMembers": 3765,
+  "failedMembers": 21,
+  "eligibleMembers": 3412,
   "players": [
     {
       "username": "supercool456",
@@ -26,6 +26,21 @@
       "bulletCurrentRating": 964
     },
     {
+      "username": "jayleo773",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/241927059.54b519ea.200x200o.ef432b5d7841.jpg",
+      "profileUrl": "https://www.chess.com/member/JayLeo773",
+      "totalChange": 240,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 240,
+      "rapidStartRating": 986,
+      "blitzStartRating": 655,
+      "bulletStartRating": 563,
+      "rapidCurrentRating": 986,
+      "blitzCurrentRating": 655,
+      "bulletCurrentRating": 803
+    },
+    {
       "username": "dagoat-0516",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/312642593.227a2e16.200x200o.d288f61c33dc.png",
       "profileUrl": "https://www.chess.com/member/DaGoat-0516",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1595,
       "blitzCurrentRating": 1435,
       "bulletCurrentRating": 1623
-    },
-    {
-      "username": "iamthetzaw",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/138235714.8f8ea0df.200x200o.461509136fee.jpg",
-      "profileUrl": "https://www.chess.com/member/iamthetzaw",
-      "totalChange": 206,
-      "rapidChange": 115,
-      "blitzChange": 7,
-      "bulletChange": 84,
-      "rapidStartRating": 1484,
-      "blitzStartRating": 1392,
-      "bulletStartRating": 1481,
-      "rapidCurrentRating": 1599,
-      "blitzCurrentRating": 1399,
-      "bulletCurrentRating": 1565
     }
   ]
 }
