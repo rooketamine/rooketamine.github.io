@@ -1,13 +1,13 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-07T00:09:18.559Z",
+  "updatedAt": "2026-08-07T03:18:23.473Z",
   "weekStartedAt": "2026-08-02T00:00:00.000Z",
   "weekEndsAt": "2026-08-09T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3765,
-  "failedMembers": 21,
+  "checkedMembers": 3771,
+  "failedMembers": 15,
   "eligibleMembers": 3412,
   "players": [
     {
@@ -26,19 +26,19 @@
       "bulletCurrentRating": 964
     },
     {
-      "username": "jayleo773",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/241927059.54b519ea.200x200o.ef432b5d7841.jpg",
-      "profileUrl": "https://www.chess.com/member/JayLeo773",
-      "totalChange": 240,
+      "username": "siddpanther",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/408382049.ac3073ad.200x200o.004fda0b57a7.jpg",
+      "profileUrl": "https://www.chess.com/member/siddpanther",
+      "totalChange": 242,
       "rapidChange": 0,
       "blitzChange": 0,
-      "bulletChange": 240,
-      "rapidStartRating": 986,
-      "blitzStartRating": 655,
-      "bulletStartRating": 563,
-      "rapidCurrentRating": 986,
-      "blitzCurrentRating": 655,
-      "bulletCurrentRating": 803
+      "bulletChange": 242,
+      "rapidStartRating": 1272,
+      "blitzStartRating": 662,
+      "bulletStartRating": 707,
+      "rapidCurrentRating": 1272,
+      "blitzCurrentRating": 662,
+      "bulletCurrentRating": 949
     },
     {
       "username": "dagoat-0516",
