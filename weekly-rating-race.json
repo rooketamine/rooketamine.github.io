@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-07T03:18:23.473Z",
+  "updatedAt": "2026-08-07T07:40:50.319Z",
   "weekStartedAt": "2026-08-02T00:00:00.000Z",
   "weekEndsAt": "2026-08-09T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3771,
-  "failedMembers": 15,
-  "eligibleMembers": 3412,
+  "checkedMembers": 3790,
+  "failedMembers": 11,
+  "eligibleMembers": 3427,
   "players": [
     {
       "username": "supercool456",
