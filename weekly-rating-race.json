@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-08T07:14:23.935Z",
+  "updatedAt": "2026-08-08T09:54:00.669Z",
   "weekStartedAt": "2026-08-02T00:00:00.000Z",
   "weekEndsAt": "2026-08-09T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3796,
-  "failedMembers": 30,
-  "eligibleMembers": 3445,
+  "checkedMembers": 3801,
+  "failedMembers": 29,
+  "eligibleMembers": 3451,
   "players": [
     {
       "username": "supercool456",
@@ -26,6 +26,21 @@
       "bulletCurrentRating": 1034
     },
     {
+      "username": "shubham67809",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "profileUrl": "https://www.chess.com/member/shubham67809",
+      "totalChange": 265,
+      "rapidChange": -21,
+      "blitzChange": 0,
+      "bulletChange": 286,
+      "rapidStartRating": 1393,
+      "blitzStartRating": 945,
+      "bulletStartRating": 923,
+      "rapidCurrentRating": 1372,
+      "blitzCurrentRating": 945,
+      "bulletCurrentRating": 1209
+    },
+    {
       "username": "siddpanther",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/408382049.ac3073ad.200x200o.004fda0b57a7.jpg",
       "profileUrl": "https://www.chess.com/member/siddpanther",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1272,
       "blitzCurrentRating": 662,
       "bulletCurrentRating": 967
-    },
-    {
-      "username": "viaan_nayak",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/546289853.c2f59eb1.200x200o.ba322fac1051.jpg",
-      "profileUrl": "https://www.chess.com/member/Viaan_Nayak",
-      "totalChange": 242,
-      "rapidChange": 296,
-      "blitzChange": 0,
-      "bulletChange": -54,
-      "rapidStartRating": 1213,
-      "blitzStartRating": 1216,
-      "bulletStartRating": 1464,
-      "rapidCurrentRating": 1509,
-      "blitzCurrentRating": 1216,
-      "bulletCurrentRating": 1410
     }
   ]
 }
