@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-08T15:45:15.658Z",
+  "updatedAt": "2026-08-08T18:57:51.114Z",
   "weekStartedAt": "2026-08-02T00:00:00.000Z",
   "weekEndsAt": "2026-08-09T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3820,
-  "failedMembers": 16,
-  "eligibleMembers": 3457,
+  "checkedMembers": 3823,
+  "failedMembers": 14,
+  "eligibleMembers": 3458,
   "players": [
     {
       "username": "supercool456",
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 1272
     },
     {
-      "username": "siddpanther",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/408382049.ac3073ad.200x200o.004fda0b57a7.jpg",
-      "profileUrl": "https://www.chess.com/member/siddpanther",
-      "totalChange": 260,
-      "rapidChange": 0,
+      "username": "viaan_nayak",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/546289853.c2f59eb1.200x200o.ba322fac1051.jpg",
+      "profileUrl": "https://www.chess.com/member/Viaan_Nayak",
+      "totalChange": 266,
+      "rapidChange": 320,
       "blitzChange": 0,
-      "bulletChange": 260,
-      "rapidStartRating": 1272,
-      "blitzStartRating": 662,
-      "bulletStartRating": 707,
-      "rapidCurrentRating": 1272,
-      "blitzCurrentRating": 662,
-      "bulletCurrentRating": 967
+      "bulletChange": -54,
+      "rapidStartRating": 1213,
+      "blitzStartRating": 1216,
+      "bulletStartRating": 1464,
+      "rapidCurrentRating": 1533,
+      "blitzCurrentRating": 1216,
+      "bulletCurrentRating": 1410
     }
   ]
 }
