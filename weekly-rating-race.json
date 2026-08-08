@@ -1,13 +1,13 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-08T02:21:03.142Z",
+  "updatedAt": "2026-08-08T04:28:18.539Z",
   "weekStartedAt": "2026-08-02T00:00:00.000Z",
   "weekEndsAt": "2026-08-09T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3781,
-  "failedMembers": 31,
+  "checkedMembers": 3780,
+  "failedMembers": 32,
   "eligibleMembers": 3436,
   "players": [
     {
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 967
     },
     {
-      "username": "queiser",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/52164932.75ea5019.200x200o.ebc383dc724b.png",
-      "profileUrl": "https://www.chess.com/member/queiser",
-      "totalChange": 245,
-      "rapidChange": 0,
-      "blitzChange": 157,
-      "bulletChange": 88,
-      "rapidStartRating": 1675,
-      "blitzStartRating": 1829,
-      "bulletStartRating": 1416,
-      "rapidCurrentRating": 1675,
-      "blitzCurrentRating": 1986,
-      "bulletCurrentRating": 1504
+      "username": "viaan_nayak",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/546289853.c2f59eb1.200x200o.ba322fac1051.jpg",
+      "profileUrl": "https://www.chess.com/member/Viaan_Nayak",
+      "totalChange": 242,
+      "rapidChange": 296,
+      "blitzChange": 0,
+      "bulletChange": -54,
+      "rapidStartRating": 1213,
+      "blitzStartRating": 1216,
+      "bulletStartRating": 1464,
+      "rapidCurrentRating": 1509,
+      "blitzCurrentRating": 1216,
+      "bulletCurrentRating": 1410
     }
   ]
 }
