@@ -7093,15 +7093,18 @@ function initTopBalls(){
       y: index === 0 ? RADIUS + 6 : RADIUS + 18,
       vx: index === 0 ? randomRange(40, 52) : -randomRange(40, 52),
       vy: randomSign() * randomRange(18, 32),
+      /* Keep a fixed 3D-looking seam pose, but render it only once. */
       rotX: index === 0 ? 0.34 : -0.56,
       rotY: index === 0 ? 0.78 : -0.92,
       rotZ: index === 0 ? 0.18 : 1.06,
-      omegaZ: index === 0 ? 0.72 : -0.64,
+      spin: index === 0 ? 0 : 145,
       symbolCooldown: 0,
       boostDecayRate: KICK_DECAY_RATE
     };
   });
 
+  /* Expensive tennis-ball texture/seam drawing happens once per ball.
+     During animation we only move + rotate the already-rendered canvas. */
   state.forEach(drawTennisBall);
 
   function clamp(value, min, max){
@@ -7193,9 +7196,6 @@ function initTopBalls(){
     ball.vx = (ball.vx - (1 + RESTITUTION) * dot * nx);
     ball.vy = (ball.vy - (1 + RESTITUTION) * dot * ny);
     tinyCollisionVariation(ball);
-    ball.omegaZ = Math.max(-1.55, Math.min(1.55,
-      -ball.omegaZ * 0.72 + randomSign() * randomRange(0.18, 0.52)
-    ));
     return true;
   }
 
@@ -7417,14 +7417,10 @@ function initTopBalls(){
 
   function render(dt){
     state.forEach(ball => {
-      /* Rolling direction follows screen movement: vertical movement turns X,
-         horizontal movement turns Y, and a small Z precession gives natural tumble. */
-      ball.rotX += (ball.vy / RADIUS) * dt * 0.82;
-      ball.rotY += -(ball.vx / RADIUS) * dt * 0.82;
-      ball.rotZ += ball.omegaZ * dt;
-
-      ball.el.style.transform = `translate3d(${ball.x - VISUAL_SIZE / 2}px, ${ball.y - VISUAL_SIZE / 2}px, 0)`;
-      drawTennisBall(ball);
+      /* FIFA-style lightweight animation: no canvas redraws per frame.
+         Just rotate the pre-rendered tennis ball while translating it. */
+      ball.spin += (ball.vx * dt) * 2.2;
+      ball.el.style.transform = `translate3d(${ball.x - VISUAL_SIZE / 2}px, ${ball.y - VISUAL_SIZE / 2}px, 0) rotate(${ball.spin}deg)`;
     });
   }
 
