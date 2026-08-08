@@ -6132,6 +6132,36 @@ body{
   font-size:9.5px!important;
 }
 
+/* If ANY podium player gained rating in all 3 time controls, their breakdown
+   can wrap to a second line. Shorten ALL three podium bars together by the
+   same 12px so the podium proportions stay intact and no avatar can overlap
+   the Rapid / Blitz / Bullet capsules. The section/stage height stays fixed. */
+#weeklyRatingBoard .yw-stage.yw-stage-three-ratings .yw-first .yw-bar{
+  height:68px!important;
+}
+#weeklyRatingBoard .yw-stage.yw-stage-three-ratings .yw-second .yw-bar{
+  height:52px!important;
+}
+#weeklyRatingBoard .yw-stage.yw-stage-three-ratings .yw-third .yw-bar{
+  height:46px!important;
+}
+
+</style>
+
+<style id="top-solid-header-performance-test">
+/* Performance test: simplify only the top header surface. */
+.sb-top{
+  background:#0D1218!important;
+  border-bottom:0!important;
+}
+.sb-top::before{
+  display:none!important;
+  content:none!important;
+  background:none!important;
+}
+.sb-top::after{
+  border-top:0!important;
+}
 </style>
 </head>
 
@@ -6709,6 +6739,13 @@ function drawWeeklyRatingRace(data){
   const classes = ['yw-first','yw-second','yw-third'];
   const places = ['1','2','3'];
   const podiumOrder = [1,0,2].filter(index => players[index]);
+  const hasThreeRatingPlayer = players.some(player =>
+    [player?.rapidChange, player?.blitzChange, player?.bulletChange]
+      .filter(value => {
+        const change = Number(value);
+        return Number.isFinite(change) && change !== 0;
+      }).length === 3
+  );
 
   board.innerHTML = `
     <div class="yw-score-row">
@@ -6716,7 +6753,7 @@ function drawWeeklyRatingRace(data){
       <div class="yw-chip blitz">${YW_ICON_BLITZ}Blitz</div>
       <div class="yw-chip bullet">${YW_ICON_BULLET}Bullet</div>
     </div>
-    <div class="yw-stage">
+    <div class="yw-stage${hasThreeRatingPlayer ? ' yw-stage-three-ratings' : ''}">
       ${podiumOrder.map(index => {
         const player = players[index];
         const username = String(player?.username || 'unknown');
