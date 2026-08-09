@@ -1,15 +1,30 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-09T15:46:39.062Z",
+  "updatedAt": "2026-08-09T19:00:24.430Z",
   "weekStartedAt": "2026-08-09T00:00:00.000Z",
   "weekEndsAt": "2026-08-16T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3844,
-  "failedMembers": 16,
-  "eligibleMembers": 3478,
+  "checkedMembers": 3842,
+  "failedMembers": 18,
+  "eligibleMembers": 3482,
   "players": [
+    {
+      "username": "nodenull",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/130162948.a9105d98.200x200o.c0fbf92e2c44.png",
+      "profileUrl": "https://www.chess.com/member/NodeNull",
+      "totalChange": 134,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 134,
+      "rapidStartRating": 1315,
+      "blitzStartRating": 1691,
+      "bulletStartRating": 1842,
+      "rapidCurrentRating": 1315,
+      "blitzCurrentRating": 1691,
+      "bulletCurrentRating": 1976
+    },
     {
       "username": "siranjeevi-01",
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
@@ -24,21 +39,6 @@
       "rapidCurrentRating": 1231,
       "blitzCurrentRating": 1207,
       "bulletCurrentRating": 997
-    },
-    {
-      "username": "rushi_8",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/224596839.3782a5ed.200x200o.6eaad91c290e.jpg",
-      "profileUrl": "https://www.chess.com/member/Rushi_8",
-      "totalChange": 113,
-      "rapidChange": 113,
-      "blitzChange": 0,
-      "bulletChange": 0,
-      "rapidStartRating": 1170,
-      "blitzStartRating": 1129,
-      "bulletStartRating": 1103,
-      "rapidCurrentRating": 1283,
-      "blitzCurrentRating": 1129,
-      "bulletCurrentRating": 1103
     },
     {
       "username": "samuelchess321",
