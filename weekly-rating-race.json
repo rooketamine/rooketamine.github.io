@@ -1,59 +1,13 @@
 {
-  "status": "ready",
-  "updatedAt": "2026-08-08T21:45:40.090Z",
-  "weekStartedAt": "2026-08-02T00:00:00.000Z",
-  "weekEndsAt": "2026-08-09T00:00:00.000Z",
+  "status": "baseline-created",
+  "updatedAt": "2026-08-09T02:28:15.365Z",
+  "weekStartedAt": "2026-08-09T00:00:00.000Z",
+  "weekEndsAt": "2026-08-16T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3822,
-  "failedMembers": 15,
-  "eligibleMembers": 3458,
-  "players": [
-    {
-      "username": "supercool456",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/440847157.10ff1337.200x200o.246e8bb16c7c.jpg",
-      "profileUrl": "https://www.chess.com/member/SuPeRcOoL456",
-      "totalChange": 457,
-      "rapidChange": 8,
-      "blitzChange": 134,
-      "bulletChange": 315,
-      "rapidStartRating": 1070,
-      "blitzStartRating": 904,
-      "bulletStartRating": 719,
-      "rapidCurrentRating": 1078,
-      "blitzCurrentRating": 1038,
-      "bulletCurrentRating": 1034
-    },
-    {
-      "username": "shaunpatrick2013",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/296885363.a80c4ee8.200x200o.be40e235614a.jpg",
-      "profileUrl": "https://www.chess.com/member/ShaunPatrick2013",
-      "totalChange": 276,
-      "rapidChange": 28,
-      "blitzChange": 8,
-      "bulletChange": 240,
-      "rapidStartRating": 821,
-      "blitzStartRating": 710,
-      "bulletStartRating": 1032,
-      "rapidCurrentRating": 849,
-      "blitzCurrentRating": 718,
-      "bulletCurrentRating": 1272
-    },
-    {
-      "username": "siddpanther",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/408382049.ac3073ad.200x200o.004fda0b57a7.jpg",
-      "profileUrl": "https://www.chess.com/member/siddpanther",
-      "totalChange": 260,
-      "rapidChange": 0,
-      "blitzChange": 0,
-      "bulletChange": 260,
-      "rapidStartRating": 1272,
-      "blitzStartRating": 662,
-      "bulletStartRating": 707,
-      "rapidCurrentRating": 1272,
-      "blitzCurrentRating": 662,
-      "bulletCurrentRating": 967
-    }
-  ]
+  "checkedMembers": 3826,
+  "failedMembers": 14,
+  "eligibleMembers": 3447,
+  "players": []
 }
