@@ -1,6 +1,6 @@
 {
-  "status": "baseline-created",
-  "updatedAt": "2026-08-09T02:28:15.365Z",
+  "status": "ready",
+  "updatedAt": "2026-08-09T02:44:13.941Z",
   "weekStartedAt": "2026-08-09T00:00:00.000Z",
   "weekEndsAt": "2026-08-16T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
@@ -9,5 +9,51 @@
   "checkedMembers": 3826,
   "failedMembers": 14,
   "eligibleMembers": 3447,
-  "players": []
+  "players": [
+    {
+      "username": "iskandar-12",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/233919317.e8b5350a.200x200o.f398ee86d174.jpg",
+      "profileUrl": "https://www.chess.com/member/Iskandar-12",
+      "totalChange": 24,
+      "rapidChange": 0,
+      "blitzChange": 24,
+      "bulletChange": 0,
+      "rapidStartRating": 1109,
+      "blitzStartRating": 1381,
+      "bulletStartRating": 779,
+      "rapidCurrentRating": 1109,
+      "blitzCurrentRating": 1405,
+      "bulletCurrentRating": 779
+    },
+    {
+      "username": "ineedhelp49",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/153255965.42fa483a.200x200o.d2c09c707f2f.png",
+      "profileUrl": "https://www.chess.com/member/INEEDHELP49",
+      "totalChange": 17,
+      "rapidChange": 17,
+      "blitzChange": 0,
+      "bulletChange": 0,
+      "rapidStartRating": 1656,
+      "blitzStartRating": 1430,
+      "bulletStartRating": 1448,
+      "rapidCurrentRating": 1673,
+      "blitzCurrentRating": 1430,
+      "bulletCurrentRating": 1448
+    },
+    {
+      "username": "chess_gutz",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/115944732.18a00751.200x200o.aed7169076fa.jpg",
+      "profileUrl": "https://www.chess.com/member/chess_gutz",
+      "totalChange": 16,
+      "rapidChange": 0,
+      "blitzChange": 16,
+      "bulletChange": 0,
+      "rapidStartRating": 937,
+      "blitzStartRating": 862,
+      "bulletStartRating": 479,
+      "rapidCurrentRating": 937,
+      "blitzCurrentRating": 878,
+      "bulletCurrentRating": 479
+    }
+  ]
 }
