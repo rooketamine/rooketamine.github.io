@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-10T02:34:23.789Z",
+  "updatedAt": "2026-08-10T04:54:07.568Z",
   "weekStartedAt": "2026-08-09T00:00:00.000Z",
   "weekEndsAt": "2026-08-16T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3850,
-  "failedMembers": 14,
-  "eligibleMembers": 3486,
+  "checkedMembers": 3853,
+  "failedMembers": 12,
+  "eligibleMembers": 3487,
   "players": [
     {
       "username": "averoze",
@@ -26,6 +26,21 @@
       "bulletCurrentRating": null
     },
     {
+      "username": "vandanaveerati",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "profileUrl": "https://www.chess.com/member/Vandanaveerati",
+      "totalChange": 132,
+      "rapidChange": 0,
+      "blitzChange": 74,
+      "bulletChange": 58,
+      "rapidStartRating": 1139,
+      "blitzStartRating": 858,
+      "bulletStartRating": 1046,
+      "rapidCurrentRating": 1139,
+      "blitzCurrentRating": 932,
+      "bulletCurrentRating": 1104
+    },
+    {
       "username": "nodenull",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/130162948.a9105d98.200x200o.c0fbf92e2c44.png",
       "profileUrl": "https://www.chess.com/member/NodeNull",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1315,
       "blitzCurrentRating": 1683,
       "bulletCurrentRating": 1973
-    },
-    {
-      "username": "siranjeevi-01",
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "profileUrl": "https://www.chess.com/member/Siranjeevi-01",
-      "totalChange": 123,
-      "rapidChange": 0,
-      "blitzChange": 24,
-      "bulletChange": 99,
-      "rapidStartRating": 1231,
-      "blitzStartRating": 1175,
-      "bulletStartRating": 898,
-      "rapidCurrentRating": 1231,
-      "blitzCurrentRating": 1199,
-      "bulletCurrentRating": 997
     }
   ]
 }
