@@ -1,29 +1,29 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-11T04:39:58.101Z",
+  "updatedAt": "2026-08-11T07:36:51.285Z",
   "weekStartedAt": "2026-08-09T00:00:00.000Z",
   "weekEndsAt": "2026-08-16T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3861,
-  "failedMembers": 40,
-  "eligibleMembers": 3521,
+  "checkedMembers": 3856,
+  "failedMembers": 45,
+  "eligibleMembers": 3524,
   "players": [
     {
       "username": "stripedpoison",
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "profileUrl": "https://www.chess.com/member/StripedPoison",
-      "totalChange": 317,
+      "totalChange": 349,
       "rapidChange": 0,
       "blitzChange": 5,
-      "bulletChange": 312,
+      "bulletChange": 344,
       "rapidStartRating": 1098,
       "blitzStartRating": 880,
       "bulletStartRating": 731,
       "rapidCurrentRating": 1098,
       "blitzCurrentRating": 885,
-      "bulletCurrentRating": 1043
+      "bulletCurrentRating": 1075
     },
     {
       "username": "happytimesandgoodtimes",
