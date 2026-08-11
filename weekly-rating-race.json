@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-11T02:27:19.606Z",
+  "updatedAt": "2026-08-11T04:39:58.101Z",
   "weekStartedAt": "2026-08-09T00:00:00.000Z",
   "weekEndsAt": "2026-08-16T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3856,
-  "failedMembers": 43,
-  "eligibleMembers": 3520,
+  "checkedMembers": 3861,
+  "failedMembers": 40,
+  "eligibleMembers": 3521,
   "players": [
     {
       "username": "stripedpoison",
