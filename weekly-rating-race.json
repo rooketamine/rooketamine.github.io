@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-11T10:10:20.889Z",
+  "updatedAt": "2026-08-11T13:42:07.899Z",
   "weekStartedAt": "2026-08-09T00:00:00.000Z",
   "weekEndsAt": "2026-08-16T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
@@ -14,16 +14,31 @@
       "username": "stripedpoison",
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "profileUrl": "https://www.chess.com/member/StripedPoison",
-      "totalChange": 371,
-      "rapidChange": -8,
+      "totalChange": 363,
+      "rapidChange": -16,
       "blitzChange": 5,
       "bulletChange": 374,
       "rapidStartRating": 1098,
       "blitzStartRating": 880,
       "bulletStartRating": 731,
-      "rapidCurrentRating": 1090,
+      "rapidCurrentRating": 1082,
       "blitzCurrentRating": 885,
       "bulletCurrentRating": 1105
+    },
+    {
+      "username": "warecy",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "profileUrl": "https://www.chess.com/member/warecy",
+      "totalChange": 308,
+      "rapidChange": 113,
+      "blitzChange": 76,
+      "bulletChange": 119,
+      "rapidStartRating": 1847,
+      "blitzStartRating": 1610,
+      "bulletStartRating": 1458,
+      "rapidCurrentRating": 1960,
+      "blitzCurrentRating": 1686,
+      "bulletCurrentRating": 1577
     },
     {
       "username": "happytimesandgoodtimes",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1305,
       "blitzCurrentRating": 1325,
       "bulletCurrentRating": 1563
-    },
-    {
-      "username": "warecy",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
-      "profileUrl": "https://www.chess.com/member/warecy",
-      "totalChange": 240,
-      "rapidChange": 45,
-      "blitzChange": 76,
-      "bulletChange": 119,
-      "rapidStartRating": 1847,
-      "blitzStartRating": 1610,
-      "bulletStartRating": 1458,
-      "rapidCurrentRating": 1892,
-      "blitzCurrentRating": 1686,
-      "bulletCurrentRating": 1577
     }
   ]
 }
