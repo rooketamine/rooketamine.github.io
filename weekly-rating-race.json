@@ -1,15 +1,30 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-11T16:10:27.476Z",
+  "updatedAt": "2026-08-11T19:25:08.296Z",
   "weekStartedAt": "2026-08-09T00:00:00.000Z",
   "weekEndsAt": "2026-08-16T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3871,
-  "failedMembers": 31,
+  "checkedMembers": 3875,
+  "failedMembers": 25,
   "eligibleMembers": 3524,
   "players": [
+    {
+      "username": "warecy",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "profileUrl": "https://www.chess.com/member/warecy",
+      "totalChange": 399,
+      "rapidChange": 204,
+      "blitzChange": 76,
+      "bulletChange": 119,
+      "rapidStartRating": 1847,
+      "blitzStartRating": 1610,
+      "bulletStartRating": 1458,
+      "rapidCurrentRating": 2051,
+      "blitzCurrentRating": 1686,
+      "bulletCurrentRating": 1577
+    },
     {
       "username": "stripedpoison",
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
@@ -24,21 +39,6 @@
       "rapidCurrentRating": 1073,
       "blitzCurrentRating": 885,
       "bulletCurrentRating": 1105
-    },
-    {
-      "username": "warecy",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
-      "profileUrl": "https://www.chess.com/member/warecy",
-      "totalChange": 342,
-      "rapidChange": 147,
-      "blitzChange": 76,
-      "bulletChange": 119,
-      "rapidStartRating": 1847,
-      "blitzStartRating": 1610,
-      "bulletStartRating": 1458,
-      "rapidCurrentRating": 1994,
-      "blitzCurrentRating": 1686,
-      "bulletCurrentRating": 1577
     },
     {
       "username": "happytimesandgoodtimes",
