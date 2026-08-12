@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-12T02:44:09.532Z",
+  "updatedAt": "2026-08-12T05:02:08.904Z",
   "weekStartedAt": "2026-08-09T00:00:00.000Z",
   "weekEndsAt": "2026-08-16T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3890,
-  "failedMembers": 16,
-  "eligibleMembers": 3531,
+  "checkedMembers": 3892,
+  "failedMembers": 11,
+  "eligibleMembers": 3530,
   "players": [
     {
       "username": "warecy",
@@ -44,16 +44,16 @@
       "username": "happytimesandgoodtimes",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/194077419.7dc0b1fa.200x200o.55325252ecc3.jpeg",
       "profileUrl": "https://www.chess.com/member/happytimesandgoodtimes",
-      "totalChange": 264,
+      "totalChange": 277,
       "rapidChange": 0,
       "blitzChange": -9,
-      "bulletChange": 273,
+      "bulletChange": 286,
       "rapidStartRating": 1305,
       "blitzStartRating": 1334,
       "bulletStartRating": 1290,
       "rapidCurrentRating": 1305,
       "blitzCurrentRating": 1325,
-      "bulletCurrentRating": 1563
+      "bulletCurrentRating": 1576
     }
   ]
 }
