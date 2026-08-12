@@ -1,28 +1,28 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-12T16:08:52.239Z",
+  "updatedAt": "2026-08-12T19:19:56.643Z",
   "weekStartedAt": "2026-08-09T00:00:00.000Z",
   "weekEndsAt": "2026-08-16T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3888,
-  "failedMembers": 35,
+  "checkedMembers": 3895,
+  "failedMembers": 28,
   "eligibleMembers": 3548,
   "players": [
     {
       "username": "warecy",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "profileUrl": "https://www.chess.com/member/warecy",
-      "totalChange": 381,
+      "totalChange": 437,
       "rapidChange": 186,
-      "blitzChange": 76,
+      "blitzChange": 132,
       "bulletChange": 119,
       "rapidStartRating": 1847,
       "blitzStartRating": 1610,
       "bulletStartRating": 1458,
       "rapidCurrentRating": 2033,
-      "blitzCurrentRating": 1686,
+      "blitzCurrentRating": 1742,
       "bulletCurrentRating": 1577
     },
     {
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 1105
     },
     {
-      "username": "happytimesandgoodtimes",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/194077419.7dc0b1fa.200x200o.55325252ecc3.jpeg",
-      "profileUrl": "https://www.chess.com/member/happytimesandgoodtimes",
-      "totalChange": 277,
+      "username": "king_red_a",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/364881033.955b6e95.200x200o.ed5228e9a04e.png",
+      "profileUrl": "https://www.chess.com/member/King_Red_A",
+      "totalChange": 280,
       "rapidChange": 0,
-      "blitzChange": -9,
-      "bulletChange": 286,
-      "rapidStartRating": 1305,
-      "blitzStartRating": 1334,
-      "bulletStartRating": 1290,
-      "rapidCurrentRating": 1305,
-      "blitzCurrentRating": 1325,
-      "bulletCurrentRating": 1576
+      "blitzChange": 0,
+      "bulletChange": 280,
+      "rapidStartRating": 1379,
+      "blitzStartRating": 1269,
+      "bulletStartRating": 1357,
+      "rapidCurrentRating": 1379,
+      "blitzCurrentRating": 1269,
+      "bulletCurrentRating": 1637
     }
   ]
 }
