@@ -1,13 +1,13 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-13T02:47:14.590Z",
+  "updatedAt": "2026-08-13T05:04:07.954Z",
   "weekStartedAt": "2026-08-09T00:00:00.000Z",
   "weekEndsAt": "2026-08-16T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3907,
-  "failedMembers": 26,
+  "checkedMembers": 3909,
+  "failedMembers": 24,
   "eligibleMembers": 3559,
   "players": [
     {
