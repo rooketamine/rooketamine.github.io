@@ -6246,18 +6246,27 @@ body{
 
 .card,.member-row,.list-btn,.forum-btn,.shout-card{
   background:linear-gradient(135deg,var(--in-card2),var(--in-card))!important;
-  border-color:var(--in-saffron)!important;
+  border-color:var(--in-green)!important;
   box-shadow:0 5px 0 #03100B,0 10px 22px rgba(0,0,0,.25),inset 0 0 0 1px rgba(19,136,8,.95)!important;
 }
-.mca-countdown-card,.new-buddies-card{border-color:var(--in-saffron)!important;}
+.mca-countdown-card,.new-buddies-card{border-color:var(--in-green)!important;}
 .card:hover,.member-row:hover,.list-btn:hover,.forum-btn:hover,.shout-card:hover{
   background:linear-gradient(135deg,var(--in-card2),var(--in-card))!important;
-  border-color:var(--in-saffron)!important;
+  border-color:var(--in-green)!important;
   box-shadow:0 5px 0 #03100B,0 10px 22px rgba(0,0,0,.25),inset 0 0 0 1px rgba(19,136,8,.95)!important;
+}
+
+/* New Buddies rows: same border tone as MCA Top Scorers #2-#10,
+   with only a very slight lift from the surrounding card background. */
+.new-buddies-card .member-row,
+.new-buddies-card .member-row:hover{
+  border-color:var(--bb-blue-1)!important;
+  background:linear-gradient(135deg,#14251F,#11201B)!important;
+  box-shadow:0 4px 12px rgba(0,0,0,.16), inset 0 0 0 1px rgba(255,255,255,.025)!important;
 }
 .sec-label{color:#fff!important;}
 .sec-sub,.welcome-text,.footer-text,.results-link,.top-points,.trophy-summary-points{color:#D7E5DE!important;}
-.title-box{border-color:var(--in-saffron)!important;background:linear-gradient(180deg,#101B31,#0A1712)!important;color:#fff!important;}
+.title-box{border-color:var(--in-green)!important;background:linear-gradient(180deg,#101B31,#0A1712)!important;color:#fff!important;}
 .mca-date-line{color:var(--in-saffron)!important;}
 .join-btn,.join-btn.live-btn{
   border:2px solid var(--in-saffron)!important;background:linear-gradient(135deg,var(--in-green),var(--in-green2))!important;color:#fff!important;
@@ -6267,10 +6276,10 @@ body{
 
 /* Weekly Rating Climbers: center bar saffron, 2nd and 3rd green. */
 .yw-first .yw-photo{border-color:var(--in-saffron)!important;box-shadow:0 8px 20px rgba(0,0,0,.32),0 0 15px rgba(255,153,51,.22)!important;}
-.yw-second .yw-photo{border-color:var(--in-blue2)!important;box-shadow:0 8px 18px rgba(0,0,0,.30),0 0 14px rgba(0,0,128,.22)!important;}
+.yw-second .yw-photo{border-color:var(--in-green)!important;box-shadow:0 8px 18px rgba(0,0,0,.30),0 0 14px rgba(19,136,8,.22)!important;}
 .yw-third .yw-photo{border-color:var(--in-green)!important;box-shadow:0 8px 18px rgba(0,0,0,.30),0 0 14px rgba(19,136,8,.22)!important;}
 .yw-first .yw-rank-tag{background:linear-gradient(180deg,#FFB665,#FF8B1F)!important;color:#182014!important;}
-.yw-second .yw-rank-tag{background:linear-gradient(180deg,var(--in-blue2),var(--in-blue))!important;color:#fff!important;}
+.yw-second .yw-rank-tag{background:linear-gradient(180deg,#20A413,#0A6F0B)!important;color:#fff!important;}
 .yw-third .yw-rank-tag{background:linear-gradient(180deg,#20A413,#0A6F0B)!important;color:#fff!important;}
 .yw-first .yw-bar{background:linear-gradient(180deg,#FFAA50,#E57813)!important;color:#fff!important;}
 .yw-second .yw-bar{background:linear-gradient(180deg,#219B18,#08640B)!important;color:#fff!important;}
