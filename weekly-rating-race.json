@@ -1,29 +1,44 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-14T16:05:57.294Z",
+  "updatedAt": "2026-08-14T19:13:45.876Z",
   "weekStartedAt": "2026-08-09T00:00:00.000Z",
   "weekEndsAt": "2026-08-16T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3954,
-  "failedMembers": 20,
-  "eligibleMembers": 3601,
+  "checkedMembers": 3958,
+  "failedMembers": 18,
+  "eligibleMembers": 3603,
   "players": [
     {
       "username": "warecy",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "profileUrl": "https://www.chess.com/member/warecy",
-      "totalChange": 459,
+      "totalChange": 449,
       "rapidChange": 212,
-      "blitzChange": 128,
+      "blitzChange": 118,
       "bulletChange": 119,
       "rapidStartRating": 1847,
       "blitzStartRating": 1610,
       "bulletStartRating": 1458,
       "rapidCurrentRating": 2059,
-      "blitzCurrentRating": 1738,
+      "blitzCurrentRating": 1728,
       "bulletCurrentRating": 1577
+    },
+    {
+      "username": "ayush-nandyy",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/367977861.a965ded1.200x200o.1f0f41fea0d9.png",
+      "profileUrl": "https://www.chess.com/member/Ayush-Nandyy",
+      "totalChange": 367,
+      "rapidChange": -27,
+      "blitzChange": 138,
+      "bulletChange": 256,
+      "rapidStartRating": 1994,
+      "blitzStartRating": 1760,
+      "bulletStartRating": 1358,
+      "rapidCurrentRating": 1967,
+      "blitzCurrentRating": 1898,
+      "bulletCurrentRating": 1614
     },
     {
       "username": "stripedpoison",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1089,
       "blitzCurrentRating": 885,
       "bulletCurrentRating": 1089
-    },
-    {
-      "username": "ayush-nandyy",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/367977861.a965ded1.200x200o.1f0f41fea0d9.png",
-      "profileUrl": "https://www.chess.com/member/Ayush-Nandyy",
-      "totalChange": 339,
-      "rapidChange": -27,
-      "blitzChange": 110,
-      "bulletChange": 256,
-      "rapidStartRating": 1994,
-      "blitzStartRating": 1760,
-      "bulletStartRating": 1358,
-      "rapidCurrentRating": 1967,
-      "blitzCurrentRating": 1870,
-      "bulletCurrentRating": 1614
     }
   ]
 }
