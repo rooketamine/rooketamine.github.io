@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-14T10:15:49.530Z",
+  "updatedAt": "2026-08-14T13:42:44.121Z",
   "weekStartedAt": "2026-08-09T00:00:00.000Z",
   "weekEndsAt": "2026-08-16T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3952,
+  "checkedMembers": 3955,
   "failedMembers": 17,
-  "eligibleMembers": 3596,
+  "eligibleMembers": 3598,
   "players": [
     {
       "username": "warecy",
