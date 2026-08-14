@@ -6244,14 +6244,17 @@ body{
 }
 .div::after{content:none!important;display:none!important;}
 
-.card,.member-row,.list-btn,.forum-btn{
+.card,.member-row,.list-btn,.forum-btn,.shout-card{
   background:linear-gradient(135deg,var(--in-card2),var(--in-card))!important;
-  border-color:rgba(48,71,170,.78)!important;
+  border-color:var(--in-saffron)!important;
+  box-shadow:0 5px 0 #03100B,0 10px 22px rgba(0,0,0,.25),inset 0 0 0 1px rgba(19,136,8,.95)!important;
 }
-.card{box-shadow:0 5px 0 #03100B,0 10px 22px rgba(0,0,0,.25)!important;}
-.mca-countdown-card{border-color:var(--in-saffron)!important;}
-.new-buddies-card{border-color:var(--in-green)!important;}
-.member-row:hover,.list-btn:hover,.forum-btn:hover{background:linear-gradient(135deg,#10251D,#101B31)!important;box-shadow:0 6px 18px rgba(255,153,51,.06)!important;}
+.mca-countdown-card,.new-buddies-card{border-color:var(--in-saffron)!important;}
+.card:hover,.member-row:hover,.list-btn:hover,.forum-btn:hover,.shout-card:hover{
+  background:linear-gradient(135deg,var(--in-card2),var(--in-card))!important;
+  border-color:var(--in-saffron)!important;
+  box-shadow:0 5px 0 #03100B,0 10px 22px rgba(0,0,0,.25),inset 0 0 0 1px rgba(19,136,8,.95)!important;
+}
 .sec-label{color:#fff!important;}
 .sec-sub,.welcome-text,.footer-text,.results-link,.top-points,.trophy-summary-points{color:#D7E5DE!important;}
 .title-box{border-color:var(--in-saffron)!important;background:linear-gradient(180deg,#101B31,#0A1712)!important;color:#fff!important;}
@@ -6343,6 +6346,316 @@ body{
   background:#13202C!important;
 }
 </style>
+
+
+<style id="india-light-cream-theme-v15">
+/* Light Independence Day palette.
+   Main frame = saffron/orange. Individual section cards = India green. */
+html,body{
+  background:#FFF4E6!important;
+  color:#182433!important;
+}
+
+.sb,.sb:hover{
+  background:#FFF4E6!important;
+  border:3px solid #FF9933!important;
+  box-shadow:0 0 0 1px rgba(255,153,51,.12) inset,0 12px 30px rgba(77,45,10,.12)!important;
+  filter:none!important;
+}
+
+/* Preserve the exact tennis/FIFA curve geometry, just recolor it for the light theme. */
+.sb-top{
+  background:#FFE8CC!important;
+  border-bottom:0!important;
+  border-radius:24px 24px 0 0!important;
+  overflow:hidden!important;
+}
+.sb-top::before{
+  display:none!important;
+  content:none!important;
+  background:none!important;
+}
+.sb-top::after{
+  content:""!important;
+  position:absolute!important;
+  bottom:-10px!important;
+  left:-10%!important;
+  width:120%!important;
+  height:20px!important;
+  background:#FFF4E6!important;
+  border:0!important;
+  border-top:0!important;
+  border-radius:50%!important;
+  box-shadow:none!important;
+}
+.inner{background:#FFF4E6!important;}
+
+.club-title{
+  color:#162238!important;
+  text-shadow:none!important;
+}
+.club-sub{
+  color:#0A6F1B!important;
+  text-shadow:none!important;
+}
+
+/* Every main content section uses a green border on a soft cream surface. */
+.card,
+.shout-card{
+  background:#FFFDF8!important;
+  border-color:#138808!important;
+  box-shadow:0 4px 0 rgba(19,136,8,.14),0 8px 18px rgba(76,49,16,.10)!important;
+  color:#182433!important;
+}
+.card:hover,
+.shout-card:hover{
+  background:#FFFDF8!important;
+  border-color:#138808!important;
+  box-shadow:0 4px 0 rgba(19,136,8,.14),0 8px 18px rgba(76,49,16,.10)!important;
+}
+.mca-countdown-card,
+.new-buddies-card{
+  border-color:#138808!important;
+}
+
+/* Inner rows/buttons stay light and use a softer green edge. No hover color shift. */
+.member-row,
+.list-btn,
+.forum-btn{
+  background:#FFF9F1!important;
+  border-color:rgba(19,136,8,.58)!important;
+  color:#182433!important;
+  box-shadow:none!important;
+}
+.member-row:hover,
+.list-btn:hover,
+.forum-btn:hover{
+  background:#FFF9F1!important;
+  border-color:rgba(19,136,8,.58)!important;
+  color:#182433!important;
+  box-shadow:none!important;
+}
+.member-name,
+.list-btn,
+.forum-btn,
+.shout-name,
+.shout-user,
+.featured-name,
+.yw-name{
+  color:#182433!important;
+}
+.member-elo,
+.sec-sub,
+.welcome-text,
+.footer-text,
+.top-points,
+.trophy-summary-points,
+.yw-breakdown,
+.yw-updated,
+.yw-reset-note,
+.shout-desc{
+  color:#526052!important;
+}
+
+.sec-label{
+  color:#0A6F1B!important;
+  text-shadow:none!important;
+}
+.title-box{
+  background:#FFF1DF!important;
+  border-color:#FF9933!important;
+  color:#182433!important;
+  box-shadow:0 3px 8px rgba(120,74,18,.10)!important;
+}
+.mca-date-line{color:#D96F00!important;}
+.results-link{color:#0A6F1B!important;}
+.results-link:hover{color:#0A6F1B!important;text-shadow:none!important;}
+
+/* Light Independence Day announcement strip. */
+.india-day-strip{
+  background:#FFFDF8!important;
+  border-color:#138808!important;
+  box-shadow:0 5px 14px rgba(76,49,16,.09)!important;
+}
+.india-day-title{color:#182433!important;}
+.india-day-sub{color:#0A6F1B!important;}
+
+/* Keep the green action button + saffron edge for clear contrast. */
+.join-btn,
+.join-btn.live-btn{
+  border-color:#FF9933!important;
+  background:linear-gradient(135deg,#19940D,#0A6F1B)!important;
+  color:#fff!important;
+  box-shadow:0 4px 0 #07540D,0 8px 14px rgba(19,136,8,.16)!important;
+}
+.join-btn:hover,
+.join-btn.live-btn:hover{
+  border-color:#FF9933!important;
+  background:linear-gradient(135deg,#19940D,#0A6F1B)!important;
+  color:#fff!important;
+  box-shadow:0 4px 0 #07540D,0 8px 14px rgba(19,136,8,.16)!important;
+}
+
+/* Weekly podium stays exactly as requested: center orange, sides green. */
+.yw-first .yw-bar{background:linear-gradient(180deg,#FFAA50,#E57813)!important;color:#fff!important;}
+.yw-second .yw-bar,
+.yw-third .yw-bar{background:linear-gradient(180deg,#219B18,#08640B)!important;color:#fff!important;}
+.yw-first .yw-rank-tag{background:linear-gradient(180deg,#FFB665,#FF8B1F)!important;color:#182433!important;}
+.yw-second .yw-rank-tag,
+.yw-third .yw-rank-tag{background:linear-gradient(180deg,#20A413,#0A6F0B)!important;color:#fff!important;}
+.yw-first .yw-photo{border-color:#FF9933!important;}
+.yw-second .yw-photo,
+.yw-third .yw-photo{border-color:#138808!important;}
+
+/* Footer readable on the light surface. */
+.bb-footer-copy{color:#3B493F!important;}
+.bb-footer-slogan{color:#D96F00!important;text-shadow:none!important;}
+</style>
+
+
+
+<style id="india-light-contrast-fix-v16">
+/* Final contrast pass: dark header, light content, readable text. */
+.sb-top{
+  background:#0D1218!important;
+  border-bottom:0!important;
+  border-radius:24px 24px 0 0!important;
+  overflow:hidden!important;
+}
+.sb-top::before{
+  display:none!important;
+  content:none!important;
+  background:none!important;
+}
+.sb-top::after{
+  content:""!important;
+  position:absolute!important;
+  bottom:-10px!important;
+  left:-10%!important;
+  width:120%!important;
+  height:20px!important;
+  background:#FFF4E6!important;
+  border:0!important;
+  border-radius:50%!important;
+  box-shadow:none!important;
+}
+.sb-top .club-title{
+  color:#FFFFFF!important;
+  text-shadow:0 2px 0 rgba(0,0,0,.22)!important;
+}
+.sb-top .club-sub{
+  color:#FFD9AD!important;
+  text-shadow:none!important;
+}
+
+/* Light lower area. */
+.inner{
+  background:#FFF4E6!important;
+  color:#182433!important;
+}
+
+/* Force text that sits on light cards/rows to dark readable colors. */
+.inner .sec-label,
+.inner .status-line,
+.inner .countdown,
+.inner .format-line,
+.inner .format-main,
+.inner .format-line .format-main,
+.inner .welcome-text,
+.inner .footer-text,
+.inner .member-name,
+.inner .member-elo,
+.inner .results-link,
+.inner .loading,
+.inner .top-loading,
+.inner .top-points,
+.inner .featured-name,
+.inner .featured-points,
+.inner .featured-points strong,
+.inner .top-mini,
+.inner .top-mini-name,
+.inner .top-mini-points,
+.inner .yw-name,
+.inner .yw-points,
+.inner .yw-points span,
+.inner .yw-breakdown,
+.inner .yw-mini-stat,
+.inner .yw-updated,
+.inner .yw-reset-note,
+.inner .yw-shh,
+.inner .yw-load-sub,
+.inner .trophy-summary-points,
+.inner .trophy-summary-number,
+.inner .shout-name,
+.inner .shout-user,
+.inner .shout-desc,
+.inner .shout-small,
+.inner .bb-footer-copy{
+  color:#182433!important;
+  text-shadow:none!important;
+}
+
+/* Secondary copy gets a softer dark green-gray. */
+.inner .sec-sub,
+.inner .member-elo,
+.inner .welcome-text,
+.inner .footer-text,
+.inner .top-points,
+.inner .yw-breakdown,
+.inner .yw-updated,
+.inner .yw-reset-note,
+.inner .yw-load-sub,
+.inner .trophy-summary-points,
+.inner .shout-desc,
+.inner .shout-small{
+  color:#526052!important;
+}
+
+/* Green section headings/links remain thematic but readable. */
+.inner .sec-label,
+.inner .results-link{
+  color:#0A6F1B!important;
+}
+.inner .results-link:hover{
+  color:#0A6F1B!important;
+  text-shadow:none!important;
+}
+
+/* Keep white text only on genuinely dark/colored controls. */
+.inner .join-btn,
+.inner .join-btn:hover,
+.inner .join-btn.live-btn,
+.inner .join-btn.live-btn:hover,
+.inner .yw-first .yw-bar,
+.inner .yw-second .yw-bar,
+.inner .yw-third .yw-bar,
+.inner .yw-second .yw-rank-tag,
+.inner .yw-third .yw-rank-tag,
+.inner .featured-rank{
+  color:#FFFFFF!important;
+}
+
+/* Orange outer frame, green individual section borders. */
+.sb,.sb:hover{
+  border-color:#FF9933!important;
+}
+.card,.shout-card,.mca-countdown-card,.new-buddies-card,
+.member-row,.list-btn,.forum-btn,
+.card:hover,.shout-card:hover,.member-row:hover,.list-btn:hover,.forum-btn:hover{
+  border-color:#138808!important;
+}
+
+/* Keep light surfaces stable on hover. */
+.card,.shout-card,
+.card:hover,.shout-card:hover{
+  background:#FFFDF8!important;
+}
+.member-row,.list-btn,.forum-btn,
+.member-row:hover,.list-btn:hover,.forum-btn:hover{
+  background:#FFF9F1!important;
+}
+</style>
+
 </head>
 
 <body>
