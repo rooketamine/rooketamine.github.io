@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-15T06:57:01.451Z",
+  "updatedAt": "2026-08-15T09:40:47.372Z",
   "weekStartedAt": "2026-08-09T00:00:00.000Z",
   "weekEndsAt": "2026-08-16T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3968,
-  "failedMembers": 33,
-  "eligibleMembers": 3626,
+  "checkedMembers": 3981,
+  "failedMembers": 23,
+  "eligibleMembers": 3629,
   "players": [
     {
       "username": "warecy",
@@ -44,16 +44,16 @@
       "username": "stripedpoison",
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "profileUrl": "https://www.chess.com/member/StripedPoison",
-      "totalChange": 354,
+      "totalChange": 332,
       "rapidChange": 7,
       "blitzChange": 5,
-      "bulletChange": 342,
+      "bulletChange": 320,
       "rapidStartRating": 1098,
       "blitzStartRating": 880,
       "bulletStartRating": 731,
       "rapidCurrentRating": 1105,
       "blitzCurrentRating": 885,
-      "bulletCurrentRating": 1073
+      "bulletCurrentRating": 1051
     }
   ]
 }
