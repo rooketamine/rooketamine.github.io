@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-15T15:34:58.603Z",
+  "updatedAt": "2026-08-15T21:34:35.000Z",
   "weekStartedAt": "2026-08-09T00:00:00.000Z",
   "weekEndsAt": "2026-08-16T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3967,
-  "failedMembers": 41,
-  "eligibleMembers": 3635,
+  "checkedMembers": 3989,
+  "failedMembers": 29,
+  "eligibleMembers": 3642,
   "players": [
     {
       "username": "ayush-nandyy",
@@ -29,15 +29,15 @@
       "username": "warecy",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
       "profileUrl": "https://www.chess.com/member/warecy",
-      "totalChange": 398,
+      "totalChange": 401,
       "rapidChange": 212,
-      "blitzChange": 67,
+      "blitzChange": 70,
       "bulletChange": 119,
       "rapidStartRating": 1847,
       "blitzStartRating": 1610,
       "bulletStartRating": 1458,
       "rapidCurrentRating": 2059,
-      "blitzCurrentRating": 1677,
+      "blitzCurrentRating": 1680,
       "bulletCurrentRating": 1577
     },
     {
