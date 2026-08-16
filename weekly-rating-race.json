@@ -1,15 +1,45 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-16T09:42:10.075Z",
+  "updatedAt": "2026-08-16T13:00:11.710Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4010,
-  "failedMembers": 26,
-  "eligibleMembers": 3646,
+  "checkedMembers": 4011,
+  "failedMembers": 27,
+  "eligibleMembers": 3652,
   "players": [
+    {
+      "username": "chess_csk",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/183683817.d3a451aa.200x200o.e9c155b18e50.jpeg",
+      "profileUrl": "https://www.chess.com/member/chess_csk",
+      "totalChange": 167,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 167,
+      "rapidStartRating": 1008,
+      "blitzStartRating": 796,
+      "bulletStartRating": 631,
+      "rapidCurrentRating": 1008,
+      "blitzCurrentRating": 796,
+      "bulletCurrentRating": 798
+    },
+    {
+      "username": "aistockfish",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/78365676.82d444c6.200x200o.9bfcbe535a6b.jpg",
+      "profileUrl": "https://www.chess.com/member/AIStockfish",
+      "totalChange": 152,
+      "rapidChange": 23,
+      "blitzChange": 0,
+      "bulletChange": 129,
+      "rapidStartRating": 2297,
+      "blitzStartRating": 2537,
+      "bulletStartRating": 2505,
+      "rapidCurrentRating": 2320,
+      "blitzCurrentRating": 2537,
+      "bulletCurrentRating": 2634
+    },
     {
       "username": "timlovestiffanie",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/4991363.4fd5faba.200x200o.515b0738574f.jpg",
@@ -24,36 +54,6 @@
       "rapidCurrentRating": null,
       "blitzCurrentRating": 1608,
       "bulletCurrentRating": 1711
-    },
-    {
-      "username": "rcknrll007",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/97616496.ce645c4b.200x200o.39ff6374198e.jpg",
-      "profileUrl": "https://www.chess.com/member/rcknrll007",
-      "totalChange": 99,
-      "rapidChange": 0,
-      "blitzChange": 0,
-      "bulletChange": 99,
-      "rapidStartRating": 833,
-      "blitzStartRating": 780,
-      "bulletStartRating": 496,
-      "rapidCurrentRating": 833,
-      "blitzCurrentRating": 780,
-      "bulletCurrentRating": 595
-    },
-    {
-      "username": "cymba237",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/274023615.f689348d.200x200o.1d38c637667e.png",
-      "profileUrl": "https://www.chess.com/member/Cymba237",
-      "totalChange": 90,
-      "rapidChange": 0,
-      "blitzChange": 0,
-      "bulletChange": 90,
-      "rapidStartRating": 279,
-      "blitzStartRating": 250,
-      "bulletStartRating": 296,
-      "rapidCurrentRating": 279,
-      "blitzCurrentRating": 250,
-      "bulletCurrentRating": 386
     }
   ]
 }
