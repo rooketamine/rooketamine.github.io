@@ -1,13 +1,59 @@
 {
-  "status": "baseline-created",
-  "updatedAt": "2026-08-16T01:57:17.415Z",
+  "status": "ready",
+  "updatedAt": "2026-08-16T02:34:30.231Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3995,
-  "failedMembers": 26,
-  "eligibleMembers": 3619,
-  "players": []
+  "checkedMembers": 3996,
+  "failedMembers": 25,
+  "eligibleMembers": 3622,
+  "players": [
+    {
+      "username": "rcknrll007",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/97616496.ce645c4b.200x200o.39ff6374198e.jpg",
+      "profileUrl": "https://www.chess.com/member/rcknrll007",
+      "totalChange": 49,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 49,
+      "rapidStartRating": 833,
+      "blitzStartRating": 780,
+      "bulletStartRating": 496,
+      "rapidCurrentRating": 833,
+      "blitzCurrentRating": 780,
+      "bulletCurrentRating": 545
+    },
+    {
+      "username": "badr113101",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/333299295.27913ba9.200x200o.4a1374f11017.jpg",
+      "profileUrl": "https://www.chess.com/member/BADR113101",
+      "totalChange": 41,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 41,
+      "rapidStartRating": 1904,
+      "blitzStartRating": 1901,
+      "bulletStartRating": 1544,
+      "rapidCurrentRating": 1904,
+      "blitzCurrentRating": 1901,
+      "bulletCurrentRating": 1585
+    },
+    {
+      "username": "samuelhardingchess",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/507606949.e4f06f6c.200x200o.b816f89e0ce8.jpg",
+      "profileUrl": "https://www.chess.com/member/samuelhardingchess",
+      "totalChange": 29,
+      "rapidChange": 0,
+      "blitzChange": 29,
+      "bulletChange": 0,
+      "rapidStartRating": 643,
+      "blitzStartRating": 735,
+      "bulletStartRating": 698,
+      "rapidCurrentRating": 643,
+      "blitzCurrentRating": 764,
+      "bulletCurrentRating": 698
+    }
+  ]
 }
