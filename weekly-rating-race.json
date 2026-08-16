@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-16T06:58:40.047Z",
+  "updatedAt": "2026-08-16T09:42:10.075Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4008,
-  "failedMembers": 25,
-  "eligibleMembers": 3640,
+  "checkedMembers": 4010,
+  "failedMembers": 26,
+  "eligibleMembers": 3646,
   "players": [
     {
       "username": "timlovestiffanie",
