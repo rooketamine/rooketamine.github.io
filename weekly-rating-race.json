@@ -1,15 +1,30 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-17T18:57:11.135Z",
+  "updatedAt": "2026-08-17T21:40:44.274Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4022,
-  "failedMembers": 28,
-  "eligibleMembers": 3672,
+  "checkedMembers": 4021,
+  "failedMembers": 29,
+  "eligibleMembers": 3673,
   "players": [
+    {
+      "username": "dondre444",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/102802426.f2a6b113.200x200o.807038f0521a.jpg",
+      "profileUrl": "https://www.chess.com/member/DONDRE444",
+      "totalChange": 224,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 224,
+      "rapidStartRating": 1426,
+      "blitzStartRating": 1311,
+      "bulletStartRating": 810,
+      "rapidCurrentRating": 1426,
+      "blitzCurrentRating": 1311,
+      "bulletCurrentRating": 1034
+    },
     {
       "username": "ayush123983",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/497441151.9545dff8.200x200o.bf7910f99164.jpg",
@@ -24,21 +39,6 @@
       "rapidCurrentRating": 2109,
       "blitzCurrentRating": 1848,
       "bulletCurrentRating": 2114
-    },
-    {
-      "username": "minhbqaccthu4",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/527724121.ce55e5b4.200x200o.ff8630c30a1e.jpg",
-      "profileUrl": "https://www.chess.com/member/MinhBQaccthu4",
-      "totalChange": 185,
-      "rapidChange": -38,
-      "blitzChange": 94,
-      "bulletChange": 129,
-      "rapidStartRating": 1924,
-      "blitzStartRating": 1831,
-      "bulletStartRating": 2097,
-      "rapidCurrentRating": 1886,
-      "blitzCurrentRating": 1925,
-      "bulletCurrentRating": 2226
     },
     {
       "username": "chess_csk",
