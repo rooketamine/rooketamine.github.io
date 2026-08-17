@@ -1,15 +1,30 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-16T21:34:01.391Z",
+  "updatedAt": "2026-08-17T01:55:01.897Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4016,
-  "failedMembers": 23,
-  "eligibleMembers": 3661,
+  "checkedMembers": 4018,
+  "failedMembers": 21,
+  "eligibleMembers": 3662,
   "players": [
+    {
+      "username": "ayush123983",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/497441151.9545dff8.200x200o.bf7910f99164.jpg",
+      "profileUrl": "https://www.chess.com/member/ayush123983",
+      "totalChange": 175,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 175,
+      "rapidStartRating": 2102,
+      "blitzStartRating": 1848,
+      "bulletStartRating": 1930,
+      "rapidCurrentRating": 2102,
+      "blitzCurrentRating": 1848,
+      "bulletCurrentRating": 2105
+    },
     {
       "username": "chess_csk",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/183683817.d3a451aa.200x200o.e9c155b18e50.jpeg",
@@ -24,21 +39,6 @@
       "rapidCurrentRating": 1008,
       "blitzCurrentRating": 796,
       "bulletCurrentRating": 795
-    },
-    {
-      "username": "ayush123983",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/497441151.9545dff8.200x200o.bf7910f99164.jpg",
-      "profileUrl": "https://www.chess.com/member/ayush123983",
-      "totalChange": 159,
-      "rapidChange": 0,
-      "blitzChange": 0,
-      "bulletChange": 159,
-      "rapidStartRating": 2102,
-      "blitzStartRating": 1848,
-      "bulletStartRating": 1930,
-      "rapidCurrentRating": 2102,
-      "blitzCurrentRating": 1848,
-      "bulletCurrentRating": 2089
     },
     {
       "username": "badr113101",
