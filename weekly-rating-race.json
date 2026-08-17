@@ -1,29 +1,44 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-17T04:02:31.758Z",
+  "updatedAt": "2026-08-17T07:15:43.652Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4021,
-  "failedMembers": 21,
-  "eligibleMembers": 3665,
+  "checkedMembers": 4025,
+  "failedMembers": 19,
+  "eligibleMembers": 3668,
   "players": [
     {
       "username": "ayush123983",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/497441151.9545dff8.200x200o.bf7910f99164.jpg",
       "profileUrl": "https://www.chess.com/member/ayush123983",
-      "totalChange": 175,
+      "totalChange": 220,
       "rapidChange": 0,
       "blitzChange": 0,
-      "bulletChange": 175,
+      "bulletChange": 220,
       "rapidStartRating": 2102,
       "blitzStartRating": 1848,
       "bulletStartRating": 1930,
       "rapidCurrentRating": 2102,
       "blitzCurrentRating": 1848,
-      "bulletCurrentRating": 2105
+      "bulletCurrentRating": 2150
+    },
+    {
+      "username": "rcknrll007",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/97616496.ce645c4b.200x200o.39ff6374198e.jpg",
+      "profileUrl": "https://www.chess.com/member/rcknrll007",
+      "totalChange": 166,
+      "rapidChange": 67,
+      "blitzChange": 0,
+      "bulletChange": 99,
+      "rapidStartRating": 833,
+      "blitzStartRating": 780,
+      "bulletStartRating": 496,
+      "rapidCurrentRating": 900,
+      "blitzCurrentRating": 780,
+      "bulletCurrentRating": 595
     },
     {
       "username": "chess_csk",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1008,
       "blitzCurrentRating": 796,
       "bulletCurrentRating": 795
-    },
-    {
-      "username": "badr113101",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/333299295.27913ba9.200x200o.4a1374f11017.jpg",
-      "profileUrl": "https://www.chess.com/member/BADR113101",
-      "totalChange": 157,
-      "rapidChange": 0,
-      "blitzChange": 0,
-      "bulletChange": 157,
-      "rapidStartRating": 1904,
-      "blitzStartRating": 1901,
-      "bulletStartRating": 1544,
-      "rapidCurrentRating": 1904,
-      "blitzCurrentRating": 1901,
-      "bulletCurrentRating": 1701
     }
   ]
 }
