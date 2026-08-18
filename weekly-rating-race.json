@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-18T09:48:42.326Z",
+  "updatedAt": "2026-08-18T13:07:40.786Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4027,
-  "failedMembers": 25,
-  "eligibleMembers": 3675,
+  "checkedMembers": 4018,
+  "failedMembers": 34,
+  "eligibleMembers": 3676,
   "players": [
     {
       "username": "dondre444",
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 1369
     },
     {
-      "username": "chessington8691",
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "profileUrl": "https://www.chess.com/member/chessington8691",
-      "totalChange": 199,
-      "rapidChange": 0,
-      "blitzChange": 138,
-      "bulletChange": 61,
-      "rapidStartRating": 1945,
-      "blitzStartRating": 1668,
-      "bulletStartRating": 1805,
-      "rapidCurrentRating": 1945,
-      "blitzCurrentRating": 1806,
-      "bulletCurrentRating": 1866
+      "username": "deepakbadatya",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/270442649.f72c6b96.200x200o.0182f674efff.jpg",
+      "profileUrl": "https://www.chess.com/member/DeepakBadatya",
+      "totalChange": 202,
+      "rapidChange": 2,
+      "blitzChange": 0,
+      "bulletChange": 200,
+      "rapidStartRating": 1484,
+      "blitzStartRating": 1413,
+      "bulletStartRating": 1584,
+      "rapidCurrentRating": 1486,
+      "blitzCurrentRating": 1413,
+      "bulletCurrentRating": 1784
     }
   ]
 }
