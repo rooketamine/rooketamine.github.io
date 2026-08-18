@@ -1,29 +1,44 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-17T21:40:44.274Z",
+  "updatedAt": "2026-08-18T01:50:39.581Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4021,
-  "failedMembers": 29,
-  "eligibleMembers": 3673,
+  "checkedMembers": 4026,
+  "failedMembers": 25,
+  "eligibleMembers": 3674,
   "players": [
     {
       "username": "dondre444",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/102802426.f2a6b113.200x200o.807038f0521a.jpg",
       "profileUrl": "https://www.chess.com/member/DONDRE444",
-      "totalChange": 224,
+      "totalChange": 265,
       "rapidChange": 0,
       "blitzChange": 0,
-      "bulletChange": 224,
+      "bulletChange": 265,
       "rapidStartRating": 1426,
       "blitzStartRating": 1311,
       "bulletStartRating": 810,
       "rapidCurrentRating": 1426,
       "blitzCurrentRating": 1311,
-      "bulletCurrentRating": 1034
+      "bulletCurrentRating": 1075
+    },
+    {
+      "username": "randomchessguy555",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/329346017.1eface19.200x200o.f126d8a7b47d.jpg",
+      "profileUrl": "https://www.chess.com/member/randomchessguy555",
+      "totalChange": 194,
+      "rapidChange": 0,
+      "blitzChange": 65,
+      "bulletChange": 129,
+      "rapidStartRating": 2056,
+      "blitzStartRating": 1861,
+      "bulletStartRating": 1883,
+      "rapidCurrentRating": 2056,
+      "blitzCurrentRating": 1926,
+      "bulletCurrentRating": 2012
     },
     {
       "username": "ayush123983",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 2109,
       "blitzCurrentRating": 1848,
       "bulletCurrentRating": 2114
-    },
-    {
-      "username": "chess_csk",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/183683817.d3a451aa.200x200o.e9c155b18e50.jpeg",
-      "profileUrl": "https://www.chess.com/member/chess_csk",
-      "totalChange": 179,
-      "rapidChange": 0,
-      "blitzChange": -9,
-      "bulletChange": 188,
-      "rapidStartRating": 1008,
-      "blitzStartRating": 796,
-      "bulletStartRating": 631,
-      "rapidCurrentRating": 1008,
-      "blitzCurrentRating": 787,
-      "bulletCurrentRating": 819
     }
   ]
 }
