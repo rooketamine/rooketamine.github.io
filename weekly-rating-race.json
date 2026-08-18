@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-18T03:57:50.802Z",
+  "updatedAt": "2026-08-18T07:04:09.068Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
@@ -14,46 +14,46 @@
       "username": "dondre444",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/102802426.f2a6b113.200x200o.807038f0521a.jpg",
       "profileUrl": "https://www.chess.com/member/DONDRE444",
-      "totalChange": 335,
+      "totalChange": 305,
       "rapidChange": 0,
       "blitzChange": 0,
-      "bulletChange": 335,
+      "bulletChange": 305,
       "rapidStartRating": 1426,
       "blitzStartRating": 1311,
       "bulletStartRating": 810,
       "rapidCurrentRating": 1426,
       "blitzCurrentRating": 1311,
-      "bulletCurrentRating": 1145
+      "bulletCurrentRating": 1115
+    },
+    {
+      "username": "rooketamine",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/507944171.ecd56b45.200x200o.de572ae6d07d.jpg",
+      "profileUrl": "https://www.chess.com/member/Rooketamine",
+      "totalChange": 193,
+      "rapidChange": -27,
+      "blitzChange": 125,
+      "bulletChange": 95,
+      "rapidStartRating": 2083,
+      "blitzStartRating": 1702,
+      "bulletStartRating": 1642,
+      "rapidCurrentRating": 2056,
+      "blitzCurrentRating": 1827,
+      "bulletCurrentRating": 1737
     },
     {
       "username": "ayush123983",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/497441151.9545dff8.200x200o.bf7910f99164.jpg",
       "profileUrl": "https://www.chess.com/member/ayush123983",
-      "totalChange": 191,
+      "totalChange": 181,
       "rapidChange": 7,
       "blitzChange": 0,
-      "bulletChange": 184,
+      "bulletChange": 174,
       "rapidStartRating": 2102,
       "blitzStartRating": 1848,
       "bulletStartRating": 1930,
       "rapidCurrentRating": 2109,
       "blitzCurrentRating": 1848,
-      "bulletCurrentRating": 2114
-    },
-    {
-      "username": "chess_csk",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/183683817.d3a451aa.200x200o.e9c155b18e50.jpeg",
-      "profileUrl": "https://www.chess.com/member/chess_csk",
-      "totalChange": 179,
-      "rapidChange": 0,
-      "blitzChange": -9,
-      "bulletChange": 188,
-      "rapidStartRating": 1008,
-      "blitzStartRating": 796,
-      "bulletStartRating": 631,
-      "rapidCurrentRating": 1008,
-      "blitzCurrentRating": 787,
-      "bulletCurrentRating": 819
+      "bulletCurrentRating": 2104
     }
   ]
 }
