@@ -1,13 +1,13 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-18T07:04:09.068Z",
+  "updatedAt": "2026-08-18T09:48:42.326Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4030,
-  "failedMembers": 22,
+  "checkedMembers": 4027,
+  "failedMembers": 25,
   "eligibleMembers": 3675,
   "players": [
     {
@@ -26,34 +26,34 @@
       "bulletCurrentRating": 1115
     },
     {
-      "username": "rooketamine",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/507944171.ecd56b45.200x200o.de572ae6d07d.jpg",
-      "profileUrl": "https://www.chess.com/member/Rooketamine",
-      "totalChange": 193,
-      "rapidChange": -27,
-      "blitzChange": 125,
-      "bulletChange": 95,
-      "rapidStartRating": 2083,
-      "blitzStartRating": 1702,
-      "bulletStartRating": 1642,
-      "rapidCurrentRating": 2056,
-      "blitzCurrentRating": 1827,
-      "bulletCurrentRating": 1737
+      "username": "conghieu2304",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/538233021.a04690e4.200x200o.f54e400537db.jpg",
+      "profileUrl": "https://www.chess.com/member/conghieu2304",
+      "totalChange": 220,
+      "rapidChange": null,
+      "blitzChange": 0,
+      "bulletChange": 220,
+      "rapidStartRating": null,
+      "blitzStartRating": 299,
+      "bulletStartRating": 1149,
+      "rapidCurrentRating": null,
+      "blitzCurrentRating": 299,
+      "bulletCurrentRating": 1369
     },
     {
-      "username": "ayush123983",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/497441151.9545dff8.200x200o.bf7910f99164.jpg",
-      "profileUrl": "https://www.chess.com/member/ayush123983",
-      "totalChange": 181,
-      "rapidChange": 7,
-      "blitzChange": 0,
-      "bulletChange": 174,
-      "rapidStartRating": 2102,
-      "blitzStartRating": 1848,
-      "bulletStartRating": 1930,
-      "rapidCurrentRating": 2109,
-      "blitzCurrentRating": 1848,
-      "bulletCurrentRating": 2104
+      "username": "chessington8691",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "profileUrl": "https://www.chess.com/member/chessington8691",
+      "totalChange": 199,
+      "rapidChange": 0,
+      "blitzChange": 138,
+      "bulletChange": 61,
+      "rapidStartRating": 1945,
+      "blitzStartRating": 1668,
+      "bulletStartRating": 1805,
+      "rapidCurrentRating": 1945,
+      "blitzCurrentRating": 1806,
+      "bulletCurrentRating": 1866
     }
   ]
 }
