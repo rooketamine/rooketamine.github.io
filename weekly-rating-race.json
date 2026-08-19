@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-19T07:05:01.163Z",
+  "updatedAt": "2026-08-19T09:48:58.708Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4028,
-  "failedMembers": 36,
-  "eligibleMembers": 3687,
+  "checkedMembers": 4036,
+  "failedMembers": 29,
+  "eligibleMembers": 3688,
   "players": [
     {
       "username": "dondre444",
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 2776
     },
     {
-      "username": "rooketamine",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/507944171.ecd56b45.200x200o.de572ae6d07d.jpg",
-      "profileUrl": "https://www.chess.com/member/Rooketamine",
-      "totalChange": 254,
-      "rapidChange": -27,
-      "blitzChange": 124,
-      "bulletChange": 157,
-      "rapidStartRating": 2083,
-      "blitzStartRating": 1702,
-      "bulletStartRating": 1642,
-      "rapidCurrentRating": 2056,
-      "blitzCurrentRating": 1826,
-      "bulletCurrentRating": 1799
+      "username": "chessington8691",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "profileUrl": "https://www.chess.com/member/chessington8691",
+      "totalChange": 229,
+      "rapidChange": 6,
+      "blitzChange": 192,
+      "bulletChange": 31,
+      "rapidStartRating": 1945,
+      "blitzStartRating": 1668,
+      "bulletStartRating": 1805,
+      "rapidCurrentRating": 1951,
+      "blitzCurrentRating": 1860,
+      "bulletCurrentRating": 1836
     }
   ]
 }
