@@ -1,29 +1,44 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-19T21:40:42.600Z",
+  "updatedAt": "2026-08-20T01:51:22.548Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4016,
+  "checkedMembers": 4019,
   "failedMembers": 51,
-  "eligibleMembers": 3690,
+  "eligibleMembers": 3693,
   "players": [
     {
       "username": "dondre444",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/102802426.f2a6b113.200x200o.807038f0521a.jpg",
       "profileUrl": "https://www.chess.com/member/DONDRE444",
-      "totalChange": 338,
+      "totalChange": 378,
       "rapidChange": 0,
-      "blitzChange": 17,
-      "bulletChange": 321,
+      "blitzChange": 22,
+      "bulletChange": 356,
       "rapidStartRating": 1426,
       "blitzStartRating": 1311,
       "bulletStartRating": 810,
       "rapidCurrentRating": 1426,
-      "blitzCurrentRating": 1328,
-      "bulletCurrentRating": 1131
+      "blitzCurrentRating": 1333,
+      "bulletCurrentRating": 1166
+    },
+    {
+      "username": "pranshuudubey",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/146168705.f8d6f2e8.200x200o.cd1c0cb55b26.jpg",
+      "profileUrl": "https://www.chess.com/member/pranshuudubey",
+      "totalChange": 280,
+      "rapidChange": 115,
+      "blitzChange": 116,
+      "bulletChange": 49,
+      "rapidStartRating": 1517,
+      "blitzStartRating": 1107,
+      "bulletStartRating": 857,
+      "rapidCurrentRating": 1632,
+      "blitzCurrentRating": 1223,
+      "bulletCurrentRating": 906
     },
     {
       "username": "jimkwik2525",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1548,
       "blitzCurrentRating": 2046,
       "bulletCurrentRating": 2252
-    },
-    {
-      "username": "chessington8691",
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "profileUrl": "https://www.chess.com/member/chessington8691",
-      "totalChange": 258,
-      "rapidChange": 6,
-      "blitzChange": 221,
-      "bulletChange": 31,
-      "rapidStartRating": 1945,
-      "blitzStartRating": 1668,
-      "bulletStartRating": 1805,
-      "rapidCurrentRating": 1951,
-      "blitzCurrentRating": 1889,
-      "bulletCurrentRating": 1836
     }
   ]
 }
