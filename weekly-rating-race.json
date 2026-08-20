@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-20T13:10:33.525Z",
+  "updatedAt": "2026-08-20T15:49:03.974Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4036,
-  "failedMembers": 60,
-  "eligibleMembers": 3717,
+  "checkedMembers": 4026,
+  "failedMembers": 72,
+  "eligibleMembers": 3720,
   "players": [
     {
       "username": "dondre444",
