@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-21T18:55:37.932Z",
+  "updatedAt": "2026-08-21T21:38:09.826Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4069,
-  "failedMembers": 69,
-  "eligibleMembers": 3752,
+  "checkedMembers": 4075,
+  "failedMembers": 62,
+  "eligibleMembers": 3751,
   "players": [
     {
       "username": "youngyakuza7",
