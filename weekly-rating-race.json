@@ -1,15 +1,30 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-21T15:48:13.897Z",
+  "updatedAt": "2026-08-21T18:55:37.932Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4041,
-  "failedMembers": 88,
-  "eligibleMembers": 3743,
+  "checkedMembers": 4069,
+  "failedMembers": 69,
+  "eligibleMembers": 3752,
   "players": [
+    {
+      "username": "youngyakuza7",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/468552674.295eba63.200x200o.fc61f38f4d0b.jpg",
+      "profileUrl": "https://www.chess.com/member/YoungYakuza7",
+      "totalChange": 380,
+      "rapidChange": 5,
+      "blitzChange": 288,
+      "bulletChange": 87,
+      "rapidStartRating": 554,
+      "blitzStartRating": 475,
+      "bulletStartRating": 718,
+      "rapidCurrentRating": 559,
+      "blitzCurrentRating": 763,
+      "bulletCurrentRating": 805
+    },
     {
       "username": "jimkwik2525",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/424491225.27b01da2.200x200o.f1ff1d857740.png",
@@ -24,21 +39,6 @@
       "rapidCurrentRating": 1606,
       "blitzCurrentRating": 2055,
       "bulletCurrentRating": 2275
-    },
-    {
-      "username": "youngyakuza7",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/468552674.295eba63.200x200o.fc61f38f4d0b.jpg",
-      "profileUrl": "https://www.chess.com/member/YoungYakuza7",
-      "totalChange": 339,
-      "rapidChange": 5,
-      "blitzChange": 247,
-      "bulletChange": 87,
-      "rapidStartRating": 554,
-      "blitzStartRating": 475,
-      "bulletStartRating": 718,
-      "rapidCurrentRating": 559,
-      "blitzCurrentRating": 722,
-      "bulletCurrentRating": 805
     },
     {
       "username": "chessington8691",
