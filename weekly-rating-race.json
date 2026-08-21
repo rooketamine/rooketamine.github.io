@@ -1,30 +1,15 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-20T21:43:12.250Z",
+  "updatedAt": "2026-08-21T01:57:28.863Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4014,
-  "failedMembers": 88,
-  "eligibleMembers": 3723,
+  "checkedMembers": 4025,
+  "failedMembers": 79,
+  "eligibleMembers": 3725,
   "players": [
-    {
-      "username": "dondre444",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/102802426.f2a6b113.200x200o.807038f0521a.jpg",
-      "profileUrl": "https://www.chess.com/member/DONDRE444",
-      "totalChange": 425,
-      "rapidChange": 0,
-      "blitzChange": 108,
-      "bulletChange": 317,
-      "rapidStartRating": 1426,
-      "blitzStartRating": 1311,
-      "bulletStartRating": 810,
-      "rapidCurrentRating": 1426,
-      "blitzCurrentRating": 1419,
-      "bulletCurrentRating": 1127
-    },
     {
       "username": "jimkwik2525",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/424491225.27b01da2.200x200o.f1ff1d857740.png",
@@ -54,6 +39,21 @@
       "rapidCurrentRating": 1053,
       "blitzCurrentRating": 948,
       "bulletCurrentRating": 1007
+    },
+    {
+      "username": "dondre444",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/102802426.f2a6b113.200x200o.807038f0521a.jpg",
+      "profileUrl": "https://www.chess.com/member/DONDRE444",
+      "totalChange": 306,
+      "rapidChange": 0,
+      "blitzChange": 64,
+      "bulletChange": 242,
+      "rapidStartRating": 1426,
+      "blitzStartRating": 1311,
+      "bulletStartRating": 810,
+      "rapidCurrentRating": 1426,
+      "blitzCurrentRating": 1375,
+      "bulletCurrentRating": 1052
     }
   ]
 }
