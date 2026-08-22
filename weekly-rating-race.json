@@ -1,15 +1,30 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-22T13:00:32.912Z",
+  "updatedAt": "2026-08-22T15:34:45.554Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4120,
-  "failedMembers": 36,
-  "eligibleMembers": 3769,
+  "checkedMembers": 4122,
+  "failedMembers": 32,
+  "eligibleMembers": 3767,
   "players": [
+    {
+      "username": "valerie_szn",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/400842877.76188a9b.200x200o.6499fff49955.jpg",
+      "profileUrl": "https://www.chess.com/member/Valerie_szn",
+      "totalChange": 426,
+      "rapidChange": 426,
+      "blitzChange": 0,
+      "bulletChange": 0,
+      "rapidStartRating": 1443,
+      "blitzStartRating": 1937,
+      "bulletStartRating": 1508,
+      "rapidCurrentRating": 1869,
+      "blitzCurrentRating": 1937,
+      "bulletCurrentRating": 1508
+    },
     {
       "username": "carosza",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/121382922.a359cfc3.200x200o.0e5482ff7388.png",
@@ -26,33 +41,18 @@
       "bulletCurrentRating": 848
     },
     {
-      "username": "valerie_szn",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/400842877.76188a9b.200x200o.6499fff49955.jpg",
-      "profileUrl": "https://www.chess.com/member/Valerie_szn",
-      "totalChange": 394,
-      "rapidChange": 394,
-      "blitzChange": 0,
-      "bulletChange": 0,
-      "rapidStartRating": 1443,
-      "blitzStartRating": 1937,
-      "bulletStartRating": 1508,
-      "rapidCurrentRating": 1837,
-      "blitzCurrentRating": 1937,
-      "bulletCurrentRating": 1508
-    },
-    {
       "username": "jimkwik2525",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/424491225.27b01da2.200x200o.f1ff1d857740.png",
       "profileUrl": "https://www.chess.com/member/jimkwik2525",
-      "totalChange": 366,
+      "totalChange": 373,
       "rapidChange": 280,
-      "blitzChange": 26,
+      "blitzChange": 33,
       "bulletChange": 60,
       "rapidStartRating": 1346,
       "blitzStartRating": 2023,
       "bulletStartRating": 2215,
       "rapidCurrentRating": 1626,
-      "blitzCurrentRating": 2049,
+      "blitzCurrentRating": 2056,
       "bulletCurrentRating": 2275
     }
   ]
