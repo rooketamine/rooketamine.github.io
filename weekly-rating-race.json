@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-22T15:34:45.554Z",
+  "updatedAt": "2026-08-22T18:48:35.466Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4122,
-  "failedMembers": 32,
-  "eligibleMembers": 3767,
+  "checkedMembers": 4133,
+  "failedMembers": 23,
+  "eligibleMembers": 3769,
   "players": [
     {
       "username": "valerie_szn",
@@ -26,6 +26,21 @@
       "bulletCurrentRating": 1508
     },
     {
+      "username": "sudhanva1729",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/52957878.f59b40a5.200x200o.bfab0e9f52d2.jpeg",
+      "profileUrl": "https://www.chess.com/member/Sudhanva1729",
+      "totalChange": 418,
+      "rapidChange": 0,
+      "blitzChange": -17,
+      "bulletChange": 435,
+      "rapidStartRating": 1125,
+      "blitzStartRating": 782,
+      "bulletStartRating": 100,
+      "rapidCurrentRating": 1125,
+      "blitzCurrentRating": 765,
+      "bulletCurrentRating": 535
+    },
+    {
       "username": "carosza",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/121382922.a359cfc3.200x200o.0e5482ff7388.png",
       "profileUrl": "https://www.chess.com/member/carosza",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 936,
       "blitzCurrentRating": 1044,
       "bulletCurrentRating": 848
-    },
-    {
-      "username": "jimkwik2525",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/424491225.27b01da2.200x200o.f1ff1d857740.png",
-      "profileUrl": "https://www.chess.com/member/jimkwik2525",
-      "totalChange": 373,
-      "rapidChange": 280,
-      "blitzChange": 33,
-      "bulletChange": 60,
-      "rapidStartRating": 1346,
-      "blitzStartRating": 2023,
-      "bulletStartRating": 2215,
-      "rapidCurrentRating": 1626,
-      "blitzCurrentRating": 2056,
-      "bulletCurrentRating": 2275
     }
   ]
 }
