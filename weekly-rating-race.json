@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-21T21:38:09.826Z",
+  "updatedAt": "2026-08-22T01:49:50.834Z",
   "weekStartedAt": "2026-08-16T00:00:00.000Z",
   "weekEndsAt": "2026-08-23T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4075,
-  "failedMembers": 62,
-  "eligibleMembers": 3751,
+  "checkedMembers": 4094,
+  "failedMembers": 46,
+  "eligibleMembers": 3754,
   "players": [
     {
       "username": "youngyakuza7",
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 2275
     },
     {
-      "username": "chessington8691",
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "profileUrl": "https://www.chess.com/member/chessington8691",
-      "totalChange": 301,
-      "rapidChange": 6,
-      "blitzChange": 248,
-      "bulletChange": 47,
-      "rapidStartRating": 1945,
-      "blitzStartRating": 1668,
-      "bulletStartRating": 1805,
-      "rapidCurrentRating": 1951,
-      "blitzCurrentRating": 1916,
-      "bulletCurrentRating": 1852
+      "username": "valerie_szn",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/400842877.76188a9b.200x200o.6499fff49955.jpg",
+      "profileUrl": "https://www.chess.com/member/Valerie_szn",
+      "totalChange": 305,
+      "rapidChange": 305,
+      "blitzChange": 0,
+      "bulletChange": 0,
+      "rapidStartRating": 1443,
+      "blitzStartRating": 1937,
+      "bulletStartRating": 1508,
+      "rapidCurrentRating": 1748,
+      "blitzCurrentRating": 1937,
+      "bulletCurrentRating": 1508
     }
   ]
 }
