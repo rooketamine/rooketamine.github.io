@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-23T13:02:08.380Z",
+  "updatedAt": "2026-08-23T15:35:33.849Z",
   "weekStartedAt": "2026-08-23T00:00:00.000Z",
   "weekEndsAt": "2026-08-30T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4167,
-  "failedMembers": 24,
-  "eligibleMembers": 3795,
+  "checkedMembers": 4158,
+  "failedMembers": 36,
+  "eligibleMembers": 3800,
   "players": [
     {
       "username": "almighty_bishu",
@@ -29,31 +29,31 @@
       "username": "myfatherismyhero",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/341770331.b4ca7368.200x200o.2d438f9e9e6b.jpg",
       "profileUrl": "https://www.chess.com/member/MyFatherIsMyHero",
-      "totalChange": 148,
+      "totalChange": 159,
       "rapidChange": null,
       "blitzChange": null,
-      "bulletChange": 148,
+      "bulletChange": 159,
       "rapidStartRating": null,
       "blitzStartRating": null,
       "bulletStartRating": 1693,
       "rapidCurrentRating": null,
       "blitzCurrentRating": null,
-      "bulletCurrentRating": 1841
+      "bulletCurrentRating": 1852
     },
     {
-      "username": "tsehayedimtsu",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/354880477.0be7bfd7.200x200o.aa09d8cbc7a3.jpg",
-      "profileUrl": "https://www.chess.com/member/tsehayedimtsu",
-      "totalChange": 125,
+      "username": "shadow_forest01",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/464803040.eaf68fc3.200x200o.4c3bf907e274.jpg",
+      "profileUrl": "https://www.chess.com/member/Shadow_Forest01",
+      "totalChange": 133,
       "rapidChange": 0,
       "blitzChange": 0,
-      "bulletChange": 125,
-      "rapidStartRating": 1454,
-      "blitzStartRating": 1316,
-      "bulletStartRating": 1025,
-      "rapidCurrentRating": 1454,
-      "blitzCurrentRating": 1316,
-      "bulletCurrentRating": 1150
+      "bulletChange": 133,
+      "rapidStartRating": 2304,
+      "blitzStartRating": 2404,
+      "bulletStartRating": 2352,
+      "rapidCurrentRating": 2304,
+      "blitzCurrentRating": 2404,
+      "bulletCurrentRating": 2485
     }
   ]
 }
