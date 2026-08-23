@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-23T18:48:03.566Z",
+  "updatedAt": "2026-08-23T21:35:24.839Z",
   "weekStartedAt": "2026-08-23T00:00:00.000Z",
   "weekEndsAt": "2026-08-30T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4163,
-  "failedMembers": 37,
-  "eligibleMembers": 3806,
+  "checkedMembers": 4169,
+  "failedMembers": 33,
+  "eligibleMembers": 3811,
   "players": [
     {
       "username": "almighty_bishu",
@@ -29,16 +29,16 @@
       "username": "dondre444",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/102802426.f2a6b113.200x200o.807038f0521a.jpg",
       "profileUrl": "https://www.chess.com/member/DONDRE444",
-      "totalChange": 183,
+      "totalChange": 210,
       "rapidChange": 0,
       "blitzChange": 0,
-      "bulletChange": 183,
+      "bulletChange": 210,
       "rapidStartRating": 1426,
       "blitzStartRating": 1375,
       "bulletStartRating": 927,
       "rapidCurrentRating": 1426,
       "blitzCurrentRating": 1375,
-      "bulletCurrentRating": 1110
+      "bulletCurrentRating": 1137
     },
     {
       "username": "shadow_forest01",
