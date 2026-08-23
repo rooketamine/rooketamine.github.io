@@ -1,15 +1,30 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-23T04:00:22.348Z",
+  "updatedAt": "2026-08-23T07:01:05.283Z",
   "weekStartedAt": "2026-08-23T00:00:00.000Z",
   "weekEndsAt": "2026-08-30T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4144,
-  "failedMembers": 17,
-  "eligibleMembers": 3758,
+  "checkedMembers": 4162,
+  "failedMembers": 14,
+  "eligibleMembers": 3774,
   "players": [
+    {
+      "username": "dragonfire478",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/328853673.fe3620a3.200x200o.cd97fd873890.jpg",
+      "profileUrl": "https://www.chess.com/member/DragonFire478",
+      "totalChange": 113,
+      "rapidChange": 8,
+      "blitzChange": 10,
+      "bulletChange": 95,
+      "rapidStartRating": 1927,
+      "blitzStartRating": 1483,
+      "bulletStartRating": 1610,
+      "rapidCurrentRating": 1935,
+      "blitzCurrentRating": 1493,
+      "bulletCurrentRating": 1705
+    },
     {
       "username": "bughouse_partner",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/483612571.5c120d27.200x200o.43a48b76c152.jpg",
@@ -26,34 +41,19 @@
       "bulletCurrentRating": 1476
     },
     {
-      "username": "dragonfire478",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/328853673.fe3620a3.200x200o.cd97fd873890.jpg",
-      "profileUrl": "https://www.chess.com/member/DragonFire478",
-      "totalChange": 85,
-      "rapidChange": 8,
-      "blitzChange": 10,
-      "bulletChange": 67,
-      "rapidStartRating": 1927,
-      "blitzStartRating": 1483,
-      "bulletStartRating": 1610,
-      "rapidCurrentRating": 1935,
-      "blitzCurrentRating": 1493,
-      "bulletCurrentRating": 1677
-    },
-    {
-      "username": "1207minh",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/448061956.d223d153.200x200o.41352c730ad5.jpg",
-      "profileUrl": "https://www.chess.com/member/1207Minh",
-      "totalChange": 56,
-      "rapidChange": 16,
-      "blitzChange": 40,
-      "bulletChange": 0,
-      "rapidStartRating": 964,
-      "blitzStartRating": 696,
-      "bulletStartRating": 786,
-      "rapidCurrentRating": 980,
-      "blitzCurrentRating": 736,
-      "bulletCurrentRating": 786
+      "username": "varungera",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "profileUrl": "https://www.chess.com/member/varungera",
+      "totalChange": 75,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 75,
+      "rapidStartRating": 1279,
+      "blitzStartRating": 1204,
+      "bulletStartRating": 857,
+      "rapidCurrentRating": 1279,
+      "blitzCurrentRating": 1204,
+      "bulletCurrentRating": 932
     }
   ]
 }
