@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-24T18:58:50.885Z",
+  "updatedAt": "2026-08-24T21:43:41.963Z",
   "weekStartedAt": "2026-08-23T00:00:00.000Z",
   "weekEndsAt": "2026-08-30T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4191,
-  "failedMembers": 60,
-  "eligibleMembers": 3851,
+  "checkedMembers": 4199,
+  "failedMembers": 54,
+  "eligibleMembers": 3853,
   "players": [
     {
       "username": "the_honoured_lght",
@@ -29,16 +29,16 @@
       "username": "steviegeasy",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/317543371.4ba0cc8f.200x200o.e3e153e87f7b.jpg",
       "profileUrl": "https://www.chess.com/member/StevieGeasy",
-      "totalChange": 242,
+      "totalChange": 235,
       "rapidChange": 0,
       "blitzChange": 89,
-      "bulletChange": 153,
+      "bulletChange": 146,
       "rapidStartRating": 1263,
       "blitzStartRating": 1314,
       "bulletStartRating": 1171,
       "rapidCurrentRating": 1263,
       "blitzCurrentRating": 1403,
-      "bulletCurrentRating": 1324
+      "bulletCurrentRating": 1317
     },
     {
       "username": "almighty_bishu",
