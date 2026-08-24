@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-24T01:57:26.690Z",
+  "updatedAt": "2026-08-24T04:04:56.449Z",
   "weekStartedAt": "2026-08-23T00:00:00.000Z",
   "weekEndsAt": "2026-08-30T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4173,
+  "checkedMembers": 4174,
   "failedMembers": 29,
-  "eligibleMembers": 3811,
+  "eligibleMembers": 3813,
   "players": [
     {
       "username": "almighty_bishu",
@@ -29,31 +29,31 @@
       "username": "dondre444",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/102802426.f2a6b113.200x200o.807038f0521a.jpg",
       "profileUrl": "https://www.chess.com/member/DONDRE444",
-      "totalChange": 160,
+      "totalChange": 226,
       "rapidChange": 0,
       "blitzChange": 0,
-      "bulletChange": 160,
+      "bulletChange": 226,
       "rapidStartRating": 1426,
       "blitzStartRating": 1375,
       "bulletStartRating": 927,
       "rapidCurrentRating": 1426,
       "blitzCurrentRating": 1375,
-      "bulletCurrentRating": 1087
+      "bulletCurrentRating": 1153
     },
     {
-      "username": "shadow_forest01",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/464803040.eaf68fc3.200x200o.4c3bf907e274.jpg",
-      "profileUrl": "https://www.chess.com/member/Shadow_Forest01",
-      "totalChange": 152,
+      "username": "steviegeasy",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/317543371.4ba0cc8f.200x200o.e3e153e87f7b.jpg",
+      "profileUrl": "https://www.chess.com/member/StevieGeasy",
+      "totalChange": 225,
       "rapidChange": 0,
-      "blitzChange": 0,
-      "bulletChange": 152,
-      "rapidStartRating": 2304,
-      "blitzStartRating": 2404,
-      "bulletStartRating": 2352,
-      "rapidCurrentRating": 2304,
-      "blitzCurrentRating": 2404,
-      "bulletCurrentRating": 2504
+      "blitzChange": 89,
+      "bulletChange": 136,
+      "rapidStartRating": 1263,
+      "blitzStartRating": 1314,
+      "bulletStartRating": 1171,
+      "rapidCurrentRating": 1263,
+      "blitzCurrentRating": 1403,
+      "bulletCurrentRating": 1307
     }
   ]
 }
