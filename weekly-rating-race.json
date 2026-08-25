@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-25T09:51:10.509Z",
+  "updatedAt": "2026-08-25T13:11:03.799Z",
   "weekStartedAt": "2026-08-23T00:00:00.000Z",
   "weekEndsAt": "2026-08-30T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4230,
-  "failedMembers": 41,
-  "eligibleMembers": 3869,
+  "checkedMembers": 4231,
+  "failedMembers": 46,
+  "eligibleMembers": 3873,
   "players": [
     {
       "username": "the_honoured_lght",
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 1327
     },
     {
-      "username": "mohamedsaber13579",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/324232003.aa5bddce.200x200o.2dec41a6b7e1.jpg",
-      "profileUrl": "https://www.chess.com/member/mohamedsaber13579",
-      "totalChange": 236,
-      "rapidChange": 39,
-      "blitzChange": 69,
-      "bulletChange": 128,
-      "rapidStartRating": 1639,
-      "blitzStartRating": 1762,
-      "bulletStartRating": 1819,
-      "rapidCurrentRating": 1678,
-      "blitzCurrentRating": 1831,
-      "bulletCurrentRating": 1947
+      "username": "nuubinator",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/111749030.4ba0fa6e.200x200o.66dda7004b9d.png",
+      "profileUrl": "https://www.chess.com/member/nuubinator",
+      "totalChange": 228,
+      "rapidChange": 9,
+      "blitzChange": 72,
+      "bulletChange": 147,
+      "rapidStartRating": 2188,
+      "blitzStartRating": 2081,
+      "bulletStartRating": 1959,
+      "rapidCurrentRating": 2197,
+      "blitzCurrentRating": 2153,
+      "bulletCurrentRating": 2106
     }
   ]
 }
