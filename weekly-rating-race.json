@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-24T21:43:41.963Z",
+  "updatedAt": "2026-08-25T01:52:02.685Z",
   "weekStartedAt": "2026-08-23T00:00:00.000Z",
   "weekEndsAt": "2026-08-30T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4199,
-  "failedMembers": 54,
-  "eligibleMembers": 3853,
+  "checkedMembers": 4207,
+  "failedMembers": 46,
+  "eligibleMembers": 3854,
   "players": [
     {
       "username": "the_honoured_lght",
@@ -26,6 +26,21 @@
       "bulletCurrentRating": 842
     },
     {
+      "username": "mohamedsaber13579",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/324232003.aa5bddce.200x200o.2dec41a6b7e1.jpg",
+      "profileUrl": "https://www.chess.com/member/mohamedsaber13579",
+      "totalChange": 247,
+      "rapidChange": 39,
+      "blitzChange": 69,
+      "bulletChange": 139,
+      "rapidStartRating": 1639,
+      "blitzStartRating": 1762,
+      "bulletStartRating": 1819,
+      "rapidCurrentRating": 1678,
+      "blitzCurrentRating": 1831,
+      "bulletCurrentRating": 1958
+    },
+    {
       "username": "steviegeasy",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/317543371.4ba0cc8f.200x200o.e3e153e87f7b.jpg",
       "profileUrl": "https://www.chess.com/member/StevieGeasy",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1263,
       "blitzCurrentRating": 1403,
       "bulletCurrentRating": 1317
-    },
-    {
-      "username": "almighty_bishu",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/334574057.2cb0b7cc.200x200o.08322945c1da.jpg",
-      "profileUrl": "https://www.chess.com/member/Almighty_bishu",
-      "totalChange": 217,
-      "rapidChange": -17,
-      "blitzChange": 0,
-      "bulletChange": 234,
-      "rapidStartRating": 1306,
-      "blitzStartRating": 1094,
-      "bulletStartRating": 1167,
-      "rapidCurrentRating": 1289,
-      "blitzCurrentRating": 1094,
-      "bulletCurrentRating": 1401
     }
   ]
 }
