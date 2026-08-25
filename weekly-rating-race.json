@@ -1,29 +1,29 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-25T15:59:43.409Z",
+  "updatedAt": "2026-08-25T18:56:19.422Z",
   "weekStartedAt": "2026-08-23T00:00:00.000Z",
   "weekEndsAt": "2026-08-30T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4233,
-  "failedMembers": 49,
-  "eligibleMembers": 3878,
+  "checkedMembers": 4235,
+  "failedMembers": 50,
+  "eligibleMembers": 3881,
   "players": [
     {
       "username": "steviegeasy",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/317543371.4ba0cc8f.200x200o.e3e153e87f7b.jpg",
       "profileUrl": "https://www.chess.com/member/StevieGeasy",
-      "totalChange": 292,
+      "totalChange": 293,
       "rapidChange": 0,
       "blitzChange": 89,
-      "bulletChange": 203,
+      "bulletChange": 204,
       "rapidStartRating": 1263,
       "blitzStartRating": 1314,
       "bulletStartRating": 1171,
       "rapidCurrentRating": 1263,
       "blitzCurrentRating": 1403,
-      "bulletCurrentRating": 1374
+      "bulletCurrentRating": 1375
     },
     {
       "username": "mohamedsaber13579",
@@ -44,16 +44,16 @@
       "username": "tsehayedimtsu",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/354880477.0be7bfd7.200x200o.aa09d8cbc7a3.jpg",
       "profileUrl": "https://www.chess.com/member/tsehayedimtsu",
-      "totalChange": 275,
+      "totalChange": 265,
       "rapidChange": 0,
-      "blitzChange": -1,
-      "bulletChange": 276,
+      "blitzChange": -12,
+      "bulletChange": 277,
       "rapidStartRating": 1454,
       "blitzStartRating": 1316,
       "bulletStartRating": 1025,
       "rapidCurrentRating": 1454,
-      "blitzCurrentRating": 1315,
-      "bulletCurrentRating": 1301
+      "blitzCurrentRating": 1304,
+      "bulletCurrentRating": 1302
     }
   ]
 }
