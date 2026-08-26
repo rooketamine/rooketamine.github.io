@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-25T21:44:07.495Z",
+  "updatedAt": "2026-08-26T01:58:02.693Z",
   "weekStartedAt": "2026-08-23T00:00:00.000Z",
   "weekEndsAt": "2026-08-30T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4234,
-  "failedMembers": 50,
-  "eligibleMembers": 3881,
+  "checkedMembers": 4247,
+  "failedMembers": 43,
+  "eligibleMembers": 3888,
   "players": [
     {
       "username": "mohamedsaber13579",
