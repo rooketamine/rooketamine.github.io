@@ -1,44 +1,29 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-26T09:57:00.651Z",
+  "updatedAt": "2026-08-26T13:16:28.197Z",
   "weekStartedAt": "2026-08-23T00:00:00.000Z",
   "weekEndsAt": "2026-08-30T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4268,
-  "failedMembers": 39,
-  "eligibleMembers": 3902,
+  "checkedMembers": 4280,
+  "failedMembers": 29,
+  "eligibleMembers": 3903,
   "players": [
     {
       "username": "mohamedsaber13579",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/324232003.aa5bddce.200x200o.2dec41a6b7e1.jpg",
       "profileUrl": "https://www.chess.com/member/mohamedsaber13579",
-      "totalChange": 295,
+      "totalChange": 287,
       "rapidChange": 39,
-      "blitzChange": 72,
+      "blitzChange": 64,
       "bulletChange": 184,
       "rapidStartRating": 1639,
       "blitzStartRating": 1762,
       "bulletStartRating": 1819,
       "rapidCurrentRating": 1678,
-      "blitzCurrentRating": 1834,
+      "blitzCurrentRating": 1826,
       "bulletCurrentRating": 2003
-    },
-    {
-      "username": "tsehayedimtsu",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/354880477.0be7bfd7.200x200o.aa09d8cbc7a3.jpg",
-      "profileUrl": "https://www.chess.com/member/tsehayedimtsu",
-      "totalChange": 292,
-      "rapidChange": 0,
-      "blitzChange": -4,
-      "bulletChange": 296,
-      "rapidStartRating": 1454,
-      "blitzStartRating": 1316,
-      "bulletStartRating": 1025,
-      "rapidCurrentRating": 1454,
-      "blitzCurrentRating": 1312,
-      "bulletCurrentRating": 1321
     },
     {
       "username": "steviegeasy",
@@ -54,6 +39,21 @@
       "rapidCurrentRating": 1263,
       "blitzCurrentRating": 1403,
       "bulletCurrentRating": 1350
+    },
+    {
+      "username": "the_honoured_lght",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "profileUrl": "https://www.chess.com/member/THE_HONOURED_LGHT",
+      "totalChange": 235,
+      "rapidChange": -30,
+      "blitzChange": 131,
+      "bulletChange": 134,
+      "rapidStartRating": 1020,
+      "blitzStartRating": 878,
+      "bulletStartRating": 700,
+      "rapidCurrentRating": 990,
+      "blitzCurrentRating": 1009,
+      "bulletCurrentRating": 834
     }
   ]
 }
