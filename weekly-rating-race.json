@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-26T04:02:54.743Z",
+  "updatedAt": "2026-08-26T07:08:42.806Z",
   "weekStartedAt": "2026-08-23T00:00:00.000Z",
   "weekEndsAt": "2026-08-30T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4252,
-  "failedMembers": 38,
-  "eligibleMembers": 3888,
+  "checkedMembers": 4261,
+  "failedMembers": 39,
+  "eligibleMembers": 3896,
   "players": [
     {
       "username": "mohamedsaber13579",
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 1366
     },
     {
-      "username": "the_honoured_lght",
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "profileUrl": "https://www.chess.com/member/THE_HONOURED_LGHT",
-      "totalChange": 260,
-      "rapidChange": -5,
-      "blitzChange": 131,
-      "bulletChange": 134,
-      "rapidStartRating": 1020,
-      "blitzStartRating": 878,
-      "bulletStartRating": 700,
-      "rapidCurrentRating": 1015,
-      "blitzCurrentRating": 1009,
-      "bulletCurrentRating": 834
+      "username": "tsehayedimtsu",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/354880477.0be7bfd7.200x200o.aa09d8cbc7a3.jpg",
+      "profileUrl": "https://www.chess.com/member/tsehayedimtsu",
+      "totalChange": 277,
+      "rapidChange": 0,
+      "blitzChange": -11,
+      "bulletChange": 288,
+      "rapidStartRating": 1454,
+      "blitzStartRating": 1316,
+      "bulletStartRating": 1025,
+      "rapidCurrentRating": 1454,
+      "blitzCurrentRating": 1305,
+      "bulletCurrentRating": 1313
     }
   ]
 }
