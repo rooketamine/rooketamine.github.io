@@ -1,59 +1,13 @@
 {
-  "status": "ready",
-  "updatedAt": "2026-08-29T23:19:23.680Z",
-  "weekStartedAt": "2026-08-23T00:00:00.000Z",
-  "weekEndsAt": "2026-08-30T00:00:00.000Z",
+  "status": "baseline-created",
+  "updatedAt": "2026-08-30T05:24:05.946Z",
+  "weekStartedAt": "2026-08-30T00:00:00.000Z",
+  "weekEndsAt": "2026-09-06T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4404,
+  "checkedMembers": 4407,
   "failedMembers": 0,
-  "eligibleMembers": 3998,
-  "players": [
-    {
-      "username": "kirill_vsky_2026",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/140754989.74392143.200x200o.de969cd3ce67.jpg",
-      "profileUrl": "https://www.chess.com/member/Kirill_Vsky_2026",
-      "totalChange": 407,
-      "rapidChange": 11,
-      "blitzChange": 107,
-      "bulletChange": 289,
-      "rapidStartRating": 276,
-      "blitzStartRating": 329,
-      "bulletStartRating": 1072,
-      "rapidCurrentRating": 287,
-      "blitzCurrentRating": 436,
-      "bulletCurrentRating": 1361
-    },
-    {
-      "username": "raspberriesaregood",
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "profileUrl": "https://www.chess.com/member/raspberriesaregood",
-      "totalChange": 350,
-      "rapidChange": 236,
-      "blitzChange": 84,
-      "bulletChange": 30,
-      "rapidStartRating": 1669,
-      "blitzStartRating": 1540,
-      "bulletStartRating": 1582,
-      "rapidCurrentRating": 1905,
-      "blitzCurrentRating": 1624,
-      "bulletCurrentRating": 1612
-    },
-    {
-      "username": "tsehayedimtsu",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/354880477.0be7bfd7.200x200o.aa09d8cbc7a3.jpg",
-      "profileUrl": "https://www.chess.com/member/tsehayedimtsu",
-      "totalChange": 327,
-      "rapidChange": 0,
-      "blitzChange": 59,
-      "bulletChange": 268,
-      "rapidStartRating": 1454,
-      "blitzStartRating": 1316,
-      "bulletStartRating": 1025,
-      "rapidCurrentRating": 1454,
-      "blitzCurrentRating": 1375,
-      "bulletCurrentRating": 1293
-    }
-  ]
+  "eligibleMembers": 4000,
+  "players": []
 }
