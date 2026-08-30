@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-30T11:54:31.396Z",
+  "updatedAt": "2026-08-30T16:40:30.218Z",
   "weekStartedAt": "2026-08-30T00:00:00.000Z",
   "weekEndsAt": "2026-09-06T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4423,
+  "checkedMembers": 4425,
   "failedMembers": 0,
-  "eligibleMembers": 4013,
+  "eligibleMembers": 4016,
   "players": [
     {
       "username": "ashoncloud09",
@@ -26,34 +26,34 @@
       "bulletCurrentRating": 1994
     },
     {
-      "username": "shyamofficialy",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/398521419.33e94b5e.200x200o.088d4532d343.png",
-      "profileUrl": "https://www.chess.com/member/Shyamofficialy",
-      "totalChange": 103,
-      "rapidChange": 0,
-      "blitzChange": 17,
-      "bulletChange": 86,
-      "rapidStartRating": 811,
-      "blitzStartRating": 818,
-      "bulletStartRating": 914,
-      "rapidCurrentRating": 811,
-      "blitzCurrentRating": 835,
-      "bulletCurrentRating": 1000
-    },
-    {
       "username": "rudra-genius",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/501600045.f7b45a4c.200x200o.a38e2ef8df5e.jpg",
       "profileUrl": "https://www.chess.com/member/Rudra-Genius",
-      "totalChange": 94,
-      "rapidChange": 16,
-      "blitzChange": 79,
+      "totalChange": 110,
+      "rapidChange": 24,
+      "blitzChange": 87,
       "bulletChange": -1,
       "rapidStartRating": 1220,
       "blitzStartRating": 1223,
       "bulletStartRating": 1504,
-      "rapidCurrentRating": 1236,
-      "blitzCurrentRating": 1302,
+      "rapidCurrentRating": 1244,
+      "blitzCurrentRating": 1310,
       "bulletCurrentRating": 1503
+    },
+    {
+      "username": "riteshmasterpiece",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/367910331.094ddeed.200x200o.fb39133d6877.jpg",
+      "profileUrl": "https://www.chess.com/member/riteshmasterpiece",
+      "totalChange": 107,
+      "rapidChange": 0,
+      "blitzChange": 32,
+      "bulletChange": 75,
+      "rapidStartRating": 1118,
+      "blitzStartRating": 974,
+      "bulletStartRating": 368,
+      "rapidCurrentRating": 1118,
+      "blitzCurrentRating": 1006,
+      "bulletCurrentRating": 443
     }
   ]
 }
