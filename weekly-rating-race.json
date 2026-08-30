@@ -1,6 +1,6 @@
 {
-  "status": "baseline-created",
-  "updatedAt": "2026-08-30T05:24:05.946Z",
+  "status": "ready",
+  "updatedAt": "2026-08-30T06:05:23.786Z",
   "weekStartedAt": "2026-08-30T00:00:00.000Z",
   "weekEndsAt": "2026-09-06T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
@@ -9,5 +9,51 @@
   "checkedMembers": 4407,
   "failedMembers": 0,
   "eligibleMembers": 4000,
-  "players": []
+  "players": [
+    {
+      "username": "franticcity",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "profileUrl": "https://www.chess.com/member/FranticCity",
+      "totalChange": 59,
+      "rapidChange": null,
+      "blitzChange": 8,
+      "bulletChange": 51,
+      "rapidStartRating": null,
+      "blitzStartRating": 1230,
+      "bulletStartRating": 908,
+      "rapidCurrentRating": null,
+      "blitzCurrentRating": 1238,
+      "bulletCurrentRating": 959
+    },
+    {
+      "username": "yati-kautilya",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/384369015.5000bbd0.200x200o.614f8ee08153.jpg",
+      "profileUrl": "https://www.chess.com/member/yati-Kautilya",
+      "totalChange": 39,
+      "rapidChange": 8,
+      "blitzChange": 0,
+      "bulletChange": 31,
+      "rapidStartRating": 1508,
+      "blitzStartRating": 1318,
+      "bulletStartRating": 995,
+      "rapidCurrentRating": 1516,
+      "blitzCurrentRating": 1318,
+      "bulletCurrentRating": 1026
+    },
+    {
+      "username": "cap_man1",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/450110114.d8d00be1.200x200o.42639576bb9a.jpg",
+      "profileUrl": "https://www.chess.com/member/Cap_MAN1",
+      "totalChange": 32,
+      "rapidChange": null,
+      "blitzChange": 0,
+      "bulletChange": 32,
+      "rapidStartRating": null,
+      "blitzStartRating": 1421,
+      "bulletStartRating": 1072,
+      "rapidCurrentRating": null,
+      "blitzCurrentRating": 1421,
+      "bulletCurrentRating": 1104
+    }
+  ]
 }
