@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-08-30T23:29:29.497Z",
+  "updatedAt": "2026-08-31T05:34:17.939Z",
   "weekStartedAt": "2026-08-30T00:00:00.000Z",
   "weekEndsAt": "2026-09-06T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4431,
+  "checkedMembers": 4430,
   "failedMembers": 0,
-  "eligibleMembers": 4020,
+  "eligibleMembers": 4019,
   "players": [
     {
       "username": "nasti1smyles",
@@ -26,6 +26,21 @@
       "bulletCurrentRating": 1868
     },
     {
+      "username": "chess_warrior_og",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/324041863.782fac2c.200x200o.26e30432c9e8.jpg",
+      "profileUrl": "https://www.chess.com/member/Chess_Warrior_OG",
+      "totalChange": 153,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 153,
+      "rapidStartRating": 2147,
+      "blitzStartRating": 1731,
+      "bulletStartRating": 2109,
+      "rapidCurrentRating": 2147,
+      "blitzCurrentRating": 1731,
+      "bulletCurrentRating": 2262
+    },
+    {
       "username": "ashenafi99",
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "profileUrl": "https://www.chess.com/member/Ashenafi99",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1045,
       "blitzCurrentRating": 739,
       "bulletCurrentRating": null
-    },
-    {
-      "username": "c_h_e_s_s-p_l_a_y_e_r",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/470039544.e6f439c6.200x200o.91f51a898c2d.png",
-      "profileUrl": "https://www.chess.com/member/c_h_e_s_s-p_l_a_y_e_r",
-      "totalChange": 128,
-      "rapidChange": 69,
-      "blitzChange": 4,
-      "bulletChange": 55,
-      "rapidStartRating": 1204,
-      "blitzStartRating": 1303,
-      "bulletStartRating": 1250,
-      "rapidCurrentRating": 1273,
-      "blitzCurrentRating": 1307,
-      "bulletCurrentRating": 1305
     }
   ]
 }
