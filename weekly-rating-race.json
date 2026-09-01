@@ -1,28 +1,28 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-01T08:38:37.711Z",
+  "updatedAt": "2026-09-01T14:09:01.981Z",
   "weekStartedAt": "2026-08-30T00:00:00.000Z",
   "weekEndsAt": "2026-09-06T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4479,
-  "failedMembers": 0,
-  "eligibleMembers": 4065,
+  "checkedMembers": 4456,
+  "failedMembers": 31,
+  "eligibleMembers": 4073,
   "players": [
     {
       "username": "chess_warrior_og",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/324041863.782fac2c.200x200o.26e30432c9e8.jpg",
       "profileUrl": "https://www.chess.com/member/Chess_Warrior_OG",
-      "totalChange": 302,
+      "totalChange": 293,
       "rapidChange": 0,
-      "blitzChange": 0,
+      "blitzChange": -9,
       "bulletChange": 302,
       "rapidStartRating": 2147,
       "blitzStartRating": 1731,
       "bulletStartRating": 2109,
       "rapidCurrentRating": 2147,
-      "blitzCurrentRating": 1731,
+      "blitzCurrentRating": 1722,
       "bulletCurrentRating": 2411
     },
     {
@@ -44,16 +44,16 @@
       "username": "deepesh1058",
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "profileUrl": "https://www.chess.com/member/Deepesh1058",
-      "totalChange": 214,
+      "totalChange": 206,
       "rapidChange": 0,
       "blitzChange": 0,
-      "bulletChange": 214,
+      "bulletChange": 206,
       "rapidStartRating": 1360,
       "blitzStartRating": 1018,
       "bulletStartRating": 1097,
       "rapidCurrentRating": 1360,
       "blitzCurrentRating": 1018,
-      "bulletCurrentRating": 1311
+      "bulletCurrentRating": 1303
     }
   ]
 }
