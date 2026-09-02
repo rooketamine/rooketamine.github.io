@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-02T04:33:17.496Z",
+  "updatedAt": "2026-09-02T11:18:18.742Z",
   "weekStartedAt": "2026-08-30T00:00:00.000Z",
   "weekEndsAt": "2026-09-06T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4486,
-  "failedMembers": 24,
-  "eligibleMembers": 4093,
+  "checkedMembers": 4497,
+  "failedMembers": 21,
+  "eligibleMembers": 4101,
   "players": [
     {
       "username": "checkmatemind-t7o",
@@ -26,6 +26,21 @@
       "bulletCurrentRating": 1155
     },
     {
+      "username": "riteshmasterpiece",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/367910331.094ddeed.200x200o.fb39133d6877.jpg",
+      "profileUrl": "https://www.chess.com/member/riteshmasterpiece",
+      "totalChange": 254,
+      "rapidChange": 0,
+      "blitzChange": 32,
+      "bulletChange": 222,
+      "rapidStartRating": 1118,
+      "blitzStartRating": 974,
+      "bulletStartRating": 368,
+      "rapidCurrentRating": 1118,
+      "blitzCurrentRating": 1006,
+      "bulletCurrentRating": 590
+    },
+    {
       "username": "chessrizzleriamhim",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/515833449.83b3983b.200x200o.6c3c6388ee8b.png",
       "profileUrl": "https://www.chess.com/member/chessrizzleriamhim",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1107,
       "blitzCurrentRating": 812,
       "bulletCurrentRating": 1115
-    },
-    {
-      "username": "nuubinator",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/111749030.4ba0fa6e.200x200o.66dda7004b9d.png",
-      "profileUrl": "https://www.chess.com/member/nuubinator",
-      "totalChange": 223,
-      "rapidChange": 5,
-      "blitzChange": 218,
-      "bulletChange": 0,
-      "rapidStartRating": 2179,
-      "blitzStartRating": 2104,
-      "bulletStartRating": 2005,
-      "rapidCurrentRating": 2184,
-      "blitzCurrentRating": 2322,
-      "bulletCurrentRating": 2005
     }
   ]
 }
