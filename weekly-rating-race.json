@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-02T21:03:05.972Z",
+  "updatedAt": "2026-09-02T23:18:44.103Z",
   "weekStartedAt": "2026-08-30T00:00:00.000Z",
   "weekEndsAt": "2026-09-06T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4514,
+  "checkedMembers": 4515,
   "failedMembers": 17,
-  "eligibleMembers": 4111,
+  "eligibleMembers": 4112,
   "players": [
     {
       "username": "ph788",
@@ -29,16 +29,16 @@
       "username": "checkmatemind-t7o",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/464262020.d837be69.200x200o.2f5317be0fc9.png",
       "profileUrl": "https://www.chess.com/member/CheckmateMind-t7o",
-      "totalChange": 244,
+      "totalChange": 251,
       "rapidChange": 24,
       "blitzChange": 95,
-      "bulletChange": 125,
+      "bulletChange": 132,
       "rapidStartRating": 1079,
       "blitzStartRating": 1019,
       "bulletStartRating": 1018,
       "rapidCurrentRating": 1103,
       "blitzCurrentRating": 1114,
-      "bulletCurrentRating": 1143
+      "bulletCurrentRating": 1150
     },
     {
       "username": "chessrizzleriamhim",
