@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-03T04:33:09.762Z",
+  "updatedAt": "2026-09-03T11:13:55.316Z",
   "weekStartedAt": "2026-08-30T00:00:00.000Z",
   "weekEndsAt": "2026-09-06T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4517,
-  "failedMembers": 17,
-  "eligibleMembers": 4117,
+  "checkedMembers": 4522,
+  "failedMembers": 15,
+  "eligibleMembers": 4119,
   "players": [
     {
       "username": "ph788",
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 1150
     },
     {
-      "username": "brendofriend",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/61883896.33ba0968.200x200o.97d2bf90c37c.jpg",
-      "profileUrl": "https://www.chess.com/member/Brendofriend",
-      "totalChange": 243,
-      "rapidChange": 155,
-      "blitzChange": 88,
-      "bulletChange": null,
-      "rapidStartRating": 1264,
-      "blitzStartRating": 859,
-      "bulletStartRating": null,
-      "rapidCurrentRating": 1419,
-      "blitzCurrentRating": 947,
-      "bulletCurrentRating": null
+      "username": "chessrizzleriamhim",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/515833449.83b3983b.200x200o.6c3c6388ee8b.png",
+      "profileUrl": "https://www.chess.com/member/chessrizzleriamhim",
+      "totalChange": 236,
+      "rapidChange": -10,
+      "blitzChange": -2,
+      "bulletChange": 248,
+      "rapidStartRating": 1110,
+      "blitzStartRating": 814,
+      "bulletStartRating": 867,
+      "rapidCurrentRating": 1100,
+      "blitzCurrentRating": 812,
+      "bulletCurrentRating": 1115
     }
   ]
 }
