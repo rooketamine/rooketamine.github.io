@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-03T23:16:50.519Z",
+  "updatedAt": "2026-09-04T04:32:44.528Z",
   "weekStartedAt": "2026-08-30T00:00:00.000Z",
   "weekEndsAt": "2026-09-06T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4531,
-  "failedMembers": 7,
-  "eligibleMembers": 4121,
+  "checkedMembers": 4536,
+  "failedMembers": 4,
+  "eligibleMembers": 4123,
   "players": [
     {
       "username": "ph788",
@@ -26,6 +26,21 @@
       "bulletCurrentRating": 1043
     },
     {
+      "username": "ocules73",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/548280071.e5140f1c.200x200o.cbf9c5135055.jpg",
+      "profileUrl": "https://www.chess.com/member/ocules73",
+      "totalChange": 323,
+      "rapidChange": -1,
+      "blitzChange": -2,
+      "bulletChange": 326,
+      "rapidStartRating": 615,
+      "blitzStartRating": 415,
+      "bulletStartRating": 584,
+      "rapidCurrentRating": 614,
+      "blitzCurrentRating": 413,
+      "bulletCurrentRating": 910
+    },
+    {
       "username": "checkmatemind-t7o",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/464262020.d837be69.200x200o.2f5317be0fc9.png",
       "profileUrl": "https://www.chess.com/member/CheckmateMind-t7o",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1100,
       "blitzCurrentRating": 1114,
       "bulletCurrentRating": 1204
-    },
-    {
-      "username": "riteshmasterpiece",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/367910331.094ddeed.200x200o.fb39133d6877.jpg",
-      "profileUrl": "https://www.chess.com/member/riteshmasterpiece",
-      "totalChange": 291,
-      "rapidChange": 0,
-      "blitzChange": 32,
-      "bulletChange": 259,
-      "rapidStartRating": 1118,
-      "blitzStartRating": 974,
-      "bulletStartRating": 368,
-      "rapidCurrentRating": 1118,
-      "blitzCurrentRating": 1006,
-      "bulletCurrentRating": 627
     }
   ]
 }
