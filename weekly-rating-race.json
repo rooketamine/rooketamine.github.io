@@ -1,29 +1,44 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-04T11:17:26.120Z",
+  "updatedAt": "2026-09-04T16:21:19.231Z",
   "weekStartedAt": "2026-08-30T00:00:00.000Z",
   "weekEndsAt": "2026-09-06T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4543,
-  "failedMembers": 4,
-  "eligibleMembers": 4131,
+  "checkedMembers": 3587,
+  "failedMembers": 964,
+  "eligibleMembers": 4135,
   "players": [
     {
       "username": "ph788",
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "profileUrl": "https://www.chess.com/member/ph788",
-      "totalChange": 363,
+      "totalChange": 340,
       "rapidChange": null,
       "blitzChange": 117,
-      "bulletChange": 246,
+      "bulletChange": 223,
       "rapidStartRating": null,
       "blitzStartRating": 942,
       "bulletStartRating": 813,
       "rapidCurrentRating": null,
       "blitzCurrentRating": 1059,
-      "bulletCurrentRating": 1059
+      "bulletCurrentRating": 1036
+    },
+    {
+      "username": "riteshmasterpiece",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/367910331.094ddeed.200x200o.fb39133d6877.jpg",
+      "profileUrl": "https://www.chess.com/member/riteshmasterpiece",
+      "totalChange": 291,
+      "rapidChange": 0,
+      "blitzChange": 32,
+      "bulletChange": 259,
+      "rapidStartRating": 1118,
+      "blitzStartRating": 974,
+      "bulletStartRating": 368,
+      "rapidCurrentRating": 1118,
+      "blitzCurrentRating": 1006,
+      "bulletCurrentRating": 627
     },
     {
       "username": "rooketamine",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 2056,
       "blitzCurrentRating": 1858,
       "bulletCurrentRating": 1754
-    },
-    {
-      "username": "riteshmasterpiece",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/367910331.094ddeed.200x200o.fb39133d6877.jpg",
-      "profileUrl": "https://www.chess.com/member/riteshmasterpiece",
-      "totalChange": 281,
-      "rapidChange": 0,
-      "blitzChange": 32,
-      "bulletChange": 249,
-      "rapidStartRating": 1118,
-      "blitzStartRating": 974,
-      "bulletStartRating": 368,
-      "rapidCurrentRating": 1118,
-      "blitzCurrentRating": 1006,
-      "bulletCurrentRating": 617
     }
   ]
 }
