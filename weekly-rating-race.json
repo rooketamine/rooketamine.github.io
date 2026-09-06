@@ -1,13 +1,59 @@
 {
-  "status": "baseline-created",
-  "updatedAt": "2026-09-06T04:38:34.960Z",
+  "status": "ready",
+  "updatedAt": "2026-09-06T06:52:16.720Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4565,
+  "checkedMembers": 4564,
   "failedMembers": 2,
-  "eligibleMembers": 4149,
-  "players": []
+  "eligibleMembers": 4148,
+  "players": [
+    {
+      "username": "eororor",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "profileUrl": "https://www.chess.com/member/eororor",
+      "totalChange": 63,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 63,
+      "rapidStartRating": 1856,
+      "blitzStartRating": 2001,
+      "bulletStartRating": 2128,
+      "rapidCurrentRating": 1856,
+      "blitzCurrentRating": 2001,
+      "bulletCurrentRating": 2191
+    },
+    {
+      "username": "flabbi",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/3907324.3af46c6b.200x200o.da6204a56491.jpg",
+      "profileUrl": "https://www.chess.com/member/flabbi",
+      "totalChange": 49,
+      "rapidChange": 0,
+      "blitzChange": 49,
+      "bulletChange": 0,
+      "rapidStartRating": 1885,
+      "blitzStartRating": 1531,
+      "bulletStartRating": 1410,
+      "rapidCurrentRating": 1885,
+      "blitzCurrentRating": 1580,
+      "bulletCurrentRating": 1410
+    },
+    {
+      "username": "saurabh1patel",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/180424411.afbf6573.200x200o.73e5bdd294cd.jpg",
+      "profileUrl": "https://www.chess.com/member/saurabh1patel",
+      "totalChange": 49,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 49,
+      "rapidStartRating": 1801,
+      "blitzStartRating": 1298,
+      "bulletStartRating": 1159,
+      "rapidCurrentRating": 1801,
+      "blitzCurrentRating": 1298,
+      "bulletCurrentRating": 1208
+    }
+  ]
 }
