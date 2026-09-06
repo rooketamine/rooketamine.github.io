@@ -1,15 +1,30 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-06T10:56:06.778Z",
+  "updatedAt": "2026-09-06T15:27:49.018Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4570,
-  "failedMembers": 3,
-  "eligibleMembers": 4154,
+  "checkedMembers": 3925,
+  "failedMembers": 654,
+  "eligibleMembers": 4158,
   "players": [
+    {
+      "username": "smwasi",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "profileUrl": "https://www.chess.com/member/SMWasi",
+      "totalChange": 108,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 108,
+      "rapidStartRating": 1914,
+      "blitzStartRating": 1903,
+      "bulletStartRating": 1688,
+      "rapidCurrentRating": 1914,
+      "blitzCurrentRating": 1903,
+      "bulletCurrentRating": 1796
+    },
     {
       "username": "rushank-bhargava",
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
@@ -26,34 +41,19 @@
       "bulletCurrentRating": 1027
     },
     {
-      "username": "eororor",
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "profileUrl": "https://www.chess.com/member/eororor",
-      "totalChange": 73,
+      "username": "gm-nguyenlinh",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/503271297.bbf28559.200x200o.5216ce4bb227.jpg",
+      "profileUrl": "https://www.chess.com/member/GM-NGUYENLINH",
+      "totalChange": 93,
       "rapidChange": 0,
-      "blitzChange": 0,
-      "bulletChange": 73,
-      "rapidStartRating": 1856,
-      "blitzStartRating": 2001,
-      "bulletStartRating": 2128,
-      "rapidCurrentRating": 1856,
-      "blitzCurrentRating": 2001,
-      "bulletCurrentRating": 2201
-    },
-    {
-      "username": "abajah102667",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/418058273.471de619.200x200o.5d34a2069d47.jpg",
-      "profileUrl": "https://www.chess.com/member/abajah102667",
-      "totalChange": 72,
-      "rapidChange": 72,
-      "blitzChange": null,
-      "bulletChange": null,
-      "rapidStartRating": 800,
-      "blitzStartRating": null,
-      "bulletStartRating": null,
-      "rapidCurrentRating": 872,
-      "blitzCurrentRating": null,
-      "bulletCurrentRating": null
+      "blitzChange": 96,
+      "bulletChange": -3,
+      "rapidStartRating": 914,
+      "blitzStartRating": 1511,
+      "bulletStartRating": 1803,
+      "rapidCurrentRating": 914,
+      "blitzCurrentRating": 1607,
+      "bulletCurrentRating": 1800
     }
   ]
 }
