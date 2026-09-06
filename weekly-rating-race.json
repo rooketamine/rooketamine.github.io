@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-06T20:23:50.428Z",
+  "updatedAt": "2026-09-06T22:53:11.276Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4147,
-  "failedMembers": 437,
-  "eligibleMembers": 4166,
+  "checkedMembers": 4177,
+  "failedMembers": 407,
+  "eligibleMembers": 4167,
   "players": [
     {
       "username": "jokerxharleyxidols",
@@ -26,21 +26,6 @@
       "bulletCurrentRating": 1201
     },
     {
-      "username": "mightymightymightymighty",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/324062539.850d42ee.200x200o.8514c5bc465a.jpg",
-      "profileUrl": "https://www.chess.com/member/MIGHTYMIGHTYMIGHTYMIGHTY",
-      "totalChange": 140,
-      "rapidChange": null,
-      "blitzChange": -2,
-      "bulletChange": 142,
-      "rapidStartRating": null,
-      "blitzStartRating": 532,
-      "bulletStartRating": 607,
-      "rapidCurrentRating": null,
-      "blitzCurrentRating": 530,
-      "bulletCurrentRating": 749
-    },
-    {
       "username": "wangsarari10",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/316608271.68ba354d.200x200o.bda76203a475.jpg",
       "profileUrl": "https://www.chess.com/member/WangSarari10",
@@ -54,6 +39,21 @@
       "rapidCurrentRating": 1403,
       "blitzCurrentRating": 1449,
       "bulletCurrentRating": 1118
+    },
+    {
+      "username": "mightymightymightymighty",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/324062539.850d42ee.200x200o.8514c5bc465a.jpg",
+      "profileUrl": "https://www.chess.com/member/MIGHTYMIGHTYMIGHTYMIGHTY",
+      "totalChange": 132,
+      "rapidChange": null,
+      "blitzChange": -2,
+      "bulletChange": 134,
+      "rapidStartRating": null,
+      "blitzStartRating": 532,
+      "bulletStartRating": 607,
+      "rapidCurrentRating": null,
+      "blitzCurrentRating": 530,
+      "bulletCurrentRating": 741
     }
   ]
 }
