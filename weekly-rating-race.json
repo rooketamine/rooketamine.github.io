@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-07T04:41:22.665Z",
+  "updatedAt": "2026-09-07T12:32:16.541Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4237,
-  "failedMembers": 352,
-  "eligibleMembers": 4173,
+  "checkedMembers": 4322,
+  "failedMembers": 277,
+  "eligibleMembers": 4180,
   "players": [
     {
       "username": "mightymightymightymighty",
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 1201
     },
     {
-      "username": "wangsarari10",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/316608271.68ba354d.200x200o.bda76203a475.jpg",
-      "profileUrl": "https://www.chess.com/member/WangSarari10",
-      "totalChange": 135,
-      "rapidChange": 0,
-      "blitzChange": 135,
-      "bulletChange": 0,
-      "rapidStartRating": 1403,
-      "blitzStartRating": 1314,
-      "bulletStartRating": 1118,
-      "rapidCurrentRating": 1403,
-      "blitzCurrentRating": 1449,
-      "bulletCurrentRating": 1118
+      "username": "abajah102667",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/418058273.471de619.200x200o.5d34a2069d47.jpg",
+      "profileUrl": "https://www.chess.com/member/abajah102667",
+      "totalChange": 146,
+      "rapidChange": 146,
+      "blitzChange": null,
+      "bulletChange": null,
+      "rapidStartRating": 800,
+      "blitzStartRating": null,
+      "bulletStartRating": null,
+      "rapidCurrentRating": 946,
+      "blitzCurrentRating": null,
+      "bulletCurrentRating": null
     }
   ]
 }
