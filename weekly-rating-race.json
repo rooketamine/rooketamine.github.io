@@ -1,15 +1,30 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-06T22:53:11.276Z",
+  "updatedAt": "2026-09-07T04:41:22.665Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4177,
-  "failedMembers": 407,
-  "eligibleMembers": 4167,
+  "checkedMembers": 4237,
+  "failedMembers": 352,
+  "eligibleMembers": 4173,
   "players": [
+    {
+      "username": "mightymightymightymighty",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/324062539.850d42ee.200x200o.8514c5bc465a.jpg",
+      "profileUrl": "https://www.chess.com/member/MIGHTYMIGHTYMIGHTYMIGHTY",
+      "totalChange": 212,
+      "rapidChange": null,
+      "blitzChange": -2,
+      "bulletChange": 214,
+      "rapidStartRating": null,
+      "blitzStartRating": 532,
+      "bulletStartRating": 607,
+      "rapidCurrentRating": null,
+      "blitzCurrentRating": 530,
+      "bulletCurrentRating": 821
+    },
     {
       "username": "jokerxharleyxidols",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/469499090.63d3e11c.200x200o.546cbacfa99e.jpg",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1403,
       "blitzCurrentRating": 1449,
       "bulletCurrentRating": 1118
-    },
-    {
-      "username": "mightymightymightymighty",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/324062539.850d42ee.200x200o.8514c5bc465a.jpg",
-      "profileUrl": "https://www.chess.com/member/MIGHTYMIGHTYMIGHTYMIGHTY",
-      "totalChange": 132,
-      "rapidChange": null,
-      "blitzChange": -2,
-      "bulletChange": 134,
-      "rapidStartRating": null,
-      "blitzStartRating": 532,
-      "bulletStartRating": 607,
-      "rapidCurrentRating": null,
-      "blitzCurrentRating": 530,
-      "bulletCurrentRating": 741
     }
   ]
 }
