@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-07T23:29:35.817Z",
+  "updatedAt": "2026-09-08T04:35:21.733Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4606,
+  "checkedMembers": 4609,
   "failedMembers": 1,
-  "eligibleMembers": 4189,
+  "eligibleMembers": 4191,
   "players": [
     {
       "username": "mightymightymightymighty",
