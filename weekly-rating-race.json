@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-08T04:35:21.733Z",
+  "updatedAt": "2026-09-08T11:18:51.224Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4609,
-  "failedMembers": 1,
-  "eligibleMembers": 4191,
+  "checkedMembers": 4615,
+  "failedMembers": 0,
+  "eligibleMembers": 4195,
   "players": [
     {
       "username": "mightymightymightymighty",
@@ -29,31 +29,31 @@
       "username": "super-gm-slayer",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/382071855.75fdd7a3.200x200o.9b81386d5d51.jpg",
       "profileUrl": "https://www.chess.com/member/Super-GM-Slayer",
-      "totalChange": 236,
-      "rapidChange": 13,
+      "totalChange": 221,
+      "rapidChange": 14,
       "blitzChange": 8,
-      "bulletChange": 215,
+      "bulletChange": 199,
       "rapidStartRating": 2110,
       "blitzStartRating": 1755,
       "bulletStartRating": 1269,
-      "rapidCurrentRating": 2123,
+      "rapidCurrentRating": 2124,
       "blitzCurrentRating": 1763,
-      "bulletCurrentRating": 1484
+      "bulletCurrentRating": 1468
     },
     {
-      "username": "jokerxharleyxidols",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/469499090.63d3e11c.200x200o.546cbacfa99e.jpg",
-      "profileUrl": "https://www.chess.com/member/JOKERXHARLEYXIdols",
-      "totalChange": 165,
-      "rapidChange": 44,
-      "blitzChange": 121,
-      "bulletChange": 0,
-      "rapidStartRating": 1760,
-      "blitzStartRating": 1299,
-      "bulletStartRating": 1201,
-      "rapidCurrentRating": 1804,
-      "blitzCurrentRating": 1420,
-      "bulletCurrentRating": 1201
+      "username": "riteshmasterpiece",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/367910331.094ddeed.200x200o.fb39133d6877.jpg",
+      "profileUrl": "https://www.chess.com/member/riteshmasterpiece",
+      "totalChange": 168,
+      "rapidChange": 17,
+      "blitzChange": 0,
+      "bulletChange": 151,
+      "rapidStartRating": 1118,
+      "blitzStartRating": 1006,
+      "bulletStartRating": 679,
+      "rapidCurrentRating": 1135,
+      "blitzCurrentRating": 1006,
+      "bulletCurrentRating": 830
     }
   ]
 }
