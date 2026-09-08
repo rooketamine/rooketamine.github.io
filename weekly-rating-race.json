@@ -1,13 +1,13 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-08T21:09:04.642Z",
+  "updatedAt": "2026-09-08T23:23:00.340Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4060,
-  "failedMembers": 563,
+  "checkedMembers": 4082,
+  "failedMembers": 541,
   "eligibleMembers": 4201,
   "players": [
     {
@@ -29,16 +29,16 @@
       "username": "super-gm-slayer",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/382071855.75fdd7a3.200x200o.9b81386d5d51.jpg",
       "profileUrl": "https://www.chess.com/member/Super-GM-Slayer",
-      "totalChange": 223,
-      "rapidChange": 32,
+      "totalChange": 226,
+      "rapidChange": 26,
       "blitzChange": 8,
-      "bulletChange": 183,
+      "bulletChange": 192,
       "rapidStartRating": 2110,
       "blitzStartRating": 1755,
       "bulletStartRating": 1269,
-      "rapidCurrentRating": 2142,
+      "rapidCurrentRating": 2136,
       "blitzCurrentRating": 1763,
-      "bulletCurrentRating": 1452
+      "bulletCurrentRating": 1461
     },
     {
       "username": "riteshmasterpiece",
