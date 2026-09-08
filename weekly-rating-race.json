@@ -1,29 +1,44 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-08T16:38:00.199Z",
+  "updatedAt": "2026-09-08T21:09:04.642Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 3889,
-  "failedMembers": 733,
-  "eligibleMembers": 4199,
+  "checkedMembers": 4060,
+  "failedMembers": 563,
+  "eligibleMembers": 4201,
   "players": [
     {
       "username": "mightymightymightymighty",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/324062539.850d42ee.200x200o.8514c5bc465a.jpg",
       "profileUrl": "https://www.chess.com/member/MIGHTYMIGHTYMIGHTYMIGHTY",
-      "totalChange": 291,
+      "totalChange": 283,
       "rapidChange": null,
-      "blitzChange": 6,
+      "blitzChange": -2,
       "bulletChange": 285,
       "rapidStartRating": null,
       "blitzStartRating": 532,
       "bulletStartRating": 607,
       "rapidCurrentRating": null,
-      "blitzCurrentRating": 538,
+      "blitzCurrentRating": 530,
       "bulletCurrentRating": 892
+    },
+    {
+      "username": "super-gm-slayer",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/382071855.75fdd7a3.200x200o.9b81386d5d51.jpg",
+      "profileUrl": "https://www.chess.com/member/Super-GM-Slayer",
+      "totalChange": 223,
+      "rapidChange": 32,
+      "blitzChange": 8,
+      "bulletChange": 183,
+      "rapidStartRating": 2110,
+      "blitzStartRating": 1755,
+      "bulletStartRating": 1269,
+      "rapidCurrentRating": 2142,
+      "blitzCurrentRating": 1763,
+      "bulletCurrentRating": 1452
     },
     {
       "username": "riteshmasterpiece",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1135,
       "blitzCurrentRating": 1006,
       "bulletCurrentRating": 868
-    },
-    {
-      "username": "super-gm-slayer",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/382071855.75fdd7a3.200x200o.9b81386d5d51.jpg",
-      "profileUrl": "https://www.chess.com/member/Super-GM-Slayer",
-      "totalChange": 197,
-      "rapidChange": 6,
-      "blitzChange": 8,
-      "bulletChange": 183,
-      "rapidStartRating": 2110,
-      "blitzStartRating": 1755,
-      "bulletStartRating": 1269,
-      "rapidCurrentRating": 2116,
-      "blitzCurrentRating": 1763,
-      "bulletCurrentRating": 1452
     }
   ]
 }
