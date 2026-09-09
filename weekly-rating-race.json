@@ -1,13 +1,13 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-08T23:23:00.340Z",
+  "updatedAt": "2026-09-09T04:41:37.784Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4082,
-  "failedMembers": 541,
+  "checkedMembers": 4158,
+  "failedMembers": 466,
   "eligibleMembers": 4201,
   "players": [
     {
@@ -44,16 +44,16 @@
       "username": "riteshmasterpiece",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/367910331.094ddeed.200x200o.fb39133d6877.jpg",
       "profileUrl": "https://www.chess.com/member/riteshmasterpiece",
-      "totalChange": 206,
+      "totalChange": 189,
       "rapidChange": 17,
       "blitzChange": 0,
-      "bulletChange": 189,
+      "bulletChange": 172,
       "rapidStartRating": 1118,
       "blitzStartRating": 1006,
       "bulletStartRating": 679,
       "rapidCurrentRating": 1135,
       "blitzCurrentRating": 1006,
-      "bulletCurrentRating": 868
+      "bulletCurrentRating": 851
     }
   ]
 }
