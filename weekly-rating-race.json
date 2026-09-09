@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-09T04:41:37.784Z",
+  "updatedAt": "2026-09-09T11:23:09.970Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4158,
-  "failedMembers": 466,
-  "eligibleMembers": 4201,
+  "checkedMembers": 4252,
+  "failedMembers": 387,
+  "eligibleMembers": 4210,
   "players": [
     {
       "username": "mightymightymightymighty",
@@ -26,34 +26,34 @@
       "bulletCurrentRating": 892
     },
     {
+      "username": "financial_dragon",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/490428617.49921e2f.200x200o.58b065846bb5.jpg",
+      "profileUrl": "https://www.chess.com/member/Financial_Dragon",
+      "totalChange": 228,
+      "rapidChange": 82,
+      "blitzChange": 75,
+      "bulletChange": 71,
+      "rapidStartRating": 1551,
+      "blitzStartRating": 1842,
+      "bulletStartRating": 1939,
+      "rapidCurrentRating": 1633,
+      "blitzCurrentRating": 1917,
+      "bulletCurrentRating": 2010
+    },
+    {
       "username": "super-gm-slayer",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/382071855.75fdd7a3.200x200o.9b81386d5d51.jpg",
       "profileUrl": "https://www.chess.com/member/Super-GM-Slayer",
-      "totalChange": 226,
-      "rapidChange": 26,
+      "totalChange": 221,
+      "rapidChange": 29,
       "blitzChange": 8,
-      "bulletChange": 192,
+      "bulletChange": 184,
       "rapidStartRating": 2110,
       "blitzStartRating": 1755,
       "bulletStartRating": 1269,
-      "rapidCurrentRating": 2136,
+      "rapidCurrentRating": 2139,
       "blitzCurrentRating": 1763,
-      "bulletCurrentRating": 1461
-    },
-    {
-      "username": "riteshmasterpiece",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/367910331.094ddeed.200x200o.fb39133d6877.jpg",
-      "profileUrl": "https://www.chess.com/member/riteshmasterpiece",
-      "totalChange": 189,
-      "rapidChange": 17,
-      "blitzChange": 0,
-      "bulletChange": 172,
-      "rapidStartRating": 1118,
-      "blitzStartRating": 1006,
-      "bulletStartRating": 679,
-      "rapidCurrentRating": 1135,
-      "blitzCurrentRating": 1006,
-      "bulletCurrentRating": 851
+      "bulletCurrentRating": 1453
     }
   ]
 }
