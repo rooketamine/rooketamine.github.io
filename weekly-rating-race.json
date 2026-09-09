@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-09T11:23:09.970Z",
+  "updatedAt": "2026-09-09T16:38:13.988Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4252,
-  "failedMembers": 387,
-  "eligibleMembers": 4210,
+  "checkedMembers": 4311,
+  "failedMembers": 328,
+  "eligibleMembers": 4211,
   "players": [
     {
       "username": "mightymightymightymighty",
@@ -26,21 +26,6 @@
       "bulletCurrentRating": 892
     },
     {
-      "username": "financial_dragon",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/490428617.49921e2f.200x200o.58b065846bb5.jpg",
-      "profileUrl": "https://www.chess.com/member/Financial_Dragon",
-      "totalChange": 228,
-      "rapidChange": 82,
-      "blitzChange": 75,
-      "bulletChange": 71,
-      "rapidStartRating": 1551,
-      "blitzStartRating": 1842,
-      "bulletStartRating": 1939,
-      "rapidCurrentRating": 1633,
-      "blitzCurrentRating": 1917,
-      "bulletCurrentRating": 2010
-    },
-    {
       "username": "super-gm-slayer",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/382071855.75fdd7a3.200x200o.9b81386d5d51.jpg",
       "profileUrl": "https://www.chess.com/member/Super-GM-Slayer",
@@ -54,6 +39,21 @@
       "rapidCurrentRating": 2139,
       "blitzCurrentRating": 1763,
       "bulletCurrentRating": 1453
+    },
+    {
+      "username": "jokerxharleyxidols",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/469499090.63d3e11c.200x200o.546cbacfa99e.jpg",
+      "profileUrl": "https://www.chess.com/member/JOKERXHARLEYXIdols",
+      "totalChange": 205,
+      "rapidChange": 44,
+      "blitzChange": 161,
+      "bulletChange": 0,
+      "rapidStartRating": 1760,
+      "blitzStartRating": 1299,
+      "bulletStartRating": 1201,
+      "rapidCurrentRating": 1804,
+      "blitzCurrentRating": 1460,
+      "bulletCurrentRating": 1201
     }
   ]
 }
