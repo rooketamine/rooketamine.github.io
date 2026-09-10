@@ -1,29 +1,29 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-09T23:14:25.530Z",
+  "updatedAt": "2026-09-10T04:42:14.298Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4629,
-  "failedMembers": 16,
-  "eligibleMembers": 4216,
+  "checkedMembers": 4635,
+  "failedMembers": 13,
+  "eligibleMembers": 4220,
   "players": [
     {
       "username": "mightymightymightymighty",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/324062539.850d42ee.200x200o.8514c5bc465a.jpg",
       "profileUrl": "https://www.chess.com/member/MIGHTYMIGHTYMIGHTYMIGHTY",
-      "totalChange": 283,
+      "totalChange": 266,
       "rapidChange": null,
       "blitzChange": -2,
-      "bulletChange": 285,
+      "bulletChange": 268,
       "rapidStartRating": null,
       "blitzStartRating": 532,
       "bulletStartRating": 607,
       "rapidCurrentRating": null,
       "blitzCurrentRating": 530,
-      "bulletCurrentRating": 892
+      "bulletCurrentRating": 875
     },
     {
       "username": "xusanmedic",
