@@ -1,29 +1,29 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-10T16:24:30.245Z",
+  "updatedAt": "2026-09-10T20:52:07.935Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4666,
-  "failedMembers": 1,
-  "eligibleMembers": 4235,
+  "checkedMembers": 4670,
+  "failedMembers": 0,
+  "eligibleMembers": 4238,
   "players": [
     {
-      "username": "vishvajeet2005",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/55030208.f2edb422.200x200o.e7967feeed29.png",
-      "profileUrl": "https://www.chess.com/member/Vishvajeet2005",
-      "totalChange": 310,
-      "rapidChange": null,
-      "blitzChange": 0,
-      "bulletChange": 310,
-      "rapidStartRating": null,
-      "blitzStartRating": 1898,
-      "bulletStartRating": 2091,
-      "rapidCurrentRating": null,
-      "blitzCurrentRating": 1898,
-      "bulletCurrentRating": 2401
+      "username": "kirill_vsky_2026",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/140754989.74392143.200x200o.de969cd3ce67.jpg",
+      "profileUrl": "https://www.chess.com/member/Kirill_Vsky_2026",
+      "totalChange": 291,
+      "rapidChange": 0,
+      "blitzChange": 270,
+      "bulletChange": 21,
+      "rapidStartRating": 312,
+      "blitzStartRating": 485,
+      "bulletStartRating": 1263,
+      "rapidCurrentRating": 312,
+      "blitzCurrentRating": 755,
+      "bulletCurrentRating": 1284
     },
     {
       "username": "novak6102",
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 371
     },
     {
-      "username": "mightymightymightymighty",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/324062539.850d42ee.200x200o.8514c5bc465a.jpg",
-      "profileUrl": "https://www.chess.com/member/MIGHTYMIGHTYMIGHTYMIGHTY",
-      "totalChange": 266,
+      "username": "vishvajeet2005",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/55030208.f2edb422.200x200o.e7967feeed29.png",
+      "profileUrl": "https://www.chess.com/member/Vishvajeet2005",
+      "totalChange": 273,
       "rapidChange": null,
-      "blitzChange": -2,
-      "bulletChange": 268,
+      "blitzChange": 0,
+      "bulletChange": 273,
       "rapidStartRating": null,
-      "blitzStartRating": 532,
-      "bulletStartRating": 607,
+      "blitzStartRating": 1898,
+      "bulletStartRating": 2091,
       "rapidCurrentRating": null,
-      "blitzCurrentRating": 530,
-      "bulletCurrentRating": 875
+      "blitzCurrentRating": 1898,
+      "bulletCurrentRating": 2364
     }
   ]
 }
