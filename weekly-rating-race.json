@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-10T23:10:39.493Z",
+  "updatedAt": "2026-09-11T04:39:43.201Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4670,
+  "checkedMembers": 4680,
   "failedMembers": 0,
-  "eligibleMembers": 4238,
+  "eligibleMembers": 4245,
   "players": [
     {
       "username": "kirill_vsky_2026",
@@ -26,6 +26,21 @@
       "bulletCurrentRating": 1284
     },
     {
+      "username": "xusanmedic",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/428251289.350822bc.200x200o.e4933fbb67c6.jpg",
+      "profileUrl": "https://www.chess.com/member/xusanmedic",
+      "totalChange": 288,
+      "rapidChange": 0,
+      "blitzChange": 94,
+      "bulletChange": 194,
+      "rapidStartRating": 2203,
+      "blitzStartRating": 2212,
+      "bulletStartRating": 2207,
+      "rapidCurrentRating": 2203,
+      "blitzCurrentRating": 2306,
+      "bulletCurrentRating": 2401
+    },
+    {
       "username": "novak6102",
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "profileUrl": "https://www.chess.com/member/Novak6102",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 2049,
       "blitzCurrentRating": 1764,
       "bulletCurrentRating": 371
-    },
-    {
-      "username": "vishvajeet2005",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/55030208.f2edb422.200x200o.e7967feeed29.png",
-      "profileUrl": "https://www.chess.com/member/Vishvajeet2005",
-      "totalChange": 273,
-      "rapidChange": null,
-      "blitzChange": 0,
-      "bulletChange": 273,
-      "rapidStartRating": null,
-      "blitzStartRating": 1898,
-      "bulletStartRating": 2091,
-      "rapidCurrentRating": null,
-      "blitzCurrentRating": 1898,
-      "bulletCurrentRating": 2364
     }
   ]
 }
