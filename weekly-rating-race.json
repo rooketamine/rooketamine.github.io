@@ -1,28 +1,43 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-11T04:39:43.201Z",
+  "updatedAt": "2026-09-11T11:20:53.314Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4680,
+  "checkedMembers": 4686,
   "failedMembers": 0,
-  "eligibleMembers": 4245,
+  "eligibleMembers": 4250,
   "players": [
+    {
+      "username": "novak6102",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "profileUrl": "https://www.chess.com/member/Novak6102",
+      "totalChange": 326,
+      "rapidChange": 2,
+      "blitzChange": 324,
+      "bulletChange": 0,
+      "rapidStartRating": 2047,
+      "blitzStartRating": 1483,
+      "bulletStartRating": 371,
+      "rapidCurrentRating": 2049,
+      "blitzCurrentRating": 1807,
+      "bulletCurrentRating": 371
+    },
     {
       "username": "kirill_vsky_2026",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/140754989.74392143.200x200o.de969cd3ce67.jpg",
       "profileUrl": "https://www.chess.com/member/Kirill_Vsky_2026",
-      "totalChange": 291,
+      "totalChange": 299,
       "rapidChange": 0,
-      "blitzChange": 270,
+      "blitzChange": 278,
       "bulletChange": 21,
       "rapidStartRating": 312,
       "blitzStartRating": 485,
       "bulletStartRating": 1263,
       "rapidCurrentRating": 312,
-      "blitzCurrentRating": 755,
+      "blitzCurrentRating": 763,
       "bulletCurrentRating": 1284
     },
     {
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 2203,
       "blitzCurrentRating": 2306,
       "bulletCurrentRating": 2401
-    },
-    {
-      "username": "novak6102",
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "profileUrl": "https://www.chess.com/member/Novak6102",
-      "totalChange": 283,
-      "rapidChange": 2,
-      "blitzChange": 281,
-      "bulletChange": 0,
-      "rapidStartRating": 2047,
-      "blitzStartRating": 1483,
-      "bulletStartRating": 371,
-      "rapidCurrentRating": 2049,
-      "blitzCurrentRating": 1764,
-      "bulletCurrentRating": 371
     }
   ]
 }
