@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-11T23:15:50.221Z",
+  "updatedAt": "2026-09-12T04:33:43.016Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4677,
+  "checkedMembers": 4686,
   "failedMembers": 8,
-  "eligibleMembers": 4247,
+  "eligibleMembers": 4256,
   "players": [
     {
       "username": "novak6102",
