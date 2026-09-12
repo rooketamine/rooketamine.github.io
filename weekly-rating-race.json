@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-12T20:33:03.206Z",
+  "updatedAt": "2026-09-12T23:02:57.543Z",
   "weekStartedAt": "2026-09-06T00:00:00.000Z",
   "weekEndsAt": "2026-09-13T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4698,
+  "checkedMembers": 4699,
   "failedMembers": 0,
-  "eligibleMembers": 4262,
+  "eligibleMembers": 4263,
   "players": [
     {
       "username": "novak6102",
@@ -44,16 +44,16 @@
       "username": "super-gm-slayer",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/382071855.75fdd7a3.200x200o.9b81386d5d51.jpg",
       "profileUrl": "https://www.chess.com/member/Super-GM-Slayer",
-      "totalChange": 313,
+      "totalChange": 304,
       "rapidChange": 1,
       "blitzChange": 7,
-      "bulletChange": 305,
+      "bulletChange": 296,
       "rapidStartRating": 2110,
       "blitzStartRating": 1755,
       "bulletStartRating": 1269,
       "rapidCurrentRating": 2111,
       "blitzCurrentRating": 1762,
-      "bulletCurrentRating": 1574
+      "bulletCurrentRating": 1565
     }
   ]
 }
