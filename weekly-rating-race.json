@@ -1,13 +1,59 @@
 {
-  "status": "baseline-created",
-  "updatedAt": "2026-09-13T04:47:11.500Z",
+  "status": "ready",
+  "updatedAt": "2026-09-13T06:11:19.915Z",
   "weekStartedAt": "2026-09-13T00:00:00.000Z",
   "weekEndsAt": "2026-09-20T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4696,
-  "failedMembers": 0,
+  "checkedMembers": 4695,
+  "failedMembers": 1,
   "eligibleMembers": 4260,
-  "players": []
+  "players": [
+    {
+      "username": "suraj044k",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/433513993.467fa4b4.200x200o.d8a3408b1991.jpg",
+      "profileUrl": "https://www.chess.com/member/Suraj044k",
+      "totalChange": 88,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 88,
+      "rapidStartRating": 2039,
+      "blitzStartRating": 2095,
+      "bulletStartRating": 2112,
+      "rapidCurrentRating": 2039,
+      "blitzCurrentRating": 2095,
+      "bulletCurrentRating": 2200
+    },
+    {
+      "username": "rooketamine",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/507944171.ecd56b45.200x200o.de572ae6d07d.jpg",
+      "profileUrl": "https://www.chess.com/member/Rooketamine",
+      "totalChange": 57,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 57,
+      "rapidStartRating": 2073,
+      "blitzStartRating": 1800,
+      "bulletStartRating": 1697,
+      "rapidCurrentRating": 2073,
+      "blitzCurrentRating": 1800,
+      "bulletCurrentRating": 1754
+    },
+    {
+      "username": "cap_man1",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/450110114.d8d00be1.200x200o.42639576bb9a.jpg",
+      "profileUrl": "https://www.chess.com/member/Cap_MAN1",
+      "totalChange": 53,
+      "rapidChange": null,
+      "blitzChange": 0,
+      "bulletChange": 53,
+      "rapidStartRating": null,
+      "blitzStartRating": 1429,
+      "bulletStartRating": 1040,
+      "rapidCurrentRating": null,
+      "blitzCurrentRating": 1429,
+      "bulletCurrentRating": 1093
+    }
+  ]
 }
