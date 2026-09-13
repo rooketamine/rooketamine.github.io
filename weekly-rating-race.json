@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-13T11:51:29.142Z",
+  "updatedAt": "2026-09-13T16:16:40.007Z",
   "weekStartedAt": "2026-09-13T00:00:00.000Z",
   "weekEndsAt": "2026-09-20T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
   "checkedMembers": 4696,
-  "failedMembers": 1,
-  "eligibleMembers": 4261,
+  "failedMembers": 2,
+  "eligibleMembers": 4263,
   "players": [
     {
       "username": "lord_890",
@@ -26,34 +26,34 @@
       "bulletCurrentRating": 1506
     },
     {
-      "username": "magnuscarlson3500",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/418262131.a0f0c9f7.200x200o.b6be74d44a29.jpg",
-      "profileUrl": "https://www.chess.com/member/Magnuscarlson3500",
-      "totalChange": 121,
-      "rapidChange": 0,
-      "blitzChange": null,
-      "bulletChange": 121,
-      "rapidStartRating": 730,
-      "blitzStartRating": null,
-      "bulletStartRating": 700,
-      "rapidCurrentRating": 730,
-      "blitzCurrentRating": null,
-      "bulletCurrentRating": 821
-    },
-    {
-      "username": "deepakbissyan",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/138515396.4e4d22b4.200x200o.3a2a1a77cc70.jpeg",
-      "profileUrl": "https://www.chess.com/member/deepakbissyan",
-      "totalChange": 104,
+      "username": "tanierlp",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "profileUrl": "https://www.chess.com/member/Tanierlp",
+      "totalChange": 130,
       "rapidChange": 0,
       "blitzChange": 0,
-      "bulletChange": 104,
-      "rapidStartRating": 1471,
-      "blitzStartRating": 1174,
-      "bulletStartRating": 980,
-      "rapidCurrentRating": 1471,
-      "blitzCurrentRating": 1174,
-      "bulletCurrentRating": 1084
+      "bulletChange": 130,
+      "rapidStartRating": 1150,
+      "blitzStartRating": 861,
+      "bulletStartRating": 773,
+      "rapidCurrentRating": 1150,
+      "blitzCurrentRating": 861,
+      "bulletCurrentRating": 903
+    },
+    {
+      "username": "anandhcl123_njoy",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/5298467.0a3e46bc.200x200o.00f4239f372e.jpg",
+      "profileUrl": "https://www.chess.com/member/anandhcl123_njoy",
+      "totalChange": 129,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 129,
+      "rapidStartRating": 1270,
+      "blitzStartRating": 1407,
+      "bulletStartRating": 1542,
+      "rapidCurrentRating": 1270,
+      "blitzCurrentRating": 1407,
+      "bulletCurrentRating": 1671
     }
   ]
 }
