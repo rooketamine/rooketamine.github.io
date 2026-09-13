@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-13T20:49:47.079Z",
+  "updatedAt": "2026-09-13T23:10:13.656Z",
   "weekStartedAt": "2026-09-13T00:00:00.000Z",
   "weekEndsAt": "2026-09-20T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
@@ -26,6 +26,21 @@
       "bulletCurrentRating": 906
     },
     {
+      "username": "tsehayedimtsu",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/354880477.0be7bfd7.200x200o.aa09d8cbc7a3.jpg",
+      "profileUrl": "https://www.chess.com/member/tsehayedimtsu",
+      "totalChange": 189,
+      "rapidChange": 0,
+      "blitzChange": 141,
+      "bulletChange": 48,
+      "rapidStartRating": 1480,
+      "blitzStartRating": 1331,
+      "bulletStartRating": 1473,
+      "rapidCurrentRating": 1480,
+      "blitzCurrentRating": 1472,
+      "bulletCurrentRating": 1521
+    },
+    {
       "username": "tanierlp",
       "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
       "profileUrl": "https://www.chess.com/member/Tanierlp",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1150,
       "blitzCurrentRating": 861,
       "bulletCurrentRating": 957
-    },
-    {
-      "username": "tsehayedimtsu",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/354880477.0be7bfd7.200x200o.aa09d8cbc7a3.jpg",
-      "profileUrl": "https://www.chess.com/member/tsehayedimtsu",
-      "totalChange": 174,
-      "rapidChange": 0,
-      "blitzChange": 126,
-      "bulletChange": 48,
-      "rapidStartRating": 1480,
-      "blitzStartRating": 1331,
-      "bulletStartRating": 1473,
-      "rapidCurrentRating": 1480,
-      "blitzCurrentRating": 1457,
-      "bulletCurrentRating": 1521
     }
   ]
 }
