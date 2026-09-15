@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-14T23:51:50.674Z",
+  "updatedAt": "2026-09-15T04:54:10.579Z",
   "weekStartedAt": "2026-09-13T00:00:00.000Z",
   "weekEndsAt": "2026-09-20T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4720,
+  "checkedMembers": 4722,
   "failedMembers": 0,
-  "eligibleMembers": 4283,
+  "eligibleMembers": 4285,
   "players": [
     {
       "username": "rapidmaster9",
@@ -26,6 +26,21 @@
       "bulletCurrentRating": 1202
     },
     {
+      "username": "tsehayedimtsu",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/354880477.0be7bfd7.200x200o.aa09d8cbc7a3.jpg",
+      "profileUrl": "https://www.chess.com/member/tsehayedimtsu",
+      "totalChange": 224,
+      "rapidChange": 0,
+      "blitzChange": 176,
+      "bulletChange": 48,
+      "rapidStartRating": 1480,
+      "blitzStartRating": 1331,
+      "bulletStartRating": 1473,
+      "rapidCurrentRating": 1480,
+      "blitzCurrentRating": 1507,
+      "bulletCurrentRating": 1521
+    },
+    {
       "username": "magnuscarlson3500",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/418262131.a0f0c9f7.200x200o.b6be74d44a29.jpg",
       "profileUrl": "https://www.chess.com/member/Magnuscarlson3500",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 739,
       "blitzCurrentRating": null,
       "bulletCurrentRating": 906
-    },
-    {
-      "username": "tsehayedimtsu",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/354880477.0be7bfd7.200x200o.aa09d8cbc7a3.jpg",
-      "profileUrl": "https://www.chess.com/member/tsehayedimtsu",
-      "totalChange": 207,
-      "rapidChange": 0,
-      "blitzChange": 159,
-      "bulletChange": 48,
-      "rapidStartRating": 1480,
-      "blitzStartRating": 1331,
-      "bulletStartRating": 1473,
-      "rapidCurrentRating": 1480,
-      "blitzCurrentRating": 1490,
-      "bulletCurrentRating": 1521
     }
   ]
 }
