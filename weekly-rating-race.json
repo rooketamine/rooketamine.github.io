@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-14T19:50:26.142Z",
+  "updatedAt": "2026-09-14T23:51:50.674Z",
   "weekStartedAt": "2026-09-13T00:00:00.000Z",
   "weekEndsAt": "2026-09-20T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4718,
-  "failedMembers": 1,
-  "eligibleMembers": 4284,
+  "checkedMembers": 4720,
+  "failedMembers": 0,
+  "eligibleMembers": 4283,
   "players": [
     {
       "username": "rapidmaster9",
