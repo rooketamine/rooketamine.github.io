@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-16T16:54:42.142Z",
+  "updatedAt": "2026-09-16T21:17:36.282Z",
   "weekStartedAt": "2026-09-13T00:00:00.000Z",
   "weekEndsAt": "2026-09-20T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4730,
+  "checkedMembers": 4732,
   "failedMembers": 0,
-  "eligibleMembers": 4295,
+  "eligibleMembers": 4297,
   "players": [
     {
       "username": "hollowdreamz",
@@ -26,6 +26,21 @@
       "bulletCurrentRating": 1669
     },
     {
+      "username": "alaye01",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/330876699.045a99e8.200x200o.dde7ba28374b.jpg",
+      "profileUrl": "https://www.chess.com/member/Alaye01",
+      "totalChange": 288,
+      "rapidChange": 31,
+      "blitzChange": 258,
+      "bulletChange": -1,
+      "rapidStartRating": 1625,
+      "blitzStartRating": 652,
+      "bulletStartRating": 531,
+      "rapidCurrentRating": 1656,
+      "blitzCurrentRating": 910,
+      "bulletCurrentRating": 530
+    },
+    {
       "username": "rapidmaster9",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/543026139.b453ca25.200x200o.4c0491ec9878.jpg",
       "profileUrl": "https://www.chess.com/member/Rapidmaster9",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1600,
       "blitzCurrentRating": 1015,
       "bulletCurrentRating": 1186
-    },
-    {
-      "username": "financial_dragon",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/490428617.49921e2f.200x200o.58b065846bb5.jpg",
-      "profileUrl": "https://www.chess.com/member/Financial_Dragon",
-      "totalChange": 251,
-      "rapidChange": 47,
-      "blitzChange": 221,
-      "bulletChange": -17,
-      "rapidStartRating": 1711,
-      "blitzStartRating": 1786,
-      "bulletStartRating": 1934,
-      "rapidCurrentRating": 1758,
-      "blitzCurrentRating": 2007,
-      "bulletCurrentRating": 1917
     }
   ]
 }
