@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-16T11:33:13.470Z",
+  "updatedAt": "2026-09-16T16:54:42.142Z",
   "weekStartedAt": "2026-09-13T00:00:00.000Z",
   "weekEndsAt": "2026-09-20T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
@@ -8,52 +8,52 @@
   "minimumGamesPerCountedFormat": 100,
   "checkedMembers": 4730,
   "failedMembers": 0,
-  "eligibleMembers": 4294,
+  "eligibleMembers": 4295,
   "players": [
     {
       "username": "hollowdreamz",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/114016244.08db7733.200x200o.1602b953c0b3.jpg",
       "profileUrl": "https://www.chess.com/member/HollowDreamz",
-      "totalChange": 264,
+      "totalChange": 301,
       "rapidChange": 0,
       "blitzChange": 0,
-      "bulletChange": 264,
+      "bulletChange": 301,
       "rapidStartRating": 1453,
       "blitzStartRating": 1702,
       "bulletStartRating": 1368,
       "rapidCurrentRating": 1453,
       "blitzCurrentRating": 1702,
-      "bulletCurrentRating": 1632
-    },
-    {
-      "username": "financial_dragon",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/490428617.49921e2f.200x200o.58b065846bb5.jpg",
-      "profileUrl": "https://www.chess.com/member/Financial_Dragon",
-      "totalChange": 260,
-      "rapidChange": 63,
-      "blitzChange": 214,
-      "bulletChange": -17,
-      "rapidStartRating": 1711,
-      "blitzStartRating": 1786,
-      "bulletStartRating": 1934,
-      "rapidCurrentRating": 1774,
-      "blitzCurrentRating": 2000,
-      "bulletCurrentRating": 1917
+      "bulletCurrentRating": 1669
     },
     {
       "username": "rapidmaster9",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/543026139.b453ca25.200x200o.4c0491ec9878.jpg",
       "profileUrl": "https://www.chess.com/member/Rapidmaster9",
-      "totalChange": 250,
-      "rapidChange": -7,
+      "totalChange": 257,
+      "rapidChange": 0,
       "blitzChange": 0,
       "bulletChange": 257,
       "rapidStartRating": 1600,
       "blitzStartRating": 1015,
       "bulletStartRating": 929,
-      "rapidCurrentRating": 1593,
+      "rapidCurrentRating": 1600,
       "blitzCurrentRating": 1015,
       "bulletCurrentRating": 1186
+    },
+    {
+      "username": "financial_dragon",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/490428617.49921e2f.200x200o.58b065846bb5.jpg",
+      "profileUrl": "https://www.chess.com/member/Financial_Dragon",
+      "totalChange": 251,
+      "rapidChange": 47,
+      "blitzChange": 221,
+      "bulletChange": -17,
+      "rapidStartRating": 1711,
+      "blitzStartRating": 1786,
+      "bulletStartRating": 1934,
+      "rapidCurrentRating": 1758,
+      "blitzCurrentRating": 2007,
+      "bulletCurrentRating": 1917
     }
   ]
 }
