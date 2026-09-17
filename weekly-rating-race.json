@@ -1,12 +1,12 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-16T21:17:36.282Z",
+  "updatedAt": "2026-09-17T04:52:13.689Z",
   "weekStartedAt": "2026-09-13T00:00:00.000Z",
   "weekEndsAt": "2026-09-20T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4732,
+  "checkedMembers": 4731,
   "failedMembers": 0,
   "eligibleMembers": 4297,
   "players": [
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 530
     },
     {
-      "username": "rapidmaster9",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/543026139.b453ca25.200x200o.4c0491ec9878.jpg",
-      "profileUrl": "https://www.chess.com/member/Rapidmaster9",
-      "totalChange": 257,
-      "rapidChange": 0,
-      "blitzChange": 0,
-      "bulletChange": 257,
-      "rapidStartRating": 1600,
-      "blitzStartRating": 1015,
-      "bulletStartRating": 929,
-      "rapidCurrentRating": 1600,
-      "blitzCurrentRating": 1015,
-      "bulletCurrentRating": 1186
+      "username": "arpit19108",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/98729968.352ee67b.200x200o.27c42b0339ac.gif",
+      "profileUrl": "https://www.chess.com/member/Arpit19108",
+      "totalChange": 263,
+      "rapidChange": 4,
+      "blitzChange": 37,
+      "bulletChange": 222,
+      "rapidStartRating": 1753,
+      "blitzStartRating": 1586,
+      "bulletStartRating": 1430,
+      "rapidCurrentRating": 1757,
+      "blitzCurrentRating": 1623,
+      "bulletCurrentRating": 1652
     }
   ]
 }
