@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-17T11:40:46.133Z",
+  "updatedAt": "2026-09-17T16:59:39.942Z",
   "weekStartedAt": "2026-09-13T00:00:00.000Z",
   "weekEndsAt": "2026-09-20T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4740,
+  "checkedMembers": 4742,
   "failedMembers": 0,
-  "eligibleMembers": 4307,
+  "eligibleMembers": 4309,
   "players": [
     {
       "username": "hollowdreamz",
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 530
     },
     {
-      "username": "arpit19108",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/98729968.352ee67b.200x200o.27c42b0339ac.gif",
-      "profileUrl": "https://www.chess.com/member/Arpit19108",
-      "totalChange": 272,
-      "rapidChange": 13,
-      "blitzChange": 37,
-      "bulletChange": 222,
-      "rapidStartRating": 1753,
-      "blitzStartRating": 1586,
-      "bulletStartRating": 1430,
-      "rapidCurrentRating": 1766,
-      "blitzCurrentRating": 1623,
-      "bulletCurrentRating": 1652
+      "username": "financial_dragon",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/490428617.49921e2f.200x200o.58b065846bb5.jpg",
+      "profileUrl": "https://www.chess.com/member/Financial_Dragon",
+      "totalChange": 277,
+      "rapidChange": 63,
+      "blitzChange": 235,
+      "bulletChange": -21,
+      "rapidStartRating": 1711,
+      "blitzStartRating": 1786,
+      "bulletStartRating": 1934,
+      "rapidCurrentRating": 1774,
+      "blitzCurrentRating": 2021,
+      "bulletCurrentRating": 1913
     }
   ]
 }
