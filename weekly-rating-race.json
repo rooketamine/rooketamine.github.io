@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-17T21:21:52.549Z",
+  "updatedAt": "2026-09-18T04:43:09.904Z",
   "weekStartedAt": "2026-09-13T00:00:00.000Z",
   "weekEndsAt": "2026-09-20T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
@@ -10,6 +10,21 @@
   "failedMembers": 0,
   "eligibleMembers": 4310,
   "players": [
+    {
+      "username": "shahiranoori",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/14527250.ab09f8d5.200x200o.fa7fc48a52cb.png",
+      "profileUrl": "https://www.chess.com/member/Shahiranoori",
+      "totalChange": 403,
+      "rapidChange": -48,
+      "blitzChange": 89,
+      "bulletChange": 362,
+      "rapidStartRating": 1191,
+      "blitzStartRating": 1420,
+      "bulletStartRating": 920,
+      "rapidCurrentRating": 1143,
+      "blitzCurrentRating": 1509,
+      "bulletCurrentRating": 1282
+    },
     {
       "username": "alaye01",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/330876699.045a99e8.200x200o.dde7ba28374b.jpg",
@@ -24,21 +39,6 @@
       "rapidCurrentRating": 1656,
       "blitzCurrentRating": 1009,
       "bulletCurrentRating": 530
-    },
-    {
-      "username": "shahiranoori",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/14527250.ab09f8d5.200x200o.fa7fc48a52cb.png",
-      "profileUrl": "https://www.chess.com/member/Shahiranoori",
-      "totalChange": 356,
-      "rapidChange": -48,
-      "blitzChange": 89,
-      "bulletChange": 315,
-      "rapidStartRating": 1191,
-      "blitzStartRating": 1420,
-      "bulletStartRating": 920,
-      "rapidCurrentRating": 1143,
-      "blitzCurrentRating": 1509,
-      "bulletCurrentRating": 1235
     },
     {
       "username": "hollowdreamz",
