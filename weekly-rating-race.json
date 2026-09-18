@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-18T11:14:07.378Z",
+  "updatedAt": "2026-09-18T16:23:39.385Z",
   "weekStartedAt": "2026-09-13T00:00:00.000Z",
   "weekEndsAt": "2026-09-20T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
@@ -8,22 +8,22 @@
   "minimumGamesPerCountedFormat": 100,
   "checkedMembers": 4746,
   "failedMembers": 0,
-  "eligibleMembers": 4312,
+  "eligibleMembers": 4311,
   "players": [
     {
       "username": "shahiranoori",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/14527250.ab09f8d5.200x200o.fa7fc48a52cb.png",
       "profileUrl": "https://www.chess.com/member/Shahiranoori",
-      "totalChange": 403,
+      "totalChange": 440,
       "rapidChange": -48,
       "blitzChange": 89,
-      "bulletChange": 362,
+      "bulletChange": 399,
       "rapidStartRating": 1191,
       "blitzStartRating": 1420,
       "bulletStartRating": 920,
       "rapidCurrentRating": 1143,
       "blitzCurrentRating": 1509,
-      "bulletCurrentRating": 1282
+      "bulletCurrentRating": 1319
     },
     {
       "username": "alaye01",
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 530
     },
     {
-      "username": "rrrflowerhorn",
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "profileUrl": "https://www.chess.com/member/RRRFlowerhorn",
-      "totalChange": 317,
-      "rapidChange": 0,
-      "blitzChange": 195,
-      "bulletChange": 122,
-      "rapidStartRating": 2409,
-      "blitzStartRating": 2511,
-      "bulletStartRating": 2559,
-      "rapidCurrentRating": 2409,
-      "blitzCurrentRating": 2706,
-      "bulletCurrentRating": 2681
+      "username": "windofshu777",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/465388906.fed4e3c6.200x200o.41cbc3550131.jpg",
+      "profileUrl": "https://www.chess.com/member/Windofshu777",
+      "totalChange": 383,
+      "rapidChange": 156,
+      "blitzChange": 43,
+      "bulletChange": 184,
+      "rapidStartRating": 487,
+      "blitzStartRating": 401,
+      "bulletStartRating": 510,
+      "rapidCurrentRating": 643,
+      "blitzCurrentRating": 444,
+      "bulletCurrentRating": 694
     }
   ]
 }
