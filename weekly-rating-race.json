@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-18T16:23:39.385Z",
+  "updatedAt": "2026-09-18T20:54:04.227Z",
   "weekStartedAt": "2026-09-13T00:00:00.000Z",
   "weekEndsAt": "2026-09-20T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4746,
+  "checkedMembers": 4747,
   "failedMembers": 0,
-  "eligibleMembers": 4311,
+  "eligibleMembers": 4313,
   "players": [
     {
       "username": "shahiranoori",
@@ -44,14 +44,14 @@
       "username": "windofshu777",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/465388906.fed4e3c6.200x200o.41cbc3550131.jpg",
       "profileUrl": "https://www.chess.com/member/Windofshu777",
-      "totalChange": 383,
-      "rapidChange": 156,
+      "totalChange": 375,
+      "rapidChange": 148,
       "blitzChange": 43,
       "bulletChange": 184,
       "rapidStartRating": 487,
       "blitzStartRating": 401,
       "bulletStartRating": 510,
-      "rapidCurrentRating": 643,
+      "rapidCurrentRating": 635,
       "blitzCurrentRating": 444,
       "bulletCurrentRating": 694
     }
