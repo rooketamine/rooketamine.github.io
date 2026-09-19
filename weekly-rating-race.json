@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-19T10:58:30.625Z",
+  "updatedAt": "2026-09-19T15:53:01.339Z",
   "weekStartedAt": "2026-09-13T00:00:00.000Z",
   "weekEndsAt": "2026-09-20T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4757,
-  "failedMembers": 0,
-  "eligibleMembers": 4321,
+  "checkedMembers": 4756,
+  "failedMembers": 2,
+  "eligibleMembers": 4324,
   "players": [
     {
       "username": "shahiranoori",
@@ -26,6 +26,21 @@
       "bulletCurrentRating": 1327
     },
     {
+      "username": "victoriwi",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/557325715.364ff1fd.200x200o.ff8884fa09cd.png",
+      "profileUrl": "https://www.chess.com/member/victoriwi",
+      "totalChange": 388,
+      "rapidChange": 24,
+      "blitzChange": 43,
+      "bulletChange": 321,
+      "rapidStartRating": 355,
+      "blitzStartRating": 332,
+      "bulletStartRating": 1193,
+      "rapidCurrentRating": 379,
+      "blitzCurrentRating": 375,
+      "bulletCurrentRating": 1514
+    },
+    {
       "username": "alaye01",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/330876699.045a99e8.200x200o.dde7ba28374b.jpg",
       "profileUrl": "https://www.chess.com/member/Alaye01",
@@ -39,21 +54,6 @@
       "rapidCurrentRating": 1656,
       "blitzCurrentRating": 1009,
       "bulletCurrentRating": 530
-    },
-    {
-      "username": "windofshu777",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/465388906.fed4e3c6.200x200o.41cbc3550131.jpg",
-      "profileUrl": "https://www.chess.com/member/Windofshu777",
-      "totalChange": 375,
-      "rapidChange": 148,
-      "blitzChange": 43,
-      "bulletChange": 184,
-      "rapidStartRating": 487,
-      "blitzStartRating": 401,
-      "bulletStartRating": 510,
-      "rapidCurrentRating": 635,
-      "blitzCurrentRating": 444,
-      "bulletCurrentRating": 694
     }
   ]
 }
