@@ -1,29 +1,29 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-18T23:17:36.149Z",
+  "updatedAt": "2026-09-19T04:36:53.753Z",
   "weekStartedAt": "2026-09-13T00:00:00.000Z",
   "weekEndsAt": "2026-09-20T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4747,
+  "checkedMembers": 4752,
   "failedMembers": 0,
-  "eligibleMembers": 4313,
+  "eligibleMembers": 4318,
   "players": [
     {
       "username": "shahiranoori",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/14527250.ab09f8d5.200x200o.fa7fc48a52cb.png",
       "profileUrl": "https://www.chess.com/member/Shahiranoori",
-      "totalChange": 440,
+      "totalChange": 456,
       "rapidChange": -48,
       "blitzChange": 89,
-      "bulletChange": 399,
+      "bulletChange": 415,
       "rapidStartRating": 1191,
       "blitzStartRating": 1420,
       "bulletStartRating": 920,
       "rapidCurrentRating": 1143,
       "blitzCurrentRating": 1509,
-      "bulletCurrentRating": 1319
+      "bulletCurrentRating": 1335
     },
     {
       "username": "alaye01",
