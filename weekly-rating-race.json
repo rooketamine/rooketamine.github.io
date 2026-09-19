@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-19T20:39:51.392Z",
+  "updatedAt": "2026-09-19T23:04:20.467Z",
   "weekStartedAt": "2026-09-13T00:00:00.000Z",
   "weekEndsAt": "2026-09-20T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
@@ -14,16 +14,16 @@
       "username": "shahiranoori",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/14527250.ab09f8d5.200x200o.fa7fc48a52cb.png",
       "profileUrl": "https://www.chess.com/member/Shahiranoori",
-      "totalChange": 462,
+      "totalChange": 453,
       "rapidChange": -48,
       "blitzChange": 89,
-      "bulletChange": 421,
+      "bulletChange": 412,
       "rapidStartRating": 1191,
       "blitzStartRating": 1420,
       "bulletStartRating": 920,
       "rapidCurrentRating": 1143,
       "blitzCurrentRating": 1509,
-      "bulletCurrentRating": 1341
+      "bulletCurrentRating": 1332
     },
     {
       "username": "victoriwi",
