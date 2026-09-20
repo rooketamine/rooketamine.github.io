@@ -1,12 +1,12 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-20T20:48:43.734Z",
+  "updatedAt": "2026-09-20T23:14:54.058Z",
   "weekStartedAt": "2026-09-20T00:00:00.000Z",
   "weekEndsAt": "2026-09-27T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4782,
+  "checkedMembers": 4781,
   "failedMembers": 2,
   "eligibleMembers": 4348,
   "players": [
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 1707
     },
     {
-      "username": "viorelizvoru",
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "profileUrl": "https://www.chess.com/member/viorelizvoru",
-      "totalChange": 146,
+      "username": "jordand4",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/89528622.a67b38c6.200x200o.e9bd11218a58.jpeg",
+      "profileUrl": "https://www.chess.com/member/jordanD4",
+      "totalChange": 150,
       "rapidChange": 0,
-      "blitzChange": 48,
-      "bulletChange": 98,
-      "rapidStartRating": 2005,
-      "blitzStartRating": 1561,
-      "bulletStartRating": 1337,
-      "rapidCurrentRating": 2005,
-      "blitzCurrentRating": 1609,
-      "bulletCurrentRating": 1435
+      "blitzChange": 150,
+      "bulletChange": 0,
+      "rapidStartRating": 1826,
+      "blitzStartRating": 1506,
+      "bulletStartRating": 1598,
+      "rapidCurrentRating": 1826,
+      "blitzCurrentRating": 1656,
+      "bulletCurrentRating": 1598
     }
   ]
 }
