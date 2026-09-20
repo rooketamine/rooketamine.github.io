@@ -1,13 +1,59 @@
 {
-  "status": "baseline-created",
-  "updatedAt": "2026-09-20T04:53:30.800Z",
+  "status": "ready",
+  "updatedAt": "2026-09-20T06:36:28.648Z",
   "weekStartedAt": "2026-09-20T00:00:00.000Z",
   "weekEndsAt": "2026-09-27T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4759,
+  "checkedMembers": 4769,
   "failedMembers": 0,
-  "eligibleMembers": 4325,
-  "players": []
+  "eligibleMembers": 4335,
+  "players": [
+    {
+      "username": "krish_rathod",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/43328710.16a79fba.200x200o.61a33b6e6b6b.jpeg",
+      "profileUrl": "https://www.chess.com/member/Krish_Rathod",
+      "totalChange": 65,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 65,
+      "rapidStartRating": 2103,
+      "blitzStartRating": 2006,
+      "bulletStartRating": 1902,
+      "rapidCurrentRating": 2103,
+      "blitzCurrentRating": 2006,
+      "bulletCurrentRating": 1967
+    },
+    {
+      "username": "lordkavish7",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/394620755.d17d1a0c.200x200o.7bdba4ff7a4d.jpg",
+      "profileUrl": "https://www.chess.com/member/LordKavish7",
+      "totalChange": 62,
+      "rapidChange": 38,
+      "blitzChange": 24,
+      "bulletChange": 0,
+      "rapidStartRating": 1509,
+      "blitzStartRating": 1443,
+      "bulletStartRating": 1361,
+      "rapidCurrentRating": 1547,
+      "blitzCurrentRating": 1467,
+      "bulletCurrentRating": 1361
+    },
+    {
+      "username": "rubykitchen",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "profileUrl": "https://www.chess.com/member/RubyKitchen",
+      "totalChange": 54,
+      "rapidChange": 0,
+      "blitzChange": 54,
+      "bulletChange": 0,
+      "rapidStartRating": 643,
+      "blitzStartRating": 705,
+      "bulletStartRating": 866,
+      "rapidCurrentRating": 643,
+      "blitzCurrentRating": 759,
+      "bulletCurrentRating": 866
+    }
+  ]
 }
