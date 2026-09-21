@@ -7027,6 +7027,40 @@ body,
   filter:none!important;
 }
 
+
+
+/* =========================================================
+   PNG IMAGE AREA: ONLY KEEP THE BOTTOM LINE
+   Remove top and side orange box lines.
+   ========================================================= */
+.image-frame-wrap{
+  background:transparent!important;
+  background-image:none!important;
+  padding:0!important;
+  border:none!important;
+  border-bottom:2px solid #F25623!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+
+.image-frame-wrap::before,
+.image-frame-wrap::after{
+  content:none!important;
+  display:none!important;
+  background:none!important;
+}
+
+.image-frame{
+  display:block!important;
+  width:100%!important;
+  background:transparent!important;
+  background-image:none!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  filter:none!important;
+}
+
 </style>
 
 </head>
