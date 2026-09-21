@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-20T23:14:54.058Z",
+  "updatedAt": "2026-09-21T04:55:13.207Z",
   "weekStartedAt": "2026-09-20T00:00:00.000Z",
   "weekEndsAt": "2026-09-27T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4781,
-  "failedMembers": 2,
-  "eligibleMembers": 4348,
+  "checkedMembers": 4788,
+  "failedMembers": 1,
+  "eligibleMembers": 4353,
   "players": [
     {
       "username": "artycollar",
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 1707
     },
     {
-      "username": "jordand4",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/89528622.a67b38c6.200x200o.e9bd11218a58.jpeg",
-      "profileUrl": "https://www.chess.com/member/jordanD4",
-      "totalChange": 150,
+      "username": "dalton-fc-1981",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/70274598.8bc536fa.200x200o.a7a6a6b7ba96.jpeg",
+      "profileUrl": "https://www.chess.com/member/Dalton-Fc-1981",
+      "totalChange": 161,
       "rapidChange": 0,
-      "blitzChange": 150,
+      "blitzChange": 161,
       "bulletChange": 0,
-      "rapidStartRating": 1826,
-      "blitzStartRating": 1506,
-      "bulletStartRating": 1598,
-      "rapidCurrentRating": 1826,
-      "blitzCurrentRating": 1656,
-      "bulletCurrentRating": 1598
+      "rapidStartRating": 1535,
+      "blitzStartRating": 1602,
+      "bulletStartRating": 1905,
+      "rapidCurrentRating": 1535,
+      "blitzCurrentRating": 1763,
+      "bulletCurrentRating": 1905
     }
   ]
 }
