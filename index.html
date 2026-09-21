@@ -6994,6 +6994,39 @@ body,
   color:#F25623 !important;
 }
 
+
+
+/* =========================================================
+   TRANSPARENT CHESS IMAGE AREA
+   Keep the PNG's transparent pixels truly transparent.
+   ========================================================= */
+.image-frame-wrap{
+  background:transparent!important;
+  background-image:none!important;
+  padding:0!important;
+  border:2px solid #F25623!important;
+  box-shadow:
+    0 10px 24px rgba(0,0,0,.42),
+    0 0 14px rgba(242,86,35,.14)!important;
+}
+
+.image-frame-wrap::before,
+.image-frame-wrap::after{
+  content:none!important;
+  display:none!important;
+  background:none!important;
+}
+
+.image-frame{
+  display:block!important;
+  width:100%!important;
+  background:transparent!important;
+  background-image:none!important;
+  border:0!important;
+  box-shadow:none!important;
+  filter:none!important;
+}
+
 </style>
 
 </head>
