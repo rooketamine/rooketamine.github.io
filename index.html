@@ -6792,6 +6792,208 @@ body{
   filter:drop-shadow(0 0 2px rgba(255,208,84,.34)) drop-shadow(0 0 6px rgba(255,170,40,.18))!important;
 }
 
+
+
+/* =========================================================
+   PUMPKIN SIZE TWEAK ONLY
+   Everything else stays unchanged.
+   ========================================================= */
+
+/* Top header pumpkin: same smaller size used before */
+.halloween-top-pumpkin{
+  width:38px!important;
+  height:38px!important;
+  max-width:12%!important;
+  right:6px!important;
+}
+
+@media (max-width:320px){
+  .halloween-top-pumpkin{
+    width:34px!important;
+    height:34px!important;
+    max-width:12%!important;
+    right:5px!important;
+  }
+}
+
+/* Daily Tournament pumpkin: slightly smaller */
+.halloween-daily-card::before{
+  font-size:26px!important;
+}
+
+
+
+/* =========================================================
+   MATCH ANIMATED BALLS TO THE HEADER PUMPKIN
+   Exact same image artwork, clean transparent edges.
+   ========================================================= */
+.top-ball{
+  width:20px!important;
+  height:20px!important;
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+  overflow:visible!important;
+}
+
+.top-ball::before,
+.top-ball::after{
+  content:none!important;
+  display:none!important;
+}
+
+.top-ball-pumpkin{
+  display:block!important;
+  width:20px!important;
+  height:20px!important;
+  max-width:none!important;
+  object-fit:contain!important;
+  object-position:center!important;
+  background:transparent!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  filter:drop-shadow(0 1.5px 2.5px rgba(0,0,0,.34))!important;
+  opacity:1!important;
+  pointer-events:none!important;
+  user-select:none!important;
+  -webkit-user-drag:none!important;
+  image-rendering:auto!important;
+  backface-visibility:hidden!important;
+}
+
+
+
+/* =========================================================
+   BLACK + #F25623 HALLOWEEN THEME
+   Keeps the existing layout, curves, pumpkins and animations.
+   ========================================================= */
+
+:root{
+  --accent:#F25623 !important;
+  --panel:#0D0D0D !important;
+  --panel-2:#191919 !important;
+  --border:#A63A18 !important;
+  --gold:#F25623 !important;
+  --pitch:#C7461C !important;
+  --line:#F5F5F5 !important;
+}
+
+/* Page / lower background */
+html,
+body,
+.sb,
+.inner{
+  background:#0D0D0D !important;
+}
+
+/* Darkest curved top */
+.sb-top{
+  background:#000000 !important;
+  border-radius:24px 24px 0 0 !important;
+  overflow:hidden !important;
+}
+
+.sb-top::before{
+  background:none !important;
+}
+
+/* Curve blends into the lower black */
+.sb-top::after{
+  content:"" !important;
+  position:absolute !important;
+  bottom:-10px !important;
+  left:-10% !important;
+  width:120% !important;
+  height:20px !important;
+  background:#0D0D0D !important;
+  border-radius:50% !important;
+  pointer-events:none !important;
+}
+
+/* Main cards: clean lifted charcoal */
+.card,
+.card:hover,
+.card:focus,
+.card:focus-within{
+  background:#171717 !important;
+  background-image:none !important;
+  border-color:#A63A18 !important;
+}
+
+/* Main CTA */
+.join-btn{
+  border-color:#F25623 !important;
+  background:#C7461C !important;
+  box-shadow:
+    0 4px 0 #7F2B12,
+    0 10px 16px rgba(0,0,0,.24),
+    0 0 16px rgba(242,86,35,.22) !important;
+}
+
+.join-btn:hover{
+  background:#F25623 !important;
+  box-shadow:
+    0 5px 0 #923215,
+    0 13px 20px rgba(0,0,0,.26),
+    0 0 20px rgba(242,86,35,.34) !important;
+}
+
+/* Rows and link buttons keep their structure, but use the black/orange palette */
+.member-row,
+.list-btn,
+.forum-btn{
+  background:#141414 !important;
+  background-image:none !important;
+  border-color:#8F3217 !important;
+}
+
+.member-row:hover,
+.list-btn:hover,
+.forum-btn:hover{
+  background:#1D1D1D !important;
+}
+
+/* Orange-highlighted title chip */
+.title-box{
+  background:#151515 !important;
+  background-image:none !important;
+  border-color:#F25623 !important;
+}
+
+/* Separators: orange instead of burgundy/gold */
+.div::before{
+  background:linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(242,86,35,.16) 18%,
+    rgba(242,86,35,.58) 42%,
+    rgba(242,86,35,.92) 50%,
+    rgba(242,86,35,.58) 58%,
+    rgba(242,86,35,.16) 82%,
+    transparent 100%
+  ) !important;
+  box-shadow:0 0 9px rgba(242,86,35,.22) !important;
+}
+
+/* Keep text neutral so the orange stays punchy */
+.sec-sub,
+.format-line,
+.welcome-text,
+.member-elo,
+.footer-text,
+.featured-points,
+.yw-updated,
+.yw-reset-note{
+  color:#D7D0CC !important;
+}
+
+/* Footer slogan and small accent text */
+.bb-footer-slogan,
+.results-link{
+  color:#F25623 !important;
+}
+
 </style>
 
 </head>
@@ -7665,42 +7867,32 @@ function initTopBalls(){
     }
   }
 
-  const state = balls.map((el, index) => {
-    const canvas = document.createElement('canvas');
-    canvas.className = 'top-ball-canvas';
-    canvas.width = 64;
-    canvas.height = 64;
-    el.replaceChildren(canvas);
+  /* Use the exact same pumpkin artwork as the top-right header pumpkin
+     for both animated balls, so all pumpkins match perfectly. */
+  const headerPumpkinImg = top.querySelector('.halloween-top-pumpkin img');
+  const headerPumpkinSrc = headerPumpkinImg ? headerPumpkinImg.src : '';
 
-    const texture = Array.from({ length: 85 }, (_, i) => ({
-      x: ((i * 37) % 97) / 97,
-      y: ((i * 61 + 17) % 101) / 101,
-      a: 0.025 + (((i * 13) % 17) / 17) * 0.055,
-      light: i % 3 === 0
-    }));
+  const state = balls.map((el, index) => {
+    const pumpkinImg = document.createElement('img');
+    pumpkinImg.className = 'top-ball-pumpkin';
+    pumpkinImg.src = headerPumpkinSrc;
+    pumpkinImg.alt = '';
+    pumpkinImg.setAttribute('aria-hidden', 'true');
+    pumpkinImg.draggable = false;
+    el.replaceChildren(pumpkinImg);
 
     return {
       el,
-      canvas,
-      ctx: canvas.getContext('2d'),
-      texture,
+      pumpkinImg,
       x: index === 0 ? RADIUS + 6 : Math.max(RADIUS + 28, top.clientWidth - RADIUS - 14),
       y: index === 0 ? RADIUS + 6 : RADIUS + 18,
       vx: index === 0 ? randomRange(40, 52) : -randomRange(40, 52),
       vy: randomSign() * randomRange(18, 32),
-      /* Keep a fixed 3D-looking seam pose, but render it only once. */
-      rotX: index === 0 ? 0.34 : -0.56,
-      rotY: index === 0 ? 0.78 : -0.92,
-      rotZ: index === 0 ? 0.18 : 1.06,
       spin: index === 0 ? 0 : 145,
       symbolCooldown: 0,
       boostDecayRate: KICK_DECAY_RATE
     };
   });
-
-  /* Expensive tennis-ball texture/seam drawing happens once per ball.
-     During animation we only move + rotate the already-rendered canvas. */
-  state.forEach(drawTennisBall);
 
   function clamp(value, min, max){
     return Math.max(min, Math.min(max, value));
