@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-21T12:47:38.592Z",
+  "updatedAt": "2026-09-21T19:59:09.595Z",
   "weekStartedAt": "2026-09-20T00:00:00.000Z",
   "weekEndsAt": "2026-09-27T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4788,
+  "checkedMembers": 4789,
   "failedMembers": 1,
-  "eligibleMembers": 4351,
+  "eligibleMembers": 4352,
   "players": [
     {
       "username": "sanataaj",
