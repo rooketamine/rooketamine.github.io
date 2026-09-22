@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-22T00:06:38.780Z",
+  "updatedAt": "2026-09-22T04:55:23.354Z",
   "weekStartedAt": "2026-09-20T00:00:00.000Z",
   "weekEndsAt": "2026-09-27T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4789,
+  "checkedMembers": 4796,
   "failedMembers": 1,
-  "eligibleMembers": 4352,
+  "eligibleMembers": 4357,
   "players": [
     {
       "username": "sanataaj",
@@ -41,19 +41,19 @@
       "bulletCurrentRating": 1602
     },
     {
-      "username": "victoriwi",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/557325715.f6fd96ff.200x200o.970317ac8b95.png",
-      "profileUrl": "https://www.chess.com/member/victoriwi",
-      "totalChange": 175,
+      "username": "ezrabridger04",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/434907417.3f3749cb.200x200o.8fbe2b8a880e.jpg",
+      "profileUrl": "https://www.chess.com/member/EzraBridger04",
+      "totalChange": 180,
       "rapidChange": 0,
-      "blitzChange": 0,
-      "bulletChange": 175,
-      "rapidStartRating": 379,
-      "blitzStartRating": 375,
-      "bulletStartRating": 1532,
-      "rapidCurrentRating": 379,
-      "blitzCurrentRating": 375,
-      "bulletCurrentRating": 1707
+      "blitzChange": 80,
+      "bulletChange": 100,
+      "rapidStartRating": 1708,
+      "blitzStartRating": 1526,
+      "bulletStartRating": 1241,
+      "rapidCurrentRating": 1708,
+      "blitzCurrentRating": 1606,
+      "bulletCurrentRating": 1341
     }
   ]
 }
