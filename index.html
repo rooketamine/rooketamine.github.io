@@ -7230,7 +7230,7 @@ body,
   white-space:nowrap;
   color:#fff;
   font-size:9.5px!important;
-  font-weight:800!important;
+  font-weight:400!important;
   line-height:1.05!important;
   text-align:center;
 }
@@ -7903,7 +7903,11 @@ function drawWeeklyRatingRace(data){
                 const username = String(player?.username || 'unknown');
                 const safeName = escapeWeeklyRatingHtml(username);
                 const total = signedRatingChange(player?.totalChange) ?? '0';
-                const breakdown = weeklyRatingBreakdown(player);
+                const rapidGain = signedRatingChange(player?.rapidChange) ?? 'N/A';
+                const blitzGain = signedRatingChange(player?.blitzChange) ?? 'N/A';
+                const bulletGain = signedRatingChange(player?.bulletChange) ?? 'N/A';
+                const hoverText = `@${username} | Rapid ${rapidGain} | Blitz ${blitzGain} | Bullet ${bulletGain}`;
+                const safeHoverText = escapeWeeklyRatingHtml(hoverText);
                 const profileUrl =
                   player?.profileUrl ||
                   `https://www.chess.com/member/${encodeURIComponent(username)}`;
@@ -7915,6 +7919,7 @@ function drawWeeklyRatingRace(data){
                      href="${safeProfileUrl}"
                      target="_blank"
                      rel="noopener noreferrer"
+                     title="${safeHoverText}"
                      aria-label="Rank ${rank}, ${safeName}, ${total} rating points this week">
                     <div class="yw-chaser-photo-wrap">
                       <img class="yw-chaser-photo"
@@ -7922,12 +7927,6 @@ function drawWeeklyRatingRace(data){
                            alt="${safeName}"
                            onerror="this.src='${YW_FALLBACK_AVATAR}'">
                       <span class="yw-chaser-rank">#${rank}</span>
-                      <div class="yw-chaser-tooltip" role="tooltip">
-                        <div class="yw-chaser-tooltip-name">@${safeName}</div>
-                        <div class="yw-chaser-tooltip-stats">
-                          ${breakdown || '<span class="yw-chaser-no-change">No format change</span>'}
-                        </div>
-                      </div>
                     </div>
                     <div class="yw-chaser-total">${total} <span>pts</span></div>
                   </a>`;
