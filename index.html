@@ -7903,10 +7903,14 @@ function drawWeeklyRatingRace(data){
                 const username = String(player?.username || 'unknown');
                 const safeName = escapeWeeklyRatingHtml(username);
                 const total = signedRatingChange(player?.totalChange) ?? '0';
-                const rapidGain = signedRatingChange(player?.rapidChange) ?? 'N/A';
-                const blitzGain = signedRatingChange(player?.blitzChange) ?? 'N/A';
-                const bulletGain = signedRatingChange(player?.bulletChange) ?? 'N/A';
-                const hoverText = `@${username} | Rapid ${rapidGain} | Blitz ${blitzGain} | Bullet ${bulletGain}`;
+                const hoverFormats = [
+                  ['Rapid', player?.rapidChange],
+                  ['Blitz', player?.blitzChange],
+                  ['Bullet', player?.bulletChange]
+                ]
+                  .filter(([, value]) => Number.isFinite(Number(value)) && Number(value) !== 0)
+                  .map(([label, value]) => `${label} ${signedRatingChange(value)}`);
+                const hoverText = `@${username}${hoverFormats.length ? ` | ${hoverFormats.join(' | ')}` : ''}`;
                 const safeHoverText = escapeWeeklyRatingHtml(hoverText);
                 const profileUrl =
                   player?.profileUrl ||
