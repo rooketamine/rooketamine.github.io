@@ -18,7 +18,7 @@ const RETRIES = 4;
 const RETRY_DELAY_MS = 1500;
 const MIN_ACCOUNT_AGE_DAYS = 90;
 const MIN_GAMES_PER_FORMAT = 100;
-const TOP_COUNT = 3;
+const TOP_COUNT = 10;
 
 const FORMATS = [
   { name: 'rapid', apiKey: 'chess_rapid' },
