@@ -7061,6 +7061,243 @@ body,
   filter:none!important;
 }
 
+
+
+/* =========================================================
+   WEEKLY RATING CLIMBERS: RANKS 4–10
+   Keep the existing top-3 podium unchanged. Lower ranks use
+   compact circular avatars, total weekly gain, and hover stats.
+   ========================================================= */
+#weeklyRatingBoard .yw-chasers{
+  width:100%;
+  margin-top:13px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:12px;
+  overflow:visible;
+}
+
+#weeklyRatingBoard .yw-chaser-row{
+  width:100%;
+  display:grid;
+  align-items:start;
+  justify-content:center;
+  overflow:visible;
+}
+
+#weeklyRatingBoard .yw-chaser-row-three{
+  grid-template-columns:repeat(3,58px);
+  gap:0 22px;
+}
+
+#weeklyRatingBoard .yw-chaser-row-four{
+  grid-template-columns:repeat(4,52px);
+  gap:0 10px;
+}
+
+#weeklyRatingBoard .yw-chaser{
+  position:relative;
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  color:#fff;
+  text-decoration:none;
+  outline:none;
+  overflow:visible;
+  z-index:1;
+}
+
+#weeklyRatingBoard .yw-chaser:hover,
+#weeklyRatingBoard .yw-chaser:focus-visible{
+  z-index:60;
+}
+
+#weeklyRatingBoard .yw-chaser-photo-wrap{
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  overflow:visible;
+}
+
+#weeklyRatingBoard .yw-chaser-photo{
+  width:50px;
+  height:50px;
+  display:block;
+  border-radius:50%;
+  object-fit:cover;
+  background:#111214;
+  border:2px solid #F25623;
+  box-shadow:0 6px 14px rgba(0,0,0,.34);
+  transition:transform .2s ease, border-color .2s ease, box-shadow .2s ease, filter .2s ease;
+}
+
+#weeklyRatingBoard .yw-chaser-row-four .yw-chaser-photo{
+  width:46px;
+  height:46px;
+}
+
+#weeklyRatingBoard .yw-chaser:hover .yw-chaser-photo,
+#weeklyRatingBoard .yw-chaser:focus-visible .yw-chaser-photo{
+  transform:translateY(-3px) scale(1.08);
+  border-color:#fff3e6;
+  filter:brightness(1.05);
+  box-shadow:0 9px 18px rgba(0,0,0,.42),0 0 15px rgba(242,86,35,.18);
+}
+
+#weeklyRatingBoard .yw-chaser-rank{
+  position:absolute;
+  right:-5px;
+  bottom:-2px;
+  min-width:22px;
+  height:20px;
+  padding:0 5px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:999px;
+  border:1px solid rgba(255,243,230,.88);
+  background:linear-gradient(180deg,#fff3e6,#ffbc82);
+  color:#211006;
+  font-size:9px!important;
+  font-weight:900!important;
+  line-height:1!important;
+  box-shadow:0 3px 7px rgba(0,0,0,.32);
+  z-index:3;
+}
+
+#weeklyRatingBoard .yw-chaser-total{
+  margin-top:6px;
+  color:#f6f2ef;
+  font-size:11.5px!important;
+  font-weight:900!important;
+  line-height:1!important;
+  white-space:nowrap;
+}
+
+#weeklyRatingBoard .yw-chaser-total span{
+  color:#D7D0CC;
+  font-size:8.5px!important;
+  font-weight:700!important;
+}
+
+#weeklyRatingBoard .yw-chaser-tooltip{
+  position:absolute;
+  left:50%;
+  bottom:calc(100% + 10px);
+  width:max-content;
+  min-width:112px;
+  max-width:150px;
+  padding:7px 8px;
+  border:1px solid #F25623;
+  border-radius:10px;
+  background:rgba(17,17,17,.98);
+  box-shadow:0 8px 22px rgba(0,0,0,.45),0 0 13px rgba(242,86,35,.13);
+  color:#F5F5F5;
+  opacity:0;
+  visibility:hidden;
+  pointer-events:none;
+  transform:translate(-50%,5px) scale(.96);
+  transform-origin:center bottom;
+  transition:opacity .16s ease, transform .16s ease, visibility .16s ease;
+  z-index:100;
+}
+
+#weeklyRatingBoard .yw-chaser-tooltip::after{
+  content:'';
+  position:absolute;
+  left:50%;
+  top:100%;
+  transform:translateX(-50%);
+  border:6px solid transparent;
+  border-top-color:#F25623;
+}
+
+#weeklyRatingBoard .yw-chaser:hover .yw-chaser-tooltip,
+#weeklyRatingBoard .yw-chaser:focus-visible .yw-chaser-tooltip{
+  opacity:1;
+  visibility:visible;
+  transform:translate(-50%,0) scale(1);
+}
+
+#weeklyRatingBoard .yw-chaser-tooltip-name{
+  max-width:132px;
+  margin-bottom:5px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  color:#fff;
+  font-size:9.5px!important;
+  font-weight:400!important;
+  line-height:1.05!important;
+  text-align:center;
+}
+
+#weeklyRatingBoard .yw-chaser-tooltip-stats{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  flex-wrap:wrap;
+  color:#E8EEF5;
+  font-size:9px!important;
+  line-height:1!important;
+}
+
+#weeklyRatingBoard .yw-chaser-tooltip .yw-mini-stat{
+  display:inline-flex!important;
+  align-items:center!important;
+  gap:2px!important;
+  color:#E8EEF5!important;
+  font-size:9px!important;
+  font-weight:500!important;
+  white-space:nowrap!important;
+}
+
+#weeklyRatingBoard .yw-chaser-tooltip .yw-mini-stat span{
+  color:inherit!important;
+  font-size:9px!important;
+  font-weight:500!important;
+}
+
+#weeklyRatingBoard .yw-chaser-tooltip .yw-chip-icon svg{
+  width:11px!important;
+  height:11px!important;
+  display:block!important;
+  fill:currentColor!important;
+}
+
+#weeklyRatingBoard .yw-chaser-tooltip .yw-rapid-icon{color:#7CC74A!important;}
+#weeklyRatingBoard .yw-chaser-tooltip .yw-blitz-icon{color:#FFD400!important;}
+#weeklyRatingBoard .yw-chaser-tooltip .yw-bullet-icon{color:#C89A53!important;}
+
+#weeklyRatingBoard .yw-chaser-no-change{
+  color:#D7D0CC;
+  font-size:8.5px!important;
+  font-weight:600!important;
+}
+
+@media (max-width:260px){
+  #weeklyRatingBoard .yw-chaser-row-three{
+    grid-template-columns:repeat(3,52px);
+    gap:0 14px;
+  }
+  #weeklyRatingBoard .yw-chaser-row-four{
+    grid-template-columns:repeat(4,44px);
+    gap:0 6px;
+  }
+  #weeklyRatingBoard .yw-chaser-photo{
+    width:46px;
+    height:46px;
+  }
+  #weeklyRatingBoard .yw-chaser-row-four .yw-chaser-photo{
+    width:42px;
+    height:42px;
+  }
+}
+
 </style>
 
 </head>
@@ -7588,7 +7825,8 @@ function drawWeeklyRatingRace(data){
   const board = document.getElementById('weeklyRatingBoard');
   if(!board) return;
 
-  const players = Array.isArray(data?.players) ? data.players.slice(0,3) : [];
+  const players = Array.isArray(data?.players) ? data.players.slice(0,10) : [];
+  const podiumPlayers = players.slice(0,3);
 
   if(!players.length){
     showWeeklyRatingWaiting(
@@ -7602,8 +7840,8 @@ function drawWeeklyRatingRace(data){
 
   const classes = ['yw-first','yw-second','yw-third'];
   const places = ['1','2','3'];
-  const podiumOrder = [1,0,2].filter(index => players[index]);
-  const hasThreeRatingPlayer = players.some(player =>
+  const podiumOrder = [1,0,2].filter(index => podiumPlayers[index]);
+  const hasThreeRatingPlayer = podiumPlayers.some(player =>
     [player?.rapidChange, player?.blitzChange, player?.bulletChange]
       .filter(value => {
         const change = Number(value);
@@ -7619,7 +7857,7 @@ function drawWeeklyRatingRace(data){
     </div>
     <div class="yw-stage${hasThreeRatingPlayer ? ' yw-stage-three-ratings' : ''}">
       ${podiumOrder.map(index => {
-        const player = players[index];
+        const player = podiumPlayers[index];
         const username = String(player?.username || 'unknown');
         const safeName = escapeWeeklyRatingHtml(username);
         const total = signedRatingChange(player?.totalChange) ?? '0';
@@ -7653,7 +7891,54 @@ function drawWeeklyRatingRace(data){
             </div>
           </a>`;
       }).join('')}
-    </div>`;
+    </div>
+    ${players.length > 3 ? `
+      <div class="yw-chasers" aria-label="Weekly rating climbers ranks 4 through 10">
+        ${[players.slice(3,6), players.slice(6,10)].map((row, rowIndex) => {
+          if(!row.length) return '';
+          return `
+            <div class="yw-chaser-row ${rowIndex === 0 ? 'yw-chaser-row-three' : 'yw-chaser-row-four'}">
+              ${row.map((player, localIndex) => {
+                const rank = rowIndex === 0 ? localIndex + 4 : localIndex + 7;
+                const username = String(player?.username || 'unknown');
+                const safeName = escapeWeeklyRatingHtml(username);
+                const total = signedRatingChange(player?.totalChange) ?? '0';
+                const hoverFormats = [
+                  ['Rapid', player?.rapidChange],
+                  ['Blitz', player?.blitzChange],
+                  ['Bullet', player?.bulletChange]
+                ]
+                  .filter(([, value]) => Number.isFinite(Number(value)) && Number(value) !== 0)
+                  .map(([label, value]) => `${label} ${signedRatingChange(value)}`);
+                const hoverText = `@${username}${hoverFormats.length ? ` | ${hoverFormats.join(' | ')}` : ''}`;
+                const safeHoverText = escapeWeeklyRatingHtml(hoverText);
+                const profileUrl =
+                  player?.profileUrl ||
+                  `https://www.chess.com/member/${encodeURIComponent(username)}`;
+                const safeProfileUrl = escapeWeeklyRatingHtml(profileUrl);
+                const safeAvatar = escapeWeeklyRatingHtml(player?.avatar || YW_FALLBACK_AVATAR);
+
+                return `
+                  <a class="yw-chaser"
+                     href="${safeProfileUrl}"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     title="${safeHoverText}"
+                     aria-label="Rank ${rank}, ${safeName}, ${total} rating points this week">
+                    <div class="yw-chaser-photo-wrap">
+                      <img class="yw-chaser-photo"
+                           src="${safeAvatar}"
+                           alt="${safeName}"
+                           onerror="this.src='${YW_FALLBACK_AVATAR}'">
+                      <span class="yw-chaser-rank">#${rank}</span>
+                    </div>
+                    <div class="yw-chaser-total">${total} <span>pts</span></div>
+                  </a>`;
+              }).join('')}
+            </div>`;
+        }).join('')}
+      </div>` : ''}
+    `;
 
   updateWeeklyRatingFooter();
 }
