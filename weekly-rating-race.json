@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-03T21:13:48.895Z",
+  "updatedAt": "2026-10-03T23:46:57.667Z",
   "weekStartedAt": "2026-09-27T00:00:00.000Z",
   "weekEndsAt": "2026-10-04T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
@@ -14,14 +14,14 @@
       "username": "haidar-brsoma",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/553401737.285818ac.200x200o.e98c77ea15e5.png",
       "profileUrl": "https://www.chess.com/member/Haidar-brsoma",
-      "totalChange": 1106,
-      "rapidChange": 21,
+      "totalChange": 1152,
+      "rapidChange": 67,
       "blitzChange": 445,
       "bulletChange": 640,
       "rapidStartRating": 1584,
       "blitzStartRating": 1762,
       "bulletStartRating": 1605,
-      "rapidCurrentRating": 1605,
+      "rapidCurrentRating": 1651,
       "blitzCurrentRating": 2207,
       "bulletCurrentRating": 2245
     },
@@ -116,6 +116,21 @@
       "bulletCurrentRating": 1006
     },
     {
+      "username": "warecy",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
+      "profileUrl": "https://www.chess.com/member/warecy",
+      "totalChange": 311,
+      "rapidChange": 205,
+      "blitzChange": 99,
+      "bulletChange": 7,
+      "rapidStartRating": 1922,
+      "blitzStartRating": 1627,
+      "bulletStartRating": 1575,
+      "rapidCurrentRating": 2127,
+      "blitzCurrentRating": 1726,
+      "bulletCurrentRating": 1582
+    },
+    {
       "username": "aryan_dandekar",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/193218369.bbc62308.200x200o.df90af488cd0.jpg",
       "profileUrl": "https://www.chess.com/member/Aryan_Dandekar",
@@ -144,21 +159,6 @@
       "rapidCurrentRating": 2257,
       "blitzCurrentRating": 2309,
       "bulletCurrentRating": 2400
-    },
-    {
-      "username": "warecy",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/60260906.b0e6e23f.200x200o.835f2cff5d05.jpg",
-      "profileUrl": "https://www.chess.com/member/warecy",
-      "totalChange": 295,
-      "rapidChange": 205,
-      "blitzChange": 99,
-      "bulletChange": -9,
-      "rapidStartRating": 1922,
-      "blitzStartRating": 1627,
-      "bulletStartRating": 1575,
-      "rapidCurrentRating": 2127,
-      "blitzCurrentRating": 1726,
-      "bulletCurrentRating": 1566
     }
   ]
 }
