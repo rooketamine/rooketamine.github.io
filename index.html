@@ -7341,7 +7341,7 @@ body,
     <div class="card mca-countdown-card" style="text-align:center;">
       <div class="mca-countdown-content" id="mcaCountdownContent">
         <div class="title-box">Blundering Buddies MCA</div>
-        <div class="mca-date-line">Saturday, October 10</div>
+        <div class="mca-date-line">Saturday, October 31</div>
 
         <div class="format-line">
           <span class="format-main"><span class="format-icon yw-blitz-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M9.15 1.7h9.35c.82 0 1.28.94.78 1.59l-5.08 6.64h5.18c.9 0 1.32 1.12.65 1.72L7.95 22.42c-.72.64-1.82-.03-1.57-.96l2.35-8.52H4.62c-.75 0-1.2-.8-.86-1.46L8.29 2.23c.16-.33.49-.53.86-.53Z"></path></svg></span>3|0 Blitz</span> • Unrated • 24 Hours
@@ -7360,13 +7360,13 @@ body,
         </div>
 
         <a class="join-btn" id="joinButton"
-          href="https://www.chess.com/play/arena/31105362"
+          href="https://www.chess.com/play/arena/31118732"
           target="_blank" rel="noopener noreferrer">
           Hunt or Haunt
         </a>
 
         <a class="results-link"
-          href="https://www.chess.com/tournament/live/arena/blundering-buddies-bullet-1-0-unrated-multiclub-31071472"
+          href="https://www.chess.com/tournament/live/arena/blundering-buddies-blitz-30-unrated-multiclub-31357703"
           target="_blank" rel="noopener noreferrer">
           See Previous Horrors
         </a>
@@ -7550,8 +7550,9 @@ body,
 
 <script>
 /* COUNTDOWN */
-// October 9, 2026 at 10:00 PM California time (PDT) = October 10, 2026 at 05:00 UTC
-const arenaStart = new Date("2026-10-10T05:00:00Z").getTime();
+// October 30, 2026 at 10:00 PM California time (PDT, UTC-07:00) = October 31, 2026 at 05:00 UTC.
+// California daylight saving time ends November 1, 2026; this fixed UTC instant is identical for all visitors.
+const arenaStart = new Date("2026-10-31T05:00:00Z").getTime();
 const arenaEnd = arenaStart + (24 * 60 * 60 * 1000);
 
 const countdownEl = document.getElementById("countdown");
