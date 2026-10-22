@@ -1,29 +1,29 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-22T11:51:38.051Z",
+  "updatedAt": "2026-10-22T17:10:09.574Z",
   "weekStartedAt": "2026-10-18T00:00:00.000Z",
   "weekEndsAt": "2026-10-25T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 4975,
-  "failedMembers": 20,
-  "eligibleMembers": 4549,
+  "checkedMembers": 4976,
+  "failedMembers": 22,
+  "eligibleMembers": 4551,
   "players": [
     {
       "username": "myfatherismyhero",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/341770331.b4ca7368.200x200o.2d438f9e9e6b.jpg",
       "profileUrl": "https://www.chess.com/member/MyFatherIsMyHero",
-      "totalChange": 342,
+      "totalChange": 356,
       "rapidChange": null,
       "blitzChange": 0,
-      "bulletChange": 342,
+      "bulletChange": 356,
       "rapidStartRating": null,
       "blitzStartRating": 1968,
       "bulletStartRating": 1621,
       "rapidCurrentRating": null,
       "blitzCurrentRating": 1968,
-      "bulletCurrentRating": 1963
+      "bulletCurrentRating": 1977
     },
     {
       "username": "sean2016z",
@@ -41,19 +41,34 @@
       "bulletCurrentRating": 789
     },
     {
+      "username": "getadamchess",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/72281566.efefca0e.200x200o.9e9b0a13a44c.jpg",
+      "profileUrl": "https://www.chess.com/member/Getadamchess",
+      "totalChange": 285,
+      "rapidChange": 8,
+      "blitzChange": 157,
+      "bulletChange": 120,
+      "rapidStartRating": 1830,
+      "blitzStartRating": 1203,
+      "bulletStartRating": 1408,
+      "rapidCurrentRating": 1838,
+      "blitzCurrentRating": 1360,
+      "bulletCurrentRating": 1528
+    },
+    {
       "username": "roruy_f998",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/577941204.7a0947b3.200x200o.b85b149d2ab2.jpg",
       "profileUrl": "https://www.chess.com/member/RoRuy_F998",
-      "totalChange": 274,
+      "totalChange": 281,
       "rapidChange": null,
       "blitzChange": 31,
-      "bulletChange": 243,
+      "bulletChange": 250,
       "rapidStartRating": null,
       "blitzStartRating": 2372,
       "bulletStartRating": 1813,
       "rapidCurrentRating": null,
       "blitzCurrentRating": 2403,
-      "bulletCurrentRating": 2056
+      "bulletCurrentRating": 2063
     },
     {
       "username": "yeyerr",
@@ -86,34 +101,19 @@
       "bulletCurrentRating": 1464
     },
     {
-      "username": "getadamchess",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/72281566.efefca0e.200x200o.9e9b0a13a44c.jpg",
-      "profileUrl": "https://www.chess.com/member/Getadamchess",
-      "totalChange": 253,
-      "rapidChange": 8,
-      "blitzChange": 157,
-      "bulletChange": 88,
-      "rapidStartRating": 1830,
-      "blitzStartRating": 1203,
-      "bulletStartRating": 1408,
-      "rapidCurrentRating": 1838,
-      "blitzCurrentRating": 1360,
-      "bulletCurrentRating": 1496
-    },
-    {
-      "username": "onotchess",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/69652326.a1d07398.200x200o.2585481d423c.jpg",
-      "profileUrl": "https://www.chess.com/member/Onotchess",
-      "totalChange": 236,
-      "rapidChange": 26,
-      "blitzChange": 0,
-      "bulletChange": 210,
-      "rapidStartRating": 989,
-      "blitzStartRating": 954,
-      "bulletStartRating": 997,
-      "rapidCurrentRating": 1015,
-      "blitzCurrentRating": 954,
-      "bulletCurrentRating": 1207
+      "username": "justelliottmusic",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/507814673.068a5489.200x200o.45dd5936b56d.jpg",
+      "profileUrl": "https://www.chess.com/member/justelliottmusic",
+      "totalChange": 244,
+      "rapidChange": null,
+      "blitzChange": 244,
+      "bulletChange": null,
+      "rapidStartRating": null,
+      "blitzStartRating": 481,
+      "bulletStartRating": null,
+      "rapidCurrentRating": null,
+      "blitzCurrentRating": 725,
+      "bulletCurrentRating": null
     },
     {
       "username": "rammerhuman",
@@ -131,34 +131,34 @@
       "bulletCurrentRating": null
     },
     {
+      "username": "cloudy0502",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/208842499.e5902abb.200x200o.9fca3b3adf71.jpg",
+      "profileUrl": "https://www.chess.com/member/Cloudy0502",
+      "totalChange": 222,
+      "rapidChange": 0,
+      "blitzChange": 0,
+      "bulletChange": 222,
+      "rapidStartRating": 1114,
+      "blitzStartRating": 1184,
+      "bulletStartRating": 821,
+      "rapidCurrentRating": 1114,
+      "blitzCurrentRating": 1184,
+      "bulletCurrentRating": 1043
+    },
+    {
       "username": "parth256",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/143570497.89a83c80.200x200o.11bcb993969f.jpg",
       "profileUrl": "https://www.chess.com/member/Parth256",
-      "totalChange": 226,
-      "rapidChange": 101,
+      "totalChange": 222,
+      "rapidChange": 109,
       "blitzChange": -1,
-      "bulletChange": 126,
+      "bulletChange": 114,
       "rapidStartRating": 1807,
       "blitzStartRating": 1437,
       "bulletStartRating": 1610,
-      "rapidCurrentRating": 1908,
+      "rapidCurrentRating": 1916,
       "blitzCurrentRating": 1436,
-      "bulletCurrentRating": 1736
-    },
-    {
-      "username": "aadi20998",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/380073295.1911c6d0.200x200o.d0771fc264c6.jpg",
-      "profileUrl": "https://www.chess.com/member/Aadi20998",
-      "totalChange": 218,
-      "rapidChange": -15,
-      "blitzChange": 0,
-      "bulletChange": 233,
-      "rapidStartRating": 1011,
-      "blitzStartRating": 783,
-      "bulletStartRating": 529,
-      "rapidCurrentRating": 996,
-      "blitzCurrentRating": 783,
-      "bulletCurrentRating": 762
+      "bulletCurrentRating": 1724
     }
   ]
 }
