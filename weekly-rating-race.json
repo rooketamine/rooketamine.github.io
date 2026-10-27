@@ -1,13 +1,13 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-27T00:25:17.997Z",
+  "updatedAt": "2026-10-27T08:58:49.173Z",
   "weekStartedAt": "2026-10-25T00:00:00.000Z",
   "weekEndsAt": "2026-11-01T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 5017,
-  "failedMembers": 12,
+  "checkedMembers": 5018,
+  "failedMembers": 10,
   "eligibleMembers": 4585,
   "players": [
     {
@@ -26,36 +26,6 @@
       "bulletCurrentRating": 501
     },
     {
-      "username": "nyindu_jr",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/328356205.9f7f1db8.200x200o.423914fc5851.jpg",
-      "profileUrl": "https://www.chess.com/member/Nyindu_JR",
-      "totalChange": 216,
-      "rapidChange": 70,
-      "blitzChange": 16,
-      "bulletChange": 130,
-      "rapidStartRating": 1650,
-      "blitzStartRating": 1705,
-      "bulletStartRating": 1472,
-      "rapidCurrentRating": 1720,
-      "blitzCurrentRating": 1721,
-      "bulletCurrentRating": 1602
-    },
-    {
-      "username": "myomotobeastful",
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "profileUrl": "https://www.chess.com/member/MyomotoBeastful",
-      "totalChange": 214,
-      "rapidChange": 7,
-      "blitzChange": 129,
-      "bulletChange": 78,
-      "rapidStartRating": 1853,
-      "blitzStartRating": 1378,
-      "bulletStartRating": 1525,
-      "rapidCurrentRating": 1860,
-      "blitzCurrentRating": 1507,
-      "bulletCurrentRating": 1603
-    },
-    {
       "username": "shaurik_paramanik",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/163741585.76a3022a.200x200o.4dc1a59a7768.jpg",
       "profileUrl": "https://www.chess.com/member/Shaurik_Paramanik",
@@ -71,6 +41,36 @@
       "bulletCurrentRating": 1545
     },
     {
+      "username": "nyindu_jr",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/328356205.9f7f1db8.200x200o.423914fc5851.jpg",
+      "profileUrl": "https://www.chess.com/member/Nyindu_JR",
+      "totalChange": 208,
+      "rapidChange": 62,
+      "blitzChange": 16,
+      "bulletChange": 130,
+      "rapidStartRating": 1650,
+      "blitzStartRating": 1705,
+      "bulletStartRating": 1472,
+      "rapidCurrentRating": 1712,
+      "blitzCurrentRating": 1721,
+      "bulletCurrentRating": 1602
+    },
+    {
+      "username": "aarnavreddy06",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "profileUrl": "https://www.chess.com/member/Aarnavreddy06",
+      "totalChange": 205,
+      "rapidChange": 8,
+      "blitzChange": 0,
+      "bulletChange": 197,
+      "rapidStartRating": 255,
+      "blitzStartRating": 180,
+      "bulletStartRating": 520,
+      "rapidCurrentRating": 263,
+      "blitzCurrentRating": 180,
+      "bulletCurrentRating": 717
+    },
+    {
       "username": "rubalthakur91",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/393111885.c1af0d7b.200x200o.ac148a0ef263.jpg",
       "profileUrl": "https://www.chess.com/member/Rubalthakur91",
@@ -84,6 +84,21 @@
       "rapidCurrentRating": 941,
       "blitzCurrentRating": 777,
       "bulletCurrentRating": 762
+    },
+    {
+      "username": "myomotobeastful",
+      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
+      "profileUrl": "https://www.chess.com/member/MyomotoBeastful",
+      "totalChange": 198,
+      "rapidChange": -9,
+      "blitzChange": 129,
+      "bulletChange": 78,
+      "rapidStartRating": 1853,
+      "blitzStartRating": 1378,
+      "bulletStartRating": 1525,
+      "rapidCurrentRating": 1844,
+      "blitzCurrentRating": 1507,
+      "bulletCurrentRating": 1603
     },
     {
       "username": "pratheekhadagali",
@@ -144,21 +159,6 @@
       "rapidCurrentRating": 944,
       "blitzCurrentRating": 561,
       "bulletCurrentRating": 876
-    },
-    {
-      "username": "aarnavreddy06",
-      "avatar": "https://www.chess.com/bundles/web/images/user-image.007dad08.svg",
-      "profileUrl": "https://www.chess.com/member/Aarnavreddy06",
-      "totalChange": 167,
-      "rapidChange": 0,
-      "blitzChange": 0,
-      "bulletChange": 167,
-      "rapidStartRating": 255,
-      "blitzStartRating": 180,
-      "bulletStartRating": 520,
-      "rapidCurrentRating": 255,
-      "blitzCurrentRating": 180,
-      "bulletCurrentRating": 687
     }
   ]
 }
