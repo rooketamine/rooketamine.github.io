@@ -1,14 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-26T20:28:36.476Z",
+  "updatedAt": "2026-10-27T00:25:17.997Z",
   "weekStartedAt": "2026-10-25T00:00:00.000Z",
   "weekEndsAt": "2026-11-01T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 5013,
-  "failedMembers": 15,
-  "eligibleMembers": 4584,
+  "checkedMembers": 5017,
+  "failedMembers": 12,
+  "eligibleMembers": 4585,
   "players": [
     {
       "username": "tremendouswaves",
