@@ -7321,10 +7321,13 @@ body,
 #bellMessage.bell-joke{
   width:calc(100% + 28px)!important;
   margin-inline:-14px!important;
+  font-size:14px!important;
+  font-weight:600!important;
+  line-height:1.2!important;
   letter-spacing:normal!important;
   text-transform:none;
-  white-space:normal!important;
-  text-wrap:balance;
+  white-space:pre-line!important;
+  text-align:center!important;
 }
 @media(prefers-reduced-motion:reduce){
   #christmasBell img,#christmasBell.ringing img{animation:none!important;}
@@ -8818,7 +8821,7 @@ initTopBalls();
     void bell.offsetWidth;
     bell.classList.add('ringing');
     message.classList.add('bell-joke');
-    message.textContent = 'Every time a bell rings, someone hangs\u00a0a\u00a0queen.';
+    message.textContent = 'Every time a bell rings,\nsomeone hangs a queen.';
     resetTimer = setTimeout(() => {
       message.textContent = original;
       message.classList.remove('bell-joke');
