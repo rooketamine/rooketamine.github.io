@@ -8553,9 +8553,14 @@ html,body,.sb,.sb:hover,.inner {
 </style>
 
 <style id="gta-compact-layout-fixes">
-/* Same heading scale as New Buddies / Weekly Rating Climbers. */
-.arena-intro .arena-title {font-size:17px!important;}
-.arena-intro .arena-sub {font-size:13.5px!important;}
+/* Use one consistent type scale across all six section headings/subtitles. */
+.sec-label,.arena-intro .arena-title {font-size:17px!important;}
+.sec-sub,.arena-intro .arena-sub {font-size:13.5px!important;}
+.sec-label,.sec-sub {
+  white-space:normal!important;
+  overflow:visible!important;
+  text-overflow:clip!important;
+}
 .arena-copy {padding-right:0!important;}
 
 /* Let the full GTA CTA label fit; preserve the original Christmas hover lift. */
@@ -8635,7 +8640,7 @@ html,body,.sb,.sb:hover,.inner {
 
         <a class="join-btn" id="joinButton"
           href="https://www.chess.com/play/arena/31155328"
-          target="_blank" rel="noopener noreferrer">Start the Mission</a>
+          target="_blank" rel="noopener noreferrer">Join the Mission</a>
 
         <a class="results-link"
           href="https://www.chess.com/tournament/live/arena/blundering-buddies-blitz-3-0-unrated-multiclub-31118732"
@@ -8649,7 +8654,7 @@ html,body,.sb,.sb:hover,.inner {
 
     <!-- THE CHRISTMAS JOB: keep the actual tournament event and date -->
     <div class="sec-label">★ The Christmas Mission</div>
-    <div class="sec-sub">Christmas Tree Variation • Daily Chess Heist</div>
+    <div class="sec-sub">Christmas Tree Variation</div>
     <div class="card halloween-daily-card gta-job-tournament">
       <div class="title-box halloween-daily-title-box">Daily Tournament</div>
       <div class="halloween-daily-meta">3 Days / Move <span class="halloween-daily-sep">|</span> UNRATED<br>No Vacation</div>
@@ -8855,21 +8860,21 @@ function updateCountdown(){
   if(now < arenaStart){
     statusTextEl.textContent = "Arena starts in";
     countdownEl.textContent = formatTime(arenaStart - now, true);
-    joinButton.textContent = "Start the Mission";
+    joinButton.textContent = "Join the Mission";
     joinButton.classList.remove("live-btn");
     liveBadge.classList.remove("show");
   }
   else if(now >= arenaStart && now < arenaEnd){
     statusTextEl.textContent = "Time left";
     countdownEl.textContent = formatTime(arenaEnd - now, false);
-    joinButton.textContent = "Start the Mission";
+    joinButton.textContent = "Join the Mission";
     joinButton.classList.add("live-btn");
     liveBadge.classList.add("show");
   }
   else{
-    statusTextEl.textContent = "That’s a wrap!";
+    statusTextEl.textContent = "Mission Passed";
     countdownEl.textContent = "00d 00h 00m 00s";
-    joinButton.textContent = "Match Over";
+    joinButton.textContent = "Respect+";
     joinButton.classList.remove("live-btn");
     liveBadge.classList.remove("show");
   }
