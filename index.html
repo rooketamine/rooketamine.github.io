@@ -7391,8 +7391,8 @@ body,
 .christmas-tree-tournament .halloween-daily-sep { color:#c5aa72; }
 .christmas-tree-tournament .halloween-daily-start strong { color:#e5654f!important; }
 </style>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&display=swap" rel="stylesheet">
 <style id="grand-blunder-city-theme">
+/* Christmas controls fonts, sizing, padding and spacing. */
 /* GRAND BLUNDER CITY — an original, lightweight GTA-poster-inspired skin.
    Existing Chess.com feeds, URLs, card dimensions and layouts are preserved. */
 :root {
@@ -7427,96 +7427,50 @@ html, body, .sb, .inner {
   background-image:none!important;
   color:var(--gta-cream)!important;
 }
-body {font-family:'Baloo 2',system-ui,sans-serif!important;}
-.sb {
-  border:3px solid #ff9c8b!important;
-  border-radius:22px!important;
+body {}
+.sb { border-color:#ff9c8b!important;
   filter:none!important;
   box-shadow:0 0 0 1px #262137,0 14px 32px rgba(0,0,0,.28)!important;
 }
 .sb:hover {box-shadow:0 0 0 1px #262137,0 16px 35px rgba(0,0,0,.35)!important;}
 .sb-top {
-  padding:21px 10px 18px!important;
-  min-height:76px!important;
-  border-radius:19px 19px 0 0!important;
   background:linear-gradient(115deg,#3a3159 0%,#754b86 47%,#cb6a89 78%,#f89b85 100%)!important;
-  border-bottom:0!important;
   isolation:isolate;
 }
 .sb-top::before {
-  display:block!important;
   content:''!important;
-  position:absolute;
-  inset:0;
   background:repeating-linear-gradient(0deg,transparent 0 5px,rgba(17,18,31,.07) 5px 6px)!important;
   pointer-events:none;
   opacity:.58;
 }
 .sb-top::after {
   background:#10121d!important;
-  bottom:-11px!important;
-  height:19px!important;
 }
 .club-title, .club-sub {
-  padding-left:3px!important;
-  padding-right:66px!important;
-  justify-content:flex-start!important;
-  text-align:left!important;
 }
 .club-title {
-  gap:4px!important;
-  font-family:'Barlow Condensed',Impact,sans-serif!important;
-  font-size:24px!important;
-  line-height:1!important;
-  letter-spacing:.2px!important;
-  text-transform:uppercase;
   text-shadow:2px 2px 0 #2a263a!important;
   color:#fff5df!important;
-  white-space:nowrap;
 }
-.club-name-text {font-weight:900!important;}
-.club-check {width:16px!important;height:16px!important;}
+.club-name-text {}
+.club-check {}
 .club-sub {
-  font-family:'Barlow Condensed',Impact,sans-serif!important;
-  font-size:12px!important;
-  font-weight:700!important;
-  letter-spacing:.6px!important;
   color:#ffdfad!important;
   text-shadow:1px 1px 1px #2b1e3b!important;
-  margin-top:4px!important;
-  min-height:15px;
 }
-#wantedButton {
-  position:absolute!important;
-  right:8px!important;
-  top:17px!important;
-  left:auto!important;
-  width:58px!important;
-  height:40px!important;
-  max-width:none!important;
-  padding:4px!important;
-  display:flex!important;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  gap:0;
-  border:2px solid #fff0d6!important;
-  border-radius:3px!important;
-  transform:rotate(4deg)!important;
+#wantedButton { border-color:#fff0d6!important;
   background:#14182b!important;
   box-shadow:3px 3px 0 #ef817b!important;
   color:#ffd77e!important;
-  font-size:11px;
-  line-height:1;
   cursor:pointer;
   z-index:9!important;
   transition:transform .16s ease,background-color .16s ease!important;
 }
-#wantedButton span {white-space:nowrap;letter-spacing:-1.2px;}
-#wantedButton small {font:900 10px/1 'Barlow Condensed',Impact,sans-serif;letter-spacing:2px;color:#fff0d6;margin-top:2px;}
-#wantedButton:hover,#wantedButton.wanted-active {transform:rotate(0deg) scale(1.05)!important;background:#2b2b48!important;}
+#wantedButton span {}
+#wantedButton small {color:#fff0d6;}
+#wantedButton:hover,#wantedButton.wanted-active {background:#2b2b48!important;}
 #wantedButton:focus-visible {outline:3px solid #76ddce!important;outline-offset:3px!important;}
-.gta-image-box {margin-top:-8px!important;margin-bottom:18px!important;}
+.gta-image-box {}
 .gta-cover-wrap {
   padding:0!important;
   border:3px solid #ffd1a5!important;
@@ -7529,11 +7483,6 @@ body {font-family:'Baloo 2',system-ui,sans-serif!important;}
 .gta-cover {display:block;width:100%;height:auto;max-width:100%;}
 .inner {background:#10121d!important;}
 .sec-label {
-  font-family:'Barlow Condensed',Impact,sans-serif!important;
-  font-size:19px!important;
-  font-weight:800!important;
-  letter-spacing:.65px!important;
-  text-transform:uppercase;
   color:#fff0d6!important;
   text-shadow:1.4px 1.4px 0 #52364f!important;
 }
@@ -7560,15 +7509,10 @@ body {font-family:'Baloo 2',system-ui,sans-serif!important;}
 .card,.shout-card,.card:hover,.shout-card:hover,
 .card:focus,.card:focus-within {
   background:linear-gradient(154deg,#272a41 0%,#1b2033 72%,#171b2d 100%)!important;
-  background-image:linear-gradient(154deg,#272a41 0%,#1b2033 72%,#171b2d 100%)!important;
-  border:1.5px solid #785f89!important;
+  background-image:linear-gradient(154deg,#272a41 0%,#1b2033 72%,#171b2d 100%)!important; border-color:#785f89!important;
   box-shadow:0 4px 0 #0a0c18,0 9px 19px rgba(0,0,0,.23)!important;
 }
-.mca-countdown-card,.mca-countdown-card:hover {
-  position:relative;
-  border:2px solid #ffb58a!important;
-  border-left:5px solid #ff8479!important;
-  border-radius:5px 5px 13px 13px!important;
+.mca-countdown-card,.mca-countdown-card:hover { border-color:#ffb58a!important; border-left-color:#ff8479!important;
   clip-path:none!important;
   background:linear-gradient(155deg,#3b3049,#24283d 58%,#1a2235)!important;
 }
@@ -7586,39 +7530,25 @@ body {font-family:'Baloo 2',system-ui,sans-serif!important;}
   letter-spacing:2px;
 }
 .mca-countdown-card::after {display:none!important;content:none!important;}
-.title-box,.title-box:hover {
-  border:2px solid #ffd3a3!important;
+.title-box,.title-box:hover { border-color:#ffd3a3!important;
   background:linear-gradient(180deg,#553e66,#302944)!important;
   color:#fff4df!important;
   box-shadow:2px 3px 0 #171729!important;
-  font-family:'Barlow Condensed',Impact,sans-serif!important;
-  font-size:18px!important;
-  font-weight:900!important;
-  letter-spacing:.8px;
-  text-transform:uppercase;
 }
 .mca-date-line,.countdown,.member-name,.featured-name,.yw-name,
 .yw-points,.shout-name,.shout-user,.bb-footer-copy {color:#fff0d6!important;}
 .countdown {color:#7fe8d8!important;text-shadow:0 0 12px rgba(118,221,206,.12)!important;}
 .live-badge {
   color:#ffd8a5!important;
-  background:#4a2a49!important;
-  border:1px solid #f48b83!important;
+  background:#4a2a49!important; border-color:#f48b83!important;
   box-shadow:none!important;
 }
 .live-dot {background:#ff8479!important;box-shadow:0 0 5px rgba(255,132,121,.25)!important;}
 .join-btn,.gold-btn,.join-btn.live-btn,
 .join-btn:hover,.gold-btn:hover,.join-btn.live-btn:hover {
   color:#15243c!important;
-  background:#77ded1!important;
-  border:2px solid #b9f7e7!important;
-  border-radius:5px!important;
+  background:#77ded1!important; border-color:#b9f7e7!important;
   box-shadow:0 4px 0 #205e65,0 7px 14px rgba(0,0,0,.18)!important;
-  font-family:'Barlow Condensed',Impact,sans-serif!important;
-  font-size:17px!important;
-  font-weight:900!important;
-  letter-spacing:1.1px!important;
-  text-transform:uppercase;
   text-shadow:none!important;
   filter:none!important;
   animation:none!important;
@@ -7631,8 +7561,7 @@ body {font-family:'Baloo 2',system-ui,sans-serif!important;}
 .member-row:hover,.list-btn:hover,.forum-btn:hover {
   color:#f7e9d9!important;
   background:#25293e!important;
-  background-image:linear-gradient(110deg,#2b2d43,#1b2438)!important;
-  border:1px solid #655775!important;
+  background-image:linear-gradient(110deg,#2b2d43,#1b2438)!important; border-color:#655775!important;
   box-shadow:none!important;
 }
 .member-row:hover,.list-btn:hover,.forum-btn:hover {border-color:#83dccc!important;}
@@ -7654,8 +7583,7 @@ body {font-family:'Baloo 2',system-ui,sans-serif!important;}
 }
 .halloween-daily-card.gta-job-tournament,
 .halloween-daily-card.gta-job-tournament:hover {
-  background:linear-gradient(145deg,#302b43,#1a2034)!important;
-  border:2px solid #a47eb9!important;
+  background:linear-gradient(145deg,#302b43,#1a2034)!important; border-color:#a47eb9!important;
 }
 .gta-job-tournament::before {
   content:'★★★'!important;
@@ -7671,13 +7599,13 @@ body {font-family:'Baloo 2',system-ui,sans-serif!important;}
 .halloween-daily-sep,.halloween-daily-start strong {color:#ffbd8b!important;}
 .gta-loader-pawn {display:block;font-size:32px;line-height:1.2;color:#76ddce;opacity:.8;}
 .bb-footer {border-color:#5c475f!important;}
-.bb-footer-slogan {font-family:'Barlow Condensed',Impact,sans-serif!important;font-size:14px!important;letter-spacing:.8px;}
+.bb-footer-slogan {}
 @media(max-width:290px) {
-  .club-title {font-size:20px!important;padding-right:55px!important;}
-  .club-sub {font-size:10px!important;padding-right:55px!important;}
-  #wantedButton {width:51px!important;right:5px!important;}
-  #wantedButton span {font-size:10px;}
-  .sec-label {font-size:17px!important;}
+  .club-title {}
+  .club-sub {}
+  #wantedButton {}
+  #wantedButton span {}
+  .sec-label {}
 }
 @media(prefers-reduced-motion:reduce) {
   #wantedButton,.gta-cover,.join-btn {transition:none!important;animation:none!important;}
@@ -7687,111 +7615,54 @@ body {font-family:'Baloo 2',system-ui,sans-serif!important;}
    Restore the user's precise header proportions and Baloo 2 treatment.
    Only the palette and lightweight GTA badge remain themed. */
 .sb-top {
-  min-height:auto!important;
-  padding:18px 20px 12px!important;
-  border-radius:24px 24px 0 0!important;
   background:linear-gradient(115deg,#181927 0%,#111724 56%,#171327 100%)!important;
 }
 .sb-top::before {
-  display:none!important;
   content:none!important;
   background:none!important;
 }
 .sb-top::after {
-  bottom:-10px!important;
-  height:20px!important;
   background:#10121d!important;
 }
 .club-title,
 .club-sub {
-  width:100%!important;
-  padding-left:34px!important;
-  padding-right:34px!important;
-  margin-left:auto!important;
-  margin-right:auto!important;
-  text-align:center!important;
-  justify-content:center!important;
-  font-family:'Baloo 2',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif!important;
 }
 .club-title {
-  font-size:16px!important;
-  font-weight:900!important;
-  letter-spacing:0!important;
-  text-transform:none!important;
-  line-height:1.02!important;
-  white-space:nowrap!important;
-  overflow:hidden!important;
   text-shadow:0 2px 0 rgba(0,0,0,.30)!important;
 }
 .club-sub {
-  margin-top:5px!important;
-  min-height:0!important;
-  font-size:10.5px!important;
-  font-weight:600!important;
-  line-height:1.02!important;
-  letter-spacing:.6px!important;
-  text-transform:uppercase!important;
-  white-space:nowrap!important;
-  overflow:hidden!important;
-  text-overflow:ellipsis!important;
   color:#f2dfc8!important;
   text-shadow:none!important;
 }
 #wantedButton {
-  width:38px!important;
-  height:38px!important;
-  right:6px!important;
-  top:42%!important;
-  padding:2px!important;
-  transform:translateY(-50%)!important;
   box-shadow:none!important;
-  border-radius:4px!important;
 }
-#wantedButton span {font-size:8px!important;letter-spacing:-.8px!important;}
-#wantedButton small {font-size:8px!important;letter-spacing:.8px!important;}
+#wantedButton span {}
+#wantedButton small {}
 #wantedButton:hover,#wantedButton.wanted-active {
-  transform:translateY(-50%) scale(1.05)!important;
 }
 @media(max-width:320px) {
-  .club-title {font-size:16px!important;padding:0 34px!important;}
-  .club-sub {font-size:10.5px!important;padding:0 34px!important;}
-  #wantedButton {width:34px!important;height:34px!important;right:5px!important;}
+  .club-title {}
+  .club-sub {}
+  #wantedButton {}
 }
 
 /* GITHUB BANNER SLOT + FLAT COLOR MODE
    Retains original Christmas image spacing, but allows image replacement
    by adding images/gta-banner.png to the repository. */
 .image-box {
-  margin-top:-10px!important;
-  margin-bottom:14px!important;
-  text-align:center!important;
 }
-.image-frame-wrap.gta-banner-slot {
-  position:relative!important;
-  min-height:150px;
-  width:100%;
-  padding:0!important;
-  border:2px solid #ff9b88!important;
-  border-radius:18px!important;
+.image-frame-wrap.gta-banner-slot { border-color:#ff9b88!important;
   background:#171d2d!important;
   box-shadow:none!important;
-  overflow:hidden!important;
 }
 .gta-banner-slot::before,.gta-banner-slot::after {
   content:none!important;
-  display:none!important;
 }
 .gta-banner-slot .image-frame,
 .gta-banner-slot .image-frame:hover {
-  width:100%!important;
-  height:auto!important;
-  display:block!important;
-  border:0!important;
-  border-radius:16px!important;
-  object-fit:contain!important;
   background:transparent!important;
   box-shadow:none!important;
-  transform:none!important;
   filter:none!important;
   transition:none!important;
 }
@@ -7804,7 +7675,7 @@ html,body,.sb,.sb:hover,.inner {background:#10121d!important;background-image:no
   filter:none!important;
 }
 .sb-top,.sb-top:hover {background:#171b2b!important;background-image:none!important;}
-.sb-top::before {display:none!important;content:none!important;}
+.sb-top::before {content:none!important;}
 .sb-top::after {background:#10121d!important;background-image:none!important;}
 .card,.card:hover,.card:focus,.card:focus-within,
 .shout-card,.shout-card:hover,
@@ -7817,9 +7688,7 @@ html,body,.sb,.sb:hover,.inner {background:#10121d!important;background-image:no
   box-shadow:0 4px 0 #0a0c18,0 9px 19px rgba(0,0,0,.23)!important;
   filter:none!important;
 }
-.mca-countdown-card,.mca-countdown-card:hover {
-  border:2px solid #ffb58a!important;
-  border-left:5px solid #ff8479!important;
+.mca-countdown-card,.mca-countdown-card:hover { border-color:#ffb58a!important; border-left-color:#ff8479!important;
 }
 .title-box,.title-box:hover {
   color:#fff4df!important;
@@ -7837,7 +7706,6 @@ html,body,.sb,.sb:hover,.inner {background:#10121d!important;background-image:no
   border-color:#b9f7e7!important;
   box-shadow:0 4px 0 #205e65,0 7px 14px rgba(0,0,0,.18)!important;
   filter:none!important;
-  transform:none!important;
   transition:none!important;
   animation:none!important;
 }
@@ -7895,7 +7763,6 @@ html,body,.sb,.sb:hover,.inner {background:#10121d!important;background-image:no
   border-color:#fff0d6!important;
   color:#ffd77e!important;
   box-shadow:none!important;
-  transform:translateY(-50%)!important;
   transition:none!important;
 }
 .countdown {text-shadow:none!important;}
@@ -7965,9 +7832,7 @@ html,body,.sb,.sb:hover,.inner {
 }
 .mca-countdown-card,.mca-countdown-card:hover {
   background:#373653!important;
-  background-image:none!important;
-  border:2px solid #b899c4!important;
-  border-left:5px solid #e8a2c4!important;
+  background-image:none!important; border-color:#b899c4!important; border-left-color:#e8a2c4!important;
   box-shadow:0 4px 0 #111426,0 8px 16px rgba(9,10,21,.17)!important;
 }
 .mca-countdown-card::before {color:#f5c2d9!important;}
@@ -7998,7 +7863,6 @@ html,body,.sb,.sb:hover,.inner {
   border-color:#abf0f2!important;
   box-shadow:0 4px 0 #376d81,0 7px 12px rgba(9,10,21,.18)!important;
   filter:none!important;
-  transform:none!important;
   transition:none!important;
 }
 .results-link,.results-link:hover,.bb-footer-slogan {color:#f0bfd9!important;text-shadow:none!important;}
@@ -8061,7 +7925,6 @@ html,body,.sb,.sb:hover,.inner {
 .top-featured:hover,.top-featured:focus-visible,
 .top-mini:hover,.top-mini:focus-visible,
 .yw-spot:hover,.yw-spot:focus-visible {
-  transform:none!important;
   filter:none!important;
 }
 .top-featured:hover .featured-avatar-shell,
@@ -8072,14 +7935,12 @@ html,body,.sb,.sb:hover,.inner {
 .shout-avatar-wrap:hover .shout-avatar,
 #weeklyRatingBoard .yw-chaser:hover .yw-chaser-photo,
 #weeklyRatingBoard .yw-chaser:focus-visible .yw-chaser-photo {
-  transform:none!important;
   filter:none!important;
   box-shadow:none!important;
   border-color:#c99cc1!important;
 }
 .trophy-summary-item:hover .trophy-summary-icon,
 .trophy-summary-item:hover .trophy-summary-points {
-  transform:none!important;
   filter:none!important;
   text-shadow:none!important;
 }
@@ -8087,29 +7948,16 @@ html,body,.sb,.sb:hover,.inner {
 
 /* CHRISTMAS IMAGE MARKUP: same images/chess.png element and natural sizing. */
 .image-frame-wrap,
-.image-frame-wrap:hover {
-  position:relative!important;
-  padding:0!important;
-  border:2px solid #a88cbd!important;
-  border-radius:18px!important;
+.image-frame-wrap:hover { border-color:#a88cbd!important;
   background:transparent!important;
   background-image:none!important;
   box-shadow:none!important;
-  overflow:hidden!important;
 }
 .image-frame-wrap::before,.image-frame-wrap::after {
   content:none!important;
-  display:none!important;
 }
 .image-frame,.image-frame:hover {
-  display:block!important;
-  width:100%!important;
-  height:auto!important;
-  padding:0!important;
-  border:0!important;
-  border-radius:16px!important;
   box-shadow:none!important;
-  transform:none!important;
   filter:none!important;
   transition:none!important;
 }
@@ -8117,30 +7965,14 @@ html,body,.sb,.sb:hover,.inner {
 /* With the decorative stars gone, the MCA heading has exactly the same
    heading/subheading-to-card rhythm as the remaining sections. */
 .arena-intro {
-  display:block!important;
-  height:auto!important;
-  min-height:0!important;
-  padding:0!important;
-  margin:0 0 10px!important;
 }
 .arena-copy {
-  display:block!important;
-  padding:0!important;
-  margin:0!important;
-  width:100%!important;
-  text-align:left!important;
 }
 .arena-intro .arena-title {
-  justify-content:flex-start!important;
-  margin-top:1px!important;
-  margin-bottom:8px!important;
 }
 .arena-intro .arena-sub {
-  margin-top:-4px!important;
-  margin-bottom:0!important;
-  text-align:left!important;
 }
-.arena-intro + .mca-countdown-card {margin-top:0!important;}
+.arena-intro + .mca-countdown-card {}
 .gta-arena-stars,.hanging-queen {display:none!important;}
 
 /* Consistent raised buttons. No hover color, border or elevation changes. */
@@ -8148,82 +7980,38 @@ html,body,.sb,.sb:hover,.inner {
 .join-btn.live-btn,.join-btn.live-btn:hover,
 .mca-countdown-card #joinButton.live-btn,
 .mca-countdown-card #joinButton.live-btn:hover,
-.gold-btn,.gold-btn:hover,.gold-btn:active {
-  padding:10px 12px!important;
-  border:2px solid #abf0f2!important;
-  border-radius:10px!important;
+.gold-btn,.gold-btn:hover,.gold-btn:active { border-color:#abf0f2!important;
   background:#79dce8!important;
   background-image:none!important;
   color:#19283d!important;
   box-shadow:0 5px 0 #376d81,0 10px 16px rgba(9,10,21,.20)!important;
-  font-family:'Barlow Condensed',Impact,sans-serif!important;
-  font-size:17px!important;
-  font-weight:900!important;
-  line-height:1.05!important;
-  letter-spacing:.6px!important;
-  text-align:center!important;
-  text-transform:uppercase!important;
   text-shadow:none!important;
-  transform:none!important;
   filter:none!important;
   transition:none!important;
 }
 .join-btn::before,.join-btn::after,
-.join-btn:hover::before,.join-btn:hover::after {
-  content:none!important;
-  display:none!important;
-}
+.join-btn:hover::before,.join-btn:hover::after {}
 .list-btn,.list-btn:hover,.list-btn:active,
 .forum-btn,.forum-btn:hover,.forum-btn:active {
   background:#343552!important;
   background-image:none!important;
-  color:#f9f2fa!important;
-  border:2px solid #9a8ec2!important;
-  border-radius:10px!important;
+  color:#f9f2fa!important; border-color:#9a8ec2!important;
   box-shadow:0 4px 0 #191c34,0 8px 12px rgba(9,10,21,.18)!important;
-  font-family:'Barlow Condensed',Impact,sans-serif!important;
-  font-weight:800!important;
-  letter-spacing:.3px!important;
-  line-height:1.12!important;
-  text-align:center!important;
   text-decoration:none!important;
-  transform:none!important;
   filter:none!important;
   transition:none!important;
 }
 .list-btn,.list-btn:hover,.list-btn:active {
-  padding:10px 8px!important;
-  font-size:15.5px!important;
 }
 .forum-btn,.forum-btn:hover,.forum-btn:active {
-  min-height:44px!important;
-  padding:9px 5px!important;
-  font-size:14.5px!important;
-  white-space:normal!important;
-  overflow-wrap:break-word!important;
 }
-.results-link,.results-link:hover,.results-link:active {
-  display:block!important;
-  width:70%!important;
-  max-width:185px!important;
-  margin:12px auto 0!important;
-  padding:9px 10px!important;
-  border:2px solid #ae99c9!important;
-  border-radius:10px!important;
+.results-link,.results-link:hover,.results-link:active { border-color:#ae99c9!important;
   background:#474164!important;
   background-image:none!important;
   color:#f9f2fa!important;
   box-shadow:0 4px 0 #211e3b,0 8px 12px rgba(9,10,21,.17)!important;
-  font-family:'Barlow Condensed',Impact,sans-serif!important;
-  font-size:15.5px!important;
-  font-weight:800!important;
-  letter-spacing:.4px!important;
-  line-height:1.1!important;
-  text-align:center!important;
   text-decoration:none!important;
-  text-transform:uppercase!important;
   text-shadow:none!important;
-  transform:none!important;
   filter:none!important;
   transition:none!important;
 }
@@ -8238,14 +8026,10 @@ html,body,.sb,.sb:hover,.inner {
 .card.mca-countdown-card:focus-within {
   background:#373653!important;
   background-image:none!important;
-  background-color:#373653!important;
-  border:2px solid #b899c4!important;
-  border-left:5px solid #e8a2c4!important;
-  border-radius:5px 5px 13px 13px!important;
+  background-color:#373653!important; border-color:#b899c4!important; border-left-color:#e8a2c4!important;
   clip-path:none!important;
   box-shadow:0 4px 0 #111426,0 8px 16px rgba(9,10,21,.17)!important;
   filter:none!important;
-  transform:none!important;
   transition:none!important;
 }
 .card.mca-countdown-card::before,
@@ -8281,17 +8065,11 @@ html,body,.sb,.sb:hover,.inner {
 .forum-btn,.forum-btn:hover,.forum-btn:active {
   background:#79dce8!important;
   background-image:none!important;
-  color:#19283d!important;
-  border:2px solid #abf0f2!important;
-  border-radius:10px!important;
+  color:#19283d!important; border-color:#abf0f2!important;
   box-shadow:0 5px 0 #376d81,0 10px 16px rgba(9,10,21,.20)!important;
-  font-family:'Barlow Condensed',Impact,sans-serif!important;
-  font-weight:900!important;
-  text-align:center!important;
   text-decoration:none!important;
   text-shadow:none!important;
   filter:none!important;
-  transform:none!important;
   transition:none!important;
 }
 
@@ -8299,26 +8077,12 @@ html,body,.sb,.sb:hover,.inner {
 .card.mca-countdown-card .results-link,
 .card.mca-countdown-card .results-link:hover,
 .card.mca-countdown-card .results-link:active {
-  display:inline-block!important;
-  width:auto!important;
-  max-width:none!important;
-  margin-top:12px!important;
-  padding:0!important;
-  border:0!important;
-  border-radius:0!important;
   background:transparent!important;
   background-image:none!important;
   color:#f0bfd9!important;
   box-shadow:none!important;
-  font-family:'Baloo 2',system-ui,sans-serif!important;
-  font-size:13px!important;
-  font-weight:700!important;
-  line-height:1.1!important;
-  letter-spacing:0!important;
-  text-transform:none!important;
   text-decoration:underline!important;
   text-shadow:none!important;
-  transform:none!important;
   filter:none!important;
   transition:none!important;
 }
@@ -8384,23 +8148,12 @@ html,body,.sb,.sb:hover,.inner {
 /* Christmas Mission and MCA join CTAs: matching hover pop-out and larger
    lettering, with the exact same cyan fill, border and text color. */
 #joinButton,
-.join-btn.halloween-daily-join {
-  padding:10px 12px!important;
-  border:2px solid #abf0f2!important;
-  border-radius:10px!important;
+.join-btn.halloween-daily-join { border-color:#abf0f2!important;
   background:#79dce8!important;
   background-image:none!important;
   color:#19283d!important;
   box-shadow:0 5px 0 #376d81,0 10px 16px rgba(9,10,21,.20)!important;
-  font-family:'Barlow Condensed',Impact,sans-serif!important;
-  font-size:17px!important;
-  font-weight:900!important;
-  line-height:1.05!important;
-  letter-spacing:.6px!important;
-  text-transform:uppercase!important;
   cursor:pointer!important;
-  transform:none!important;
-  transform-origin:center bottom!important;
   transition:transform .18s ease,font-size .18s ease,box-shadow .18s ease!important;
 }
 #joinButton:hover,
@@ -8409,8 +8162,6 @@ html,body,.sb,.sb:hover,.inner {
   background-image:none!important;
   color:#19283d!important;
   border-color:#abf0f2!important;
-  font-size:18.5px!important;
-  transform:translateY(-3px) scale(1.04)!important;
   box-shadow:0 7px 0 #376d81,0 14px 20px rgba(9,10,21,.20)!important;
   filter:none!important;
 }
@@ -8421,7 +8172,6 @@ html,body,.sb,.sb:hover,.inner {
 .card.mca-countdown-card .title-box:active,
 .card.mca-countdown-card:focus-within .title-box {
   cursor:default!important;
-  transform:none!important;
   filter:none!important;
   transition:none!important;
   animation:none!important;
@@ -8442,32 +8192,18 @@ html,body,.sb,.sb:hover,.inner {
 #mcaCountdownContent > .title-box:active,
 #mcaCountdownContent > .title-box:focus,
 .card.mca-countdown-card:hover #mcaCountdownContent > .title-box,
-.card.mca-countdown-card:focus-within #mcaCountdownContent > .title-box {
-  display:inline-block!important;
-  width:auto!important;
-  margin:0 auto 9px!important;
-  padding:8px 14px!important;
-  border:2px solid #ba9dc9!important;
-  border-radius:16px!important;
+.card.mca-countdown-card:focus-within #mcaCountdownContent > .title-box { border-color:#ba9dc9!important;
   outline:0!important;
   background:#48416c!important;
   background-color:#48416c!important;
   background-image:none!important;
   color:#fff8fa!important;
   box-shadow:2px 3px 0 #211f3b!important;
-  font-family:'Barlow Condensed',Impact,sans-serif!important;
-  font-size:18px!important;
-  font-weight:900!important;
-  line-height:1.1!important;
-  letter-spacing:.8px!important;
-  text-align:center!important;
-  text-transform:uppercase!important;
   text-decoration:none!important;
   text-shadow:none!important;
   cursor:default!important;
   pointer-events:none!important;
   user-select:none!important;
-  transform:none!important;
   filter:none!important;
   opacity:1!important;
   animation:none!important;
@@ -8550,9 +8286,7 @@ html,body,.sb,.sb:hover,.inner {
 .card.mca-countdown-card:focus-within {
   background:#334656!important;
   background-image:none!important;
-  background-color:#334656!important;
-  border:2px solid #80d2db!important;
-  border-left:5px solid #f0bc91!important;
+  background-color:#334656!important; border-color:#80d2db!important; border-left-color:#f0bc91!important;
   box-shadow:0 4px 0 #0d1822,0 8px 16px rgba(7,14,22,.18)!important;
   filter:none!important;
   transition:none!important;
@@ -8617,7 +8351,6 @@ html,body,.sb,.sb:hover,.inner {
   color:#fff8ee!important;
   box-shadow:2px 3px 0 #173843!important;
   cursor:default!important;
-  transform:none!important;
   transition:none!important;
 }
 .card.gta-job-tournament .title-box,
@@ -8718,7 +8451,6 @@ html,body,.sb,.sb:hover,.inner {
 .card.gta-champions-card,.card.gta-champions-card:hover,
 .card.gta-scorers-card,.card.gta-scorers-card:hover {
   background-image:none!important;
-  transform:none!important;
   transition:none!important;
   animation:none!important;
   filter:none!important;
@@ -8727,7 +8459,6 @@ html,body,.sb,.sb:hover,.inner {
 #mcaCountdownContent > .title-box,
 #mcaCountdownContent > .title-box:hover {
   background-image:none!important;
-  transform:none!important;
   transition:none!important;
   animation:none!important;
   filter:none!important;
@@ -8738,54 +8469,86 @@ html,body,.sb,.sb:hover,.inner {
    the newer font enlargement and scaling, which can reflow nearby content. */
 #joinButton,
 .join-btn.halloween-daily-join {
-  font-size:17px!important;
-  line-height:1.05!important;
-  transform:none!important;
   transition:transform .20s ease,box-shadow .20s ease!important;
   animation:none!important;
-  position:relative!important;
-  overflow:hidden!important;
 }
 #joinButton:hover,
 .join-btn.halloween-daily-join:hover {
-  font-size:17px!important;
-  transform:translateY(-3px)!important;
   box-shadow:0 6px 0 #376d81,0 14px 20px rgba(9,10,21,.22)!important;
 }
 #joinButton::before,
-.join-btn.halloween-daily-join::before {
-  content:""!important;
-  display:block!important;
-  position:absolute!important;
-  top:0!important;
-  left:0!important;
-  width:70%!important;
-  height:100%!important;
-  background:linear-gradient(90deg,transparent,rgba(255,255,255,.22),transparent)!important;
-  transform:translateX(-175%) skewX(-20deg)!important;
-  transition:transform .45s ease!important;
-  pointer-events:none!important;
-}
+.join-btn.halloween-daily-join::before {}
 #joinButton:hover::before,
-.join-btn.halloween-daily-join:hover::before {
-  transform:translateX(210%) skewX(-20deg)!important;
-}
+.join-btn.halloween-daily-join:hover::before {}
 @media(prefers-reduced-motion:reduce) {
   #joinButton,#joinButton:hover,
   .join-btn.halloween-daily-join,.join-btn.halloween-daily-join:hover {
-    transform:none!important;
     transition:none!important;
   }
   #joinButton::before,#joinButton:hover::before,
   .join-btn.halloween-daily-join::before,
-  .join-btn.halloween-daily-join:hover::before {
-    display:none!important;
-    transition:none!important;
-  }
+  .join-btn.halloween-daily-join:hover::before {}
 }
 
-/* Static, pre-rasterized dusk skyline behind sections only. */
-.inner { background-color:#1b2734!important; background-image:url("data:image/webp;base64,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")!important; background-size:100% 1380px!important; background-position:center top!important; background-repeat:repeat-y!important; }
+/* CHRISTMAS-SIZE TYPOGRAPHY: the GTA display face is reserved for headings.
+   The fixed-width Chess.com club column must not clip button/section text. */
+.sec-label,.arena-title,
+#newBuddiesTitle,#weeklyRaceTitle {
+}
+.title-box,.title-box:hover,
+.card.gta-job-tournament .title-box,
+.card.gta-job-tournament .title-box:hover,
+.card.mca-countdown-card .title-box,
+#mcaCountdownContent > .title-box,
+#mcaCountdownContent > .title-box:hover,
+.card.mca-countdown-card:hover #mcaCountdownContent > .title-box {
+}
+.sec-sub,.arena-sub,.mca-date-line,.format-line,.format-line .format-main,
+.status-line,.member-name,.member-elo,.welcome-text,.footer-text,
+.loading,.top-loading,.yw-chip,.yw-name,.yw-breakdown,.yw-updated,
+.yw-load-sub,.featured-name,.featured-points,.top-mini-name,
+.results-link,.shout-desc,.shout-name,.shout-user,.trophy-summary-points {
+}
+.sec-sub,.arena-sub {
+}
+.mca-countdown-card .mca-date-line {}
+.mca-countdown-card .format-line {}
+.mca-countdown-card .format-line .format-main {}
+.mca-countdown-card .status-line {}
+.mca-countdown-card .countdown {}
+
+/* Christmas button lettering (14px), GTA square shape and lift preserved. */
+.join-btn,.join-btn:hover,.join-btn:active,
+.join-btn.live-btn,.join-btn.live-btn:hover,
+.gold-btn,.gold-btn:hover,.gold-btn:active,
+#joinButton,#joinButton:hover,
+.mca-countdown-card #joinButton,
+.mca-countdown-card #joinButton:hover,
+.mca-countdown-card #joinButton.live-btn,
+.mca-countdown-card #joinButton.live-btn:hover,
+.join-btn.halloween-daily-join,
+.join-btn.halloween-daily-join:hover {
+}
+#joinButton,.join-btn.halloween-daily-join {
+}
+.list-btn,.list-btn:hover,.list-btn:active,
+.forum-btn,.forum-btn:hover,.forum-btn:active {
+}
+.results-link,.results-link:hover {}
+
+/* The original Christmas header font remains; use the space freed by the
+   removed right-side bell so the club's full subtitle fits on one line. */
+.club-title,.club-sub {
+}
+.club-sub {
+}
+
+/* Solid Miami Dusk: no background image or repainting artwork. */
+.sb,.sb:hover,.inner {background:#896080!important; background-image:none!important;}
+.sb-top,.sb-top:hover {background:#101822!important; background-image:none!important;}
+.sb-top::after {background:#896080!important; background-image:none!important;}
+.sec-label,.arena-title {color:#fff4ea!important; text-shadow:none!important;}
+.sec-sub,.arena-sub {color:#eed9e9!important; text-shadow:none!important;}
 
 </style>
 </head>
