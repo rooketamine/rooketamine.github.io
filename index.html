@@ -8551,6 +8551,29 @@ html,body,.sb,.sb:hover,.inner {
 .sec-sub,.arena-sub {color:#eed9e9!important; text-shadow:none!important;}
 
 </style>
+
+<style id="gta-compact-layout-fixes">
+/* Same heading scale as New Buddies / Weekly Rating Climbers. */
+.arena-intro .arena-title {font-size:17px!important;}
+.arena-intro .arena-sub {font-size:13.5px!important;}
+.arena-copy {padding-right:0!important;}
+
+/* Let the full GTA CTA label fit; preserve the original Christmas hover lift. */
+.mca-countdown-card #joinButton,
+.mca-countdown-card #joinButton:hover {
+  width:max-content!important;
+  min-width:60%!important;
+  max-width:calc(100% - 8px)!important;
+  box-sizing:border-box!important;
+  white-space:nowrap!important;
+  text-overflow:clip!important;
+  font-size:14px!important;
+}
+
+/* Santa hats are gone; their extra clearance is unnecessary. */
+#weeklyRatingBoard .yw-score-row {margin-bottom:4px!important;}
+.gta-scorers-card .top-featured {padding-top:4px!important;}
+</style>
 </head>
 
 <body>
@@ -8797,6 +8820,67 @@ html,body,.sb,.sb:hover,.inner {
 
 <script>
 const scorerSantaCap = "";
+
+/* COUNTDOWN */
+// November 27, 2026 at 10:00 PM California time (PST, UTC-08:00) = November 28, 2026 at 06:00 UTC.
+// California daylight saving time ends November 1, 2026; this fixed UTC instant is identical for all visitors.
+const arenaStart = new Date("2026-11-28T06:00:00Z").getTime();
+const arenaEnd = arenaStart + (24 * 60 * 60 * 1000);
+
+const countdownEl = document.getElementById("countdown");
+const statusTextEl = document.getElementById("statusText");
+const joinButton = document.getElementById("joinButton");
+const liveBadge = document.getElementById("liveBadge");
+const countdownDisplayZone = document.getElementById("countdownDisplayZone");
+
+function formatTime(ms, showDays = true){
+  const totalSeconds = Math.max(0, Math.floor(ms / 1000));
+  const days = Math.floor(totalSeconds / 86400);
+  const hours = Math.floor((totalSeconds % 86400) / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+  const pad = n => String(n).padStart(2, "0");
+
+  if(showDays){
+    return `${pad(days)}d ${pad(hours)}h ${pad(minutes)}m ${pad(seconds)}s`;
+  }
+
+  const totalHours = Math.floor(totalSeconds / 3600);
+  return `${pad(totalHours)}h ${pad(minutes)}m ${pad(seconds)}s`;
+}
+
+function updateCountdown(){
+  const now = Date.now();
+
+  if(now < arenaStart){
+    statusTextEl.textContent = "Arena starts in";
+    countdownEl.textContent = formatTime(arenaStart - now, true);
+    joinButton.textContent = "Start the Mission";
+    joinButton.classList.remove("live-btn");
+    liveBadge.classList.remove("show");
+  }
+  else if(now >= arenaStart && now < arenaEnd){
+    statusTextEl.textContent = "Time left";
+    countdownEl.textContent = formatTime(arenaEnd - now, false);
+    joinButton.textContent = "Start the Mission";
+    joinButton.classList.add("live-btn");
+    liveBadge.classList.add("show");
+  }
+  else{
+    statusTextEl.textContent = "That’s a wrap!";
+    countdownEl.textContent = "00d 00h 00m 00s";
+    joinButton.textContent = "Match Over";
+    joinButton.classList.remove("live-btn");
+    liveBadge.classList.remove("show");
+  }
+}
+
+updateCountdown();
+setInterval(updateCountdown, 1000);
+
+
+/* NEW BUDDIES */
+const CLUB_SLUG = 'blundering-buddies';
 const SHOW_COUNT = 3;
 const REFRESH_MS = 60000;
 
@@ -8829,7 +8913,16 @@ async function loadMembers(){
   const list = document.getElementById('members-list');
 
   try{
-    const clubData = await fetchJSON(`https://api.chess.com/pub/club/${CLUB_SLUG}/members`);
+    let clubData;
+    for(let attempt = 0; attempt < 3; attempt++){
+      try{
+        clubData = await fetchJSON(`https://api.chess.com/pub/club/${CLUB_SLUG}/members`);
+        break;
+      }catch(error){
+        if(attempt === 2) throw error;
+        await new Promise(resolve => setTimeout(resolve, 800 * (attempt + 1)));
+      }
+    }
 
     const all = [
       ...(clubData.weekly || []),
@@ -8848,6 +8941,10 @@ async function loadMembers(){
     unique.sort((a,b)=>(b.joined||0)-(a.joined||0));
 
     const recent = unique.slice(0, SHOW_COUNT);
+    if(!recent.length){
+      list.innerHTML = '<div class="loading">No new crew members to show yet.</div>';
+      return;
+    }
 
     const cards = await Promise.all(recent.map(async m => {
       let avatar = '';
@@ -8882,7 +8979,7 @@ async function loadMembers(){
         <img class="avatar"
           src="${c.avatar || 'https://www.chess.com/bundles/web/images/user-image.007dad08.svg'}"
           alt="${c.username}"
-          onerror="this.src='https://www.chess.com/bundles/web/images/user-image.007dad08.svg'">
+          onerror="this.onerror=null;this.src='https://www.chess.com/bundles/web/images/user-image.007dad08.svg'">
 
         <div class="member-info">
           <a class="member-name"
