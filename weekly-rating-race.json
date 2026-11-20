@@ -1,28 +1,28 @@
 {
   "status": "ready",
-  "updatedAt": "2026-11-19T20:36:03.469Z",
+  "updatedAt": "2026-11-20T02:18:49.686Z",
   "weekStartedAt": "2026-11-15T00:00:00.000Z",
   "weekEndsAt": "2026-11-22T00:00:00.000Z",
   "resetRule": "Every Sunday at 00:00 UTC",
   "minimumAccountAgeDays": 90,
   "minimumGamesPerCountedFormat": 100,
-  "checkedMembers": 5152,
-  "failedMembers": 2,
+  "checkedMembers": 5153,
+  "failedMembers": 0,
   "eligibleMembers": 4720,
   "players": [
     {
       "username": "johnsondante07",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/226858123.0e74f9a4.200x200o.9ef54ca68b8c.jpg",
       "profileUrl": "https://www.chess.com/member/johnsondante07",
-      "totalChange": 353,
+      "totalChange": 346,
       "rapidChange": 24,
-      "blitzChange": 123,
+      "blitzChange": 116,
       "bulletChange": 206,
       "rapidStartRating": 1781,
       "blitzStartRating": 1647,
       "bulletStartRating": 1718,
       "rapidCurrentRating": 1805,
-      "blitzCurrentRating": 1770,
+      "blitzCurrentRating": 1763,
       "bulletCurrentRating": 1924
     },
     {
@@ -56,6 +56,21 @@
       "bulletCurrentRating": 1826
     },
     {
+      "username": "daronk1",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/540736085.63396962.200x200o.676f5075c1b0.png",
+      "profileUrl": "https://www.chess.com/member/DaRonK1",
+      "totalChange": 269,
+      "rapidChange": 72,
+      "blitzChange": 104,
+      "bulletChange": 93,
+      "rapidStartRating": 1584,
+      "blitzStartRating": 1580,
+      "bulletStartRating": 2016,
+      "rapidCurrentRating": 1656,
+      "blitzCurrentRating": 1684,
+      "bulletCurrentRating": 2109
+    },
+    {
       "username": "kdh124816",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/566566832.d5bafbec.200x200o.41e28cf0e4fd.png",
       "profileUrl": "https://www.chess.com/member/KDH124816",
@@ -71,21 +86,6 @@
       "bulletCurrentRating": 1725
     },
     {
-      "username": "daronk1",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/540736085.63396962.200x200o.676f5075c1b0.png",
-      "profileUrl": "https://www.chess.com/member/DaRonK1",
-      "totalChange": 246,
-      "rapidChange": 55,
-      "blitzChange": 72,
-      "bulletChange": 119,
-      "rapidStartRating": 1584,
-      "blitzStartRating": 1580,
-      "bulletStartRating": 2016,
-      "rapidCurrentRating": 1639,
-      "blitzCurrentRating": 1652,
-      "bulletCurrentRating": 2135
-    },
-    {
       "username": "nhatnam20172026",
       "avatar": "https://images.chesscomfiles.com/uploads/v1/user/487669981.8d2d932f.200x200o.33d56e6f2f75.jpg",
       "profileUrl": "https://www.chess.com/member/nhatnam20172026",
@@ -99,6 +99,21 @@
       "rapidCurrentRating": 1076,
       "blitzCurrentRating": 1032,
       "bulletCurrentRating": 1244
+    },
+    {
+      "username": "krazyattackingplayer",
+      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/1436065.06fec34e.200x200o.9e1c37f478d6.jpeg",
+      "profileUrl": "https://www.chess.com/member/krazyattackingplayer",
+      "totalChange": 234,
+      "rapidChange": null,
+      "blitzChange": 0,
+      "bulletChange": 234,
+      "rapidStartRating": null,
+      "blitzStartRating": 1271,
+      "bulletStartRating": 527,
+      "rapidCurrentRating": null,
+      "blitzCurrentRating": 1271,
+      "bulletCurrentRating": 761
     },
     {
       "username": "sagar3560",
@@ -144,21 +159,6 @@
       "rapidCurrentRating": 1834,
       "blitzCurrentRating": 2044,
       "bulletCurrentRating": 1725
-    },
-    {
-      "username": "lasker2213",
-      "avatar": "https://images.chesscomfiles.com/uploads/v1/user/494678361.f43542bd.200x200o.f258f67fcc23.jpg",
-      "profileUrl": "https://www.chess.com/member/Lasker2213",
-      "totalChange": 212,
-      "rapidChange": 28,
-      "blitzChange": 184,
-      "bulletChange": 0,
-      "rapidStartRating": 1867,
-      "blitzStartRating": 1438,
-      "bulletStartRating": 1151,
-      "rapidCurrentRating": 1895,
-      "blitzCurrentRating": 1622,
-      "bulletCurrentRating": 1151
     }
   ]
 }
