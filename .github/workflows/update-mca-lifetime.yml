@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Read full commit history to find the latest newly uploaded MCA CSV
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
