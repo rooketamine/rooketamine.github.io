@@ -1,0 +1,8817 @@
+{
+  "version": 1,
+  "club": "Blundering Buddies",
+  "eventsProcessed": 15,
+  "playersTracked": 628,
+  "totalPoints": 25036,
+  "events": [
+    {
+      "arenaId": "31118732",
+      "file": "blundering-buddies-blitz-3-0-unrated-multiclub-31118732.csv",
+      "players": 127,
+      "points": 1991,
+      "officialClubScore": 1991
+    },
+    {
+      "arenaId": "31181063",
+      "file": "blundering-buddies-blitz-30-unrated-multiclub-31181063.csv",
+      "players": 94,
+      "points": 2544,
+      "officialClubScore": 2544
+    },
+    {
+      "arenaId": "31357703",
+      "file": "blundering-buddies-blitz-30-unrated-multiclub-31357703.csv",
+      "players": 116,
+      "points": 2873,
+      "officialClubScore": 2873
+    },
+    {
+      "arenaId": "31071472",
+      "file": "blundering-buddies-bullet-1-0-unrated-multiclub-31071472.csv",
+      "players": 133,
+      "points": 2798,
+      "officialClubScore": 2798
+    },
+    {
+      "arenaId": "31319705",
+      "file": "blundering-buddies-bullet-10-unrated-multiclub-31319705.csv",
+      "players": 98,
+      "points": 5214,
+      "officialClubScore": 5214
+    },
+    {
+      "arenaId": "4646151",
+      "file": "blundering-buddies-open-multi-club-arena-4646151.csv",
+      "players": 29,
+      "points": 1060,
+      "officialClubScore": 1060
+    },
+    {
+      "arenaId": "31097859",
+      "file": "blundering-buddies-open-unrated-10-multi-club-31097859.csv",
+      "players": 60,
+      "points": 2839,
+      "officialClubScore": 2839
+    },
+    {
+      "arenaId": "31047155",
+      "file": "blundering-buddies-open-unrated-100-multi-club--31047155.csv",
+      "players": 41,
+      "points": 1154,
+      "officialClubScore": 1154
+    },
+    {
+      "arenaId": "31263965",
+      "file": "blundering-buddies-rapid-100-unrated-multiclub-31263965.csv",
+      "players": 90,
+      "points": 1311,
+      "officialClubScore": 1311
+    },
+    {
+      "arenaId": "4706553",
+      "file": "blundering-buddies-unrated-multiclub-4706553.csv",
+      "players": 44,
+      "points": 1658,
+      "officialClubScore": 1658
+    },
+    {
+      "arenaId": "31105362",
+      "file": "born-to-blitz-31105362.csv",
+      "players": 65,
+      "points": 953,
+      "officialClubScore": 953
+    },
+    {
+      "arenaId": "4631081",
+      "file": "shirokuro-multi-club-arena-2025-4631081.csv",
+      "players": 14,
+      "points": 572,
+      "officialClubScore": 572
+    },
+    {
+      "arenaId": "4635821",
+      "file": "title-4-4635821.csv",
+      "players": 3,
+      "points": 22,
+      "officialClubScore": 22
+    },
+    {
+      "arenaId": "4633575",
+      "file": "welcome-to-2026-4633575.csv",
+      "players": 2,
+      "points": 17,
+      "officialClubScore": 17
+    },
+    {
+      "arenaId": "4630669",
+      "file": "winners-arena-bullet-4630669.csv",
+      "players": 3,
+      "points": 30,
+      "officialClubScore": 30
+    }
+  ],
+  "players": [
+    {
+      "username": "Rooketamine",
+      "club": "Blundering Buddies",
+      "points": 2169,
+      "mcasPlayed": 13,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 125
+        },
+        {
+          "arenaId": "31181063",
+          "points": 249
+        },
+        {
+          "arenaId": "31357703",
+          "points": 133
+        },
+        {
+          "arenaId": "31071472",
+          "points": 154
+        },
+        {
+          "arenaId": "31319705",
+          "points": 387
+        },
+        {
+          "arenaId": "4646151",
+          "points": 124
+        },
+        {
+          "arenaId": "31097859",
+          "points": 245
+        },
+        {
+          "arenaId": "31047155",
+          "points": 114
+        },
+        {
+          "arenaId": "31263965",
+          "points": 177
+        },
+        {
+          "arenaId": "4706553",
+          "points": 173
+        },
+        {
+          "arenaId": "31105362",
+          "points": 151
+        },
+        {
+          "arenaId": "4631081",
+          "points": 124
+        },
+        {
+          "arenaId": "4635821",
+          "points": 13
+        }
+      ]
+    },
+    {
+      "username": "harsh_d7",
+      "club": "Blundering Buddies",
+      "points": 2117,
+      "mcasPlayed": 10,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 205
+        },
+        {
+          "arenaId": "31357703",
+          "points": 301
+        },
+        {
+          "arenaId": "31071472",
+          "points": 141
+        },
+        {
+          "arenaId": "31319705",
+          "points": 504
+        },
+        {
+          "arenaId": "4646151",
+          "points": 70
+        },
+        {
+          "arenaId": "31097859",
+          "points": 267
+        },
+        {
+          "arenaId": "31047155",
+          "points": 151
+        },
+        {
+          "arenaId": "31263965",
+          "points": 94
+        },
+        {
+          "arenaId": "4706553",
+          "points": 262
+        },
+        {
+          "arenaId": "31105362",
+          "points": 122
+        }
+      ]
+    },
+    {
+      "username": "ManuDavid2910",
+      "club": "Blundering Buddies",
+      "points": 1536,
+      "mcasPlayed": 6,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 502
+        },
+        {
+          "arenaId": "31319705",
+          "points": 301
+        },
+        {
+          "arenaId": "31097859",
+          "points": 347
+        },
+        {
+          "arenaId": "31047155",
+          "points": 53
+        },
+        {
+          "arenaId": "31263965",
+          "points": 98
+        },
+        {
+          "arenaId": "4706553",
+          "points": 235
+        }
+      ]
+    },
+    {
+      "username": "devg1901",
+      "club": "Blundering Buddies",
+      "points": 1406,
+      "mcasPlayed": 13,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 53
+        },
+        {
+          "arenaId": "31181063",
+          "points": 126
+        },
+        {
+          "arenaId": "31357703",
+          "points": 133
+        },
+        {
+          "arenaId": "31071472",
+          "points": 114
+        },
+        {
+          "arenaId": "31319705",
+          "points": 281
+        },
+        {
+          "arenaId": "4646151",
+          "points": 154
+        },
+        {
+          "arenaId": "31047155",
+          "points": 113
+        },
+        {
+          "arenaId": "31263965",
+          "points": 175
+        },
+        {
+          "arenaId": "4706553",
+          "points": 124
+        },
+        {
+          "arenaId": "31105362",
+          "points": 2
+        },
+        {
+          "arenaId": "4631081",
+          "points": 109
+        },
+        {
+          "arenaId": "4635821",
+          "points": 7
+        },
+        {
+          "arenaId": "4633575",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "username": "The-Conquerorrrr",
+      "club": "Blundering Buddies",
+      "points": 834,
+      "mcasPlayed": 9,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 146
+        },
+        {
+          "arenaId": "31071472",
+          "points": 20
+        },
+        {
+          "arenaId": "4646151",
+          "points": 113
+        },
+        {
+          "arenaId": "31097859",
+          "points": 171
+        },
+        {
+          "arenaId": "31047155",
+          "points": 142
+        },
+        {
+          "arenaId": "31263965",
+          "points": 5
+        },
+        {
+          "arenaId": "4706553",
+          "points": 87
+        },
+        {
+          "arenaId": "31105362",
+          "points": 4
+        },
+        {
+          "arenaId": "4631081",
+          "points": 146
+        }
+      ]
+    },
+    {
+      "username": "AJchessPal",
+      "club": "Blundering Buddies",
+      "points": 627,
+      "mcasPlayed": 10,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 31
+        },
+        {
+          "arenaId": "31181063",
+          "points": 34
+        },
+        {
+          "arenaId": "31357703",
+          "points": 28
+        },
+        {
+          "arenaId": "31071472",
+          "points": 50
+        },
+        {
+          "arenaId": "31319705",
+          "points": 158
+        },
+        {
+          "arenaId": "31097859",
+          "points": 170
+        },
+        {
+          "arenaId": "31047155",
+          "points": 33
+        },
+        {
+          "arenaId": "31263965",
+          "points": 2
+        },
+        {
+          "arenaId": "4706553",
+          "points": 68
+        },
+        {
+          "arenaId": "31105362",
+          "points": 53
+        }
+      ]
+    },
+    {
+      "username": "aniliga",
+      "club": "Blundering Buddies",
+      "points": 502,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 502
+        }
+      ]
+    },
+    {
+      "username": "JoaoFelipeSP",
+      "club": "Blundering Buddies",
+      "points": 478,
+      "mcasPlayed": 5,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 67
+        },
+        {
+          "arenaId": "31357703",
+          "points": 56
+        },
+        {
+          "arenaId": "31071472",
+          "points": 142
+        },
+        {
+          "arenaId": "31319705",
+          "points": 165
+        },
+        {
+          "arenaId": "31263965",
+          "points": 48
+        }
+      ]
+    },
+    {
+      "username": "NobitaNobi2197",
+      "club": "Blundering Buddies",
+      "points": 460,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 89
+        },
+        {
+          "arenaId": "31181063",
+          "points": 187
+        },
+        {
+          "arenaId": "31097859",
+          "points": 184
+        }
+      ]
+    },
+    {
+      "username": "EzraBridger04",
+      "club": "Blundering Buddies",
+      "points": 402,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 118
+        },
+        {
+          "arenaId": "31071472",
+          "points": 153
+        },
+        {
+          "arenaId": "31319705",
+          "points": 131
+        }
+      ]
+    },
+    {
+      "username": "1-Sunl3ss",
+      "club": "Blundering Buddies",
+      "points": 326,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 232
+        },
+        {
+          "arenaId": "31319705",
+          "points": 60
+        },
+        {
+          "arenaId": "31263965",
+          "points": 34
+        }
+      ]
+    },
+    {
+      "username": "MyFatherIsMyHero",
+      "club": "Blundering Buddies",
+      "points": 316,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 25
+        },
+        {
+          "arenaId": "31357703",
+          "points": 108
+        },
+        {
+          "arenaId": "31071472",
+          "points": 183
+        }
+      ]
+    },
+    {
+      "username": "Reti2Rumbl3",
+      "club": "Blundering Buddies",
+      "points": 291,
+      "mcasPlayed": 10,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 12
+        },
+        {
+          "arenaId": "31181063",
+          "points": 85
+        },
+        {
+          "arenaId": "31357703",
+          "points": 0
+        },
+        {
+          "arenaId": "31071472",
+          "points": 8
+        },
+        {
+          "arenaId": "31319705",
+          "points": 37
+        },
+        {
+          "arenaId": "31097859",
+          "points": 15
+        },
+        {
+          "arenaId": "31047155",
+          "points": 10
+        },
+        {
+          "arenaId": "31263965",
+          "points": 36
+        },
+        {
+          "arenaId": "4706553",
+          "points": 77
+        },
+        {
+          "arenaId": "31105362",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "yepip83702",
+      "club": "Blundering Buddies",
+      "points": 290,
+      "mcasPlayed": 5,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 5
+        },
+        {
+          "arenaId": "31181063",
+          "points": 2
+        },
+        {
+          "arenaId": "31357703",
+          "points": 69
+        },
+        {
+          "arenaId": "31071472",
+          "points": 171
+        },
+        {
+          "arenaId": "31319705",
+          "points": 43
+        }
+      ]
+    },
+    {
+      "username": "Itz_AIR1",
+      "club": "Blundering Buddies",
+      "points": 281,
+      "mcasPlayed": 5,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 25
+        },
+        {
+          "arenaId": "31097859",
+          "points": 200
+        },
+        {
+          "arenaId": "31047155",
+          "points": 15
+        },
+        {
+          "arenaId": "31263965",
+          "points": 30
+        },
+        {
+          "arenaId": "4706553",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "MaguireistheGOAT1",
+      "club": "Blundering Buddies",
+      "points": 274,
+      "mcasPlayed": 5,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 54
+        },
+        {
+          "arenaId": "31357703",
+          "points": 71
+        },
+        {
+          "arenaId": "31071472",
+          "points": 35
+        },
+        {
+          "arenaId": "31319705",
+          "points": 101
+        },
+        {
+          "arenaId": "31105362",
+          "points": 13
+        }
+      ]
+    },
+    {
+      "username": "HallandTwin",
+      "club": "Blundering Buddies",
+      "points": 260,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 260
+        }
+      ]
+    },
+    {
+      "username": "MGenius_0110",
+      "club": "Blundering Buddies",
+      "points": 245,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 51
+        },
+        {
+          "arenaId": "31071472",
+          "points": 101
+        },
+        {
+          "arenaId": "31105362",
+          "points": 93
+        }
+      ]
+    },
+    {
+      "username": "rishisetia",
+      "club": "Blundering Buddies",
+      "points": 238,
+      "mcasPlayed": 4,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 68
+        },
+        {
+          "arenaId": "31357703",
+          "points": 4
+        },
+        {
+          "arenaId": "31071472",
+          "points": 117
+        },
+        {
+          "arenaId": "31319705",
+          "points": 49
+        }
+      ]
+    },
+    {
+      "username": "Finance_Dragon",
+      "club": "Blundering Buddies",
+      "points": 231,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 35
+        },
+        {
+          "arenaId": "31357703",
+          "points": 95
+        },
+        {
+          "arenaId": "31319705",
+          "points": 101
+        }
+      ]
+    },
+    {
+      "username": "The_Blunder_Alien",
+      "club": "Blundering Buddies",
+      "points": 229,
+      "mcasPlayed": 9,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 28
+        },
+        {
+          "arenaId": "31357703",
+          "points": 34
+        },
+        {
+          "arenaId": "31319705",
+          "points": 54
+        },
+        {
+          "arenaId": "4646151",
+          "points": 11
+        },
+        {
+          "arenaId": "31097859",
+          "points": 30
+        },
+        {
+          "arenaId": "31047155",
+          "points": 21
+        },
+        {
+          "arenaId": "31263965",
+          "points": 9
+        },
+        {
+          "arenaId": "4706553",
+          "points": 38
+        },
+        {
+          "arenaId": "4631081",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "username": "kanav2010",
+      "club": "Blundering Buddies",
+      "points": 225,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 139
+        },
+        {
+          "arenaId": "31097859",
+          "points": 73
+        },
+        {
+          "arenaId": "4706553",
+          "points": 13
+        }
+      ]
+    },
+    {
+      "username": "NOOH_HISHAM",
+      "club": "Blundering Buddies",
+      "points": 218,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 38
+        },
+        {
+          "arenaId": "31319705",
+          "points": 138
+        },
+        {
+          "arenaId": "31263965",
+          "points": 42
+        }
+      ]
+    },
+    {
+      "username": "balze_end1337",
+      "club": "Blundering Buddies",
+      "points": 206,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 204
+        },
+        {
+          "arenaId": "31047155",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Montuvio",
+      "club": "Blundering Buddies",
+      "points": 197,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 197
+        }
+      ]
+    },
+    {
+      "username": "SMWasi",
+      "club": "Blundering Buddies",
+      "points": 191,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 108
+        },
+        {
+          "arenaId": "31105362",
+          "points": 83
+        }
+      ]
+    },
+    {
+      "username": "CrushingLikeTal",
+      "club": "Blundering Buddies",
+      "points": 170,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 150
+        },
+        {
+          "arenaId": "31071472",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "username": "hatchling01",
+      "club": "Blundering Buddies",
+      "points": 169,
+      "mcasPlayed": 4,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 114
+        },
+        {
+          "arenaId": "31047155",
+          "points": 11
+        },
+        {
+          "arenaId": "4706553",
+          "points": 15
+        },
+        {
+          "arenaId": "31105362",
+          "points": 29
+        }
+      ]
+    },
+    {
+      "username": "SCION_4",
+      "club": "Blundering Buddies",
+      "points": 165,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 165
+        }
+      ]
+    },
+    {
+      "username": "KFPenguin",
+      "club": "Blundering Buddies",
+      "points": 163,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        },
+        {
+          "arenaId": "31319705",
+          "points": 163
+        }
+      ]
+    },
+    {
+      "username": "Timetotellit",
+      "club": "Blundering Buddies",
+      "points": 160,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        },
+        {
+          "arenaId": "31357703",
+          "points": 160
+        }
+      ]
+    },
+    {
+      "username": "Player_505",
+      "club": "Blundering Buddies",
+      "points": 156,
+      "mcasPlayed": 5,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        },
+        {
+          "arenaId": "31357703",
+          "points": 6
+        },
+        {
+          "arenaId": "31071472",
+          "points": 21
+        },
+        {
+          "arenaId": "31319705",
+          "points": 104
+        },
+        {
+          "arenaId": "31105362",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "username": "ChesswithAniket_YT",
+      "club": "Blundering Buddies",
+      "points": 155,
+      "mcasPlayed": 4,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 57
+        },
+        {
+          "arenaId": "31181063",
+          "points": 46
+        },
+        {
+          "arenaId": "4646151",
+          "points": 41
+        },
+        {
+          "arenaId": "4706553",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "vesalhamedinia",
+      "club": "Blundering Buddies",
+      "points": 150,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 150
+        }
+      ]
+    },
+    {
+      "username": "ClosingthisTCW",
+      "club": "Blundering Buddies",
+      "points": 146,
+      "mcasPlayed": 4,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 9
+        },
+        {
+          "arenaId": "31097859",
+          "points": 24
+        },
+        {
+          "arenaId": "31047155",
+          "points": 26
+        },
+        {
+          "arenaId": "4706553",
+          "points": 87
+        }
+      ]
+    },
+    {
+      "username": "chrissy2001",
+      "club": "Blundering Buddies",
+      "points": 142,
+      "mcasPlayed": 5,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 26
+        },
+        {
+          "arenaId": "31357703",
+          "points": 23
+        },
+        {
+          "arenaId": "31071472",
+          "points": 29
+        },
+        {
+          "arenaId": "31319705",
+          "points": 62
+        },
+        {
+          "arenaId": "31105362",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "jsilvestri",
+      "club": "Blundering Buddies",
+      "points": 138,
+      "mcasPlayed": 7,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 35
+        },
+        {
+          "arenaId": "31181063",
+          "points": 13
+        },
+        {
+          "arenaId": "31357703",
+          "points": 5
+        },
+        {
+          "arenaId": "31071472",
+          "points": 4
+        },
+        {
+          "arenaId": "31319705",
+          "points": 9
+        },
+        {
+          "arenaId": "31097859",
+          "points": 16
+        },
+        {
+          "arenaId": "4706553",
+          "points": 56
+        }
+      ]
+    },
+    {
+      "username": "Icy_Oceans",
+      "club": "Blundering Buddies",
+      "points": 136,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 136
+        }
+      ]
+    },
+    {
+      "username": "TheYoungElite",
+      "club": "Blundering Buddies",
+      "points": 135,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 54
+        },
+        {
+          "arenaId": "31097859",
+          "points": 81
+        }
+      ]
+    },
+    {
+      "username": "SubashreeChess",
+      "club": "Blundering Buddies",
+      "points": 126,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 50
+        },
+        {
+          "arenaId": "31357703",
+          "points": 76
+        }
+      ]
+    },
+    {
+      "username": "ItsJake321",
+      "club": "Blundering Buddies",
+      "points": 125,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 61
+        },
+        {
+          "arenaId": "4706553",
+          "points": 64
+        }
+      ]
+    },
+    {
+      "username": "Ashveil_Reaver",
+      "club": "Blundering Buddies",
+      "points": 121,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 121
+        }
+      ]
+    },
+    {
+      "username": "PRAKHAR-23",
+      "club": "Blundering Buddies",
+      "points": 114,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "4631081",
+          "points": 104
+        },
+        {
+          "arenaId": "4633575",
+          "points": 2
+        },
+        {
+          "arenaId": "4630669",
+          "points": 8
+        }
+      ]
+    },
+    {
+      "username": "LLUDIPRAM",
+      "club": "Blundering Buddies",
+      "points": 104,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 83
+        },
+        {
+          "arenaId": "31357703",
+          "points": 21
+        }
+      ]
+    },
+    {
+      "username": "Casect",
+      "club": "Blundering Buddies",
+      "points": 101,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 101
+        }
+      ]
+    },
+    {
+      "username": "Dhrubojyoti09",
+      "club": "Blundering Buddies",
+      "points": 99,
+      "mcasPlayed": 4,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 63
+        },
+        {
+          "arenaId": "31047155",
+          "points": 13
+        },
+        {
+          "arenaId": "4706553",
+          "points": 8
+        },
+        {
+          "arenaId": "4631081",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "username": "TrojanGMz",
+      "club": "Blundering Buddies",
+      "points": 97,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 97
+        }
+      ]
+    },
+    {
+      "username": "LPG122",
+      "club": "Blundering Buddies",
+      "points": 95,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 17
+        },
+        {
+          "arenaId": "31071472",
+          "points": 78
+        }
+      ]
+    },
+    {
+      "username": "ABdeVillain",
+      "club": "Blundering Buddies",
+      "points": 93,
+      "mcasPlayed": 4,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 15
+        },
+        {
+          "arenaId": "31071472",
+          "points": 0
+        },
+        {
+          "arenaId": "31319705",
+          "points": 61
+        },
+        {
+          "arenaId": "31097859",
+          "points": 17
+        }
+      ]
+    },
+    {
+      "username": "Elesyra",
+      "club": "Blundering Buddies",
+      "points": 93,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 33
+        },
+        {
+          "arenaId": "31263965",
+          "points": 5
+        },
+        {
+          "arenaId": "4706553",
+          "points": 55
+        }
+      ]
+    },
+    {
+      "username": "Redloudcannon",
+      "club": "Blundering Buddies",
+      "points": 91,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 11
+        },
+        {
+          "arenaId": "31319705",
+          "points": 80
+        }
+      ]
+    },
+    {
+      "username": "SMB1618R",
+      "club": "Blundering Buddies",
+      "points": 91,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 91
+        }
+      ]
+    },
+    {
+      "username": "Alandrochess",
+      "club": "Blundering Buddies",
+      "points": 90,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 90
+        }
+      ]
+    },
+    {
+      "username": "jsachs13",
+      "club": "Blundering Buddies",
+      "points": 90,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 79
+        },
+        {
+          "arenaId": "31105362",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "Nyindu_JR",
+      "club": "Blundering Buddies",
+      "points": 90,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 36
+        },
+        {
+          "arenaId": "31071472",
+          "points": 54
+        }
+      ]
+    },
+    {
+      "username": "yvyvyvyvyvyvyvyvyvybybubU",
+      "club": "Blundering Buddies",
+      "points": 89,
+      "mcasPlayed": 4,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 53
+        },
+        {
+          "arenaId": "31357703",
+          "points": 29
+        },
+        {
+          "arenaId": "31071472",
+          "points": 2
+        },
+        {
+          "arenaId": "31263965",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "TBFPlaysChess",
+      "club": "Blundering Buddies",
+      "points": 85,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 85
+        }
+      ]
+    },
+    {
+      "username": "Ayush-Nandyy",
+      "club": "Blundering Buddies",
+      "points": 84,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 84
+        }
+      ]
+    },
+    {
+      "username": "viorelizvoru",
+      "club": "Blundering Buddies",
+      "points": 84,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 84
+        }
+      ]
+    },
+    {
+      "username": "Brayyton2013",
+      "club": "Blundering Buddies",
+      "points": 83,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 69
+        },
+        {
+          "arenaId": "31071472",
+          "points": 0
+        },
+        {
+          "arenaId": "31263965",
+          "points": 14
+        }
+      ]
+    },
+    {
+      "username": "HollowDreamz",
+      "club": "Blundering Buddies",
+      "points": 83,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 35
+        },
+        {
+          "arenaId": "31319705",
+          "points": 48
+        }
+      ]
+    },
+    {
+      "username": "asdfgn2399",
+      "club": "Blundering Buddies",
+      "points": 82,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 82
+        }
+      ]
+    },
+    {
+      "username": "Gurasshopa",
+      "club": "Blundering Buddies",
+      "points": 76,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 76
+        }
+      ]
+    },
+    {
+      "username": "Ibraahem221",
+      "club": "Blundering Buddies",
+      "points": 75,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 75
+        }
+      ]
+    },
+    {
+      "username": "playingonlystreamers",
+      "club": "Blundering Buddies",
+      "points": 73,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 73
+        }
+      ]
+    },
+    {
+      "username": "yuvarajke",
+      "club": "Blundering Buddies",
+      "points": 73,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 73
+        }
+      ]
+    },
+    {
+      "username": "1000HappyMittens",
+      "club": "Blundering Buddies",
+      "points": 72,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 20
+        },
+        {
+          "arenaId": "31071472",
+          "points": 52
+        }
+      ]
+    },
+    {
+      "username": "blunderboy0_0",
+      "club": "Blundering Buddies",
+      "points": 70,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        },
+        {
+          "arenaId": "31047155",
+          "points": 68
+        }
+      ]
+    },
+    {
+      "username": "phenom1495",
+      "club": "Blundering Buddies",
+      "points": 69,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 69
+        }
+      ]
+    },
+    {
+      "username": "Khelani_2z8",
+      "club": "Blundering Buddies",
+      "points": 68,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 68
+        }
+      ]
+    },
+    {
+      "username": "MIGHTYMIGHTYMIGHTYMIGHTY",
+      "club": "Blundering Buddies",
+      "points": 66,
+      "mcasPlayed": 4,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 64
+        },
+        {
+          "arenaId": "4646151",
+          "points": 2
+        },
+        {
+          "arenaId": "4706553",
+          "points": 0
+        },
+        {
+          "arenaId": "4631081",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "nadimq",
+      "club": "Blundering Buddies",
+      "points": 66,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 66
+        }
+      ]
+    },
+    {
+      "username": "RENSIUM",
+      "club": "Blundering Buddies",
+      "points": 66,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 66
+        }
+      ]
+    },
+    {
+      "username": "GMAnmolSrijan007",
+      "club": "Blundering Buddies",
+      "points": 65,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 51
+        },
+        {
+          "arenaId": "31181063",
+          "points": 9
+        },
+        {
+          "arenaId": "31263965",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "T3000YT",
+      "club": "Blundering Buddies",
+      "points": 65,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 65
+        }
+      ]
+    },
+    {
+      "username": "ashishpanchal",
+      "club": "Blundering Buddies",
+      "points": 64,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 53
+        },
+        {
+          "arenaId": "4706553",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "lm25dangkhoa",
+      "club": "Blundering Buddies",
+      "points": 64,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 64
+        }
+      ]
+    },
+    {
+      "username": "abhinegii",
+      "club": "Blundering Buddies",
+      "points": 62,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 0
+        },
+        {
+          "arenaId": "31047155",
+          "points": 62
+        }
+      ]
+    },
+    {
+      "username": "ChessRubey",
+      "club": "Blundering Buddies",
+      "points": 62,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 2
+        },
+        {
+          "arenaId": "31097859",
+          "points": 14
+        },
+        {
+          "arenaId": "4706553",
+          "points": 46
+        }
+      ]
+    },
+    {
+      "username": "frumkalski",
+      "club": "Blundering Buddies",
+      "points": 61,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 61
+        }
+      ]
+    },
+    {
+      "username": "pallav2310",
+      "club": "Blundering Buddies",
+      "points": 61,
+      "mcasPlayed": 4,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 34
+        },
+        {
+          "arenaId": "4706553",
+          "points": 7
+        },
+        {
+          "arenaId": "4631081",
+          "points": 0
+        },
+        {
+          "arenaId": "4630669",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "username": "BlitzyMeisa",
+      "club": "Blundering Buddies",
+      "points": 60,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 60
+        }
+      ]
+    },
+    {
+      "username": "ThorsThunder1",
+      "club": "Blundering Buddies",
+      "points": 60,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 60
+        }
+      ]
+    },
+    {
+      "username": "jotafortuna",
+      "club": "Blundering Buddies",
+      "points": 57,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 42
+        },
+        {
+          "arenaId": "31071472",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "username": "Pi_31415926535897932",
+      "club": "Blundering Buddies",
+      "points": 57,
+      "mcasPlayed": 4,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 24
+        },
+        {
+          "arenaId": "31357703",
+          "points": 20
+        },
+        {
+          "arenaId": "31071472",
+          "points": 9
+        },
+        {
+          "arenaId": "31319705",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "username": "KristianMamatan",
+      "club": "Blundering Buddies",
+      "points": 56,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 4
+        },
+        {
+          "arenaId": "31357703",
+          "points": 2
+        },
+        {
+          "arenaId": "31319705",
+          "points": 50
+        }
+      ]
+    },
+    {
+      "username": "aniujual21",
+      "club": "Blundering Buddies",
+      "points": 55,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 4
+        },
+        {
+          "arenaId": "31357703",
+          "points": 44
+        },
+        {
+          "arenaId": "31105362",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "username": "smdiis",
+      "club": "Blundering Buddies",
+      "points": 55,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 55
+        }
+      ]
+    },
+    {
+      "username": "The_Blunder_Tiger",
+      "club": "Blundering Buddies",
+      "points": 54,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 54
+        }
+      ]
+    },
+    {
+      "username": "Avery_J_Morris",
+      "club": "Blundering Buddies",
+      "points": 52,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 52
+        }
+      ]
+    },
+    {
+      "username": "SophieLam90",
+      "club": "Blundering Buddies",
+      "points": 51,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 7
+        },
+        {
+          "arenaId": "31047155",
+          "points": 2
+        },
+        {
+          "arenaId": "4706553",
+          "points": 42
+        }
+      ]
+    },
+    {
+      "username": "aAnjaneyaaa",
+      "club": "Blundering Buddies",
+      "points": 50,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 40
+        },
+        {
+          "arenaId": "31097859",
+          "points": 0
+        },
+        {
+          "arenaId": "31263965",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "username": "altneeder",
+      "club": "Blundering Buddies",
+      "points": 49,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 49
+        }
+      ]
+    },
+    {
+      "username": "llallelli",
+      "club": "Blundering Buddies",
+      "points": 49,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 2
+        },
+        {
+          "arenaId": "31047155",
+          "points": 5
+        },
+        {
+          "arenaId": "4706553",
+          "points": 42
+        }
+      ]
+    },
+    {
+      "username": "map1370",
+      "club": "Blundering Buddies",
+      "points": 49,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 49
+        }
+      ]
+    },
+    {
+      "username": "Radhika-Bhargava",
+      "club": "Blundering Buddies",
+      "points": 49,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 49
+        }
+      ]
+    },
+    {
+      "username": "Samandarn",
+      "club": "Blundering Buddies",
+      "points": 49,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 36
+        },
+        {
+          "arenaId": "31319705",
+          "points": 5
+        },
+        {
+          "arenaId": "31263965",
+          "points": 8
+        }
+      ]
+    },
+    {
+      "username": "Michael_jackstone67",
+      "club": "Blundering Buddies",
+      "points": 48,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 48
+        }
+      ]
+    },
+    {
+      "username": "AlexChessGM29",
+      "club": "Blundering Buddies",
+      "points": 47,
+      "mcasPlayed": 4,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 38
+        },
+        {
+          "arenaId": "31071472",
+          "points": 4
+        },
+        {
+          "arenaId": "31319705",
+          "points": 2
+        },
+        {
+          "arenaId": "31263965",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "knnnjmk",
+      "club": "Blundering Buddies",
+      "points": 47,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 47
+        }
+      ]
+    },
+    {
+      "username": "uraluralgul",
+      "club": "Blundering Buddies",
+      "points": 46,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 46
+        }
+      ]
+    },
+    {
+      "username": "Amanchessbase57",
+      "club": "Blundering Buddies",
+      "points": 45,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 45
+        }
+      ]
+    },
+    {
+      "username": "Friday_47",
+      "club": "Blundering Buddies",
+      "points": 43,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 43
+        }
+      ]
+    },
+    {
+      "username": "SaiXo96",
+      "club": "Blundering Buddies",
+      "points": 43,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        },
+        {
+          "arenaId": "31319705",
+          "points": 25
+        },
+        {
+          "arenaId": "31263965",
+          "points": 16
+        }
+      ]
+    },
+    {
+      "username": "Shyamofficialy",
+      "club": "Blundering Buddies",
+      "points": 42,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 42
+        }
+      ]
+    },
+    {
+      "username": "calamity_chesss",
+      "club": "Blundering Buddies",
+      "points": 41,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 41
+        }
+      ]
+    },
+    {
+      "username": "Chi177954",
+      "club": "Blundering Buddies",
+      "points": 41,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 41
+        }
+      ]
+    },
+    {
+      "username": "simjingxuang",
+      "club": "Blundering Buddies",
+      "points": 39,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 39
+        }
+      ]
+    },
+    {
+      "username": "AkazaOnD5",
+      "club": "Blundering Buddies",
+      "points": 38,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 38
+        }
+      ]
+    },
+    {
+      "username": "Angel-Donato",
+      "club": "Blundering Buddies",
+      "points": 38,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 29
+        },
+        {
+          "arenaId": "31357703",
+          "points": 2
+        },
+        {
+          "arenaId": "31319705",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "username": "jsp220",
+      "club": "Blundering Buddies",
+      "points": 38,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 38
+        }
+      ]
+    },
+    {
+      "username": "Vishvajeet2005",
+      "club": "Blundering Buddies",
+      "points": 37,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 37
+        }
+      ]
+    },
+    {
+      "username": "Autistofanto",
+      "club": "Blundering Buddies",
+      "points": 36,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 36
+        }
+      ]
+    },
+    {
+      "username": "Shiladitya2309",
+      "club": "Blundering Buddies",
+      "points": 36,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 23
+        },
+        {
+          "arenaId": "31105362",
+          "points": 13
+        }
+      ]
+    },
+    {
+      "username": "ShreyBhatia",
+      "club": "Blundering Buddies",
+      "points": 36,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 36
+        }
+      ]
+    },
+    {
+      "username": "yati-Kautilya",
+      "club": "Blundering Buddies",
+      "points": 36,
+      "mcasPlayed": 5,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        },
+        {
+          "arenaId": "31357703",
+          "points": 3
+        },
+        {
+          "arenaId": "31071472",
+          "points": 19
+        },
+        {
+          "arenaId": "31319705",
+          "points": 10
+        },
+        {
+          "arenaId": "31105362",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "username": "jaxongir10",
+      "club": "Blundering Buddies",
+      "points": 35,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 35
+        }
+      ]
+    },
+    {
+      "username": "Th3J03L",
+      "club": "Blundering Buddies",
+      "points": 35,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 6
+        },
+        {
+          "arenaId": "31105362",
+          "points": 29
+        }
+      ]
+    },
+    {
+      "username": "Ancient_chess_master23",
+      "club": "Blundering Buddies",
+      "points": 34,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 34
+        }
+      ]
+    },
+    {
+      "username": "Hasan_Sasra",
+      "club": "Blundering Buddies",
+      "points": 34,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 34
+        }
+      ]
+    },
+    {
+      "username": "jlaburto",
+      "club": "Blundering Buddies",
+      "points": 34,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 27
+        },
+        {
+          "arenaId": "31071472",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "username": "ShubhamPant160802",
+      "club": "Blundering Buddies",
+      "points": 34,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 34
+        }
+      ]
+    },
+    {
+      "username": "CHIAjx",
+      "club": "Blundering Buddies",
+      "points": 33,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 33
+        }
+      ]
+    },
+    {
+      "username": "maxweiWI",
+      "club": "Blundering Buddies",
+      "points": 33,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 31
+        },
+        {
+          "arenaId": "4706553",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "QuinnChesster",
+      "club": "Blundering Buddies",
+      "points": 33,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 33
+        }
+      ]
+    },
+    {
+      "username": "smaindola",
+      "club": "Blundering Buddies",
+      "points": 33,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 33
+        }
+      ]
+    },
+    {
+      "username": "1yummy_chess",
+      "club": "Blundering Buddies",
+      "points": 32,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        },
+        {
+          "arenaId": "31105362",
+          "points": 30
+        }
+      ]
+    },
+    {
+      "username": "Cristianlrojas",
+      "club": "Blundering Buddies",
+      "points": 32,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 32
+        }
+      ]
+    },
+    {
+      "username": "DeusVult2384",
+      "club": "Blundering Buddies",
+      "points": 32,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 19
+        },
+        {
+          "arenaId": "31357703",
+          "points": 13
+        }
+      ]
+    },
+    {
+      "username": "I_Guy",
+      "club": "Blundering Buddies",
+      "points": 32,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        },
+        {
+          "arenaId": "31071472",
+          "points": 30
+        }
+      ]
+    },
+    {
+      "username": "KoupJam",
+      "club": "Blundering Buddies",
+      "points": 32,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 32
+        }
+      ]
+    },
+    {
+      "username": "Abhigyan-The-alien",
+      "club": "Blundering Buddies",
+      "points": 31,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 9
+        },
+        {
+          "arenaId": "4646151",
+          "points": 22
+        },
+        {
+          "arenaId": "31097859",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Beck-inCheck",
+      "club": "Blundering Buddies",
+      "points": 31,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4706553",
+          "points": 31
+        }
+      ]
+    },
+    {
+      "username": "Chess_Content1",
+      "club": "Blundering Buddies",
+      "points": 31,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 31
+        }
+      ]
+    },
+    {
+      "username": "PawnPhantom67",
+      "club": "Blundering Buddies",
+      "points": 31,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 31
+        }
+      ]
+    },
+    {
+      "username": "111_THE_NEW_STAR_111",
+      "club": "Blundering Buddies",
+      "points": 30,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 30
+        }
+      ]
+    },
+    {
+      "username": "Jolonite",
+      "club": "Blundering Buddies",
+      "points": 30,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 30
+        }
+      ]
+    },
+    {
+      "username": "morechess123456789",
+      "club": "Blundering Buddies",
+      "points": 30,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 30
+        }
+      ]
+    },
+    {
+      "username": "AnantChess45",
+      "club": "Blundering Buddies",
+      "points": 29,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 29
+        }
+      ]
+    },
+    {
+      "username": "antrell25",
+      "club": "Blundering Buddies",
+      "points": 29,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 29
+        }
+      ]
+    },
+    {
+      "username": "TheChessChampion5000",
+      "club": "Blundering Buddies",
+      "points": 29,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 29
+        }
+      ]
+    },
+    {
+      "username": "waladnajd2016",
+      "club": "Blundering Buddies",
+      "points": 29,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 29
+        }
+      ]
+    },
+    {
+      "username": "subittimalsina01",
+      "club": "Blundering Buddies",
+      "points": 28,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 28
+        }
+      ]
+    },
+    {
+      "username": "summer-xin",
+      "club": "Blundering Buddies",
+      "points": 28,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 28
+        }
+      ]
+    },
+    {
+      "username": "BNorbi18",
+      "club": "Blundering Buddies",
+      "points": 26,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 26
+        }
+      ]
+    },
+    {
+      "username": "eororor",
+      "club": "Blundering Buddies",
+      "points": 26,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 26
+        }
+      ]
+    },
+    {
+      "username": "gm_gambit3000",
+      "club": "Blundering Buddies",
+      "points": 26,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        },
+        {
+          "arenaId": "31319705",
+          "points": 24
+        }
+      ]
+    },
+    {
+      "username": "Lining123",
+      "club": "Blundering Buddies",
+      "points": 26,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 26
+        }
+      ]
+    },
+    {
+      "username": "CoolAndrew_16",
+      "club": "Blundering Buddies",
+      "points": 25,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4631081",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "username": "Gopalgadge2405",
+      "club": "Blundering Buddies",
+      "points": 25,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "username": "MafierNoFar",
+      "club": "Blundering Buddies",
+      "points": 25,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 25
+        },
+        {
+          "arenaId": "4706553",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Optium-135",
+      "club": "Blundering Buddies",
+      "points": 25,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "username": "papisorescu",
+      "club": "Blundering Buddies",
+      "points": 25,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "username": "Yashdesai2222",
+      "club": "Blundering Buddies",
+      "points": 25,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 25
+        }
+      ]
+    },
+    {
+      "username": "Leo_66",
+      "club": "Blundering Buddies",
+      "points": 24,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 15
+        },
+        {
+          "arenaId": "31263965",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "Parveen200",
+      "club": "Blundering Buddies",
+      "points": 23,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 23
+        }
+      ]
+    },
+    {
+      "username": "The_Blunder_Human",
+      "club": "Blundering Buddies",
+      "points": 23,
+      "mcasPlayed": 4,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 19
+        },
+        {
+          "arenaId": "31319705",
+          "points": 0
+        },
+        {
+          "arenaId": "31047155",
+          "points": 2
+        },
+        {
+          "arenaId": "4706553",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "thedrunkeinstein",
+      "club": "Blundering Buddies",
+      "points": 23,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 23
+        }
+      ]
+    },
+    {
+      "username": "Ganeshkiller2505",
+      "club": "Blundering Buddies",
+      "points": 22,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 22
+        },
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "messiuuuuuuiu",
+      "club": "Blundering Buddies",
+      "points": 22,
+      "mcasPlayed": 4,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 13
+        },
+        {
+          "arenaId": "31357703",
+          "points": 0
+        },
+        {
+          "arenaId": "31071472",
+          "points": 9
+        },
+        {
+          "arenaId": "31319705",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "RatPenat001",
+      "club": "Blundering Buddies",
+      "points": 22,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 16
+        },
+        {
+          "arenaId": "31357703",
+          "points": 4
+        },
+        {
+          "arenaId": "31263965",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Sarahwush",
+      "club": "Blundering Buddies",
+      "points": 22,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 4
+        },
+        {
+          "arenaId": "31047155",
+          "points": 0
+        },
+        {
+          "arenaId": "4706553",
+          "points": 18
+        }
+      ]
+    },
+    {
+      "username": "unknownankush",
+      "club": "Blundering Buddies",
+      "points": 22,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 22
+        }
+      ]
+    },
+    {
+      "username": "yahya-yusuf",
+      "club": "Blundering Buddies",
+      "points": 22,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 22
+        }
+      ]
+    },
+    {
+      "username": "0niBlitzu",
+      "club": "Blundering Buddies",
+      "points": 21,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4706553",
+          "points": 21
+        }
+      ]
+    },
+    {
+      "username": "C_4104",
+      "club": "Blundering Buddies",
+      "points": 21,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 21
+        }
+      ]
+    },
+    {
+      "username": "JohanLimplaysz",
+      "club": "Blundering Buddies",
+      "points": 21,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 21
+        }
+      ]
+    },
+    {
+      "username": "Nayataz",
+      "club": "Blundering Buddies",
+      "points": 21,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 21
+        }
+      ]
+    },
+    {
+      "username": "rwik103",
+      "club": "Blundering Buddies",
+      "points": 21,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 21
+        }
+      ]
+    },
+    {
+      "username": "GoodGF_gen_z_needed",
+      "club": "Blundering Buddies",
+      "points": 20,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 20
+        }
+      ]
+    },
+    {
+      "username": "techni-que",
+      "club": "Blundering Buddies",
+      "points": 20,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 18
+        },
+        {
+          "arenaId": "31105362",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "tj317Boanerges",
+      "club": "Blundering Buddies",
+      "points": 19,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 19
+        }
+      ]
+    },
+    {
+      "username": "xFrytekk",
+      "club": "Blundering Buddies",
+      "points": 19,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 19
+        }
+      ]
+    },
+    {
+      "username": "LilyChess43",
+      "club": "Blundering Buddies",
+      "points": 18,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 18
+        }
+      ]
+    },
+    {
+      "username": "LJYPRO",
+      "club": "Blundering Buddies",
+      "points": 18,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 18
+        }
+      ]
+    },
+    {
+      "username": "TotalChessWisdom",
+      "club": "Blundering Buddies",
+      "points": 18,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4631081",
+          "points": 18
+        }
+      ]
+    },
+    {
+      "username": "abhichess2015",
+      "club": "Blundering Buddies",
+      "points": 17,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 17
+        }
+      ]
+    },
+    {
+      "username": "antonino12c",
+      "club": "Blundering Buddies",
+      "points": 17,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 17
+        }
+      ]
+    },
+    {
+      "username": "BlitzStrats",
+      "club": "Blundering Buddies",
+      "points": 17,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 17
+        }
+      ]
+    },
+    {
+      "username": "estefany14043",
+      "club": "Blundering Buddies",
+      "points": 17,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 17
+        }
+      ]
+    },
+    {
+      "username": "mcCoach06",
+      "club": "Blundering Buddies",
+      "points": 17,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 17
+        }
+      ]
+    },
+    {
+      "username": "Michael57033",
+      "club": "Blundering Buddies",
+      "points": 17,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 17
+        }
+      ]
+    },
+    {
+      "username": "NADF2002",
+      "club": "Blundering Buddies",
+      "points": 17,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 17
+        }
+      ]
+    },
+    {
+      "username": "Sandilya-Gambit_Domain",
+      "club": "Blundering Buddies",
+      "points": 17,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 17
+        }
+      ]
+    },
+    {
+      "username": "Whiteroom_Genius",
+      "club": "Blundering Buddies",
+      "points": 17,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 17
+        }
+      ]
+    },
+    {
+      "username": "b3n1c1om",
+      "club": "Blundering Buddies",
+      "points": 16,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 16
+        }
+      ]
+    },
+    {
+      "username": "Below_Celsius",
+      "club": "Blundering Buddies",
+      "points": 16,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4631081",
+          "points": 16
+        }
+      ]
+    },
+    {
+      "username": "BYTE-SIZED-CHESS123",
+      "club": "Blundering Buddies",
+      "points": 16,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 14
+        },
+        {
+          "arenaId": "31047155",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "dashedbro1975",
+      "club": "Blundering Buddies",
+      "points": 16,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        },
+        {
+          "arenaId": "4646151",
+          "points": 5
+        },
+        {
+          "arenaId": "31047155",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "queiser",
+      "club": "Blundering Buddies",
+      "points": 16,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 16
+        }
+      ]
+    },
+    {
+      "username": "StanislawB17",
+      "club": "Blundering Buddies",
+      "points": 16,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 10
+        },
+        {
+          "arenaId": "31047155",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "username": "AakashKajal18",
+      "club": "Blundering Buddies",
+      "points": 15,
+      "mcasPlayed": 4,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        },
+        {
+          "arenaId": "31357703",
+          "points": 2
+        },
+        {
+          "arenaId": "31071472",
+          "points": 13
+        },
+        {
+          "arenaId": "4706553",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "assassinrules",
+      "club": "Blundering Buddies",
+      "points": 15,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "username": "AYUSH_176",
+      "club": "Blundering Buddies",
+      "points": 15,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "username": "ChessPlayer99995",
+      "club": "Blundering Buddies",
+      "points": 15,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "username": "GloriousArjun",
+      "club": "Blundering Buddies",
+      "points": 15,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 2
+        },
+        {
+          "arenaId": "31263965",
+          "points": 13
+        }
+      ]
+    },
+    {
+      "username": "osa11111",
+      "club": "Blundering Buddies",
+      "points": 15,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "username": "SharkTank190",
+      "club": "Blundering Buddies",
+      "points": 15,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 15
+        },
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "TITAN012345",
+      "club": "Blundering Buddies",
+      "points": 15,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 15
+        }
+      ]
+    },
+    {
+      "username": "Yesh2111",
+      "club": "Blundering Buddies",
+      "points": 15,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 11
+        },
+        {
+          "arenaId": "31263965",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "username": "AleixGod",
+      "club": "Blundering Buddies",
+      "points": 14,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 14
+        }
+      ]
+    },
+    {
+      "username": "art026",
+      "club": "Blundering Buddies",
+      "points": 14,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4706553",
+          "points": 14
+        }
+      ]
+    },
+    {
+      "username": "edmar10",
+      "club": "Blundering Buddies",
+      "points": 14,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 14
+        }
+      ]
+    },
+    {
+      "username": "SaladTheFloof",
+      "club": "Blundering Buddies",
+      "points": 14,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        },
+        {
+          "arenaId": "31071472",
+          "points": 12
+        }
+      ]
+    },
+    {
+      "username": "Yoriichi_Gojo_vs_Sukuna",
+      "club": "Blundering Buddies",
+      "points": 14,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 14
+        }
+      ]
+    },
+    {
+      "username": "Zakaria-1-Qureshi",
+      "club": "Blundering Buddies",
+      "points": 14,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        },
+        {
+          "arenaId": "31105362",
+          "points": 12
+        }
+      ]
+    },
+    {
+      "username": "Aamir1Afzal",
+      "club": "Blundering Buddies",
+      "points": 13,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 13
+        }
+      ]
+    },
+    {
+      "username": "AkshatPanchal08",
+      "club": "Blundering Buddies",
+      "points": 13,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 13
+        }
+      ]
+    },
+    {
+      "username": "ayushtyagi27",
+      "club": "Blundering Buddies",
+      "points": 13,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 13
+        }
+      ]
+    },
+    {
+      "username": "BughouseChessCoach",
+      "club": "Blundering Buddies",
+      "points": 13,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 13
+        }
+      ]
+    },
+    {
+      "username": "DrEtal",
+      "club": "Blundering Buddies",
+      "points": 13,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 13
+        }
+      ]
+    },
+    {
+      "username": "handy2002",
+      "club": "Blundering Buddies",
+      "points": 13,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 13
+        }
+      ]
+    },
+    {
+      "username": "jevolini",
+      "club": "Blundering Buddies",
+      "points": 13,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 13
+        }
+      ]
+    },
+    {
+      "username": "marto220",
+      "club": "Blundering Buddies",
+      "points": 13,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 13
+        }
+      ]
+    },
+    {
+      "username": "MukiDaRealKing",
+      "club": "Blundering Buddies",
+      "points": 13,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 13
+        }
+      ]
+    },
+    {
+      "username": "sonti9",
+      "club": "Blundering Buddies",
+      "points": 13,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 0
+        },
+        {
+          "arenaId": "31263965",
+          "points": 13
+        }
+      ]
+    },
+    {
+      "username": "AnshumanFR",
+      "club": "Blundering Buddies",
+      "points": 12,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 12
+        }
+      ]
+    },
+    {
+      "username": "coolmanishjain",
+      "club": "Blundering Buddies",
+      "points": 12,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 10
+        },
+        {
+          "arenaId": "31357703",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "MarcellaDemelza",
+      "club": "Blundering Buddies",
+      "points": 12,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        },
+        {
+          "arenaId": "31097859",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "username": "Ultra_X001",
+      "club": "Blundering Buddies",
+      "points": 12,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 12
+        }
+      ]
+    },
+    {
+      "username": "173m",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "23_Vaibhav",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "Adarsh_zzz",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "Ayaaz_Ahmed",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "Beuros",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "CDAChess007",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 7
+        },
+        {
+          "arenaId": "31263965",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "username": "cooliomd",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 11
+        },
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "COUNCIL_MEMBER_710",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "farha2425",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "GMsandey",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4631081",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "kudumitya",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        },
+        {
+          "arenaId": "31071472",
+          "points": 7
+        },
+        {
+          "arenaId": "31319705",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "MaxSargeat",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        },
+        {
+          "arenaId": "31357703",
+          "points": 9
+        },
+        {
+          "arenaId": "31319705",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Mu_Denno",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "Rudrachessic",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "sagar6161011T",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "sandeshp2",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "unsivagan",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "xkkjjm",
+      "club": "Blundering Buddies",
+      "points": 11,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        },
+        {
+          "arenaId": "31097859",
+          "points": 11
+        }
+      ]
+    },
+    {
+      "username": "aryankus04708",
+      "club": "Blundering Buddies",
+      "points": 10,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "username": "Benedikt942",
+      "club": "Blundering Buddies",
+      "points": 10,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "username": "emdog333",
+      "club": "Blundering Buddies",
+      "points": 10,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 1
+        },
+        {
+          "arenaId": "31263965",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "galileo159",
+      "club": "Blundering Buddies",
+      "points": 10,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "username": "KJH_T",
+      "club": "Blundering Buddies",
+      "points": 10,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "username": "mallikrju",
+      "club": "Blundering Buddies",
+      "points": 10,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "username": "patrickkoomson",
+      "club": "Blundering Buddies",
+      "points": 10,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "username": "trekkingsports",
+      "club": "Blundering Buddies",
+      "points": 10,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "username": "vrnzc",
+      "club": "Blundering Buddies",
+      "points": 10,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 9
+        },
+        {
+          "arenaId": "31319705",
+          "points": 0
+        },
+        {
+          "arenaId": "31263965",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "4leph0mega",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "AKD_45",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "Ankit_Saikia",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        },
+        {
+          "arenaId": "31071472",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "ayushpatel009",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "Bluehat_senior655",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "Broken_stockfish",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "DeepakBadatya",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "Hadjira_1",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "jordanD4",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "Kohlithebest",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "Maciek-Gos31",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "Neha1982",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "Nivitagala",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 7
+        },
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "PixelDrift7",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4706553",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "PotatoChipChessYum",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 5
+        },
+        {
+          "arenaId": "31357703",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "username": "pranshuudubey",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "professionalbobross",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "SAURAB2002",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "Serjardo",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "slavchoboyukliev",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "TALented_Vasee_18",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 4
+        },
+        {
+          "arenaId": "31319705",
+          "points": 5
+        },
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "th0903",
+      "club": "Blundering Buddies",
+      "points": 9,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "username": "airtafae",
+      "club": "Blundering Buddies",
+      "points": 8,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 8
+        }
+      ]
+    },
+    {
+      "username": "amc794",
+      "club": "Blundering Buddies",
+      "points": 8,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 8
+        }
+      ]
+    },
+    {
+      "username": "BMRook",
+      "club": "Blundering Buddies",
+      "points": 8,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4706553",
+          "points": 8
+        }
+      ]
+    },
+    {
+      "username": "fishandchips1227",
+      "club": "Blundering Buddies",
+      "points": 8,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        },
+        {
+          "arenaId": "31263965",
+          "points": 8
+        }
+      ]
+    },
+    {
+      "username": "Johan355",
+      "club": "Blundering Buddies",
+      "points": 8,
+      "mcasPlayed": 5,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 6
+        },
+        {
+          "arenaId": "31357703",
+          "points": 0
+        },
+        {
+          "arenaId": "31097859",
+          "points": 0
+        },
+        {
+          "arenaId": "31047155",
+          "points": 2
+        },
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "abhishek_1906",
+      "club": "Blundering Buddies",
+      "points": 7,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "username": "Budgie_Empire",
+      "club": "Blundering Buddies",
+      "points": 7,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 3
+        },
+        {
+          "arenaId": "31357703",
+          "points": 2
+        },
+        {
+          "arenaId": "31319705",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "ChecknusMateson",
+      "club": "Blundering Buddies",
+      "points": 7,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "username": "Classic_Rubik",
+      "club": "Blundering Buddies",
+      "points": 7,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "username": "Fatormeh",
+      "club": "Blundering Buddies",
+      "points": 7,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "username": "GABIADINI2",
+      "club": "Blundering Buddies",
+      "points": 7,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "username": "Go-big-red-14",
+      "club": "Blundering Buddies",
+      "points": 7,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 5
+        },
+        {
+          "arenaId": "4706553",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Haykverdyan2013yyy",
+      "club": "Blundering Buddies",
+      "points": 7,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 5
+        },
+        {
+          "arenaId": "31105362",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "iadhi78",
+      "club": "Blundering Buddies",
+      "points": 7,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "username": "KingKrusher99",
+      "club": "Blundering Buddies",
+      "points": 7,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "username": "KUSHAGRA_YOYOYOYOOO",
+      "club": "Blundering Buddies",
+      "points": 7,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 5
+        },
+        {
+          "arenaId": "31357703",
+          "points": 0
+        },
+        {
+          "arenaId": "31105362",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "smurt567",
+      "club": "Blundering Buddies",
+      "points": 7,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "username": "vdachev",
+      "club": "Blundering Buddies",
+      "points": 7,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "username": "A-name-that-is-not-take",
+      "club": "Blundering Buddies",
+      "points": 6,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "username": "cassidyyy333",
+      "club": "Blundering Buddies",
+      "points": 6,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        },
+        {
+          "arenaId": "4706553",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "username": "Che55id",
+      "club": "Blundering Buddies",
+      "points": 6,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "username": "Dhanbal",
+      "club": "Blundering Buddies",
+      "points": 6,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "username": "Emodiva_255",
+      "club": "Blundering Buddies",
+      "points": 6,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "username": "Gamesetmatch1234",
+      "club": "Blundering Buddies",
+      "points": 6,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "username": "GiveItUp911emer",
+      "club": "Blundering Buddies",
+      "points": 6,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "username": "kinshuk_1345",
+      "club": "Blundering Buddies",
+      "points": 6,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        },
+        {
+          "arenaId": "31357703",
+          "points": 2
+        },
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "staticExE",
+      "club": "Blundering Buddies",
+      "points": 6,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "username": "Steam-0",
+      "club": "Blundering Buddies",
+      "points": 6,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "username": "TheBlundererGame",
+      "club": "Blundering Buddies",
+      "points": 6,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 4
+        },
+        {
+          "arenaId": "31105362",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Abood_XA",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "AdvikGupta1212",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        },
+        {
+          "arenaId": "31263965",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "aevelie",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "aryan4727B",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "ayush123983",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "Azharuddin1974",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "BADR113101",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4706553",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "Bastian_Rebolledo",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "blue_army",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        },
+        {
+          "arenaId": "31263965",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "Drawish-18",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "eswarramineni",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "Freddiemo1",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "GM_MASTERYCS",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "GM_MAYANKbaghel",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "GM-Khumotun",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "Honkyhanna",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "jacksonsmid11",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "Jedichess10",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "JSC_Chess",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "leoo66",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "LOKE_KANDO",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "Martin-Seamus-McFly",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "MihirRao2",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "mynameisgawonkim",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "not-annie",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "Oleksii_Ki",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "Romeoo1904",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "ShanePui",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "silcim",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "Starrock10",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "Udityaaaa",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "Utsav_Ranjan_hello",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "Vosanda1",
+      "club": "Blundering Buddies",
+      "points": 5,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "username": "amiralisarv",
+      "club": "Blundering Buddies",
+      "points": 4,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "username": "Atreyos123",
+      "club": "Blundering Buddies",
+      "points": 4,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "username": "Devnatth",
+      "club": "Blundering Buddies",
+      "points": 4,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "username": "FocusedJellyBean23",
+      "club": "Blundering Buddies",
+      "points": 4,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "username": "Goodyaman",
+      "club": "Blundering Buddies",
+      "points": 4,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        },
+        {
+          "arenaId": "31097859",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "MaxweiWI2",
+      "club": "Blundering Buddies",
+      "points": 4,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "username": "Medellin7703",
+      "club": "Blundering Buddies",
+      "points": 4,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        },
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Prime_Real_Madrid",
+      "club": "Blundering Buddies",
+      "points": 4,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 2
+        },
+        {
+          "arenaId": "31105362",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "ramosdr",
+      "club": "Blundering Buddies",
+      "points": 4,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "username": "Sshetuu",
+      "club": "Blundering Buddies",
+      "points": 4,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "username": "x-1127548877",
+      "club": "Blundering Buddies",
+      "points": 4,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4706553",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "username": "xiongmao1234",
+      "club": "Blundering Buddies",
+      "points": 4,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "username": "AFKGames",
+      "club": "Blundering Buddies",
+      "points": 3,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "Calamari1001",
+      "club": "Blundering Buddies",
+      "points": 3,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "collin12347",
+      "club": "Blundering Buddies",
+      "points": 3,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "Raunakk777",
+      "club": "Blundering Buddies",
+      "points": 3,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "sarvadnya02",
+      "club": "Blundering Buddies",
+      "points": 3,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "ShivamSunderam20048",
+      "club": "Blundering Buddies",
+      "points": 3,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "Shreyangk",
+      "club": "Blundering Buddies",
+      "points": 3,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "username": "Tyty_59",
+      "club": "Blundering Buddies",
+      "points": 3,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        },
+        {
+          "arenaId": "31105362",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "18chiku28",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "a_top_gm",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4706553",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Abdullayev22",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "akki_ashok",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Aldair_Mora",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "aleks5495",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Anubhav0960",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "ArianaCapasso",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "arindammangal19",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Armandonavo15",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Ashish_Dhanda",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Ashwin_4412",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 3,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        },
+        {
+          "arenaId": "31047155",
+          "points": 2
+        },
+        {
+          "arenaId": "4706553",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "athan_klb",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Banana-Jet",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "berko2010aksu",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Bhavya_sharma01",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "biurgheruihweufiefhwe",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "BurningGold",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "ChessBender1025",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "chessington8691",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "ChessPhantom2327",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "consiglier364",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "crucks02",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Dario72c-8",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Davlat_007",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "desert_storm1974",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Dominicmyladoor",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        },
+        {
+          "arenaId": "31097859",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Dr-Abdilrahman",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "dudeism_10",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Edmond0206",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4630669",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "EndgameRookMaster",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Enpassant2626",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Epicman9",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Eyyub_Aslanov",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "famouskeed",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "forkk99",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "gabriel_55",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "GauravSinghal25",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        },
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "GM_notimetothink",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "GM-Rounak07",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4635821",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Happy_HappyHappy",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "himankcoc",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "hisvaluser160",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "i-Blunder-every-move67",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Ilovecows359",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        },
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Ilyaslebigqaf",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "jacondemuka",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Jaloliddin_1201",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Jatin1006",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "JaydusCCC",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "jk_s_chess",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Judou-12",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Kenil701",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Lakshay9511",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "lalith-45",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "lord-mayank",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Lucifermornystar",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Luffychin07",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Luigi_mansion19",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Luke_Shi",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Marvy765",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "maxkir74",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "mayankdesktop",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "MessiFifa10",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Might-U",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Milano-Cortina",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "MrCreative_09",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "mrstein44",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "mtulow",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "NAMITHG123",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "nanncyjj",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4706553",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Nathancarlisipyerro",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "NelNagi_BlueLock",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Nessyou19",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "NewKingOf64Squares",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Nick_Blacksmith",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "NickDGT",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "NisGM09",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "oneofthekevs",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "oofadoofaloof",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "PainPawnQuesst",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Parvesh-SenthilKumar",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "perceus3000",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Pikachu_fanz",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4706553",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "PranuTan",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        },
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "RahulllGandhiiii",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Razvan1778",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "rbgods",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "ReBel073",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "roheemo_h",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        },
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "RRonaldo777",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 2
+        },
+        {
+          "arenaId": "4706553",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "RudraSharma2017",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "SebastianRocks2018",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Shtefan_11",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "shubhamjai9",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "T3mP3sT4_F1eR4",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "The_Punisher24",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "thechessbeard",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "TheDarkHorse1813",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "ThiviyanGM",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "TotalPeace19",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "tushkii02",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "VivvanPatel",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Witty_Alienjrs",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "x-1150668214",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "Yormani01",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 2
+        },
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Yusufyigit26",
+      "club": "Blundering Buddies",
+      "points": 2,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "HighRatedGuy",
+      "club": "Blundering Buddies",
+      "points": 1,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "malet5cda",
+      "club": "Blundering Buddies",
+      "points": 1,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "Sxvrochi",
+      "club": "Blundering Buddies",
+      "points": 1,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "Terms-of-service67",
+      "club": "Blundering Buddies",
+      "points": 1,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "Wantedjohnny",
+      "club": "Blundering Buddies",
+      "points": 1,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "username": "0xyas",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "1207Minh",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "1210200prasanthkumar",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "666Duolingo",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "7_range",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "85AdeFemi",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "AbhinayDasari",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Abhishek_5378",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Agam0515",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "AisyahFatima",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "alloyak",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "ananth_989",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "AnAvidConsumerOfSand",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "ANAY17779",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "andrew-mayfield",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "ankitmhn",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        },
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "annanas512",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Ashish8510",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "AthulKrishnan88",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Batmanhiran",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "binaya1995",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "BlunderFromDownUnder_16",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "bman317",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "boraerberk7",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "braydenooi",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Brilliant_Bright",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "bulletisrealfun",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "casper1234567890v",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "cds2k19",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Celeste_Gold",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "CharFroMinecraft",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "ChessSpeedTwitch",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "chiruuuuu_6",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4706553",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "chrispayne97",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "clintonsenapati",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Codex-ss",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Coldbrew1351",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "CommonSense2653",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "CooLMaN_09",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "cooltoolsamoungus",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "CoolwhipWins",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "cynical_piy_ush",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Da_Dumpster",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "davidezerbo",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "DebanjonRoy",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "dhadhusingh",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "doggo-the-woof-bork-kind",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "domenicodisarno",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "emiilstoplv",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "eroow221",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Ethan_wangthegoat67",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Exteramanjohnson",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Faisalchecks",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "feynloopy",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Fifi_Enko",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "FranticCity",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "garyken",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "GeauxGang",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "GM_Steve_Brule",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "GM-Anshh",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "GoatRam108",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Gors2001",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        },
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "GREAT-WAR-MAN",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "grecosacrifice",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "HARISHARAN-67",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "HeavyMirko",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Iexplorechess",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "IJAQI",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Iskandar-12",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "itadoriyougi",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "ItsVersatile06",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "iwannaplay-blitz",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "jasminepetrillo",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4631081",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Jasonskaggs",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        },
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Joshua-Edward",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Kaenguruthereal",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "kapsna",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "KrishnaK125",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Kxineticc",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "LAQueenKiller",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "LeeXCVI",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "LiamNakamoto",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "LilSkeight",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "little-MagnusC",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "LordSiXSamurai",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Lucifier_112",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Luffy1547",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "MananshKar",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Matteo-Reyes",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "mdr202",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "meOw_mIxOloGisT",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "missioneric",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "MisterJ1981s",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "MMACK32",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "mohammadjavad144",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Mqa123chessplayer",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Nathaniel-Marcus",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "nikkichallenger",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "nothingno",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "nursulton1611",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "OakTreeEmma",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 0
+        },
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "ohnomybotezgambit6719",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "orangesandbeefstew",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "OscarSilva6",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "otakufamily97",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "parmindersingh123",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        },
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Paul7teen",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "PhantomVertex",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "PiousEdudzi",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "playchesswithfamily",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Pr1nSc",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "pranav_skanda",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        },
+        {
+          "arenaId": "31097859",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Prazzwaln-LM10",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Priyamagarwal1",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Pronab-Singha",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "pyxelated",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31047155",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "rauledinson23",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Raymond2016",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Redjai_Ammar",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Reksal-27",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Rhovar",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "rook_paperscissors",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "RookHoo",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Roushni_01",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "rushank-bhargava",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "rushe4-kim",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "S10711_2016",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Salad_Dais",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "SammyFuzzwuzz",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "SanjayBala107",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Shadawn76",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "ShirjanK212",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Shreeram_G",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Shubham_niku",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "SoftMiniWind",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "srivastava_aaria",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "stef223",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "stolleram",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 2,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        },
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "strlen98",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Sujoymsure987",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "TaeheeChang",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "The-Professor97",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "TheDean0821",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31097859",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Thereal-gabz",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "TheSausageKiller",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31181063",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "TinaaMehra",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4631081",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "treff7es",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "tsanjith_04",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Vandanaveerati",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4706553",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Vasudeo5269",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "venatop",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Vidhesh017",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31357703",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "VidithVaarya",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "vijendermaan",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Vikaskumar_12",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31071472",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "vizz323",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Vorixmc",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "warecy",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31319705",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "wenhoh",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "whatfootball1",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31105362",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "x-1338184267",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "4646151",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Yuji0909",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "Yuyaa00",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "ZazzyTV",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31263965",
+          "points": 0
+        }
+      ]
+    },
+    {
+      "username": "ziachia",
+      "club": "Blundering Buddies",
+      "points": 0,
+      "mcasPlayed": 1,
+      "eventPoints": [
+        {
+          "arenaId": "31118732",
+          "points": 0
+        }
+      ]
+    }
+  ],
+  "updatedAt": "2026-11-22T23:20:11.296Z"
+}

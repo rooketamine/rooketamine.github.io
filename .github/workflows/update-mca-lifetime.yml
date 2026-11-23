@@ -1,0 +1,42 @@
+name: Update MCA Lifetime Leaderboard
+
+on:
+  push:
+    paths:
+      - 'data/mca-results/*.csv'
+      - 'scripts/update-mca-lifetime.mjs'
+      - '.github/workflows/update-mca-lifetime.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mca-lifetime-leaderboard
+  cancel-in-progress: false
+
+jobs:
+  update-leaderboard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Recalculate lifetime MCA points
+        run: node scripts/update-mca-lifetime.mjs
+
+      - name: Publish updated leaderboard data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add mca-lifetime-points.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update MCA lifetime leaderboard"
+            git pull --rebase
+            git push
+          fi

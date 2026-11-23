@@ -8608,6 +8608,47 @@ html,body,.sb,.sb:hover,.inner {
 #weeklyRatingBoard .yw-score-row {margin-bottom:4px!important;}
 .gta-scorers-card .top-featured {padding-top:4px!important;}
 </style>
+<style id="mca-lifetime-styles">
+/* MCA uses the real GTA card and weekly podium styles above. These additions
+   only lay out the new counters, search, and seven-player page. */
+.gta-scorers-card{padding:12px 10px 15px!important;}
+#mcaLifetime{font-family:inherit;color:#fff8ee;}
+.mca-summary{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px;}
+.mca-summary-cell{min-width:0;text-align:center;padding:10px 4px 8px;border-radius:13px;background:#466d5b;border:1px solid #9bd1a6;}
+.mca-summary-value{display:block;font-size:22px;line-height:1.18;font-weight:900;color:#f0c36d;}
+.mca-summary-label{display:block;margin-top:3px;font-size:10.5px;line-height:1.2;color:#f9f4ed;font-weight:800;}
+#mcaPodium{margin:0 0 12px;height:203px;padding:0 2px!important;}
+#mcaPodium .yw-spot{color:#fff8ee!important;cursor:pointer;}
+#mcaPodium .yw-name{font-size:11px!important;max-width:100%;color:#fff8ee!important;}
+#mcaPodium .yw-rank-tag{color:#19283d!important;}
+#mcaPodium .yw-first .yw-photo{border-color:#f0c36d!important;}
+#mcaPodium .yw-second .yw-photo{border-color:#91d5c0!important;}
+#mcaPodium .yw-third .yw-photo{border-color:#e7a2ba!important;}
+#mcaPodium .yw-first .yw-bar,#mcaPodium .yw-first:hover .yw-bar{background:#f0c36d!important;background-image:none!important;border-color:#f5d9a0!important;color:#3b2b22!important;}
+#mcaPodium .yw-second .yw-bar,#mcaPodium .yw-second:hover .yw-bar,
+#mcaPodium .yw-third .yw-bar,#mcaPodium .yw-third:hover .yw-bar{background:#91d5c0!important;background-image:none!important;border-color:#b2ebd8!important;color:#213a36!important;}
+#mcaPodium .yw-bar-score{display:flex;flex-direction:column;align-items:center;}
+#mcaPodium .yw-bar-num{font-size:17px!important;}
+#mcaPodium .yw-bar-pts{font-size:10px!important;}
+.mca-search-label{display:block;margin-bottom:5px;font-size:11px;font-weight:800;color:#fff8ee;}
+.mca-search{display:block;width:100%;padding:10px 12px;border:1px solid #9bd1a6;border-radius:13px;background:#22283a;color:#fff8ee;font:600 12px 'Baloo 2',sans-serif;outline:none;}
+.mca-search::placeholder{color:#b9c3cf;opacity:1;}
+.mca-search:focus{border-color:#f0c36d;box-shadow:0 0 0 2px rgba(240,195,109,.20);}
+.mca-list{height:411px;margin-top:10px;overflow:hidden;}
+.mca-row{display:flex;gap:8px;align-items:center;min-height:55px;padding:7px 9px;margin-bottom:3px;border-radius:10px;background:#2b4051;border:1px solid #66899b;text-decoration:none;color:#fff8ee;}
+.mca-row:hover,.mca-row:focus-visible{border-color:#f0c36d;color:#fff8ee;}
+.mca-place{flex:0 0 29px;display:grid;place-items:center;min-height:26px;border-radius:50%;background:#dfd2af;color:#233a43;font-size:11px;font-weight:900;}
+.mca-identity{flex:1;min-width:0;line-height:1.2;}
+.mca-player-name{display:block;max-width:100%;font-size:12.5px;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.mca-appearances{display:block;margin-top:3px;color:#c8d9dd;font-size:10px;font-weight:700;}
+.mca-player-score{flex:0 0 auto;text-align:right;color:#f0c36d;font-weight:900;font-size:14px;white-space:nowrap;}
+.mca-player-score small{font-size:9px;font-weight:800;}
+.mca-empty{padding:25px 9px;color:#f9f4ed;text-align:center;font-size:12px;}
+.mca-pagination{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-top:7px;min-height:34px;}
+.mca-pager-btn{padding:7px 13px;border:1px solid #b6f0ef;border-radius:10px;background:#79dce8;color:#19283d;font:900 11px 'Baloo 2',sans-serif;cursor:pointer;}
+.mca-pager-btn:disabled{opacity:.35;cursor:default;}
+.mca-page-label{font-size:10.5px;font-weight:800;color:#d5dde0;}
+</style>
 </head>
 
 <body>
@@ -8682,6 +8723,29 @@ html,body,.sb,.sb:hover,.inner {
 
     <div class="div"></div>
 
+    <!-- MCA ALL-TIME LEADERBOARD -->
+    <div class="sec-label" id="mcaLifetimeHeading">🏆 MCA All-Time Leaderboard</div>
+    <div class="sec-sub">MOST WANTED...</div>
+    <div class="card gta-scorers-card">
+      <div id="mcaLifetime">
+        <div class="mca-summary" aria-label="MCA all-time club totals">
+          <div class="mca-summary-cell"><strong class="mca-summary-value" id="mcaMemberTotal">628</strong><span class="mca-summary-label">Total Unique Members</span></div>
+          <div class="mca-summary-cell"><strong class="mca-summary-value" id="mcaPointsTotal">25,036</strong><span class="mca-summary-label">Total Club Points</span></div>
+        </div>
+        <div class="yw-stage" id="mcaPodium" aria-label="All-time MCA top three"></div>
+        <label class="mca-search-label" for="mcaPlayerSearch">Search your username</label>
+        <input class="mca-search" id="mcaPlayerSearch" type="search" placeholder="Search your username..." spellcheck="false" autocomplete="off" maxlength="80">
+        <div class="mca-list" id="mcaLeaderboardList" aria-live="polite"><div class="mca-empty">Loading MCA standings...</div></div>
+        <div class="mca-pagination" id="mcaPagination">
+          <button class="mca-pager-btn" id="mcaPreviousPage" type="button">Previous</button>
+          <span class="mca-page-label" id="mcaPageLabel">4–10</span>
+          <button class="mca-pager-btn" id="mcaNextPage" type="button">Next</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="div"></div>
+
     <!-- THE CHRISTMAS JOB: keep the actual tournament event and date -->
     <div class="sec-label">🎄 The Christmas Mission</div>
     <div class="sec-sub">Christmas Tree Variation...</div>
@@ -8692,45 +8756,6 @@ html,body,.sb,.sb:hover,.inner {
       <a class="join-btn halloween-daily-join"
         href="https://www.chess.com/tournament/blundering-buddies-christmas-championship/join"
         target="_blank" rel="noopener noreferrer">JOIN NOW</a>
-    </div>
-
-    <div class="div"></div>
-
-    <!-- NEW TEAMMATES -->
-    <div class="sec-label" id="newBuddiesTitle">🫶 New Buddies</div>
-    <div class="sec-sub" id="newBuddiesSub">Fresh faces in town...</div>
-    <div class="card new-buddies-card">
-
-      <div class="welcome-text">
-        Welcome aboard! 🙌
-      </div>
-
-      <div id="members-list">
-        <div class="loading">Checking who joined the madness...</div>
-      </div>
-
-      <div class="footer-text">
-        Buckle Up! 🚀
-      </div>
-    </div>
-
-    <div class="div"></div>
-
-    
-    <!-- WEEKLY RATING CLIMBERS -->
-    <div class="sec-label" id="weeklyRaceTitle">📈 Weekly Rating Climbers</div>
-    <div class="sec-sub" id="weeklyRaceSub">Climb the board. Lose the heat...</div>
-    <div class="card gta-weekly-card">
-      <div class="yw-shell" id="weeklyRatingBoard">
-        <div class="yw-loading">
-          <span class="gta-loader-pawn" aria-hidden="true">♟</span>
-          <div class="yw-shh">Checking the rating race...</div>
-          <div class="yw-load-sub">The weekly podium is warming up</div>
-        </div>
-      </div>
-      <div class="yw-updated" id="weeklyRatingUpdated">
-        <span class="yw-reset-note">Resets every Sunday</span>
-      </div>
     </div>
 
     <div class="div"></div>
@@ -8836,11 +8861,19 @@ html,body,.sb,.sb:hover,.inner {
 
     <div class="div"></div>
 
-    <div class="sec-label">👑 MCA Top Scorers</div>
-    <div class="sec-sub">MOST WANTED...</div>
-    <div class="card gta-scorers-card">
-      <div class="top-scorers" id="mcaTopScorers">
-        <div class="top-loading">Finding the least blunders...</div>
+    <!-- WEEKLY RATING CLIMBERS: kept, below the requested MCA sequence. -->
+    <div class="sec-label" id="weeklyRaceTitle">📈 Weekly Rating Climbers</div>
+    <div class="sec-sub" id="weeklyRaceSub">Climb the board. Lose the heat...</div>
+    <div class="card gta-weekly-card">
+      <div class="yw-shell" id="weeklyRatingBoard">
+        <div class="yw-loading">
+          <span class="gta-loader-pawn" aria-hidden="true">♟</span>
+          <div class="yw-shh">Checking the rating race...</div>
+          <div class="yw-load-sub">The weekly podium is warming up</div>
+        </div>
+      </div>
+      <div class="yw-updated" id="weeklyRatingUpdated">
+        <span class="yw-reset-note">Resets every Sunday</span>
       </div>
     </div>
 
@@ -9035,8 +9068,7 @@ async function loadMembers(){
   }
 }
 
-loadMembers();
-setInterval(loadMembers, REFRESH_MS);
+/* New Buddies is no longer displayed, so its background fetch is disabled. */
 
 
 
@@ -9293,20 +9325,7 @@ loadWeeklyRatingRace();
 setInterval(loadWeeklyRatingRace, WEEKLY_RATING_PAGE_REFRESH_MS);
 setInterval(updateWeeklyRatingFooter, 60 * 1000);
 
-/* MCA TOP SCORERS */
-const MCA_TOP_SCORERS = [
-  { username:"harsh_d7", place:1, points:205, profile:"https://www.chess.com/member/harsh_d7" },
-  { username:"CrushingLikeTal", place:2, points:150, profile:"https://www.chess.com/member/crushingliketal" },
-  { username:"Rooketamine", place:3, points:125, profile:"https://www.chess.com/member/rooketamine" },
-  { username:"NobitaNobi2197", place:4, points:89, profile:"https://www.chess.com/member/nobitanobi2197" },
-  { username:"rishisetia", place:5, points:68, profile:"https://www.chess.com/member/rishisetia" },
-  { username:"JoaoFelipeSP", place:6, points:67, profile:"https://www.chess.com/member/joaofelipesp" },
-  { username:"T3000YT", place:7, points:65, profile:"https://www.chess.com/member/t3000yt" },
-  { username:"BlitzyMeisa", place:8, points:60, profile:"https://www.chess.com/member/blitzymeisa" },
-  { username:"ChesswithAniket_YT", place:9, points:57, profile:"https://www.chess.com/member/chesswithaniket_yt" },
-  { username:"MaguireistheGOAT1", place:10, points:54, profile:"https://www.chess.com/member/maguireisthegoat1" }
-];
-
+/* Shared Chess.com avatar and HTML escaping helpers. */
 function getFallbackAvatar(){
   return "https://www.chess.com/bundles/web/images/user-image.007dad08.svg";
 }
@@ -9320,68 +9339,126 @@ function escapeTopScorerText(value){
     .replaceAll("'", "&#039;");
 }
 
-async function loadTopScorers(){
-  const wrap = document.getElementById("mcaTopScorers");
-  if(!wrap) return;
+/* All-time MCA leaderboard. Scores are loaded from GitHub Pages JSON so CSV
+   uploads update the live sidebar without changing its HTML. */
+let mcaPlayers = [];
+let mcaListPage = 0;
+const mcaPageSize = 7;
+const mcaAvatarCache = new Map();
 
-  try{
-    const players = await Promise.all(
-      MCA_TOP_SCORERS.map(async player => {
-        let avatar = getFallbackAvatar();
+function mcaProfileUrl(username){
+  return `https://www.chess.com/member/${encodeURIComponent(username)}`;
+}
 
-        try{
-          const profile = await fetchJSON(`https://api.chess.com/pub/player/${encodeURIComponent(player.username.toLowerCase())}`);
-          avatar = profile?.avatar || avatar;
-        }catch{}
-
-        return { ...player, avatar };
-      })
+function mcaAvatar(username){
+  const key = username.toLowerCase();
+  if(!mcaAvatarCache.has(key)){
+    mcaAvatarCache.set(key,
+      fetchJSON(`https://api.chess.com/pub/player/${encodeURIComponent(key)}`)
+        .then(profile => profile?.avatar || getFallbackAvatar())
+        .catch(() => getFallbackAvatar())
     );
+  }
+  return mcaAvatarCache.get(key);
+}
 
-    const leader = players[0];
-    const chasingPack = players.slice(1);
-    const fallback = getFallbackAvatar();
+function hydrateMcaAvatars(){
+  document.querySelectorAll('#mcaPodium img[data-mca-avatar]').forEach(image => {
+    mcaAvatar(image.dataset.mcaAvatar).then(src => {
+      if(image.isConnected && src) image.src = src;
+    });
+  });
+}
 
-    const featuredHTML = `
-      <a class="top-featured"
-         href="${leader.profile}"
-         target="_blank"
-         rel="noopener noreferrer"
-         aria-label="#1 ${escapeTopScorerText(leader.username)}, ${leader.points} points">
-        <span class="featured-avatar-shell">
-          ${scorerSantaCap}
-          <img class="featured-avatar"
-               src="${leader.avatar}"
-               alt="${escapeTopScorerText(leader.username)} profile picture"
-               onerror="this.onerror=null;this.src='${fallback}'">
-          <span class="featured-rank" aria-hidden="true">1</span>
-        </span>
-        <span class="featured-name">@${escapeTopScorerText(leader.username)}</span>
-        <span class="featured-points"><strong>${leader.points}</strong> pts</span>
-      </a>
-    `;
+function drawMcaPodium(){
+  const podium = document.getElementById('mcaPodium');
+  if(!podium) return;
+  const podiumOrder = [1, 0, 2];
+  const places = ['yw-first', 'yw-second', 'yw-third'];
+  podium.innerHTML = podiumOrder.map(index => {
+    const player = mcaPlayers[index];
+    const username = escapeTopScorerText(player.username);
+    const rank = index + 1;
+    return `<a class="yw-spot ${places[index]}"
+      href="${mcaProfileUrl(player.username)}" target="_blank" rel="noopener noreferrer"
+      title="${player.mcasPlayed} MCAs played"
+      aria-label="Rank ${rank}, ${username}, ${player.points.toLocaleString('en-US')} points, ${player.mcasPlayed} MCAs played">
+      <div class="yw-photo-ring"><div class="yw-rank-tag">${rank}</div>
+        <img class="yw-photo" data-mca-avatar="${username}" src="${getFallbackAvatar()}"
+             alt="${username} profile picture" onerror="this.onerror=null;this.src='${getFallbackAvatar()}'"></div>
+      <div class="yw-name">@${username}</div>
+      <div class="yw-bar"><span class="yw-bar-score"><span class="yw-bar-num">${player.points.toLocaleString('en-US')}</span><span class="yw-bar-pts">pts</span></span></div>
+    </a>`;
+  }).join('');
+  hydrateMcaAvatars();
+}
 
-    const gridHTML = chasingPack.map(player => `
-      <a class="top-mini"
-         href="${player.profile}"
-         target="_blank"
-         rel="noopener noreferrer"
-         title="#${player.place} @${escapeTopScorerText(player.username)} · ${player.points} pts"
-         aria-label="#${player.place} ${escapeTopScorerText(player.username)}, ${player.points} points">
-        <img class="top-mini-avatar"
-             src="${player.avatar}"
-             alt="${escapeTopScorerText(player.username)} profile picture"
-             onerror="this.onerror=null;this.src='${fallback}'">
-      </a>
-    `).join("");
+function drawMcaResults(){
+  const search = document.getElementById('mcaPlayerSearch').value.trim().toLowerCase();
+  const list = document.getElementById('mcaLeaderboardList');
+  const pager = document.getElementById('mcaPagination');
+  const players = search
+    ? mcaPlayers.map((player, index) => ({player, rank:index + 1}))
+        .filter(({player}) => player.username.toLowerCase().includes(search))
+    : mcaPlayers.slice(3 + mcaListPage * mcaPageSize, 3 + (mcaListPage + 1) * mcaPageSize)
+        .map((player, index) => ({player,rank:4 + mcaListPage * mcaPageSize + index}));
 
-    wrap.innerHTML = `${featuredHTML}<div class="top-nine-grid">${gridHTML}</div>`;
-  }catch{
-    wrap.innerHTML = `<div class="top-loading">System blundered the rankings...</div>`;
+  list.innerHTML = players.length ? players.map(({player,rank}) => {
+    const name = escapeTopScorerText(player.username);
+    return `<a class="mca-row" href="${mcaProfileUrl(player.username)}" target="_blank" rel="noopener noreferrer"
+                 title="${player.mcasPlayed} MCAs played" aria-label="Rank ${rank}, ${name}, ${player.points} points">
+      <span class="mca-place">#${rank}</span>
+      <span class="mca-identity"><span class="mca-player-name">${name}</span><span class="mca-appearances">${player.mcasPlayed} ${player.mcasPlayed === 1 ? 'MCA' : 'MCAs'} played</span></span>
+      <span class="mca-player-score">${player.points.toLocaleString('en-US')} <small>pts</small></span>
+    </a>`;
+  }).join('') : '<p class="mca-empty">No player found. Try another username.</p>';
+
+  /* Visibility hides the pager but reserves its space, so search cannot shrink the section. */
+  pager.style.visibility = search ? 'hidden' : 'visible';
+  document.getElementById('mcaPreviousPage').disabled = mcaListPage === 0;
+  document.getElementById('mcaNextPage').disabled = 3 + (mcaListPage + 1) * mcaPageSize >= mcaPlayers.length;
+  const fromRank = 4 + mcaListPage * mcaPageSize;
+  const toRank = Math.min(3 + (mcaListPage + 1) * mcaPageSize, mcaPlayers.length);
+  document.getElementById('mcaPageLabel').textContent = `${fromRank}–${toRank}`;
+}
+
+document.getElementById('mcaPlayerSearch').addEventListener('input', () => {
+  mcaListPage = 0;
+  drawMcaResults();
+});
+document.getElementById('mcaPreviousPage').addEventListener('click', () => {
+  mcaListPage = Math.max(0,mcaListPage - 1);
+  drawMcaResults();
+});
+document.getElementById('mcaNextPage').addEventListener('click', () => {
+  mcaListPage = Math.min(Math.ceil((mcaPlayers.length - 3) / mcaPageSize) - 1,mcaListPage + 1);
+  drawMcaResults();
+});
+async function loadMcaLifetimeLeaderboard(){
+  try{
+    const response = await fetch('mca-lifetime-points.json?v=' + Date.now(), {cache:'no-store'});
+    if(!response.ok) throw new Error('MCA leaderboard data not available');
+    const data = await response.json();
+    if(!Array.isArray(data.players) || data.club !== 'Blundering Buddies'){
+      throw new Error('Unexpected MCA leaderboard data');
+    }
+
+    mcaPlayers = data.players;
+    document.getElementById('mcaMemberTotal').textContent = data.playersTracked.toLocaleString('en-US');
+    document.getElementById('mcaPointsTotal').textContent = data.totalPoints.toLocaleString('en-US');
+    drawMcaPodium();
+    drawMcaResults();
+  }catch(error){
+    console.error('MCA leaderboard refresh failed:', error);
+    if(!mcaPlayers.length){
+      document.getElementById('mcaLeaderboardList').innerHTML =
+        '<div class="mca-empty">Leaderboard is temporarily unavailable. Please refresh shortly.</div>';
+    }
   }
 }
 
-loadTopScorers();
+loadMcaLifetimeLeaderboard();
+setInterval(loadMcaLifetimeLeaderboard, 10 * 60 * 1000);
 
 
 /* SHOUTOUT PROFILE */
