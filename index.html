@@ -8613,6 +8613,12 @@ html,body,.sb,.sb:hover,.inner {
    only lay out the new counters, search, and seven-player page. */
 .gta-scorers-card{padding:12px 10px 15px!important;}
 #mcaLifetime{font-family:inherit;color:#fff8ee;}
+.mca-toggle{display:grid;grid-template-columns:1fr 1fr;gap:5px;padding:4px;margin:0 0 8px;background:#223443;border:1px solid #688797;border-radius:12px;}
+.mca-toggle-btn{border:1px solid transparent;border-radius:9px;background:transparent;color:#d7e0e2;cursor:pointer;font:900 11px 'Baloo 2',sans-serif;padding:5px 4px;line-height:1.2;}
+.mca-toggle-btn.active{background:#f0c36d;color:#19283d;border-color:#ffe0a2;}
+.mca-toggle-btn:focus-visible{outline:2px solid #f0c36d;outline-offset:2px;}
+.mca-toggle-btn:disabled{opacity:.45;cursor:default;}
+.mca-event-label{font-size:9.5px;text-align:center;color:#e7d6ad;margin:0 0 8px;line-height:1.2;min-height:12px;}
 .mca-summary{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px;}
 .mca-summary-cell{min-width:0;text-align:center;padding:9px 3px 8px;border-radius:11px;background:#466d5b;border:1px solid #9bd1a6;}
 .mca-summary-value{display:block;font-size:20px;line-height:1.18;font-weight:900!important;-webkit-text-stroke:.45px currentColor;color:#f0c36d;}
@@ -8728,9 +8734,14 @@ html,body,.sb,.sb:hover,.inner {
     <div class="sec-sub">MOST WANTED...</div>
     <div class="card gta-scorers-card">
       <div id="mcaLifetime">
-        <div class="mca-summary" aria-label="MCA all-time club totals">
-          <div class="mca-summary-cell"><strong class="mca-summary-value" id="mcaMemberTotal">628</strong><span class="mca-summary-label">Total Unique Members</span></div>
-          <div class="mca-summary-cell"><strong class="mca-summary-value" id="mcaPointsTotal">25,036</strong><span class="mca-summary-label">Total Club Points</span></div>
+        <div class="mca-toggle" role="group" aria-label="MCA leaderboard view">
+          <button type="button" id="mcaAllTab" class="mca-toggle-btn active" aria-pressed="true">🏆 All Time</button>
+          <button type="button" id="mcaLastTab" class="mca-toggle-btn" aria-pressed="false">⚔️ Latest MCA</button>
+        </div>
+        <div class="mca-event-label" id="mcaEventNote">Lifetime Points</div>
+        <div class="mca-summary" aria-label="MCA club totals">
+          <div class="mca-summary-cell"><strong class="mca-summary-value" id="mcaMemberTotal">628</strong><span class="mca-summary-label" id="mcaMemberLabel">Total Unique Members</span></div>
+          <div class="mca-summary-cell"><strong class="mca-summary-value" id="mcaPointsTotal">25,036</strong><span class="mca-summary-label" id="mcaPointsLabel">Total Club Points</span></div>
         </div>
         <div class="yw-stage" id="mcaPodium" aria-label="All-time MCA top three"></div>
         <input class="mca-search" id="mcaPlayerSearch" type="search" aria-label="Search your username" placeholder="Search your username..." spellcheck="false" autocomplete="off" maxlength="80">
@@ -9341,6 +9352,9 @@ function escapeTopScorerText(value){
 /* All-time MCA leaderboard. Scores are loaded from GitHub Pages JSON so CSV
    uploads update the live sidebar without changing its HTML. */
 let mcaPlayers = [];
+let mcaAllPlayers = [];
+let mcaLatestEvent = null;
+let mcaActiveView = 'all';
 let mcaListPage = 0;
 const mcaPageSize = 7;
 const mcaAvatarCache = new Map();
@@ -9376,12 +9390,14 @@ function drawMcaPodium(){
   const places = ['yw-first', 'yw-second', 'yw-third'];
   podium.innerHTML = podiumOrder.map(index => {
     const player = mcaPlayers[index];
+    if(!player) return '';
     const username = escapeTopScorerText(player.username);
     const rank = index + 1;
+    const appearanceText = mcaActiveView === 'latest' ? 'This MCA' : `${player.mcasPlayed} MCAs played`;
     return `<a class="yw-spot ${places[index]}"
       href="${mcaProfileUrl(player.username)}" target="_blank" rel="noopener noreferrer"
-      title="${player.mcasPlayed} MCAs played"
-      aria-label="Rank ${rank}, ${username}, ${player.points.toLocaleString('en-US')} points, ${player.mcasPlayed} MCAs played">
+      title="${appearanceText}"
+      aria-label="Rank ${rank}, ${username}, ${player.points.toLocaleString('en-US')} points, ${appearanceText}">
       <div class="yw-photo-ring"><div class="yw-rank-tag">${rank}</div>
         <img class="yw-photo" data-mca-avatar="${username}" src="${getFallbackAvatar()}"
              alt="${username} profile picture" onerror="this.onerror=null;this.src='${getFallbackAvatar()}'"></div>
@@ -9405,9 +9421,9 @@ function drawMcaResults(){
   list.innerHTML = players.length ? players.map(({player,rank}) => {
     const name = escapeTopScorerText(player.username);
     return `<a class="mca-row" href="${mcaProfileUrl(player.username)}" target="_blank" rel="noopener noreferrer"
-                 title="${player.mcasPlayed} MCAs played" aria-label="Rank ${rank}, ${name}, ${player.points} points">
+                 title="${mcaActiveView === 'latest' ? 'This MCA' : player.mcasPlayed + ' MCAs played'}" aria-label="Rank ${rank}, ${name}, ${player.points} points">
       <span class="mca-place">#${rank}</span>
-      <span class="mca-identity"><span class="mca-player-name">${name}</span><span class="mca-appearances">${player.mcasPlayed} ${player.mcasPlayed === 1 ? 'MCA' : 'MCAs'} played</span></span>
+      <span class="mca-identity"><span class="mca-player-name">${name}</span><span class="mca-appearances">${mcaActiveView === 'latest' ? 'This MCA' : player.mcasPlayed + ' ' + (player.mcasPlayed === 1 ? 'MCA' : 'MCAs') + ' played'}</span></span>
       <span class="mca-player-score">${player.points.toLocaleString('en-US')} <small>pts</small></span>
     </a>`;
   }).join('') : '<p class="mca-empty">No player found. Try another username.</p>';
@@ -9433,6 +9449,40 @@ document.getElementById('mcaNextPage').addEventListener('click', () => {
   mcaListPage = Math.min(Math.ceil((mcaPlayers.length - 3) / mcaPageSize) - 1,mcaListPage + 1);
   drawMcaResults();
 });
+function displayMcaView(){
+  const latest = mcaActiveView === 'latest' && mcaLatestEvent?.players?.length;
+  mcaPlayers = latest ? mcaLatestEvent.players : mcaAllPlayers;
+  document.getElementById('mcaLifetimeHeading').textContent = latest
+    ? '🏆 Latest MCA Top Scorers' : '🏆 MCA All-Time Leaderboard';
+  document.getElementById('mcaEventNote').textContent = latest
+    ? (mcaLatestEvent.label || 'Latest MCA') : 'Lifetime Points';
+  document.getElementById('mcaMemberTotal').textContent = (latest
+    ? mcaLatestEvent.playersTracked : mcaAllPlayers.length).toLocaleString('en-US');
+  document.getElementById('mcaPointsTotal').textContent = (latest
+    ? mcaLatestEvent.totalPoints : mcaLifetimeTotalPoints).toLocaleString('en-US');
+  document.getElementById('mcaMemberLabel').textContent = latest
+    ? 'MCA Participants' : 'Total Unique Members';
+  document.getElementById('mcaPointsLabel').textContent = latest
+    ? 'MCA Club Points' : 'Total Club Points';
+  for(const [id, active] of [['mcaAllTab', !latest], ['mcaLastTab', !!latest]]){
+    const button = document.getElementById(id);
+    button.classList.toggle('active', active);
+    button.setAttribute('aria-pressed', String(active));
+  }
+  document.getElementById('mcaLastTab').disabled = !mcaLatestEvent?.players?.length;
+  drawMcaPodium();
+  drawMcaResults();
+}
+let mcaLifetimeTotalPoints = 0;
+for(const [id, view] of [['mcaAllTab', 'all'], ['mcaLastTab', 'latest']]){
+  document.getElementById(id).addEventListener('click', () => {
+    if(view === 'latest' && !mcaLatestEvent?.players?.length) return;
+    mcaActiveView = view;
+    mcaListPage = 0;
+    document.getElementById('mcaPlayerSearch').value = '';
+    displayMcaView();
+  });
+}
 async function loadMcaLifetimeLeaderboard(){
   try{
     const response = await fetch('mca-lifetime-points.json?v=' + Date.now(), {cache:'no-store'});
@@ -9442,11 +9492,11 @@ async function loadMcaLifetimeLeaderboard(){
       throw new Error('Unexpected MCA leaderboard data');
     }
 
-    mcaPlayers = data.players;
-    document.getElementById('mcaMemberTotal').textContent = data.playersTracked.toLocaleString('en-US');
-    document.getElementById('mcaPointsTotal').textContent = data.totalPoints.toLocaleString('en-US');
-    drawMcaPodium();
-    drawMcaResults();
+    mcaAllPlayers = data.players;
+    mcaLifetimeTotalPoints = data.totalPoints;
+    mcaLatestEvent = data.latestMca?.players?.length ? data.latestMca : null;
+    if(mcaActiveView === 'latest' && !mcaLatestEvent) mcaActiveView = 'all';
+    displayMcaView();
   }catch(error){
     console.error('MCA leaderboard refresh failed:', error);
     if(!mcaPlayers.length){
