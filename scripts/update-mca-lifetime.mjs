@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execFileSync } from 'node:child_process';
 
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const INPUT_DIRECTORY = process.env.MCA_RESULTS_DIR || path.join(REPO_ROOT, 'data', 'mca-results');
@@ -124,6 +125,43 @@ function parseEvent(csv, filename) {
   return { players: [...players.values()], clubSummaryPoints };
 }
 
+// New uploads are defined by when their file was added to Git history, not
+// by the tournament ID, its name, or its date. Replacing an existing file
+// corrects its scores without changing which upload is the latest.
+function lastUploadedEvent(events, previous) {
+  const byFile = new Map(events.map(event => [event.file, event]));
+  try {
+    const history = execFileSync('git', [
+      'log', '--first-parent', '--diff-filter=A', '--format=',
+      '--name-only', '--', 'data/mca-results'
+    ], { cwd: REPO_ROOT, encoding: 'utf8', maxBuffer: 8 * 1024 * 1024 });
+    for (const entry of history.split(/\r?\n/)) {
+      const filename = entry.trim().split('/').pop();
+      if (byFile.has(filename)) return byFile.get(filename);
+    }
+  } catch (error) {
+    console.warn('Cannot inspect Git upload history:', error.message);
+  }
+  // Preserve the last recorded selection if running without Git history.
+  const saved = events.find(event => event.arenaId === previous?.latestMca?.arenaId);
+  if (saved) return saved;
+  // Legacy data had no upload-order record. Only use this deterministic
+  // fallback when history is unavailable (for example in an exported folder).
+  return events[events.length - 1];
+}
+
+function eventDisplayLabel(filename) {
+  const name = filename.replace(/[-_]\d{5,}\.csv$/i, '')
+    .replace(/[-_]+/g, ' ').replace(/\s+/g, ' ').trim();
+  const normalized = name.toLowerCase();
+  if (/\bblitz\s+3\s*0\b/.test(normalized)) return '3|0 Blitz';
+  if (/\bbullet\s+1\s*0\b/.test(normalized)) return '1|0 Bullet';
+  if (/\brapid\s+10\s*0\b/.test(normalized)) return '10|0 Rapid';
+  // A visiting club can name its tournament anything. Don't guess a
+  // time control if the filename doesn't clearly identify one.
+  return name.replace(/\b\w/g, letter => letter.toUpperCase()) || 'Latest MCA';
+}
+
 async function main() {
   const filenames = (await fs.readdir(INPUT_DIRECTORY))
     .filter(filename => filename.toLowerCase().endsWith('.csv'))
@@ -136,6 +174,7 @@ async function main() {
   const usedEventIds = new Set();
   const leaderboard = new Map();
   const events = [];
+  const eventPlayers = new Map();
 
   for (const filename of filenames) {
     const eventId = eventIdFromFilename(filename);
@@ -158,6 +197,7 @@ async function main() {
       officialClubScore: event.clubSummaryPoints
     });
 
+    eventPlayers.set(eventId, event.players);
     for (const player of event.players) {
       const key = player.username.toLocaleLowerCase('en-US');
       const record = leaderboard.get(key) || {
@@ -174,6 +214,22 @@ async function main() {
     }
   }
 
+  let previous;
+  try { previous = JSON.parse(await fs.readFile(OUTPUT_FILE, 'utf8')); }
+  catch (error) { if (error.code !== 'ENOENT') throw error; }
+
+  const mostRecent = lastUploadedEvent(events, previous);
+  const latestMca = {
+    arenaId: mostRecent.arenaId,
+    file: mostRecent.file,
+    label: eventDisplayLabel(mostRecent.file),
+    playersTracked: mostRecent.players,
+    totalPoints: mostRecent.points,
+    players: [...eventPlayers.get(mostRecent.arenaId)]
+      .map(({username, points}) => ({ username, points, mcasPlayed: 1 }))
+      .sort((a, b) => b.points - a.points || a.username.localeCompare(b.username))
+  };
+
   const players = [...leaderboard.values()]
     .sort((a, b) => b.points - a.points || a.username.localeCompare(b.username));
   const result = {
@@ -183,12 +239,10 @@ async function main() {
     playersTracked: players.length,
     totalPoints: players.reduce((sum, player) => sum + player.points, 0),
     events,
-    players
+    players,
+    latestMca
   };
 
-  let previous;
-  try { previous = JSON.parse(await fs.readFile(OUTPUT_FILE, 'utf8')); }
-  catch (error) { if (error.code !== 'ENOENT') throw error; }
   if (previous) {
     const { updatedAt: unused, ...existing } = previous;
     if (JSON.stringify(existing) === JSON.stringify(result)) {
