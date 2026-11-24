@@ -1,18 +1,85 @@
-Username,Club,Score,Status
-The-Conquerorrrr,Blundering Buddies,146,registered
-Rooketamine,Blundering Buddies,124,registered
-devg1901,Blundering Buddies,109,registered
-PRAKHAR-23,Blundering Buddies,104,registered
-CoolAndrew_16,Blundering Buddies,25,registered
-TotalChessWisdom,Blundering Buddies,18,registered
-Below_Celsius,Blundering Buddies,16,registered
-Dhrubojyoti09,Blundering Buddies,15,registered
-GMsandey,Blundering Buddies,11,registered
-The_Blunder_Alien,Blundering Buddies,4,registered
-TinaaMehra,Blundering Buddies,0,registered
-pallav2310,Blundering Buddies,0,registered
-jasminepetrillo,Blundering Buddies,0,registered
-MIGHTYMIGHTYMIGHTYMIGHTY,Blundering Buddies,0,registered
+Rank,Federation,Title,Username,Club,Score,Longest streak,Most wins,Status
+1,EUR,WFM,HJLC2009,Long live Chess,191,33,50,winner,
+2,AUS,,WangSandy,Promote to King,185,33,49,registered,
+3,USA,NM,Grant06,Long live Chess,152,17,42,registered,
+4,IND,,The-Conquerorrrr,Blundering Buddies,146,16,48,registered,
+5,BRA,,xxaparral,Schizzarotto Fan Club,146,11,44,registered,
+6,USA,,Rooketamine,Blundering Buddies,124,6,45,registered,
+7,IND,,devg1901,Blundering Buddies,109,4,38,registered,
+8,IND,,PRAKHAR-23,Blundering Buddies,104,5,39,registered,
+9,PAK,,Tactical-Tater-Tot,Long live Chess,103,18,29,registered,
+10,IND,,Ramsays03,Chess like a Tiger,94,5,34,registered,
+11,SGP,,Pandi321,Long live Chess,62,4,22,registered,
+12,USA,,Pau,Promote to King,49,5,16,registered,
+13,TUR,,Babyboy2028,Promote to King,42,7,13,registered,
+14,INT,,Shadow_Forest01,ShiroKuro,39,5,12,registered,
+15,MEX,,luis_ortega_escobar,Beach Garden Chess club,36,6,11,registered,
+16,CHN,,SamuelChess321,Long live Chess,35,6,10,registered,
+17,UKR,,anafos255,Beach Garden Chess club,32,3,12,registered,
+18,USA,,B_Chris11,Promote to King,25,3,10,registered,
+19,GBS,,CoolAndrew_16,Blundering Buddies,25,3,9,registered,
+20,COL,,alekhine0523,Chess.com vs. ChessKid,23,2,9,registered,
+21,ARG,,Gonzaleto,ShiroKuro,21,6,6,registered,
+22,POL,,NavyBlue_Warrior_2046,Schizzarotto Fan Club,21,6,6,registered,
+23,INT,,TotalChessWisdom,Blundering Buddies,18,3,7,registered,
+24,CAN,,Below_Celsius,Blundering Buddies,16,2,6,registered,
+25,IND,,Dhrubojyoti09,Blundering Buddies,15,3,6,registered,
+26,IND,,ChessWarrior-l,Chess.com vs. ChessKid,11,2,5,registered,
+27,IND,,GMsandey,Blundering Buddies,11,2,5,registered,
+28,JPN,,Shirogitsune14,ShiroKuro,9,3,3,registered,
+29,NLD,,erikwijdemans,team Nederland.,7,2,3,registered,
+30,NLD,,vikingviking1984,team Nederland.,6,1,3,registered,
+31,GBR,,KingColinRoadToNM,Chess.com vs. ChessKid,5,2,2,registered,
+32,INT,,Aaravchess567,ShiroKuro,5,2,2,registered,
+33,SRB,,Misicavi,Chess like a Tiger,4,1,2,registered,
+34,IND,,gm_anirudh-r,Schizzarotto Fan Club,4,1,2,registered,
+34,BEL,,wiwische_09,LES AMIGOS DE BRUXELLES,4,1,2,registered,
+35,BEL,,W_ggin438,LES AMIGOS DE BRUXELLES,4,1,2,registered,
+36,BHR,,K_7612,Chess.com vs. ChessKid,4,1,2,registered,
+37,IND,,Rocket5470,Chess.com vs. ChessKid,4,1,2,registered,
+38,LKA,,trustbroken45,King Destroyers Team,4,1,2,registered,
+39,IRN,,The_Lonely_Manof_theNight,LES AMIGOS DE BRUXELLES,4,1,2,registered,
+40,BRB,,The_Blunder_Alien,Blundering Buddies,4,1,2,registered,
+41,PHL,,goodlucky06,LES AMIGOS DE BRUXELLES,4,1,2,registered,
+42,IND,,VIDYUTGANESH,team Nederland.,2,1,1,registered,
+43,IPC,,AdityaWarrier67,Chess.com vs. ChessKid,2,1,1,registered,
+43,PHL,,PIRO_BOII,Chess.com vs. ChessKid,2,1,1,registered,
+43,USA,,J-GC,Promote to King,2,1,1,registered,
+44,DZA,,Fet149,Chess.com vs. ChessKid,2,1,1,registered,
+45,DEU,,HakanSpecial,Chess like a Tiger,2,1,1,registered,
+46,AUS,,KalinduChess,Beach Garden Chess club,2,1,1,registered,
+47,BEL,,aymerick_quantique,LES AMIGOS DE BRUXELLES,0,0,0,registered,
+47,INT,,Rehan6990,Chess.com vs. ChessKid,0,0,0,registered,
+47,COL,,BraianAxGraMon,Promote to King,0,0,0,registered,
+47,TUR,,alierdembilgi,Chess.com vs. ChessKid,0,0,0,registered,
+47,FRA,,M-Bishop,Chess.com vs. ChessKid,0,0,0,registered,
+47,IND,,15Karimthedream,Chess.com vs. ChessKid,0,0,0,registered,
+48,PHL,,Sven_David316,LES AMIGOS DE BRUXELLES,0,0,0,registered,
+48,IND,,1amamazzing,Schizzarotto Fan Club,0,0,0,registered,
+48,USA,,TinaaMehra,Blundering Buddies,0,0,0,registered,
+48,GBR,,0_0Strawberrry,Chess like a Tiger,0,0,0,registered,
+48,VEN,,GMEduardCarslen1,Schizzarotto Fan Club,0,0,0,registered,
+48,IND,,pallav2310,Blundering Buddies,0,0,0,registered,
+48,USA,,jasminepetrillo,Blundering Buddies,0,0,0,registered,
+49,CHN,,chickennoodlesoupchess,Chess like a Tiger,0,0,0,registered,
+49,IND,,LegendOfTechnoNeverDies,Chess.com vs. ChessKid,0,0,0,registered,
+49,BFA,,Rtyuuoo,LES AMIGOS DE BRUXELLES,0,0,0,registered,
+49,USA,,MIGHTYMIGHTYMIGHTYMIGHTY,Blundering Buddies,0,0,0,registered,
+50,IND,,Abhigyan-The-alien,Chess.com vs. ChessKid,0,0,0,registered,
+51,IND,,BkChandan,Promote to King,0,0,0,registered,
+52,VNM,,jhgdhdu,Chess.com vs. ChessKid,0,0,0,registered,
+53,IND,,muneer-Qamar-191011,LES AMIGOS DE BRUXELLES,0,0,0,registered,
+54,GBR,,kir1to-asunao,ShiroKuro,0,0,0,registered,
 
 Club,Total Participants,Points,Wins,Losses,Longest Streaks
-Blundering Buddies,14,572,205,256,45
+Blundering Buddies,14,572,205,256,45,
+Long live Chess,5,543,153,29,78,
+Promote to King,7,303,89,57,49,
+Schizzarotto Fan Club,5,171,52,33,18,
+Chess like a Tiger,5,100,37,44,7,
+ShiroKuro,5,74,23,16,16,
+Beach Garden Chess club,3,70,24,18,10,
+Chess.com vs. ChessKid,15,53,23,60,11,
+LES AMIGOS DE BRUXELLES,8,16,8,50,4,
+team Nederland.,3,15,7,52,4,
+King Destroyers Team,1,4,2,8,1,  

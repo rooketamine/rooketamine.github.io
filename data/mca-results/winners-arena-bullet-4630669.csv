@@ -1,7 +1,18 @@
-Username,Club,Score,Status
-pallav2310,Blundering Buddies,20,registered
-PRAKHAR-23,Blundering Buddies,8,registered
-Edmond0206,Blundering Buddies,2,registered
+Rank,Federation,Title,Username,Club,Score,Longest streak,Most wins,Status
+1,USA,,mendyf99,Chess School,59,12,17,winner,
+2,IND,,pallav2310,Blundering Buddies,20,3,8,registered,
+3,USA,,Pau,Chess School,9,3,3,registered,
+4,IND,,PRAKHAR-23,Blundering Buddies,8,1,3,registered,
+5,CAN,,TopVeteran45,Haters of Brainrot,5,1,2,registered,
+6,EGY,,66Death_Knight99,Supreme Elite Society,2,1,1,registered,
+7,GBR,,Edmond0206,Blundering Buddies,2,1,1,registered,
+8,IND,,Sai-Hemachandra,Chess School,0,0,0,registered,
 
 Club,Total Participants,Points,Wins,Losses,Longest Streaks
-Blundering Buddies,3,30,12,11,5
+Chess School,3,68,20,5,15,
+Blundering Buddies,3,30,12,11,5,
+Haters of Brainrot,1,5,2,18,1,
+Supreme Elite Society,1,2,1,1,1,
+Chess.com's unofficial Club,0,0,0,0,0,
+Hybrid Chess Federation,0,0,0,0,0,
+The Cool Car Club,0,0,0,0,0,  

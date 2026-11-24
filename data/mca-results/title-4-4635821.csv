@@ -1,7 +1,25 @@
-Username,Club,Score,Status
-Rooketamine,Blundering Buddies,13,winner
-devg1901,Blundering Buddies,7,registered
-GM-Rounak07,Blundering Buddies,2,registered
+Rank,Federation,Title,Username,Club,Score,Longest streak,Most wins,Status
+1,USA,,Rooketamine,Blundering Buddies,13,4,4,winner,
+2,IND,,devg1901,Blundering Buddies,7,2,3,registered,
+3,INT,,SM-Ento,Explorer pawn,5,2,2,registered,
+4,USA,,jamui3,The Club of Croissants,2,1,1,registered,
+5,IND,,GM-Rounak07,Blundering Buddies,2,1,1,registered,
+6,FRA,,AAMANOJAKU,zuno,2,1,1,registered,
+7,USA,,GM_Mystical84,King Destroyers Team,0,0,0,registered,
+8,USA,,TotalPeace19,The Club of Croissants,0,0,0,registered,
+8,KOR,,tekaso-in,Supreme Elite Society,0,0,0,registered,
 
 Club,Total Participants,Points,Wins,Losses,Longest Streaks
-Blundering Buddies,3,22,8,3,7
+Blundering Buddies,3,22,8,3,7,
+Explorer pawn,1,5,2,3,2,
+The Club of Croissants,2,2,1,1,1,
+zuno,1,2,1,4,1,
+Chess School Ukraine,0,0,0,0,0,
+Chess Universe,0,0,0,0,0,
+EMINENCE IN SHADOW,0,0,0,0,0,
+Hackers Of Checkmate,0,0,0,0,0,
+International Solchess Association,0,0,0,0,0,
+King Destroyers Team,1,0,0,0,0,
+Team Akatsuki,0,0,0,0,0,
+White Room Chess Division,0,0,0,0,0,
+Supreme Elite Society,1,0,0,1,0,  
